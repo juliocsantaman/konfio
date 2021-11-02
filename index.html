@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- CDN FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- GENERAL STYLES -->
+  <link rel="stylesheet" href="./css/general-styles.css">
+  <!-- INDEX CSS -->
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Clone Web</title>
+</head>
+
+<body>
+  <!-- NAVBAR FOR MOBILE AND TABLET -->
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars color-purple"></i>
+      </button>
+      <a href="./index.html" class="konfio-logo"> <img src="./img/konfio-logo.svg" alt="Konfio Logo"> </a>
+      <a href="#" class="color-purple"> <strong>Ingresar</strong> </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a href="./index.html" class="konfio-logo"> <img src="./img/konfio-logo.svg" alt="Konfio Logo"> </a>
+          <span class="close-icon color-purple" data-bs-dismiss="offcanvas" aria-label="Close">X</span>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <!-- DROPDOWN FINANCIAL SOLUTIONS -->
+            <li class="nav-item dropdown">
+              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Soluciones financieras</strong>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Crédito empresarial</a></li>
+                <li><a class="dropdown-item" href="#">Simulador de crédito</a></li>
+                <li><a class="dropdown-item" href="#">Tarjeta empresarial</a></li>
+                <li><a class="dropdown-item" href="#">Alianzas para negocio</a></li>
+              </ul>
+            </li>
+            <!-- END OF DROPDOWN FINANCIAL SOLUTIONS -->
+
+            <hr class="dropdown-divider">
+
+            <!-- DROPDOWN BUSINESS SOFTWARE -->
+            <li class="nav-item dropdown">
+              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Software empresarial</strong>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Konfío Pagos</a></li>
+                <li><a class="dropdown-item" href="#">Sr. Pago</a></li>
+                <li><a class="dropdown-item" href="#">ERP - Software administrativo</a></li>
+                <li><a class="dropdown-item" href="#">Facturación</a></li>
+              </ul>
+            </li>
+            <!-- END OF DROPDOWN BUSINESS SOFTWARE -->
+
+            <hr class="dropdown-divider">
+
+            <!-- DROPDOWN BUSINESS ACCOMPANIMENT -->
+            <li class="nav-item dropdown">
+              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Acompañamiento</strong>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Academia Konfío</a></li>
+                <li><a class="dropdown-item" href="#">Voces Konfío</a></li>
+                <li><a class="dropdown-item" href="#">Blog Konfío</a></li>
+                <li><a class="dropdown-item" href="#">Directorio Pyme</a></li>
+                <li><a class="dropdown-item" href="#">Buscador de EFOs y EDOs</a></li>
+              </ul>
+            </li>
+            <!-- END OF DROPDOWN BUSINESS ACCOMPANIMENT -->
+
+            <hr class="dropdown-divider">
+
+            <li class="nav-item mt-3">
+              <a class="color-purple config-link" aria-current="page" href="#"> <strong>Ingresar a mi cuenta</strong> </a>
+            </li>
+
+            <li class="nav-item mt-3">
+              <a class="color-purple config-link" aria-current="page" href="#"> <strong>Crear mi cuenta</strong> </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR FOR MOBILE AND TABLET -->
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
