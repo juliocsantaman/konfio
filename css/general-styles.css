@@ -72,13 +72,9 @@
   height: 125px;
 }
 
-.header-image {
-  width: 100%;
-}
-
-.header {
-  height: 100%;
-  margin-bottom: 50rem;
+.main {
+  margin-top: 42rem;
+  margin-bottom: 10rem;
 }
 
 .title {
