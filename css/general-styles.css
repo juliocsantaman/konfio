@@ -81,6 +81,35 @@
   font-size: 1.5rem;
 }
 
+.nav-link {
+  border: 0px solid transparent !important;
+}
+
+.nav-item-li {
+  border-bottom: 3px solid #6e43b7 !important;
+}
+
+.nav-link-fs {
+  font-size: 0.8rem;
+}
+
+.circle-item {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #6e43b7;
+  border-radius: 50%;
+}
+
+.circle-item-2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+
 body {
   position: relative;
 }
