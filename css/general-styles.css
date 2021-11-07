@@ -137,4 +137,14 @@ body {
 .card-body {
   height: 250px;
 }
+
+.card-header-video {
+  padding: 0%; 
+  border-bottom: none;
+}
+
+.video-border {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
 /* END OF STYLES OF SWIPER */
