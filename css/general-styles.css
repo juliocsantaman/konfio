@@ -62,6 +62,7 @@
   right: 0%;
   bottom: 0%;
   margin: auto;
+  z-index: 1000;
 }
 
 .hidden {
@@ -118,6 +119,10 @@ body {
   height: 300px;
 }
 
+.swiper2 {
+  height: 450px;
+}
+
 .swiper-pagination-bullet {
   background-color: #6e43b7;
   width: 0.8rem;
@@ -127,9 +132,6 @@ body {
 .swiper-img {
   width: 85px;
   height: 85px;
-}
-
-.swiper-slide {
 }
 
 .card-body {
