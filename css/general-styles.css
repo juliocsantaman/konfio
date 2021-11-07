@@ -109,7 +109,30 @@
   border-radius: 50%;
 }
 
-
 body {
   position: relative;
 }
+
+/* STYLES OF SWIPER */
+.swiper {
+  height: 300px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #6e43b7;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.swiper-img {
+  width: 85px;
+  height: 85px;
+}
+
+.swiper-slide {
+}
+
+.card-body {
+  height: 250px;
+}
+/* END OF STYLES OF SWIPER */

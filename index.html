@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <!-- GENERAL STYLES -->
   <link rel="stylesheet" href="./css/general-styles.css">
   <!-- INDEX CSS -->
@@ -229,21 +231,29 @@
       <!-- TABS -->
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-item-li nav-link-fs" id="create-tab" data-bs-toggle="tab" data-bs-target="#create" type="button"
-            role="tab" aria-controls="create" aria-selected="true"><div class="circle-item text-white">1</div> Crea tu cuenta</button>
+          <button class="nav-link color-purple nav-item-li nav-link-fs" id="create-tab" data-bs-toggle="tab"
+            data-bs-target="#create" type="button" role="tab" aria-controls="create" aria-selected="true">
+            <div class="circle-item text-white">1</div> Crea tu cuenta
+          </button>
         </li>
         <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-link-fs" id="discover-tab" data-bs-toggle="tab" data-bs-target="#discover" type="button"
-            role="tab" aria-controls="discover" aria-selected="false"><div class="circle-item-2 text-white">2</div> Descubre</button>
+          <button class="nav-link color-purple nav-link-fs" id="discover-tab" data-bs-toggle="tab"
+            data-bs-target="#discover" type="button" role="tab" aria-controls="discover" aria-selected="false">
+            <div class="circle-item-2 text-white">2</div> Descubre
+          </button>
         </li>
         <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-link-fs" id="request-tab" data-bs-toggle="tab" data-bs-target="#request" type="button"
-            role="tab" aria-controls="request" aria-selected="false"><div class="circle-item-2 text-white">3</div> Solicita</button>
+          <button class="nav-link color-purple nav-link-fs" id="request-tab" data-bs-toggle="tab"
+            data-bs-target="#request" type="button" role="tab" aria-controls="request" aria-selected="false">
+            <div class="circle-item-2 text-white">3</div> Solicita
+          </button>
         </li>
 
         <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-link-fs" id="manage-tab" data-bs-toggle="tab" data-bs-target="#manage" type="button" role="tab"
-            aria-controls="manage" aria-selected="false"><div class="circle-item-2 text-white">4</div> Administra</button>
+          <button class="nav-link color-purple nav-link-fs" id="manage-tab" data-bs-toggle="tab"
+            data-bs-target="#manage" type="button" role="tab" aria-controls="manage" aria-selected="false">
+            <div class="circle-item-2 text-white">4</div> Administra
+          </button>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
@@ -269,6 +279,133 @@
     </section>
     <!-- END OF STEPS -->
 
+    <!-- BENEFITS -->
+    <section class="benefits w-75 m-auto mt-5">
+      <h2> <strong>Nos aliamos con grandes empresas para impactar a más Pymes</strong> </h2>
+      <p class="mt-4">Descubre los beneficios que juntos podemos brindarte.</p>
+    </section>
+    <!-- END OF BENEFITS -->
+
+    <!-- SLIDER MAIN CONTAINER -->
+    <div class="swiper">
+      <!-- ADDITIONAL REQUIRED WRAPPER -->
+      <div class="swiper-wrapper">
+        <!-- SLIDES -->
+        <!-- SLIDE 1 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <h5 class="card-title"><strong>wework</strong></h5>
+              <p class="card-text w-75 text-center">
+                Tu tarjeta Konfío te da 12 pases para usar en WeWork México, sin costo.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 2 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Fortalece tu Pyme con la alianza PayPal y Konfío.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 3 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Impulsa tu negocio junto a Grupo Modelo y Konfío.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 4 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Dale un Up a tu negocio y detona su crecimiento.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 5 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Equipa tu Pyme con la tecnología de MacStore.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 6 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Transforma tu salón de clases con Soluciones Exa.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 7 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Inyecta crédito y combustible a tu negocio con Oxxo Gas.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 8 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Obtén un crédito oportuno en alianza con NADRO.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+        <!-- SLIDER 9 -->
+        <div class="swiper-slide">
+          <div class="card w-75 m-auto" style="width: 18rem;">
+            <div class="card-body d-flex flex-column align-items-center justify-content-center">
+              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+              <p class="card-text w-75 text-center">
+                Abre oportunidades a tu Pyme junto a la Coparmex CDMX.
+              </p>
+              <a href="#" class="card-link color-purple"><strong>Conocer más ></strong> </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- IF WE NEED PAGINATION -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- END OF SLIDER MAIN CONTAINER -->
+
   </main>
   <!-- END OF MAIN -->
 
@@ -277,8 +414,14 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 
+  <!-- SWIPER JS -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
   <!-- INDEX JS -->
   <script src="./js/index.js"></script>
+
+  <!-- SWIPER CONFIG -->
+  <script src="./js/swiper.js"></script>
 </body>
 
 </html>
