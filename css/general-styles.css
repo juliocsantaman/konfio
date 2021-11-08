@@ -3,6 +3,7 @@
   padding: 0%;
 }
 
+/* COLORS */
 .color-purple {
   color: rgba(110,67,183, 1);
 }
@@ -18,10 +19,17 @@
 .color-black:hover {
   color: rgb(92, 92, 92);
 }
+/* END OF COLORS */
 
+/* BG COLORS */
 .bg-purple {
   background-color: rgba(110,67,183, 1);
 }
+
+.bg-gray {
+  background-color: #424242;
+}
+/* END OF BG COLORS */
 
 .config-link {
   text-decoration: none;
@@ -75,7 +83,10 @@
 
 .main {
   margin-top: 22rem;
-  margin-bottom: 10rem;
+}
+
+.footer {
+  margin-bottom: 15%;
 }
 
 .title {
@@ -113,6 +124,16 @@
 body {
   position: relative;
 }
+
+/* KONFIO LOGO */
+.konfio-logo {
+  width: 20%;
+}
+
+.konfio-logo-2 {
+  width: 40%;
+}
+/* END OF KONFIO LOGO */
 
 /* STYLES OF SWIPER */
 .swiper {
