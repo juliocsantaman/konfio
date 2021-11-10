@@ -23,15 +23,7 @@
 .hidden-navbar-laptop {
   display: none;
 }
-
-
 /* END OF NAV */
-
-/* HEADER */
-.header {
-  margin-top: 1.2rem;
-}
-/* END OF HEADER */
 
 /* COLORS */
 .color-purple {
@@ -77,12 +69,6 @@
   align-items: center;
 }
 /* END OF CONFIG LINK */
-
-/* MAIN */
-.main {
-  margin-top: 22rem;
-}
-/* END OF MAIN */
 
 /* KONFIO LOGO */
 .konfio-logo {
@@ -155,10 +141,6 @@
 }
 /* END OF FOOTER */
 
-.title {
-  font-size: 1.5rem;
-}
-
 .circle-item {
   display: inline-block;
   width: 20px;
@@ -211,10 +193,6 @@
   display: none;
 }
 
-.title-container {
-  height: 125px;
-}
-
 .btn-purple-border {
   border: 1px solid rgba(110,67,183, 1);
 }
@@ -233,12 +211,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  /* MAIN */
-  .main {
-    margin-top: 30rem;
-  }
-  /* END OF MAIN */
-
   /* FOOTER */
   .footer .sub-footer div {
     width: 100%;
@@ -264,7 +236,7 @@
 @media (min-width: 992px) { 
   /* MAIN */
   .main {
-    margin-top: 48rem;
+    margin-top: 2rem;
   }
   /* END OF MAIN */
 
@@ -277,12 +249,6 @@
     display: block;
   }
   /* END OF NAVBAR */
-
-  /* HEADER */
-  .header {
-    margin-top: 3rem;
-  }
-  /* END OF HEADER */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
