@@ -307,69 +307,104 @@
 
     <!-- STEPS -->
     <section class="steps mt-5 width m-auto">
-      <h2 class="mb-3"> <strong>¿Cómo funciona la plataforma Konfío?</strong> </h2>
-      <p class="mb-3">
-        Accede a múltiples soluciones para tu empresa con una cuenta única
-      </p>
+      <div class="info">
+        <h2 class="mb-3"> <strong>¿Cómo funciona la plataforma Konfío?</strong> </h2>
+        <p class="mb-3">
+          Accede a múltiples soluciones para tu empresa con una cuenta única
+        </p>
+      </div>
 
       <!-- TABS -->
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-item-li nav-link-fs" id="create-tab" data-bs-toggle="tab"
-            data-bs-target="#create" type="button" role="tab" aria-controls="create" aria-selected="true">
-            <div class="circle-item text-white">1</div> Crea tu cuenta
-          </button>
-        </li>
-        <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-link-fs" id="discover-tab" data-bs-toggle="tab"
-            data-bs-target="#discover" type="button" role="tab" aria-controls="discover" aria-selected="false">
-            <div class="circle-item-2 text-white">2</div> Descubre
-          </button>
-        </li>
-        <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-link-fs" id="request-tab" data-bs-toggle="tab"
-            data-bs-target="#request" type="button" role="tab" aria-controls="request" aria-selected="false">
-            <div class="circle-item-2 text-white">3</div> Solicita
-          </button>
-        </li>
+      <div class="tab-content-container">
 
-        <li class="nav-item w-50" role="presentation">
-          <button class="nav-link color-purple nav-link-fs" id="manage-tab" data-bs-toggle="tab"
-            data-bs-target="#manage" type="button" role="tab" aria-controls="manage" aria-selected="false">
-            <div class="circle-item-2 text-white">4</div> Administra
-          </button>
-        </li>
-      </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active mt-3" id="create" role="tabpanel" aria-labelledby="create-tab">
-          Registra tus datos, verifica y activa tu cuenta. Tu información es privada y está siempre segura, somos una
-          institución supervisada por la CNBV.
-          <img class="w-100 purple-border mt-4 hidden-img"
-            src="https://cdn.konfio.mx/static/static/90e36a84c6ef512513316175f8e6ed22/74bcf/servicios-finacieros-konfio.webp"
-            alt="Welcome to Konfío">
+        <!-- NAV TABS -->
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item w-50" role="presentation">
+            <button class="nav-link color-purple nav-item-li nav-link-fs" id="create-tab" data-bs-toggle="tab"
+              data-bs-target="#create" type="button" role="tab" aria-controls="create" aria-selected="true">
+              <div class="circle-item text-white me-2">1</div> Crea tu cuenta
+            </button>
+          </li>
+          <li class="nav-item w-50" role="presentation">
+            <button class="nav-link color-purple nav-link-fs" id="discover-tab" data-bs-toggle="tab"
+              data-bs-target="#discover" type="button" role="tab" aria-controls="discover" aria-selected="false">
+              <div class="circle-item-2 text-white me-2">2</div> Descubre
+            </button>
+          </li>
+          <li class="nav-item w-50" role="presentation">
+            <button class="nav-link color-purple nav-link-fs" id="request-tab" data-bs-toggle="tab"
+              data-bs-target="#request" type="button" role="tab" aria-controls="request" aria-selected="false">
+              <div class="circle-item-2 text-white me-2">3</div> Solicita
+            </button>
+          </li>
+
+          <li class="nav-item w-50" role="presentation">
+            <button class="nav-link color-purple nav-link-fs" id="manage-tab" data-bs-toggle="tab"
+              data-bs-target="#manage" type="button" role="tab" aria-controls="manage" aria-selected="false">
+              <div class="circle-item-2 text-white me-2">4</div> Administra
+            </button>
+          </li>
+
+          <li class="nav-item d-none d-lg-block" role="presentation">
+            <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 hidden-btn-create-2"
+              type="submit">Crear
+              mi cuenta</a>
+          </li>
+        </ul>
+        <!-- END OF NAV TABS -->
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="create" role="tabpanel" aria-labelledby="create-tab">
+            <div>
+              <p class="mt-3">
+                Registra tus datos, verifica y activa tu cuenta. Tu información es privada y está siempre segura, somos
+                una
+                institución supervisada por la CNBV.
+              </p>
+              <img class="tab-pane-img-size purple-border hidden-img"
+                src="https://cdn.konfio.mx/static/static/90e36a84c6ef512513316175f8e6ed22/74bcf/servicios-finacieros-konfio.webp"
+                alt="Welcome to Konfío">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="discover" role="tabpanel" aria-labelledby="discover-tab">
+            <div>
+              <p class="mt-3">
+                Ahora puedes conocer el desempeño de tu negocio y explorar las soluciones financieras y de software
+                empresarial desde tu cuenta Konfío.
+              </p>
+              <img class="tab-pane-img-size purple-border hidden-img"
+                src="https://cdn.konfio.mx/static/static/217e1b687781f57dea8e4c41fe894733/609e0/soluciones-financieras-konfio.webp"
+                alt="Financial solutions">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="request" role="tabpanel" aria-labelledby="request-tab">
+            <div>
+              <p class="mt-3">
+                Solicita un producto financiero y obtén respuesta en minutos o prueba nuestro software empresarial y
+                aumenta
+                la productividad de tu negocio.
+              </p>
+              <img class="tab-pane-img-size purple-border hidden-img"
+                src="https://cdn.konfio.mx/static/static/d83243a918778e993904599344f2cf66/806b0/solicitar-prestamo-konfio.webp"
+                alt="Apply for a loan">
+            </div>
+          </div>
+          <div class="tab-pane fade" id="manage" role="tabpanel" aria-labelledby="manage-tab">
+            <div>
+              <p class="mt-3">
+                Ingresa a tu cuenta para ver el estatus y notificaciones de tus productos solicitados o activos y
+                adquiere
+                cualquier solución sin volver a registrarte.
+              </p>
+              <img class="tab-pane-img-size purple-border hidden-img"
+                src="https://cdn.konfio.mx/static/static/99e9105f97f3a553484b33f25a8c5298/806b0/sistema-erp-konfio.webp"
+                alt="System ERP Konfío">
+            </div>
+          </div>
         </div>
-        <div class="tab-pane fade mt-3" id="discover" role="tabpanel" aria-labelledby="discover-tab">
-          Ahora puedes conocer el desempeño de tu negocio y explorar las soluciones financieras y de software
-          empresarial desde tu cuenta Konfío.
-          <img class="w-100 purple-border mt-4 hidden-img"
-            src="https://cdn.konfio.mx/static/static/217e1b687781f57dea8e4c41fe894733/806b0/soluciones-financieras-konfio.webp"
-            alt="Financial solutions">
-        </div>
-        <div class="tab-pane fade mt-3" id="request" role="tabpanel" aria-labelledby="request-tab">
-          Solicita un producto financiero y obtén respuesta en minutos o prueba nuestro software empresarial y aumenta
-          la productividad de tu negocio.
-          <img class="w-100 purple-border mt-4 hidden-img"
-            src="https://cdn.konfio.mx/static/static/d83243a918778e993904599344f2cf66/806b0/solicitar-prestamo-konfio.webp"
-            alt="Apply for a loan">
-        </div>
-        <div class="tab-pane fade mt-3" id="manage" role="tabpanel" aria-labelledby="manage-tab">
-          Ingresa a tu cuenta para ver el estatus y notificaciones de tus productos solicitados o activos y adquiere
-          cualquier solución sin volver a registrarte.
-          <img class="w-100 purple-border mt-4 hidden-img"
-            src="https://cdn.konfio.mx/static/static/99e9105f97f3a553484b33f25a8c5298/806b0/sistema-erp-konfio.webp"
-            alt="System ERP Konfío">
-        </div>
+
       </div>
+
       <!-- END OF TABS -->
 
     </section>

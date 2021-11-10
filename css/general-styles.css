@@ -3,19 +3,8 @@
   padding: 0%;
 }
 
+
 /* NAV */
-.nav-link {
-  border: 0px solid transparent !important;
-}
-
-.nav-item-li {
-  border-bottom: 3px solid #6e43b7 !important;
-}
-
-.nav-link-fs {
-  font-size: 0.8rem;
-}
-
 .hidden-navbar-mobile-tablet {
   display: block;
 }

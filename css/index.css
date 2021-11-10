@@ -10,6 +10,20 @@
   display: block;
 }
 
+/* NAV */
+.nav-link {
+  border: 0px solid transparent !important;
+}
+
+.nav-item-li {
+  border-bottom: 3px solid #6e43b7 !important;
+}
+
+.nav-link-fs {
+  font-size: 0.8rem;
+}
+/* END OF NAV */
+
 .link-sign-up:hover {
   color: #ffffff;
 }
@@ -47,6 +61,10 @@ h1 {
 .width {
   width: 75%;
 }
+
+.tab-pane-img-size {
+  width: 100%;
+}
 /* END OF CUSTOM WIDTHS */
 
 /* HEADER */
@@ -60,6 +78,10 @@ h1 {
   width: 75%;
 }
 /* END OF HEADER */
+
+.main .steps .tab-content .tab-pane img {
+  margin-top: 1.2rem;
+}
 
 /*
   X-Small devices (portrait phones, less than 576px)
@@ -129,7 +151,7 @@ h1 {
   }
   /* END OF HEADER */
 
-  /* MAIN */
+  /* SOLUTIONS */
   .main .solutions .solution {
     display: flex;
     flex-direction: row-reverse;
@@ -143,10 +165,68 @@ h1 {
     width: 75%;
     margin: auto;
   }
-  /* END OF MAIN */
+  /* END OF SOLUTIONS */
+
+  /* STEPS */
+  .main .steps .info {
+    text-align: center;
+  }
+
+  .main .steps .tab-content .tab-pane div {
+    background-color: rgba(110,67,183, 1);
+    color: #ffffff;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+  }
+
+  .main .steps .tab-content .tab-pane div img {
+    margin-top: 0rem;
+  }
+
+  .main .steps .tab-content-container {
+    display: flex;
+  }
+
+  .main .steps .tab-content-container .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* background-color: red; */
+    border: none;
+  }
+
+  .main .steps .tab-content-container .nav-tabs .nav-item {
+    width: 100% !important;
+    margin-bottom: 3rem;
+    /* background-color: blue; */
+  }
+
+  .main .steps .tab-content-container .nav-tabs li a {
+    padding: 0.8rem;
+    width: 70%;
+  }
+
+  .main .steps .tab-content-container .nav-tabs .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-item-li {
+    border-bottom: unset !important;
+  }
+  /* END OF STEPS */
 
   .width {
     width: 80%;
+  }
+
+  .tab-pane-img-size {
+    width: 50vw;
   }
 }
 
