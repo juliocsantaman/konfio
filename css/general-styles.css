@@ -3,6 +3,20 @@
   padding: 0%;
 }
 
+/* NAV */
+.nav-link {
+  border: 0px solid transparent !important;
+}
+
+.nav-item-li {
+  border-bottom: 3px solid #6e43b7 !important;
+}
+
+.nav-link-fs {
+  font-size: 0.8rem;
+}
+/* END OF NAV */
+
 /* COLORS */
 .color-purple {
   color: rgba(110,67,183, 1);
@@ -31,6 +45,7 @@
 }
 /* END OF BG COLORS */
 
+/* CONFIG LINK */
 .config-link {
   text-decoration: none;
 }
@@ -41,85 +56,13 @@
   justify-content: space-between; 
   align-items: center;
 }
+/* END OF CONFIG LINK */
 
-.brightness-90:hover {
-  filter: brightness(90%);
-}
-
-.close-icon {
-  cursor: pointer;
-  font-size: 1.5rem;
-}
-
-.btn-purple {
-  background-color: #6e43b7;
-  color: #ffffff;
-  border-radius: 2rem;
-  padding: 1rem 1.5rem;
-  text-align: center;
-  width: 80%;
-}
-
-.container-btn-purple {
-  background-color: #ffffff; 
-  display: flex; 
-  justify-content: center; 
-  padding: 1rem;
-  position: fixed;
-  left: 0%;
-  right: 0%;
-  bottom: 0%;
-  margin: auto;
-  z-index: 1000;
-}
-
-.hidden {
-  display: none;
-}
-
-.title-container {
-  height: 125px;
-}
-
+/* MAIN */
 .main {
   margin-top: 22rem;
 }
-
-.footer {
-  margin-bottom: 15%;
-}
-
-.title {
-  font-size: 1.5rem;
-}
-
-.nav-link {
-  border: 0px solid transparent !important;
-}
-
-.nav-item-li {
-  border-bottom: 3px solid #6e43b7 !important;
-}
-
-.nav-link-fs {
-  font-size: 0.8rem;
-}
-
-.circle-item {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: #6e43b7;
-  border-radius: 50%;
-}
-
-.circle-item-2 {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-radius: 50%;
-}
+/* END OF MAIN */
 
 /* KONFIO LOGO */
 .konfio-logo {
@@ -166,6 +109,88 @@
 }
 /* END OF STYLES OF SWIPER */
 
+/* FOOTER */
+.footer {
+  margin-bottom: 15%;
+}
+
+.element-width-footer {
+  width: 90%;
+}
+
+.element-width-footer-2 {
+  width: 75%;
+}
+
+.img-width {
+  width: 15%;
+}
+
+.terms {
+  margin: auto;
+}
+/* END OF FOOTER */
+
+.title {
+  font-size: 1.5rem;
+}
+
+.circle-item {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #6e43b7;
+  border-radius: 50%;
+}
+
+.circle-item-2 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
+
+.brightness-90:hover {
+  filter: brightness(90%);
+}
+
+.close-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.btn-purple {
+  background-color: #6e43b7;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  width: 80%;
+}
+
+.container-btn-purple {
+  width: 100%;
+  background-color: #ffffff; 
+  display: flex; 
+  justify-content: center; 
+  padding: 1rem;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin: auto;
+  z-index: 1000;
+}
+
+.hidden {
+  display: none;
+}
+
+.title-container {
+  height: 125px;
+}
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -176,10 +201,31 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  /* MAIN */
   .main {
     margin-top: 30rem;
   }
-  
+  /* END OF MAIN */
+
+  /* FOOTER */
+  .footer .sub-footer div {
+    width: 100%;
+    margin: 0.5rem;
+  }
+
+  .element-width-footer-2 {
+    width: 100%;
+  }
+
+  .img-width {
+    width: 100%;
+  }
+
+  .terms {
+    margin: 8rem auto auto auto;
+  }
+  /* END OF FOOTER */
+
  }
 
 /* Large devices (desktops, 992px and up) */
