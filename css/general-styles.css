@@ -15,7 +15,23 @@
 .nav-link-fs {
   font-size: 0.8rem;
 }
+
+.hidden-navbar-mobile-tablet {
+  display: block;
+}
+
+.hidden-navbar-laptop {
+  display: none;
+}
+
+
 /* END OF NAV */
+
+/* HEADER */
+.header {
+  margin-top: 1.2rem;
+}
+/* END OF HEADER */
 
 /* COLORS */
 .color-purple {
@@ -32,6 +48,10 @@
 
 .color-black:hover {
   color: rgb(92, 92, 92);
+}
+
+.hover-purple:hover {
+  color: rgb(75, 47, 124);
 }
 /* END OF COLORS */
 
@@ -71,6 +91,10 @@
 
 .konfio-logo-2 {
   width: 40%;
+}
+
+.konfio-logo-laptop {
+  width: 10%;
 }
 /* END OF KONFIO LOGO */
 
@@ -191,6 +215,14 @@
   height: 125px;
 }
 
+.btn-purple-border {
+  border: 1px solid rgba(110,67,183, 1);
+}
+
+.btn-purple-border:hover {
+  background-color: lightgray;
+}
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -229,7 +261,29 @@
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+  /* MAIN */
+  .main {
+    margin-top: 48rem;
+  }
+  /* END OF MAIN */
+
+  /* NAVBAR */
+  .hidden-navbar-mobile-tablet {
+    display: none;
+  }
+
+  .hidden-navbar-laptop {
+    display: block;
+  }
+  /* END OF NAVBAR */
+
+  /* HEADER */
+  .header {
+    margin-top: 3rem;
+  }
+  /* END OF HEADER */
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
