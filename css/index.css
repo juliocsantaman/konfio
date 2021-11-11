@@ -1,3 +1,4 @@
+/* HEADER */
 .header-laptop {
   display: none;
   background-image: url("../img/header-img.jpg");
@@ -6,68 +7,6 @@
   background-size: cover;
 }
 
-.header-mobile-tablet {
-  display: block;
-}
-
-/* NAV */
-.nav-link {
-  border: 0px solid transparent !important;
-}
-
-.nav-item-li {
-  border-bottom: 3px solid #6e43b7 !important;
-}
-
-.nav-link-fs {
-  font-size: 0.8rem;
-}
-/* END OF NAV */
-
-.link-sign-up:hover {
-  color: #ffffff;
-}
-
-.institution-logo {
-  width: 20%;
-}
-
-.purple-border {
-  border: 5px solid rgba(110,67,183, 1);
-  border-radius: 1rem;
-}
-
-.hidden-img {
-  display: none;
-}
-
-.hidden-text {
-  display: block;
-}
-
-.hidden-btn-create-2 {
-  display: none;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-
-.title-container {
-  height: 125px;
-}
-
-/* CUSTOM WIDTHS */
-.width {
-  width: 75%;
-}
-
-.tab-pane-img-size {
-  width: 100%;
-}
-/* END OF CUSTOM WIDTHS */
-
-/* HEADER */
 .header {
   margin-top: 1.2rem;
 }
@@ -79,8 +18,53 @@ h1 {
 }
 /* END OF HEADER */
 
+/* NAV TABS */
+.nav-link {
+  border: 0px solid transparent !important;
+}
+
+.nav-item-li {
+  border-bottom: 3px solid #6e43b7 !important;
+}
+
+.nav-link-fs {
+  font-size: 0.8rem;
+}
+/* END OF NAV TABS */
+
+/* CUSTOM WIDTHS */
+.width {
+  width: 75%;
+}
+/* END OF CUSTOM WIDTHS */
+
+/* INSTITUTIONS */
+.institution-logo {
+  width: 20%;
+}
+/* END OF INSTITUTIONS */
+
+/* STEPS */
 .main .steps .tab-content .tab-pane img {
   margin-top: 1.2rem;
+}
+
+.tab-pane-img-size {
+  width: 100%;
+}
+/* END OF STEPS */
+
+.link-sign-up:hover {
+  color: #ffffff;
+}
+
+.purple-border {
+  border: 5px solid rgba(110,67,183, 1);
+  border-radius: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 /*
@@ -93,10 +77,6 @@ h1 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  .hidden-img {
-    display: unset;
-  }
-
   /* CUSTOM WIDTHS */
   .width {
     width: 60%;
@@ -110,24 +90,12 @@ h1 {
     display: none !important;
   }
 
-  .hidden-btn-create-2 {
-    display: block;
-  }
-
-  .hidden-text {
-    display: none;
-  }
-
   /* HEADER */
   .header-laptop {
     display: block;
     margin-top: 3rem;
   }
-
-  .header-mobile-tablet {
-    display: none;
-  }  
-
+  
   .header-laptop div {
     height: 100%;
     width: 100%;
@@ -220,23 +188,31 @@ h1 {
   .nav-item-li {
     border-bottom: unset !important;
   }
-  /* END OF STEPS */
-
-  .unstoppable-entrepreneurs {
-    padding-bottom: 1.5rem;
-  }
-
-  .institution-logo {
-    width: 10%;
-  }
-
-  .width {
-    width: 70%;
-  }
 
   .tab-pane-img-size {
     width: 50vw;
   }
+  /* END OF STEPS */
+
+  /* UNSTOPPABLE ENTREPRENEURS */
+  .unstoppable-entrepreneurs {
+    padding-bottom: 1.5rem;
+  }
+  /* END OF UNSTOPPABLE ENTREPRENEURS */
+
+  /* INSTITUTIONS */
+  .institution-logo {
+    width: 10%;
+  }
+  /* END OF INSTITUTIONS */
+
+  /* CUSTOM WIDTH */
+  .width {
+    width: 70%;
+  }
+  /* END OF CUSTOM WIDTH */
+
+
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

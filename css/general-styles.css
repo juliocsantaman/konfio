@@ -3,17 +3,6 @@
   padding: 0%;
 }
 
-
-/* NAV */
-.hidden-navbar-mobile-tablet {
-  display: block;
-}
-
-.hidden-navbar-laptop {
-  display: none;
-}
-/* END OF NAV */
-
 /* COLORS */
 .color-purple {
   color: rgba(110,67,183, 1);
@@ -239,16 +228,7 @@
   }
   /* END OF MAIN */
 
-  /* NAVBAR */
-  .hidden-navbar-mobile-tablet {
-    display: none;
-  }
-
-  .hidden-navbar-laptop {
-    display: block;
-  }
-  /* END OF NAVBAR */
-
+  /* SWIPER */
   .swiper1 {
     width: 85%;
   }
@@ -278,6 +258,7 @@
   .swiper3 {
     width: 90%;
   }
+  /* END OF SWIPER */
 }
 
 

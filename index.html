@@ -24,7 +24,7 @@
 
 <body>
   <!-- NAVBAR FOR MOBILE AND TABLET -->
-  <nav class="navbar navbar-light bg-light fixed-top hidden-navbar-mobile-tablet">
+  <nav class="navbar navbar-light bg-light fixed-top d-block d-lg-none">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar">
@@ -111,7 +111,7 @@
   <!-- END OF NAVBAR FOR MOBILE AND TABLET -->
 
   <!-- NAVBAR FOR LAPTOP AND UP -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top hidden-navbar-laptop p-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-none d-lg-block p-2">
     <div class="container-fluid">
       <a class="navbar-brand konfio-logo-laptop" href="./index.html">
         <img src="./img/konfio-logo.svg" alt="Konfio Logo">
@@ -179,10 +179,10 @@
   </div>
 
   <!-- HEADER FOR MOBILE AND TABLET-->
-  <header class="header-mobile-tablet w-100 mt-4">
+  <header class="header-mobile-tablet w-100 mt-4 d-block d-lg-none">
     <h1 class="pt-5 pb-4 fw-bold text-center">Tu plataforma de soluciones financieras</h1>
     <img class="w-100" src="./img/header-img.jpg" alt="Header image">
-    <p class="w-75 m-auto pt-4 pb-4 text-center hidden-text">
+    <p class="w-75 m-auto pt-4 pb-4 text-center d-lg-none">
       Obtén soluciones empresariales, herramientas de pago, cobro y gestión para crecer tu negocio.
     </p>
   </header>
@@ -190,16 +190,11 @@
 
   <!-- HEADER FOR LAPTOP-->
   <header class="header-laptop w-100">
-    <div class="text-white d-lg-flex align-items-lg-center justify-content-lg-center">
+    <div class="w-50 text-white d-lg-flex align-items-lg-center justify-content-lg-center">
       <div class="title-container d-lg-flex flex-lg-column">
         <h1 class="pt-5 fw-bold">Tu plataforma de soluciones financieras</h1>
-        <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 hidden-btn-create-2" type="submit">Crear
+        <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 d-none d-lg-block" type="submit">Crear
           mi cuenta</a>
-      </div>
-      <div class="w-100 d-flex flex-column">
-        <p class="w-75 m-auto pt-4 pb-4 text-center hidden-text">
-          Obtén soluciones empresariales, herramientas de pago, cobro y gestión para crecer tu negocio.
-        </p>
       </div>
     </div>
   </header>
@@ -346,7 +341,7 @@
           </li>
 
           <li class="nav-item d-none d-lg-block" role="presentation">
-            <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 hidden-btn-create-2"
+            <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 d-none d-lg-block"
               type="submit">Crear
               mi cuenta</a>
           </li>
@@ -361,7 +356,7 @@
                 una
                 institución supervisada por la CNBV.
               </p>
-              <img class="tab-pane-img-size purple-border hidden-img"
+              <img class="tab-pane-img-size purple-border d-none d-md-block"
                 src="https://cdn.konfio.mx/static/static/90e36a84c6ef512513316175f8e6ed22/74bcf/servicios-finacieros-konfio.webp"
                 alt="Welcome to Konfío">
             </div>
@@ -372,7 +367,7 @@
                 Ahora puedes conocer el desempeño de tu negocio y explorar las soluciones financieras y de software
                 empresarial desde tu cuenta Konfío.
               </p>
-              <img class="tab-pane-img-size purple-border hidden-img"
+              <img class="tab-pane-img-size purple-border d-none d-md-block"
                 src="https://cdn.konfio.mx/static/static/217e1b687781f57dea8e4c41fe894733/609e0/soluciones-financieras-konfio.webp"
                 alt="Financial solutions">
             </div>
@@ -384,7 +379,7 @@
                 aumenta
                 la productividad de tu negocio.
               </p>
-              <img class="tab-pane-img-size purple-border hidden-img"
+              <img class="tab-pane-img-size purple-border d-none d-md-block"
                 src="https://cdn.konfio.mx/static/static/d83243a918778e993904599344f2cf66/806b0/solicitar-prestamo-konfio.webp"
                 alt="Apply for a loan">
             </div>
@@ -396,7 +391,7 @@
                 adquiere
                 cualquier solución sin volver a registrarte.
               </p>
-              <img class="tab-pane-img-size purple-border hidden-img"
+              <img class="tab-pane-img-size purple-border d-none d-md-block"
                 src="https://cdn.konfio.mx/static/static/99e9105f97f3a553484b33f25a8c5298/806b0/sistema-erp-konfio.webp"
                 alt="System ERP Konfío">
             </div>
@@ -743,7 +738,7 @@
     <!-- END OF SLIDER MAIN CONTAINER -->
 
     <!-- INSTITUTIONS -->
-    <section class="institutions width mt-5 m-auto">
+    <section class="institutions width mt-3 m-auto">
       <h2 class="text-lg-center"><strong>Instituciones mexicanas e internacionales confían en nosotros</strong></h2>
       <div class="instituition-images d-flex flex-wrap justify-content-center mt-4">
 
