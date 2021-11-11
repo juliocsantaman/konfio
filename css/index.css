@@ -222,8 +222,16 @@ h1 {
   }
   /* END OF STEPS */
 
+  .unstoppable-entrepreneurs {
+    padding-bottom: 1.5rem;
+  }
+
+  .institution-logo {
+    width: 10%;
+  }
+
   .width {
-    width: 80%;
+    width: 70%;
   }
 
   .tab-pane-img-size {
