@@ -170,6 +170,7 @@ h1 {
   /* STEPS */
   .main .steps .info {
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   .main .steps .tab-content .tab-pane div {
