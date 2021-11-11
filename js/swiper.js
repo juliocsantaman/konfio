@@ -53,4 +53,13 @@ const swiper3 = new Swiper('.swiper3', {
     clickable: true,
     // bulletClass: 'swiper-pagination-bullet'
   },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 3,
+      pagination: false
+    }
+  }
 });

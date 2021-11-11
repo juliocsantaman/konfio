@@ -78,8 +78,12 @@
   height: 300px;
 }
 
-.swiper2, .swiper3 {
+.swiper2 {
   height: 450px;
+}
+
+.swiper3 {
+  height: 480px;
 }
 
 .swiper-pagination-bullet {
@@ -99,7 +103,14 @@
 
 .card-header-video {
   padding: 0%; 
+  margin: 0%;
   border-bottom: none;
+  height: 30vh;
+}
+
+.card-header-video iframe {
+  width: 100%;
+  height: 100%;
 }
 
 .video-border {
@@ -244,7 +255,7 @@
   }
 
   .swiper2 {
-    height: 350px;
+    height: 310px;
   }
 
   .main .swiper2-info {
@@ -263,6 +274,10 @@
   .swiper2 .swiper-wrapper .swiper-slide .card .card-body {
     width: 75%;
     padding: 4rem;
+  }
+
+  .swiper3 {
+    width: 90%;
   }
 }
 
