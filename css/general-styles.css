@@ -78,7 +78,7 @@
   height: 300px;
 }
 
-.swiper2 {
+.swiper2, .swiper3 {
   height: 450px;
 }
 
@@ -238,7 +238,34 @@
     display: block;
   }
   /* END OF NAVBAR */
+
+  .swiper1 {
+    width: 85%;
+  }
+
+  .swiper2 {
+    height: 350px;
+  }
+
+  .main .swiper2-info {
+    text-align: center;
+  }
+
+  .swiper2 .swiper-wrapper .swiper-slide .card {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .swiper2 .swiper-wrapper .swiper-slide .card .card-header {
+    width: 25%;
+  }
+
+  .swiper2 .swiper-wrapper .swiper-slide .card .card-body {
+    width: 75%;
+    padding: 4rem;
+  }
 }
+
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }
