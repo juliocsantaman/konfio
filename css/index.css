@@ -21,6 +21,9 @@
 /* NAV TABS */
 .nav-link {
   border: 0px solid transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-item-li {
@@ -53,6 +56,12 @@
   width: 100%;
 }
 /* END OF STEPS */
+
+/* SOLUTIONS */
+.main .solutions .solution img {
+  width: 100%;
+}
+/* END OF SOLUTIONS */
 
 .link-sign-up:hover {
   color: #ffffff;
@@ -132,6 +141,10 @@ h1 {
     text-align: center;
     width: 75%;
     margin: auto;
+  }
+
+  .main .solutions .solution img {
+    width: 50%;
   }
   /* END OF SOLUTIONS */
 

@@ -2,7 +2,7 @@ let containerBtnPurple = document.getElementById('container-btn-purple');
 let btnCreate = document.getElementById('btnCreate');
 
 window.addEventListener('scroll', (e) => {
-  console.log(window.scrollY);
+  // console.log(window.scrollY);
 
   if(window.scrollY == 0) {
     containerBtnPurple.classList.add('hidden');  
