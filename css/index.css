@@ -63,6 +63,17 @@
 }
 /* END OF SOLUTIONS */
 
+/* MISION */
+.main .mision .mision-img {
+  cursor: pointer;
+}
+
+.main .modal-mision iframe {
+  width: 100%;
+  height: 500px;
+}
+/* END OF MISION */
+
 .link-sign-up:hover {
   color: #ffffff;
 }
