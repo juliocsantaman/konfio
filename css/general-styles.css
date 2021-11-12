@@ -112,24 +112,12 @@
   margin-bottom: 15%;
 }
 
-.element-width-footer {
-  width: 90%;
-}
-
-.element-width-footer-2 {
-  width: 75%;
-}
-
 .img-width {
   width: 15%;
 }
 
 .terms {
   margin: auto;
-}
-
-.footer .direction {
-  align-items: center;
 }
 
 .footer .direction .social-networks span {
@@ -141,6 +129,14 @@
 
 .footer .terms div {
   width: 50%;
+}
+
+.footer .sub-footer .direction, .footer .sub-footer .konfio-platform {
+  margin: 1rem auto auto auto;
+}
+
+.footer .info, .footer hr {
+  width: 90%;
 }
 /* END OF FOOTER */
 
@@ -215,14 +211,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   /* FOOTER */
-  .footer .sub-footer div {
-    width: 100%;
-  }
-
-  .element-width-footer-2 {
-    width: 100%;
-  }
-
   .img-width {
     width: 100%;
   }
@@ -233,6 +221,14 @@
 
   .footer .terms div {
     width: 100%;
+  }
+
+  .footer .sub-footer .direction, .footer .sub-footer .konfio-platform {
+    margin: 0rem 1rem;
+  }
+
+  .footer-element-width {
+    width: 90%;
   }
   /* END OF FOOTER */
 
@@ -279,12 +275,8 @@
   /* END OF SWIPER */
 
   /* FOOTER */
-  .footer .direction {
-    align-items: unset;
-  }
-
-  .footer .direction .social-networks, .footer .direction p {
-    width: 75%;
+  .footer {
+    margin-bottom: 0%;
   }
   /* END OF FOOTER */
 }
