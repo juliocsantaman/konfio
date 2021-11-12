@@ -127,6 +127,17 @@
 .terms {
   margin: auto;
 }
+
+.footer .direction {
+  align-items: center;
+}
+
+.footer .direction .social-networks span {
+  margin: 1rem 1rem 1rem 0rem;
+  width: 30px;
+  height: 30px;
+  color: gray;
+}
 /* END OF FOOTER */
 
 .circle-item {
@@ -202,7 +213,6 @@
   /* FOOTER */
   .footer .sub-footer div {
     width: 100%;
-    margin: 0.5rem;
   }
 
   .element-width-footer-2 {
@@ -259,6 +269,16 @@
     width: 90%;
   }
   /* END OF SWIPER */
+
+  /* FOOTER */
+  .footer .direction {
+    align-items: unset;
+  }
+
+  .footer .direction .social-networks, .footer .direction p {
+    width: 75%;
+  }
+  /* END OF FOOTER */
 }
 
 
