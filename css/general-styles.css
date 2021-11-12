@@ -138,6 +138,10 @@
   height: 30px;
   color: gray;
 }
+
+.footer .terms div {
+  width: 50%;
+}
 /* END OF FOOTER */
 
 .circle-item {
@@ -225,6 +229,10 @@
 
   .terms {
     margin: 8rem auto auto auto;
+  }
+
+  .footer .terms div {
+    width: 100%;
   }
   /* END OF FOOTER */
 
