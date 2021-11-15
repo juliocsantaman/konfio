@@ -112,23 +112,11 @@
   margin-bottom: 15%;
 }
 
-.img-width {
-  width: 15%;
-}
-
-.terms {
-  margin: auto;
-}
-
 .footer .direction .social-networks span {
   margin: 1rem 1rem 1rem 0rem;
   width: 30px;
   height: 30px;
   color: gray;
-}
-
-.footer .terms div {
-  width: 50%;
 }
 
 .footer .sub-footer .direction, .footer .sub-footer .konfio-platform {
@@ -211,24 +199,12 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   /* FOOTER */
-  .img-width {
-    width: 100%;
-  }
-
-  .terms {
+  .footer .terms {
     margin: 8rem auto auto auto;
   }
 
-  .footer .terms div {
-    width: 100%;
-  }
-
-  .footer .sub-footer .direction, .footer .sub-footer .konfio-platform {
-    margin: 0rem 1rem;
-  }
-
-  .footer-element-width {
-    width: 90%;
+  .footer .terms a {
+    margin: 0rem 0.5rem;
   }
   /* END OF FOOTER */
 
