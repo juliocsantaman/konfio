@@ -140,81 +140,36 @@ h1 {
   /* END OF HEADER */
 
   /* SOLUTIONS */
-  /* .main .solutions .solution {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 5rem;
-  }*/
-
   .main .solutions .description {
     text-align: center;
     width: 75%;
     margin: auto;
   }
-
-  .main .solutions .solution img {
-    /* width: 50%; */
-  }
   /* END OF SOLUTIONS */
 
   /* STEPS */
   .main .steps .info {
-    text-align: center;
     margin-bottom: 3rem;
-  }
-
-  .main .steps .tab-content .tab-pane div {
-    background-color: rgba(110,67,183, 1);
-    color: #ffffff;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0.5rem;
-  }
-
-  .main .steps .tab-content .tab-pane div img {
-    margin-top: 0rem;
-  }
-
-  .main .steps .tab-content-container {
-    display: flex;
   }
 
   .main .steps .tab-content-container .nav-tabs {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    /* background-color: red; */
+    justify-content: center;
     border: none;
   }
 
-  .main .steps .tab-content-container .nav-tabs .nav-item {
-    width: 100% !important;
-    margin-bottom: 3rem;
-    /* background-color: blue; */
+  .main .steps .tab-content-container .nav-tabs li {
+    margin: 0.8rem 0rem;
   }
 
   .main .steps .tab-content-container .nav-tabs li a {
     padding: 0.8rem;
-    width: 70%;
-  }
-
-  .main .steps .tab-content-container .nav-tabs .nav-item .nav-link {
-    display: flex;
-    align-items: center;
+    width: 80%;
   }
 
   .nav-item-li {
     border-bottom: unset !important;
-  }
-
-  .tab-pane-img-size {
-    width: 50vw;
   }
   /* END OF STEPS */
 
