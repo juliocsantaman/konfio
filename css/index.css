@@ -140,13 +140,13 @@ h1 {
   /* END OF HEADER */
 
   /* SOLUTIONS */
-  .main .solutions .solution {
+  /* .main .solutions .solution {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
     gap: 5rem;
-  }
+  }*/
 
   .main .solutions .description {
     text-align: center;
@@ -155,7 +155,7 @@ h1 {
   }
 
   .main .solutions .solution img {
-    width: 50%;
+    /* width: 50%; */
   }
   /* END OF SOLUTIONS */
 
