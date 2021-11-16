@@ -117,14 +117,12 @@ h1 {
   }
   
   .header-laptop div {
-    height: 100%;
-    width: 100%;
     padding-bottom: 5rem;
   }
 
   .header-laptop h1 {
     margin: 5rem 0rem;
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     text-align: start;
     width: 60%;
   }
