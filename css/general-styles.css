@@ -23,6 +23,10 @@
 .hover-purple:hover {
   color: rgb(75, 47, 124);
 }
+
+.hover-white:hover {
+  color: #fff;
+}
 /* END OF COLORS */
 
 /* BG COLORS */
