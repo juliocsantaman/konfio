@@ -103,10 +103,6 @@ h1 {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
-  .hidden-btn-create {
-    display: none !important;
-  }
-
   /* HEADER */
   .header-laptop {
     display: block;
