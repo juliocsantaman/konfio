@@ -11,6 +11,13 @@
 }
 /* END OF HEADER */
 
+/* SWIPER */
+.swiper4 .card-body div {
+  width: 90%;
+  margin: auto;
+}
+/* END OF SWIPER */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap

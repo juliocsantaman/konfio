@@ -38,6 +38,10 @@
   background-color: rgba(110,67,183, 1);
 }
 
+.bg-purple-2 {
+  background-color: rgb(113, 114, 187);
+}
+
 .bg-gray {
   background-color: #424242;
 }
@@ -71,7 +75,7 @@
 /* END OF KONFIO LOGO */
 
 /* STYLES OF SWIPER */
-.swiper {
+.swiper1 {
   height: 300px;
 }
 
@@ -81,6 +85,10 @@
 
 .swiper3 {
   height: 460px;
+}
+
+.swiper4 {
+  height: 680px;
 }
 
 .swiper-pagination-bullet {
@@ -96,6 +104,10 @@
 
 .card-body {
   height: 250px;
+}
+
+.card-body-height {
+  height: 100%;
 }
 
 .card-header-video {
