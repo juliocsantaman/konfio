@@ -45,6 +45,15 @@
 .bg-gray {
   background-color: #424242;
 }
+
+.bg-gray-2 {
+  background-color: #eee8f6;
+}
+
+.bg-gray-2:hover {
+  background-color: rgba(113,114,187);
+  color: #fff;
+}
 /* END OF BG COLORS */
 
 /* CONFIG LINK */

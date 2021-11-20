@@ -215,7 +215,7 @@
   <main class="main">
 
     <!-- BUSINESS CREDIT -->
-    <section class="container mt-5">
+    <section class="container py-4">
       <div class="row">
         <div class="col-12 text-start text-md-center">
           <h3 class="fw-bold mb-3">Las ventas de nuestros empresarios crecen 27% en 6 meses</h3>
@@ -282,8 +282,7 @@
         <!-- SLIDER 2 -->
         <div class="swiper-slide">
           <div class="card bg-purple-2">
-            <div
-              class="card-body d-flex flex-column justify-content-center text-white card-body-height">
+            <div class="card-body d-flex flex-column justify-content-center text-white card-body-height">
               <h5 class="card-title fw-bold mb-3 text-center">Crédito empresarial</h5>
 
               <div class="d-flex align-items-center mb-4">
@@ -326,6 +325,9 @@
                 </p>
               </div>
 
+              <a class="btn color-purple bg-white w-75 m-auto rounded-pill py-3 brightness-90 d-none d-md-block"
+                href="#">Crear mi cuenta</a>
+
             </div>
           </div>
         </div>
@@ -335,8 +337,65 @@
     </div>
     <!-- END OF SLIDER MAIN CONTAINER -->
 
+    <!-- CREDIT SIMULATOR -->
+    <section class="credit-simulate container-fluid py-4">
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-12 col-lg-6">
+          <h2 class="fw-bold fs-3 mb-3 text-md-center">Simula tu crédito empresarial en tres pasos</h2>
+          <p class="text-md-center">Calcula el monto, plazo y pagos de tu crédito.</p>
+          <div class="card">
+            <div class="card-body card-body-height">
+              <!-- ROW -->
+              <div class="row justify-content-center">
+                <!-- COL -->
+                <div class="col-10 d-flex flex-wrap justify-content-center">
+                  <label for="customRange1" class="form-label w-100 text-center">¿Cuánto dinero necesita tu negocio?</label>
+                  <input type="range" class="form-range mb-3" id="customRange1" value="0">
+                </div>
+                <!-- END OF COL -->
+              </div>
+              <!-- END OF ROW -->
 
+              <!-- ROW -->
+              <div class="row justify-content-center">
+                <!-- COL -->
+                <div class="col-10 d-flex flex-wrap btns justify-content-center">
+                  <label class="mb-3 w-100 text-center">¿A cuántos meses te gustaría pagar?</label>
+                  <button class="btn bg-gray-2 mb-3">9</button>
+                  <button class="btn bg-gray-2 mb-3">12</button>
+                  <button class="btn bg-gray-2 mb-3">15</button>
+                  <button class="btn bg-gray-2 mb-3">18</button>
+                </div>
+                <!-- END OF COL -->
+              </div>
+              <!-- END OF ROW -->
 
+              <!-- ROW -->
+              <div class="row justify-content-center">
+                <!-- COL -->
+                <div class="col-10 d-flex flex-wrap btns justify-content-center">
+                  <label class="mb-3 w-100 text-center">¿Cuánto factura tu negocio al mes?</label>
+                  <button class="btn bg-gray-2 mb-3 d-flex justify-content-center align-items-center"><i class="fas fa-less-than me-1"></i> $600M</button>
+                  <button class="btn bg-gray-2 mb-3">$600M - $6MM</button>
+                  <button class="btn bg-gray-2 mb-3">$6MM - $15MM</button>
+                  <button class="btn bg-gray-2 mb-3 d-flex justify-content-center align-items-center"><i class="fas fa-greater-than me-1"></i> $15MM</button>
+                  
+                  <button class="btn bg-gray-2 rounded-pill w-75 py-2" disabled>Continuar</button>
+                </div>
+                <!-- END OF COL -->
+              </div>
+              <!-- END OF ROW -->
+
+            </div>
+          </div>
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+    </section>
+    <!-- END OF CREDIT SIMULATOR -->
   </main>
   <!-- END OF MAIN -->
 

@@ -67,7 +67,7 @@ const swiper3 = new Swiper('.swiper3', {
 const swiper4 = new Swiper('.swiper4', {
   // Optional parameters
   direction: 'horizontal',
-  effect: 'flip', //slide
+  effect: 'slide', //slide
   initialSlide: 1,
   autoHeight: true,
   loop: true,
@@ -83,9 +83,11 @@ const swiper4 = new Swiper('.swiper4', {
     // when window width is >= 768px
     768: {
       slidesPerView: 2,
-      effect: 'slide', //flip
       initialSlide: 0,
       loop: false,
+      // effect: 'slide',
+      spaceBetween: 40,
+      
     }
   }
 });
