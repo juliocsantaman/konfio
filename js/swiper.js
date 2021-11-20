@@ -91,3 +91,28 @@ const swiper4 = new Swiper('.swiper4', {
     }
   }
 });
+
+const swiper5 = new Swiper('.swiper5', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination5',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 2,
+      loop: false,
+      spaceBetween: 40
+      
+    }
+  }
+});

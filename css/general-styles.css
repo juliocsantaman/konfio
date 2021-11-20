@@ -100,6 +100,10 @@
   height: 680px;
 }
 
+.swiper5 {
+  height: 415px;
+}
+
 .swiper-pagination-bullet {
   background-color: #6e43b7;
   width: 0.8rem;
@@ -236,6 +240,12 @@
     margin: 0rem 0.5rem;
   }
   /* END OF FOOTER */
+
+  /* SWIPER */
+  .swiper5 {
+    height: 680px;
+  }
+  /* END OF SWIPER */
 
  }
 
