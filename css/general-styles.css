@@ -12,6 +12,10 @@
   color: rgba(110,67,183, 1);
 }
 
+.color-purple-2 {
+  color: rgb(113, 114, 187);
+}
+
 .color-purple:hover {
   color: rgb(75, 47, 124);
 }
@@ -53,6 +57,14 @@
 .bg-gray-2:hover {
   background-color: rgba(113,114,187);
   color: #fff;
+}
+
+.bg-blue-top {
+  background-image: linear-gradient(180deg,rgba(204,212,228,.3) -4%,#fff 102%);
+}
+
+.bg-blue-bottom {
+  background-image: linear-gradient(0deg,rgba(138, 159, 197, 0.3) -4%,#fff 102%);
 }
 /* END OF BG COLORS */
 

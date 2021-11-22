@@ -1,6 +1,5 @@
 /* HEADER */
 .header {
-  background-image: linear-gradient(0deg,rgba(138, 159, 197, 0.3) -4%,#fff 102%);
   padding: 3rem  0rem 1.5rem 0rem;
 }
 
@@ -18,10 +17,6 @@
 /* END OF SWIPER */
 
 /* CREDIT SIMULATE */
-.main .credit-simulate {
-  background-image: linear-gradient(180deg,rgba(204,212,228,.3) -4%,#fff 102%);
-}
-
 .main .credit-simulate .btns button {
   width: 40%;
   margin: 0.5rem;
@@ -52,6 +47,16 @@
   border-top-right-radius: 2rem;
 }
 /* END OF CREDIT TYPES */
+
+/* CREDIT PYME */
+.main .credit-pyme-mobile-tablet .accordion img {
+  width: 3.3rem;
+}
+
+.nav-item button:hover {
+  color: unset;
+}
+/* END OF CREDIT PYME */
 
 /*
   X-Small devices (portrait phones, less than 576px)
