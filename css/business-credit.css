@@ -58,6 +58,12 @@
 }
 /* END OF CREDIT PYME */
 
+/* CREDIT REQUIREMENTS */
+.fs-p {
+  font-size: 0.9rem;
+}
+/* END OF CREDIT REQUIREMENTS */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap

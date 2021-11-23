@@ -116,3 +116,31 @@ const swiper5 = new Swiper('.swiper5', {
     }
   }
 });
+
+const swiperCreditRequirements = new Swiper('.swiper-credit-requirements', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  loop: true,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 1
+    },
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 2,
+      loop: false,
+      spaceBetween: 40
+    }
+  }
+});

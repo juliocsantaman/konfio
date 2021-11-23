@@ -257,6 +257,12 @@
   .swiper5 {
     height: 680px;
   }
+
+  .swiper-credit-requirements .card img {
+    width: 75%;
+    margin: auto;
+  }
+
   /* END OF SWIPER */
 
  }
@@ -298,6 +304,11 @@
 
   .swiper3 {
     width: 90%;
+  }
+
+  .swiper-credit-requirements .card img {
+    width: 50%;
+    margin: auto;
   }
   /* END OF SWIPER */
 
