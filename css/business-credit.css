@@ -28,20 +28,6 @@
 /* END OF CREDIT SIMULATE */
 
 /* CREDIT TYPES */
-.card-header-bg, .card-header-bg-2 {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  padding: 20%;
-}
-
-.main .card-header-bg {
-  background-image: url("https://cdn.konfio.mx/static/static/credito-para-emprendedores-Konfio-c2671a7ed92f514a856a12af219c7f7f.webp");
-}
-
-.main .card-header-bg-2 {
-  background-image: url("https://cdn.konfio.mx/static/static/credito-pyme-Konfio-c433439d4c04c9dcc2b8030c884aec03.webp");
-}
-
 .main .card-border-tops {
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;

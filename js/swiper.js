@@ -92,15 +92,16 @@ const swiper4 = new Swiper('.swiper4', {
   }
 });
 
-const swiper5 = new Swiper('.swiper5', {
+const swiperCreditTypes = new Swiper('.swiper-credit-types', {
   // Optional parameters
   direction: 'horizontal',
   effect: 'slide',
   autoHeight: true,
   loop: true,
+  
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination5',
+    el: '.swiper-pagination',
     type: 'bullets',
     clickable: true,
   },
