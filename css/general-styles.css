@@ -108,10 +108,6 @@
   height: 460px;
 }
 
-.swiper-credit-types {
-  height: 415px;
-}
-
 .swiper-pagination-bullet {
   background-color: #6e43b7;
   width: 0.8rem;
@@ -259,10 +255,6 @@
   /* END OF FOOTER */
 
   /* SWIPER */
-  .swiper-credit-types {
-    height: 680px;
-  }
-
   .swiper-credit-requirements .card img {
     width: 75%;
     margin: auto;
