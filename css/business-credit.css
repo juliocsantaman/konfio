@@ -20,13 +20,6 @@
 }
 /* END OF CREDIT SIMULATE */
 
-/* CREDIT TYPES */
-.main .card-border-tops {
-  border-top-left-radius: 2rem;
-  border-top-right-radius: 2rem;
-}
-/* END OF CREDIT TYPES */
-
 /* CREDIT PYME */
 .main .credit-pyme-mobile-tablet .accordion img {
   width: 3.3rem;

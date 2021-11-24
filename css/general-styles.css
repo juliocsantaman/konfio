@@ -96,18 +96,6 @@
 /* END OF KONFIO LOGO */
 
 /* STYLES OF SWIPER */
-.swiper1, .swiper-exclusive-benefits {
-  height: 300px;
-}
-
-.swiper2 {
-  height: 450px;
-}
-
-.swiper3 {
-  height: 460px;
-}
-
 .swiper-pagination-bullet {
   background-color: #6e43b7;
   width: 0.8rem;
@@ -138,7 +126,7 @@
   height: 100%;
 }
 
-.video-border {
+.borders-top-radius {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -259,7 +247,6 @@
     width: 75%;
     margin: auto;
   }
-
   /* END OF SWIPER */
 
  }
@@ -273,34 +260,13 @@
   /* END OF MAIN */
 
   /* SWIPER */
-  .swiper1 {
-    width: 85%;
-  }
-
-  .swiper2 {
-    height: 310px;
-  }
-
-  .main .swiper2-info {
-    text-align: center;
-  }
-
-  .swiper2 .swiper-wrapper .swiper-slide .card {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  .swiper2 .swiper-wrapper .swiper-slide .card .card-header {
+  .swiper-client-results .swiper-wrapper .swiper-slide .card .card-header {
     width: 25%;
   }
 
-  .swiper2 .swiper-wrapper .swiper-slide .card .card-body {
+  .swiper-client-results .swiper-wrapper .swiper-slide .card .card-body {
     width: 75%;
     padding: 4rem;
-  }
-
-  .swiper3 {
-    width: 90%;
   }
 
   .swiper-credit-requirements .card img {
@@ -325,7 +291,6 @@
   }
   
 }
-
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

@@ -1,54 +1,48 @@
-const swiper1 = new Swiper('.swiper1', {
+const swiperBenefits = new Swiper('.swiper-benefits', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
-  centeredSlides: true,
-  effect: 'slide', //flip
+  effect: 'slide',
+  autoHeight: true,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination1',
+    el: '.swiper-pagination',
     type: 'bullets',
     clickable: true,
-    // bulletClass: 'swiper-pagination-bullet'
   },
 
   // Responsive breakpoints
   breakpoints: {
     // when window width is >= 992px
     992: {
-      slidesPerView: 3,
-      // spaceBetween: 40
+      slidesPerView: 3
     }
   }
 });
 
-const swiper2 = new Swiper('.swiper2', {
+const swiperClientResults = new Swiper('.swiper-client-results', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
-  centeredSlides: true,
-  effect: 'slide', //flip
+  effect: 'slide',
+  autoHeight: true,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination2',
+    el: '.swiper-pagination',
     type: 'bullets',
-    clickable: true,
-    // bulletClass: 'swiper-pagination-bullet'
+    clickable: true
   },
 });
 
-const swiper3 = new Swiper('.swiper3', {
+const swiperUnstoppableEntrepreneurs = new Swiper('.swiper-unstoppable-entrepreneurs', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
-  centeredSlides: true,
-  effect: 'slide', //flip
+  effect: 'slide',
+  autoHeight: true,
 
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination3',
+    el: '.swiper-pagination',
     type: 'bullets',
     clickable: true,
     // bulletClass: 'swiper-pagination-bullet'
@@ -59,7 +53,8 @@ const swiper3 = new Swiper('.swiper3', {
     // when window width is >= 992px
     992: {
       slidesPerView: 3,
-      pagination: false
+      pagination: false,
+      loop: false
     }
   }
 });
@@ -102,7 +97,6 @@ const swiperCreditTypes = new Swiper('.swiper-credit-types', {
   direction: 'horizontal',
   effect: 'slide',
   autoHeight: true,
-  loop: true,
 
   // If we need pagination
   pagination: {
@@ -128,7 +122,7 @@ const swiperCreditRequirements = new Swiper('.swiper-credit-requirements', {
   direction: 'horizontal',
   effect: 'slide',
   autoHeight: true,
-  loop: true,
+  
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
@@ -154,8 +148,6 @@ const swiperCreditRequirements = new Swiper('.swiper-credit-requirements', {
 const swiperExclusiveBenefits = new Swiper('.swiper-exclusive-benefits', {
   // Optional parameters
   direction: 'horizontal',
-  loop: true,
-  centeredSlides: true,
   effect: 'slide',
   autoHeight: true,
 
