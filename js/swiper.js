@@ -144,3 +144,28 @@ const swiperCreditRequirements = new Swiper('.swiper-credit-requirements', {
     }
   }
 });
+
+const swiperExclusiveBenefits = new Swiper('.swiper-exclusive-benefits', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  centeredSlides: true,
+  effect: 'slide',
+  autoHeight: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 40
+    }
+  }
+});
