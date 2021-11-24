@@ -64,16 +64,17 @@ const swiper3 = new Swiper('.swiper3', {
   }
 });
 
-const swiper4 = new Swiper('.swiper4', {
+const swiperBusinessCredit = new Swiper('.swiper-business-credit', {
   // Optional parameters
   direction: 'horizontal',
-  effect: 'slide', //slide
+  effect: 'slide',
   initialSlide: 1,
   autoHeight: true,
   loop: true,
+
   // If we need pagination
   pagination: {
-    el: '.swiper-pagination4',
+    el: '.swiper-pagination',
     type: 'bullets',
     clickable: true,
   },
@@ -85,9 +86,13 @@ const swiper4 = new Swiper('.swiper4', {
       slidesPerView: 2,
       initialSlide: 0,
       loop: false,
-      // effect: 'slide',
+    },
+    // when window width is >= 992px
+    992: {
       spaceBetween: 40,
-      
+      slidesPerView: 2,
+      initialSlide: 0,
+      loop: false
     }
   }
 });
@@ -98,7 +103,7 @@ const swiperCreditTypes = new Swiper('.swiper-credit-types', {
   effect: 'slide',
   autoHeight: true,
   loop: true,
-  
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
@@ -113,7 +118,7 @@ const swiperCreditTypes = new Swiper('.swiper-credit-types', {
       slidesPerView: 2,
       loop: false,
       spaceBetween: 40
-      
+
     }
   }
 });
