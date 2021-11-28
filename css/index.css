@@ -54,7 +54,7 @@
 
 .tab-pane-img-size {
   width: 100%;
-  height: 30vh;
+  height: 100%;
 }
 /* END OF STEPS */
 
@@ -152,11 +152,6 @@ h1 {
     background-color: rgba(110,67,183, 1);
     border-radius: 1.5rem;
     color: #ffffff;
-  }
-
-  .tab-pane-img-size {
-    width: 100%;
-    height: 60vh;
   }
 
   .nav-item-li {
