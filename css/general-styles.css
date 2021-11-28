@@ -132,6 +132,17 @@
 }
 /* END OF STYLES OF SWIPER */
 
+/* CREDIT SIMULATOR */
+.main .credit-simulator .btns button {
+  width: 40%;
+  margin: 0.5rem;
+}
+
+.main .credit-simulator .btns button i {
+  font-size: 0.5rem;
+}
+/* END OF CREDIT SIMULATOR */
+
 /* FOOTER */
 .footer {
   margin-bottom: 15%;

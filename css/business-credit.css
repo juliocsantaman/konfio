@@ -9,17 +9,6 @@
 }
 /* END OF HEADER */
 
-/* CREDIT SIMULATE */
-.main .credit-simulate .btns button {
-  width: 40%;
-  margin: 0.5rem;
-}
-
-.main .credit-simulate .btns button i {
-  font-size: 0.5rem;
-}
-/* END OF CREDIT SIMULATE */
-
 /* CREDIT PYME */
 .main .credit-pyme-mobile-tablet .accordion img {
   width: 3.3rem;
