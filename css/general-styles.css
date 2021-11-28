@@ -148,8 +148,12 @@
   margin: 1rem auto auto auto;
 }
 
-.footer .info, .footer hr {
-  width: 90%;
+.footer .terms {
+  margin: 8rem auto auto auto;
+}
+
+.footer .footer-img {
+  width: 2.2rem;
 }
 /* END OF FOOTER */
 
@@ -238,10 +242,6 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   /* FOOTER */
-  .footer .terms {
-    margin: 8rem auto auto auto;
-  }
-
   .footer .terms a {
     margin: 0rem 0.5rem;
   }
@@ -284,6 +284,14 @@
   .footer {
     margin-bottom: 0%;
   }
+
+  .konfio-logo-2 {
+    width: 30%;
+  }
+
+  .footer .direction p {
+    width: 70%;
+  }
   /* END OF FOOTER */
 
   .hidden-btn-create {
@@ -294,7 +302,6 @@
     width: 100%;
     height: 500px;
   }
-  
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
