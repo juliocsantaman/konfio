@@ -134,8 +134,8 @@
 
 /* CREDIT SIMULATOR */
 .main .credit-simulator .btns button {
-  width: 40%;
-  margin: 0.5rem;
+  width: 100%;
+  font-size: .75rem;
 }
 
 .main .credit-simulator .btns button i {

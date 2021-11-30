@@ -36,7 +36,7 @@
       <a href="#" class="color-purple"> <strong>Ingresar</strong> </a>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <a href="./index.html" class="konfio-logo"> <img src="../img/konfio-logo.svg" alt="Konfio Logo"> </a>
+          <a href="../index.html" class="konfio-logo"> <img src="../img/konfio-logo.svg" alt="Konfio Logo"> </a>
           <span class="close-icon color-purple" data-bs-dismiss="offcanvas" aria-label="Close">X</span>
         </div>
         <div class="offcanvas-body">
@@ -49,8 +49,8 @@
                 <strong>Soluciones financieras</strong>
               </a>
               <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item a-active" href="#">Crédito empresarial</a></li>
-                <li><a class="dropdown-item a-active" href="#">Simulador de crédito</a></li>
+                <li><a class="dropdown-item a-active" href="./business-credit.html">Crédito empresarial</a></li>
+                <li><a class="dropdown-item a-active" href="./credit-simulator.html">Simulador de crédito</a></li>
                 <li><a class="dropdown-item a-active" href="#">Tarjeta empresarial</a></li>
                 <li><a class="dropdown-item a-active" href="#">Alianzas para negocio</a></li>
               </ul>
@@ -129,8 +129,8 @@
               Soluciones financieras
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item hover-purple a-active" href="#">Crédito empresarial</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="#">Simulador de crédito</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="./business-credit.html">Crédito empresarial</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="./credit-simulator.html">Simulador de crédito</a></li>
               <li><a class="dropdown-item hover-purple a-active" href="#">Tarjeta empresarial</a></li>
               <li><a class="dropdown-item hover-purple a-active" href="#">Alianzas para negocio</a></li>
             </ul>
@@ -191,18 +191,18 @@
   <!-- MAIN -->
   <main class="main">
     <!-- CREDIT SIMULATOR -->
-    <section class="credit-simulator container-fluid py-4 bg-blue-bottom">
+    <section class="credit-simulator container-fluid pb-4 bg-blue-bottom">
       <!-- ROW -->
       <div class="row justify-content-center">
         <!-- COL -->
-        <div class="col-12 col-md-9 col-lg-6">
+        <div class="col-12 col-md-9 col-lg-7">
           <div class="card">
             <div class="card-body card-body-height">
               <!-- ROW -->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center mt-4">
                 <!-- COL -->
                 <div class="col-10 d-flex flex-wrap justify-content-center">
-                  <label for="customRange1" class="form-label w-100 text-center">¿Cuánto dinero necesita tu
+                  <label for="customRange1" class="form-label w-100">¿Cuánto dinero necesita tu
                     negocio?</label>
                   <input type="range" class="form-range mb-3" id="customRange1" value="0">
                 </div>
@@ -211,34 +211,81 @@
               <!-- END OF ROW -->
 
               <!-- ROW -->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center mt-4">
+                <div class="col-10">
+                  <label class="mb-3 w-100">¿A cuántos meses te gustaría pagar?</label>
+                </div>
                 <!-- COL -->
-                <div class="col-10 d-flex flex-wrap btns justify-content-center">
-                  <label class="mb-3 w-100 text-center">¿A cuántos meses te gustaría pagar?</label>
-                  <button class="btn bg-gray-2 mb-3">9</button>
-                  <button class="btn bg-gray-2 mb-3">12</button>
-                  <button class="btn bg-gray-2 mb-3">15</button>
-                  <button class="btn bg-gray-2 mb-3">18</button>
+                <div class="col-10">
+                  <!-- ROW -->
+                  <div class="row btns">
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3">9</button>
+                    </div>
+                    <!-- END OF COL -->
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3">12</button>
+                    </div>
+                    <!-- END COL -->
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3">15</button>
+                    </div>
+                    <!-- END OF COL -->
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3">18</button>
+                    </div>
+                    <!-- END OF COL -->
+                  </div>
+                  <!-- END OF ROW -->
                 </div>
                 <!-- END OF COL -->
               </div>
               <!-- END OF ROW -->
 
               <!-- ROW -->
-              <div class="row justify-content-center">
+              <div class="row justify-content-center mt-4">
                 <!-- COL -->
-                <div class="col-10 d-flex flex-wrap btns justify-content-center">
-                  <label class="mb-3 w-100 text-center">¿Cuánto factura tu negocio al mes?</label>
-                  <button class="btn bg-gray-2 mb-3 d-flex justify-content-center align-items-center"><i
-                      class="fas fa-less-than me-1"></i> $600M</button>
-                  <button class="btn bg-gray-2 mb-3">$600M - $6MM</button>
-                  <button class="btn bg-gray-2 mb-3">$6MM - $15MM</button>
-                  <button class="btn bg-gray-2 mb-3 d-flex justify-content-center align-items-center"><i
-                      class="fas fa-greater-than me-1"></i> $15MM</button>
-
-                  <button class="btn bg-gray-2 rounded-pill w-75 py-2" disabled>Continuar</button>
+                <div class="col-10">
+                  <label class="my-3 w-100">¿Cuánto factura tu negocio al mes?</label>
                 </div>
                 <!-- END OF COL -->
+                <!-- COL -->
+                <div class="col-10">
+                  <!-- ROW -->
+                  <div class="row btns">
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3 d-flex justify-content-center align-items-center"><i
+                          class="fas fa-less-than me-1"></i> $600M</button>
+                    </div>
+                    <!-- END OF COL -->
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3">$600M - $6MM</button>
+                    </div>
+                    <!-- END OF COL -->
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3">$6MM - $15MM</button>
+                    </div>
+                    <!-- END OF COL -->
+                    <!-- COL -->
+                    <div class="col-6 col-lg-3">
+                      <button class="btn bg-gray-2 mb-3 d-flex justify-content-center align-items-center"><i
+                          class="fas fa-greater-than me-1"></i> $15MM</button>
+                    </div>
+                    <!-- END OF COL -->
+                  </div>
+                  <!-- END OF ROW -->
+                </div>
+                <!-- END OF COL -->
+                <div class="col-10 col-md-6 col-lg-5">
+                  <button class="btn bg-gray-2 rounded-pill py-2 my-5 w-100" disabled>Continuar</button>
+                </div>
               </div>
               <!-- END OF ROW -->
             </div>
