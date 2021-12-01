@@ -4,7 +4,7 @@
 }
 
 .header {
-  margin-top: 1.2rem;
+  padding-top: 3.5rem;
 }
 
 /* COLORS */
@@ -107,12 +107,12 @@
   height: 85px;
 }
 
-.card-body {
-  height: 250px;
-}
-
 .card-body-height {
   height: 100%;
+}
+
+.card-body-height-2 {
+  height: 250px;
 }
 
 .card-header-video {
@@ -269,6 +269,12 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+  /* HEADER */
+  .header {
+    padding-top: 5rem;
+  }
+  /* END OF HEADER */
+
   /* MAIN */
   .main {
     margin-top: 2rem;

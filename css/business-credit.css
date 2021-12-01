@@ -1,8 +1,4 @@
 /* HEADER */
-.header {
-  padding: 3rem  0rem 1.5rem 0rem;
-}
-
 .header .header-info {
   width: 90%;
   margin: auto;
@@ -50,10 +46,6 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   /* HEADER */
-  .header {
-    margin-top: 3rem;
-  }
-
   .header-info h2, .header-info p {
     width: 90%;
     margin: unset;
