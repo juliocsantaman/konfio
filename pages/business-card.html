@@ -25,7 +25,7 @@
 <body>
 
   <!-- NAVBAR FOR MOBILE AND TABLET -->
-  <nav class="navbar navbar-light bg-light fixed-top d-block d-xl-none">
+  <nav class="navbar navbar-light bg-light sticky-top d-block d-xl-none">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar">
@@ -112,7 +112,7 @@
   <!-- END OF NAVBAR FOR MOBILE AND TABLET -->
 
   <!-- NAVBAR FOR LAPTOP AND UP -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top d-none d-xl-block p-2">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top d-none d-xl-block p-2">
     <div class="container-fluid">
       <a class="navbar-brand konfio-logo-laptop" href="../index.html">
         <img src="../img/konfio-logo.svg" alt="Konfio Logo">
@@ -184,13 +184,15 @@
     <!-- ROW -->
     <div class="row g-0 text-center text-lg-start justify-content-center">
       <!-- COL -->
-      <div class="col-12 col-lg-6 header-info d-lg-flex flex-lg-column justify-content-lg-center justify-content-xl-start">
+      <div
+        class="col-12 col-lg-6 header-info d-lg-flex flex-lg-column justify-content-lg-center justify-content-xl-start">
         <h1 class="fs-6 mb-4">TARJETA DE CRÉDITO EMPRESARIAL</h1>
         <h2 class="fw-bold mb-4">Dirige y fortalece tu empresa con Tarjeta de Crédito Konfío</h2>
         <p>
           Adquiere la Tarjeta empresarial que crece contigo.
         </p>
-        <button class="bg-purple brightness-90 text-white rounded-pill w-50 p-3 d-none d-lg-block mt-5">Crear mi cuenta</button>
+        <button class="btn-create bg-purple brightness-90 text-white rounded-pill p-3 d-none d-lg-block mt-5 border-0">Crear
+          mi cuenta</button>
       </div>
       <!-- END OF COL -->
       <!-- COL -->
@@ -210,7 +212,8 @@
             <!-- END OF COL -->
             <!-- COL -->
             <div class="col-6 col-lg-12 d-flex flex-column justify-content-center align-items-center">
-              <img class="konfio-text" src="https://cdn.konfio.mx/static/static/logo-hero-tdc-mobile-cac8e7bafd149870d369ffced4e1edf4.svg"
+              <img class="konfio-text"
+                src="https://cdn.konfio.mx/static/static/logo-hero-tdc-mobile-cac8e7bafd149870d369ffced4e1edf4.svg"
                 alt="Konfío">
             </div>
             <!-- END OF COL -->
@@ -252,7 +255,135 @@
   <!-- END OF MODAL BUSINESS CARD -->
 
   <!-- MAIN -->
-  <main>
+  <main class="main">
+    <!-- SLIDER MAIN CONTAINER SWIPER NAV -->
+    <div class="swiper swiper-nav mt-3">
+      <!-- ADDITIONAL REQUIRED WRAPPER -->
+      <div class="swiper-wrapper">
+        <!-- SLIDES -->
+        <!-- SLIDE 1 -->
+        <div class="swiper-slide text-center">
+          <a class="config-link color-purple" href="#characteristics">Características</a>
+        </div>
+        <!-- END OF SLIDE 1 -->
+
+        <!-- SLIDE 2 -->
+        <div class="swiper-slide text-center">
+          <a class="config-link color-purple" href="#">Beneficios</a>
+        </div>
+        <!-- END OF SLIDE 2 -->
+
+        <!-- SLIDE 3 -->
+        <div class="swiper-slide text-center">
+          <a class="config-link color-purple" href="#">Requisitos</a>
+        </div>
+        <!-- END OF SLIDE 3 -->
+
+        <!-- SLIDE 4 -->
+        <div class="swiper-slide text-center">
+          <a class="config-link color-purple" href="#">Promociones</a>
+        </div>
+        <!-- END OF SLIDE 4 -->
+
+        <!-- SLIDE 5 -->
+        <div class="swiper-slide text-center">
+          <a class="config-link color-purple" href="#">Intereses y comiciones</a>
+        </div>
+        <!-- END OF SLIDE 5 -->
+
+      </div>
+    </div>
+    <!-- END OF SLIDER MAIN CONTAINER SWIPER NAV -->
+
+    <!-- CHARACTERISTICS -->
+    <section class="characteristics container-fluid" id="characteristics">
+      <!-- ROW -->
+      <div class="row justify-content-md-center">
+        <!-- COL -->
+        <div class="col-12 col-md-7 col-lg-12">
+          <h2 class="fw-bold text-md-center mt-5">Solicítala en pocos minutos con tu clave CIEC y RFC</h2>
+          <p class="mt-4 text-md-center">
+            Crea tu cuenta con tu RFC y obtén tu oferta con tu clave CIEC. Todos tus datos están protegidos.
+          </p>
+        </div>
+        <!-- END OF COL -->
+        <!-- COL -->
+        <div class="col-12 col-md-7 col-lg-6 order-lg-2">
+          <!-- ROW -->
+          <div class="row mt-4 info">
+            <!-- COL -->
+            <div class="col-2 col-lg-1 d-flex flex-column justify-content-center align-items-center">
+              <img class="img-characteristics" src="../img/business-card/flexibility.svg" alt="Flexibility">
+            </div>
+            <!-- END OF COL -->
+            <!-- COL -->
+            <div class="col-10 col-lg-11">
+              <h2 class="fs-6 fw-italic">Obtén flexibilidad financiera</h2>
+              <p>
+                Adquiere liquidez inmediata desde tu aprobación comprando con una tarjeta digital. Además, difiere tus
+                pagos a meses con y sin intereses.
+              </p>
+            </div>
+            <!-- COL -->
+          </div>
+          <!-- END OF ROW -->
+
+          <!-- ROW -->
+          <div class="row mt-4 info">
+            <!-- COL -->
+            <div class="col-2 col-lg-1 d-flex flex-column justify-content-center align-items-center">
+              <img class="img-characteristics" src="../img/business-card/control-your-payments.svg" alt="Control your payments">
+            </div>
+            <!-- END OF COL -->
+            <!-- COL -->
+            <div class="col-10 col-lg-11">
+              <h2 class="fs-6 fw-italic">Mantén el control tus gastos</h2>
+              <p>
+                Separa tus gastos personales y empresariales, factúralos y deduce impuestos pagando con tu tarjeta
+                empresarial.
+              </p>
+            </div>
+            <!-- COL -->
+          </div>
+          <!-- END OF ROW -->
+
+          <!-- ROW -->
+          <div class="row mt-4 info">
+            <!-- COL -->
+            <div class="col-2 col-lg-1 d-flex flex-column justify-content-center align-items-center">
+              <img class="img-characteristics" src="../img/business-card/raise-productivity.svg" alt="Raise the productivity">
+            </div>
+            <!-- END OF COL -->
+            <!-- COL -->
+            <div class="col-10 col-lg-11">
+              <h2 class="fs-6 fw-italic">Eleva la productividad de tu empresa</h2>
+              <p>
+                Aprovecha promociones, descuentos y alianzas con grandes marcas, para obtener beneficios exclusivos en
+                el abastecimiento de tu negocio.
+              </p>
+            </div>
+            <!-- END OF COL -->
+            
+              <a class="btn-create d-none d-lg-block config-link bg-purple text-white rounded-pill brightness-90 text-center my-4 py-3" href="#">
+                Crear mi cuenta
+              </a>
+            
+          </div>
+          <!-- END OF ROW -->
+        </div>
+        <!-- END OF COL -->
+
+        <!-- COL -->
+        <div class="col-12 col-md-7 col-lg-6 order-lg-1">
+          <img class="w-100 business-card-img"
+            src="https://cdn.konfio.mx/static/static/4655ef55bd32b4d23da688e62c6f53ce/b6783/tarjeta-de-credito-empresarial-1.webp"
+            alt="Business card" title="Business card">
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+    </section>
+    <!-- END OF CHARACTERISTICS -->
 
   </main>
   <!-- END OF MAIN -->

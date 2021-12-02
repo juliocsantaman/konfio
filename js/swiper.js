@@ -122,7 +122,7 @@ const swiperCreditRequirements = new Swiper('.swiper-credit-requirements', {
   direction: 'horizontal',
   effect: 'slide',
   autoHeight: true,
-  
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
@@ -164,6 +164,20 @@ const swiperExclusiveBenefits = new Swiper('.swiper-exclusive-benefits', {
     768: {
       slidesPerView: 3,
       spaceBetween: 40
+    }
+  }
+});
+
+const swiperNav = new Swiper('.swiper-nav', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  slidesPerView: 3,
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 5
     }
   }
 });

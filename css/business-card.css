@@ -1,3 +1,9 @@
+/* GENERAL STYLES FOR THIS PAGE */
+.btn-create {
+  width: 50%;
+}
+/* END OF GENERAL STYLES FOR THIS PAGE */
+
 /* HEADER */
 .header .video {
   position: relative;
@@ -42,6 +48,16 @@
 }
 /* END OF HEADER */
 
+/* CHARACTERISTICS */
+.main .characteristics .business-card-img {
+  margin-top: 1rem;
+}
+
+.main .characteristics .info .img-characteristics {
+  width: 2rem;
+}
+/* END OF CHARACTERISTICS */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -73,6 +89,12 @@
     width: 100%;
   }
   /* END OF HEADER */
+
+  /* CHARACTERISTICS */
+  .main .characteristics .info img {
+    width: 40%;
+  }
+  /* END OF CHARACTERISTICS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -92,6 +114,12 @@
     margin-right: -6.5rem;
   }
   /* END OF HEADER */
+
+  /* GENERAL STYLES FOR THIS PAGE */
+  .btn-create {
+    width: 40%;
+  }
+  /* END OF GENERAL STYLES FOR THIS PAGE */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */

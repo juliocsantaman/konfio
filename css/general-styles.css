@@ -3,10 +3,6 @@
   padding: 0%;
 }
 
-.header {
-  padding-top: 3.5rem;
-}
-
 /* COLORS */
 .color-purple {
   color: rgba(110,67,183, 1);
@@ -269,12 +265,6 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  /* HEADER */
-  .header {
-    padding-top: 5rem;
-  }
-  /* END OF HEADER */
-
   /* MAIN */
   .main {
     margin-top: 2rem;
