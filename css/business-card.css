@@ -49,10 +49,6 @@
 /* END OF HEADER */
 
 /* CHARACTERISTICS */
-.main .characteristics .business-card-img {
-  margin-top: 1rem;
-}
-
 .main .characteristics .info .img-characteristics {
   width: 2rem;
 }
@@ -95,12 +91,6 @@
     width: 100%;
   }
   /* END OF HEADER */
-
-  /* CHARACTERISTICS */
-  .main .characteristics .info img {
-    width: 40%;
-  }
-  /* END OF CHARACTERISTICS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
