@@ -52,6 +52,10 @@
 .main .characteristics .info .img-characteristics {
   width: 2rem;
 }
+
+.main .characteristics .img-business-card {
+  width: 100%;
+}
 /* END OF CHARACTERISTICS */
 
 /* BENEFITS */
@@ -110,6 +114,12 @@
     margin-right: -6.5rem;
   }
   /* END OF HEADER */
+
+  /* CHARACTERISTICS */
+  .main .characteristics .img-business-card {
+    width: 70%;
+  }
+  /* END OF CHARACTERISTICS */
 
   /* GENERAL STYLES FOR THIS PAGE */
   .btn-create {
