@@ -212,4 +212,14 @@ const swiperAdditionalFunctionalities = new Swiper('.swiper-additional-functiona
     type: 'bullets',
     clickable: true,
   },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 2,
+      loop: false,
+      spaceBetween: 5
+    }
+  }
 });
