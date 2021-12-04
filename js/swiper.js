@@ -197,3 +197,19 @@ const swiperCardRequirements = new Swiper('.swiper-card-requirements', {
     clickable: true,
   },
 });
+
+const swiperAdditionalFunctionalities = new Swiper('.swiper-additional-functionalities', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  loop: true,
+  slidesPerView: 1,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+});
