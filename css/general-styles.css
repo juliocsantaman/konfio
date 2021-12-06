@@ -55,6 +55,10 @@
   color: #fff;
 }
 
+.bg-gray-3 {
+  background-color: #fbfbff;
+}
+
 .bg-blue-top {
   background-image: linear-gradient(180deg,rgba(204,212,228,.3) -4%,#fff 102%);
 }
@@ -122,8 +126,20 @@
   height: 100%;
 }
 
+.borders-radius {
+  border-radius: 1rem;
+}
+
 .borders-top-radius {
   border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.border-top-left-radius {
+  border-top-left-radius: 1rem;
+}
+
+.border-top-right-radius {
   border-top-right-radius: 1rem;
 }
 /* END OF STYLES OF SWIPER */
@@ -140,7 +156,7 @@
 /* END OF CREDIT SIMULATOR */
 
 /* ACCORDION ITEM */
-.customization-accordion-item {
+.border-customization {
   border: 1px solid lightgray !important;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }

@@ -64,6 +64,12 @@
 }
 /* END OF BENEFITS */
 
+/* PROMOTIONS */
+.main .promotions .swiper-promotions .swiper-slide img {
+  height: 180px;
+}
+/* END OF PROMOTIONS */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
