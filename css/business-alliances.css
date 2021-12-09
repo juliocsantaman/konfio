@@ -20,6 +20,12 @@
 }
 /* END OF COMPANIES */
 
+/* ALLIANCE INFO */
+.main .alliance-info .img-width {
+  width: 100%;
+}
+/* END OF ALLIANCE INFO */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -29,18 +35,57 @@
 @media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+  /* HEADER */
+  .header .text-alliances {
+    width: 40%;
+  }
+
+  .header .alliances-img {
+    width: 65%;
+  }
+
+  .header .p-2 {
+    font-size: 1.3rem;
+  }
+  /* END OF HEADER */
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+  /* HEADER */
+  .header .p-1 {
+    font-size: 1.3rem;
+  }
+
+  .header .text-alliances {
+    width: 90%;
+  }
+
+  .header .alliances-img {
+    width: 100%;
+  }
+  /* END OF HEADER */
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+  /* ALLIANCE INFO */
+  .main .alliance-info .img-width {
+    width: 75%;
+  }
+  /* END OF ALLIANCE INFO */
+
   /* HEADER */
   .header .text-alliances {
+    width: 85%;
+  }
+
+  .header .alliances-img {
     width: 80%;
   }
   /* END OF HEADER */
+
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
