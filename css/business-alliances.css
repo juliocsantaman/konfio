@@ -1,0 +1,47 @@
+/* HEADER */
+.header .text-alliances {
+  width: 75%;
+}
+
+.header .alliances-img {
+  width: 80%;
+}
+/* END OF HEADER */
+
+/* COMPANIES */
+.main .companies .card {
+  height: 12.5rem;
+  margin: 1rem 0rem;
+}
+
+.main .companies .card img {
+  width: 50%;
+  height: 50%;
+}
+/* END OF COMPANIES */
+
+/*
+  X-Small devices (portrait phones, less than 576px)
+  No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  /* HEADER */
+  .header .text-alliances {
+    width: 80%;
+  }
+  /* END OF HEADER */
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }

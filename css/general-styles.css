@@ -296,12 +296,6 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  /* MAIN */
-  .main {
-    margin-top: 2rem;
-  }
-  /* END OF MAIN */
-
   /* SWIPER */
   .swiper-client-results .swiper-wrapper .swiper-slide .card .card-header {
     width: 25%;
