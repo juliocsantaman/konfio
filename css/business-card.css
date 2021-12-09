@@ -70,6 +70,20 @@
 }
 /* END OF PROMOTIONS */
 
+/* INTERESTS COMMISSIONS QUESTIONS */
+.interests-commissions-questions .accordion-item img {
+  width: 3.5rem;
+}
+
+.interests-commissions-questions .table-row {
+  background-color: transparent;
+}
+
+.interests-commissions-questions .table-row div, .interests-commissions-questions .table-header div {
+  padding: 1rem;
+}
+/* END OF INTERESTS COMMISSIONS QUESTIONS */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -79,7 +93,16 @@
 @media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+  /* INTERESTS COMMISSIONS QUESTIONS */
+   .interests-commissions-questions .table-row {
+    background-color: #F5F5F5;
+    font-size: 0.6rem;
+  }
+  /* END OF INTERESTS COMMISSIONS QUESTIONS */
+
+  
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
@@ -142,6 +165,12 @@
     width: 20%;
   }
   /* END OF GENERAL STYLES FOR THIS PAGE */
+
+  /* INTERESTS COMMISSIONS QUESTIONS */
+  .interests-commissions-questions .table-row {
+    font-size: 1rem;
+  }
+  /* END OF INTERESTS COMMISSIONS QUESTIONS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
