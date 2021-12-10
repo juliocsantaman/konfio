@@ -153,12 +153,12 @@
 /* END OF STYLES OF SWIPER */
 
 /* CREDIT SIMULATOR */
-.main .credit-simulator .btns button {
+.credit-simulator .btns button {
   width: 100%;
   font-size: .75rem;
 }
 
-.main .credit-simulator .btns button i {
+.credit-simulator .btns button i {
   font-size: 0.5rem;
 }
 /* END OF CREDIT SIMULATOR */
@@ -171,26 +171,26 @@
 /* END OF ACCORDION ITEM */
 
 /* FOOTER */
-.footer {
+footer {
   margin-bottom: 15%;
 }
 
-.footer .direction .social-networks span {
+footer .direction .social-networks span {
   margin: 1rem 1rem 1rem 0rem;
   width: 30px;
   height: 30px;
   color: gray;
 }
 
-.footer .sub-footer .direction, .footer .sub-footer .konfio-platform {
+footer .sub-footer .direction, footer .sub-footer .konfio-platform {
   margin: 1rem auto auto auto;
 }
 
-.footer .terms {
+footer .terms {
   margin: 8rem auto auto auto;
 }
 
-.footer .footer-img {
+footer .footer-img {
   width: 2.2rem;
 }
 /* END OF FOOTER */
@@ -280,7 +280,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   /* FOOTER */
-  .footer .terms a {
+  footer .terms a {
     margin: 0rem 0.5rem;
   }
   /* END OF FOOTER */
@@ -313,7 +313,7 @@
   /* END OF SWIPER */
 
   /* FOOTER */
-  .footer {
+  footer {
     margin-bottom: 0%;
   }
 
@@ -321,7 +321,7 @@
     width: 30%;
   }
 
-  .footer .direction p {
+  footer .direction p {
     width: 70%;
   }
   /* END OF FOOTER */

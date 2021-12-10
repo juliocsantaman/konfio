@@ -1,12 +1,12 @@
 /* HEADER */
-.header .header-info {
+header .header-info {
   width: 90%;
   margin: auto;
 }
 /* END OF HEADER */
 
 /* CREDIT PYME */
-.main .credit-pyme-mobile-tablet .accordion img {
+main .credit-pyme-mobile-tablet .accordion img {
   width: 3.3rem;
 }
 
@@ -51,7 +51,7 @@
     margin: unset;
   }
 
-  .header iframe {
+  header iframe {
     width: 100%;
   }
   /* END OF HEADER */

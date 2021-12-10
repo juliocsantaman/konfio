@@ -5,15 +5,15 @@
 /* END OF GENERAL STYLES FOR THIS PAGE */
 
 /* HEADER */
-.header .video {
+header .video {
   position: relative;
 }
 
-.header .video .bg-img {
+header .video .bg-img {
   border-radius: 50%;
 }
 
-.header .video .player {
+header .video .player {
   position: absolute;
   top: 0;
   left: 0;
@@ -24,20 +24,20 @@
   z-index: 1;
 }
 
-.header .row-video .konfio-text {
+header .row-video .konfio-text {
   width: 75%;
 }
 
-.header .card {
+header .card {
   background-color: transparent; 
   border: none;
 }
 
-.header .row-video {
+header .row-video {
   position: relative;
 }
 
-.header .line {
+header .line {
   position: absolute; 
   width: 100%;
   top: 0%;
@@ -49,23 +49,23 @@
 /* END OF HEADER */
 
 /* CHARACTERISTICS */
-.main .characteristics .info .img-characteristics {
+main .characteristics .info .img-characteristics {
   width: 2rem;
 }
 
-.main .characteristics .img-business-card {
+main .characteristics .img-business-card {
   width: 100%;
 }
 /* END OF CHARACTERISTICS */
 
 /* BENEFITS */
-.main .benefits-mobile-tablet .accordion img {
+main .benefits-mobile-tablet .accordion img {
   width: 3rem;
 }
 /* END OF BENEFITS */
 
 /* PROMOTIONS */
-.main .promotions .swiper-promotions .swiper-slide img {
+main .promotions .swiper-promotions .swiper-slide img {
   height: 180px;
 }
 /* END OF PROMOTIONS */
@@ -107,20 +107,20 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   /* HEADER */
-  .header .row-video .konfio-text {
+  header .row-video .konfio-text {
     width: 50%;
     padding-bottom: 2rem;
   }
 
-  .header .header-info p, .header .header-info h2 {
+  header .header-info p, header .header-info h2 {
     margin-top: 2rem;
   }
 
-  .header .header-info h2 {
+  header .header-info h2 {
     font-size: 2.5rem;
   }
 
-  .header .line {
+  header .line {
     width: 100%;
   }
   /* END OF HEADER */
@@ -135,15 +135,15 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   /* HEADER */
-  .header .header-info {
+  header .header-info {
     margin-top: 3rem;
   }
 
-  .header .header-info h2 {
+  header .header-info h2 {
     width: 85%;
   }
   
-  .header .line {
+  header .line {
     top: -25%;
     width: 150%;
     margin-right: -6.5rem;
@@ -151,7 +151,7 @@
   /* END OF HEADER */
 
   /* CHARACTERISTICS */
-  .main .characteristics .img-business-card {
+  main .characteristics .img-business-card {
     width: 70%;
   }
   /* END OF CHARACTERISTICS */

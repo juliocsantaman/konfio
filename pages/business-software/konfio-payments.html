@@ -185,20 +185,23 @@
   </div>
 
   <!-- HEADER -->
-  <header class="header container-fluid py-5 bg-blue-bottom">
+  <header class="container-fluid py-5 bg-blue-bottom">
     <!-- ROW -->
     <div class="row g-0 justify-content-center">
       <!-- COL -->
-      <div class="col-10 col-md-8 col-lg-5">
+      <div class="col-10 col-md-8 col-lg-6 col-xl-5">
         <div class="header-info text-center text-lg-start">
           <h1 class="text-uppercase fs-6 mb-5">SOFTWARE DE PAGOS</h1>
           <h2 class="fw-bold mb-5 fs-1">Konfío Pagos facilita la cobranza de tu empresa y vende a crédito</h2>
           <p class="mb-5">
             Incrementa las ventas y clientes de tu empresa ofreciendo financiamiento y pagos a plazos.
           </p>
-          <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 d-none d-lg-block w-50 p-3">
+
+          <a class="btn-create d-none d-lg-block config-link bg-purple text-white rounded-pill brightness-90 text-center"
+            href="#">
             Crear mi cuenta
           </a>
+
         </div>
       </div>
       <!-- END OF COL -->
@@ -217,96 +220,237 @@
   <!-- END OF HEADER -->
 
   <!-- MAIN -->
-  <main class="main">
+  <main>
     <!-- RECONCILE PAYMENTS -->
     <section class="reconcile-payments container-fluid py-5">
+
+      <!-- ROW -->
+      <div class="row justify-content-center pb-5 d-none d-md-flex">
+        <!-- COL -->
+        <div class="col-8 col-lg-11 col-xl-8">
+          <h2 class="fw-bold text-center fs-1">Concilia tus pagos, ofrece financiamiento e incrementa tus ventas
+          </h2>
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
       <!-- ROW -->
       <div class="row justify-content-center">
         <!-- COL -->
-        <div class="col-9">
+        <div class="col-11 col-md-8 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="fw-bold mb-4 fs-3">Envía órdenes de pago en minutos y olvídate de la cobranza</h2>
+          <p class="mb-4">
+            Crea una orden de pago ingresando los datos de tu cliente. Ofrece financiamiento Konfío desde tu primera
+            transacción.
+          </p>
+        </div>
+        <!-- END OF COL -->
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-5 d-flex flex-column justify-content-center align-items-center">
+          <img class="w-75"
+            src="https://cdn.konfio.mx/static/static/software-de-pagos-konfio-pay-bfd8f50b8ae9581a0cedc46149e5232f.svg"
+            alt="Send orders">
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center mt-5">
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-4 order-lg-2 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="fw-bold mb-4 fs-3">Vende a plazos fácil y rápido, sin riesgo para ti</h2>
+          <p class="mb-4">
+            Damos respuesta inmediata a tu cliente. Solo le pedimos información básica de su negocio.
+          </p>
+        </div>
+        <!-- END OF COL -->
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-5 order-lg-1 d-flex flex-column justify-content-center align-items-center">
+          <img class="w-75"
+            src="https://cdn.konfio.mx/static/static/gestion-de-pagos-konfio-pay-a31fae314cefe0a0967c6b202eaaef2c.svg"
+            alt="Sells in installments">
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center mt-5">
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-4 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="fw-bold mb-4 fs-3">Cobra tus ventas al instante, Konfío se encarga del resto</h2>
+          <p class="mb-4">
+            En cuanto tu cliente tenga un crédito aprobado, recibirás los fondos totales de tu venta en tiempo real.
+          </p>
+        </div>
+        <!-- END OF COL -->
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-5 d-flex flex-column justify-content-center align-items-center">
+          <img class="w-75"
+            src="https://cdn.konfio.mx/static/static/programa-para-llevar-control-de-pagos-de-clientes-59e97af678ae89d900bf8caa71343123.svg"
+            alt="Collect your sales">
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
+    </section>
+    <!-- END OF RECONCILE PAYMENTS -->
+
+    <!-- COMING SOON -->
+    <section class="coming-soon container-fluid py-5">
+
+      <!-- ROW -->
+      <div class="row justify-content-center sub-title">
+        <!-- COL -->
+        <div class="col-11 col-md-8">
+          <h2 class="fw-bold text-md-center fs-1">Próximamente: Prueba Konfío Pagos sin costo por un año</h2>
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-6 order-lg-2">
+          <p class="py-3">Muy pronto podrás aprovechar esta oferta para:</p>
           <!-- ROW -->
-          <div class="row justify-content-center pb-5 d-none d-md-flex">
+          <div class="row mb-3">
             <!-- COL -->
-            <div class="col-10">
-              <h2 class="fw-bold text-center fs-1">Concilia tus pagos, ofrece financiamiento e incrementa tus ventas
-              </h2>
+            <div class="col-1 d-flex flex-column justify-content-center">
+              <i class="fas fa-check-circle fs-2 color-purple-2"></i>
             </div>
             <!-- END OF COL -->
-          </div>
-          <!-- END OF ROW -->
-
-          <!-- ROW -->
-          <div class="row justify-content-center">
             <!-- COL -->
-            <div class="col-12 col-md-10 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-              <h2 class="fw-bold mb-4 fs-3">Envía órdenes de pago en minutos y olvídate de la cobranza</h2>
-              <p class="mb-4">
-                Crea una orden de pago ingresando los datos de tu cliente. Ofrece financiamiento Konfío desde tu primera
-                transacción.
+            <div class="col-11">
+              <p class="ms-3 m-auto">
+                Vender más ofreciendo pagos a plazos.
               </p>
             </div>
             <!-- END OF COL -->
+          </div>
+          <!-- END OF ROW -->
+
+          <!-- ROW -->
+          <div class="row mb-3">
             <!-- COL -->
-            <div class="col-12 col-md-10 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-              <img class="img-width w-100"
-                src="https://cdn.konfio.mx/static/static/software-de-pagos-konfio-pay-bfd8f50b8ae9581a0cedc46149e5232f.svg"
-                alt="Send orders">
+            <div class="col-1 d-flex flex-column justify-content-center">
+              <i class="fas fa-check-circle fs-2 color-purple-2"></i>
+            </div>
+            <!-- END OF COL -->
+            <!-- COL -->
+            <div class="col-11">
+              <p class="ms-3 m-auto">
+                Financiar a tus clientes a través de Konfío.
+              </p>
             </div>
             <!-- END OF COL -->
           </div>
           <!-- END OF ROW -->
 
           <!-- ROW -->
-          <div class="row justify-content-center mt-5">
+          <div class="row mb-3">
             <!-- COL -->
-            <div class="col-12 col-md-10 col-lg-6 order-lg-2 d-flex flex-column justify-content-center align-items-center">
-              <h2 class="fw-bold mb-4 fs-3">Vende a plazos fácil y rápido, sin riesgo para ti</h2>
-              <p class="mb-4">
-                Damos respuesta inmediata a tu cliente. Solo le pedimos información básica de su negocio.
-              </p>
+            <div class="col-1 d-flex flex-column justify-content-center">
+              <i class="fas fa-check-circle fs-2 color-purple-2"></i>
             </div>
             <!-- END OF COL -->
             <!-- COL -->
-            <div class="col-12 col-md-10 col-lg-6 order-lg-1 d-flex flex-column justify-content-center align-items-center">
-              <img class="img-width w-100"
-                src="https://cdn.konfio.mx/static/static/gestion-de-pagos-konfio-pay-a31fae314cefe0a0967c6b202eaaef2c.svg"
-                alt="Sells in installments">
+            <div class="col-11">
+              <p class="ms-3 m-auto">
+                Gestionar y conciliar tus pagos.
+              </p>
             </div>
             <!-- END OF COL -->
           </div>
           <!-- END OF ROW -->
 
           <!-- ROW -->
-          <div class="row justify-content-center mt-5">
+          <div class="row mb-3">
             <!-- COL -->
-            <div class="col-12 col-md-10 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-              <h2 class="fw-bold mb-4 fs-3">Cobra tus ventas al instante, Konfío se encarga del resto</h2>
-              <p class="mb-4">
-                En cuanto tu cliente tenga un crédito aprobado, recibirás los fondos totales de tu venta en tiempo real.
-              </p>
+            <div class="col-1 d-flex flex-column justify-content-center">
+              <i class="fas fa-check-circle fs-2 color-purple-2"></i>
             </div>
             <!-- END OF COL -->
             <!-- COL -->
-            <div class="col-12 col-md-10 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-              <img class="img-width w-100"
-                src="https://cdn.konfio.mx/static/static/programa-para-llevar-control-de-pagos-de-clientes-59e97af678ae89d900bf8caa71343123.svg"
-                alt="Collect your sales">
+            <div class="col-11">
+              <p class="ms-3 m-auto">
+                Descargar reportes de movimientos.
+              </p>
             </div>
             <!-- END OF COL -->
           </div>
           <!-- END OF ROW -->
 
+          <!-- ROW -->
+          <div class="row mb-3">
+            <!-- COL -->
+            <div class="col-1 d-flex flex-column justify-content-center">
+              <i class="fas fa-check-circle fs-2 color-purple-2"></i>
+            </div>
+            <!-- END OF COL -->
+            <!-- COL -->
+            <div class="col-11">
+              <p class="ms-3 m-auto">
+                Realizar transacciones ilimitadas.
+              </p>
+            </div>
+            <!-- END OF COL -->
+          </div>
+          <!-- END OF ROW -->
+
+          <!-- ROW -->
+          <div class="row mb-3">
+            <!-- COL -->
+            <div class="col-11">
+              <p class="fw-bold py-4">
+                <small>
+                  Muy pronto podrás obtener Konfío Pagos sin costo por un año.
+                </small>
+              </p>
+              <a class="btn-create d-none d-lg-block config-link bg-purple text-white rounded-pill brightness-90 text-center"
+                href="#">
+                Crear mi cuenta
+              </a>
+            </div>
+            <!-- END OF COL -->
+          </div>
+          <!-- END OF ROW -->
+        </div>
+        <!-- END OF COL -->
+
+        <!-- COL -->
+        <div class="col-lg-6 d-none d-lg-flex order-lg-1">
+          <img class="img-width"
+            src="https://cdn.konfio.mx/static/static/1234b964c251a74eece77c55ebce267e/222ea/promo-kopay.webp"
+            alt="Coming soon">
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-11 col-md-8">
+          <p class="p-bottom">
+            Posterior a tu año sin costo, deberás hacer el pago sobre tu suscripción: anual o semestral.
+            El costo de la membresía Semestral es de $6,353 y la anual de $8,470.
+          </p>
         </div>
         <!-- END OF COL -->
       </div>
       <!-- END OF ROW -->
     </section>
-    <!-- END OF RECONCILE PAYMENTS -->
+    <!-- END OF COMING SOON -->
   </main>
   <!-- END OF MAIN -->
 
   <!-- FOOTER -->
-  <footer class="footer bg-gray py-5 container-fluid">
+  <footer class="bg-gray py-5 container-fluid">
     <!-- ROW -->
     <div class="row justify-content-center">
       <!-- SUB FOOTER -->

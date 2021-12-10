@@ -1,27 +1,27 @@
 /* HEADER */
-.header .text-alliances {
+header .text-alliances {
   width: 75%;
 }
 
-.header .alliances-img {
+header .alliances-img {
   width: 80%;
 }
 /* END OF HEADER */
 
 /* COMPANIES */
-.main .companies .card {
+main .companies .card {
   height: 12.5rem;
   margin: 1rem 0rem;
 }
 
-.main .companies .card img {
+main .companies .card img {
   width: 50%;
   height: 50%;
 }
 /* END OF COMPANIES */
 
 /* ALLIANCE INFO */
-.main .alliance-info .img-width {
+main .alliance-info .img-width {
   width: 100%;
 }
 /* END OF ALLIANCE INFO */
@@ -37,15 +37,15 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   /* HEADER */
-  .header .text-alliances {
+  header .text-alliances {
     width: 40%;
   }
 
-  .header .alliances-img {
+  header .alliances-img {
     width: 65%;
   }
 
-  .header .p-2 {
+  header .p-2 {
     font-size: 1.3rem;
   }
   /* END OF HEADER */
@@ -54,15 +54,15 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
   /* HEADER */
-  .header .p-1 {
+  header .p-1 {
     font-size: 1.3rem;
   }
 
-  .header .text-alliances {
+  header .text-alliances {
     width: 90%;
   }
 
-  .header .alliances-img {
+  header .alliances-img {
     width: 100%;
   }
   /* END OF HEADER */
@@ -71,17 +71,17 @@
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   /* ALLIANCE INFO */
-  .main .alliance-info .img-width {
+  main .alliance-info .img-width {
     width: 75%;
   }
   /* END OF ALLIANCE INFO */
 
   /* HEADER */
-  .header .text-alliances {
+  header .text-alliances {
     width: 85%;
   }
 
-  .header .alliances-img {
+  header .alliances-img {
     width: 80%;
   }
   /* END OF HEADER */

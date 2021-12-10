@@ -44,7 +44,7 @@
 /* END OF INSTITUTIONS */
 
 /* STEPS */
-.main .steps .tab-content .tab-pane img {
+main .steps .tab-content .tab-pane img {
   margin-top: 1.2rem;
 }
 
@@ -55,7 +55,7 @@
 /* END OF STEPS */
 
 /* SOLUTIONS */
-.main .solutions .solution img {
+main .solutions .solution img {
   width: 100%;
 }
 /* END OF SOLUTIONS */
@@ -115,7 +115,7 @@ h1 {
   /* END OF HEADER */
 
   /* SOLUTIONS */
-  .main .solutions .description {
+  main .solutions .description {
     text-align: center;
     width: 75%;
     margin: auto;
@@ -123,27 +123,27 @@ h1 {
   /* END OF SOLUTIONS */
 
   /* STEPS */
-  .main .steps .info {
+  main .steps .info {
     margin-bottom: 3rem;
   }
 
-  .main .steps .tab-content-container .nav-tabs {
+  main .steps .tab-content-container .nav-tabs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     border: none;
   }
 
-  .main .steps .tab-content-container .nav-tabs li {
+  main .steps .tab-content-container .nav-tabs li {
     margin: 0.8rem 0rem;
   }
 
-  .main .steps .tab-content-container .nav-tabs li a {
+  main .steps .tab-content-container .nav-tabs li a {
     padding: 0.8rem;
     width: 80%;
   }
 
-  .main .steps .tab-content-container .tab-content {
+  main .steps .tab-content-container .tab-content {
     background-color: rgba(110,67,183, 1);
     border-radius: 1.5rem;
     color: #ffffff;
