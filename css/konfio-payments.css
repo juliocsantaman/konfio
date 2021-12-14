@@ -2,6 +2,10 @@
 .automate-revenue-and-time .img-width {
   width: 25%;
 }
+
+.automate-revenue-and-time .swiper-slide .card {
+  min-height: 15.625rem;
+}
 /* END OF AUTOMATE REVENUE AND TIME */
 
 /* ORGANIZE YOUR ACCOUNTS */
@@ -90,8 +94,11 @@ X-Small devices (portrait phones, less than 576px)
   .automate-revenue-and-time .img-width {
     width: 40%;
   }
-  /* END OF AUTOMATE REVENUE AND TIME */
 
+  .automate-revenue-and-time .swiper-slide .card {
+    min-height: 18.75rem;
+  }
+  /* END OF AUTOMATE REVENUE AND TIME */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -115,6 +122,10 @@ X-Small devices (portrait phones, less than 576px)
 
   .automate-revenue-and-time .img-width {
     width: 30%;
+  }
+
+  .automate-revenue-and-time .swiper-slide .card {
+    min-height: 15.625rem;
   }
   /* END OF AUTOMATE REVENUE AND TIME */
 

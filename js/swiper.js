@@ -308,13 +308,13 @@ const swiperOrganizeYourAccounts = new Swiper('.swiper-organize-your-accounts', 
   effect: 'slide',
   initialSlide: 1,
   autoHeight: true,
-  loop: true,
+  
 
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
     type: 'bullets',
-    clickable: true,
+    clickable: true
   },
 
   // Responsive breakpoints
@@ -323,8 +323,7 @@ const swiperOrganizeYourAccounts = new Swiper('.swiper-organize-your-accounts', 
     992: {
       spaceBetween: 40,
       slidesPerView: 2,
-      initialSlide: 0,
-      loop: false
+      initialSlide: 0
     }
   }
 });
