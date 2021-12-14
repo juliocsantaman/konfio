@@ -302,3 +302,29 @@ const swiperAutomateRevenueAndTime = new Swiper('.swiper-automate-revenue-and-ti
   }
 });
 
+const swiperOrganizeYourAccounts = new Swiper('.swiper-organize-your-accounts', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  initialSlide: 1,
+  autoHeight: true,
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      spaceBetween: 40,
+      slidesPerView: 2,
+      initialSlide: 0,
+      loop: false
+    }
+  }
+});

@@ -1,8 +1,26 @@
-  /* AUTOMATE REVENUE AND TIME */
-  .automate-revenue-and-time .img-width {
-    width: 25%;
-  }
-  /* END OF AUTOMATE REVENUE AND TIME */
+/* AUTOMATE REVENUE AND TIME */
+.automate-revenue-and-time .img-width {
+  width: 25%;
+}
+/* END OF AUTOMATE REVENUE AND TIME */
+
+/* ORGANIZE YOUR ACCOUNTS */
+.organize-your-accounts .nav-link {
+  background-color: transparent !important;
+}
+
+.organize-your-accounts .p-yearly, .organize-your-accounts .p-biyearly {
+  font-size: 1.2rem;
+}
+
+.organize-your-accounts .p-yearly small, .organize-your-accounts .p-biyearly small {
+  font-size: 0.8rem;
+}
+
+.organize-your-accounts .btn-create {
+  width: 100%;
+}
+/* END OF ORGANIZE YOUR ACCOUNTS */
 
 /*
 X-Small devices (portrait phones, less than 576px)
@@ -72,10 +90,6 @@ X-Small devices (portrait phones, less than 576px)
   .automate-revenue-and-time .img-width {
     width: 40%;
   }
-
-  .automate-revenue-and-time h2 {
-    font-size: 2.5rem;
-  }
   /* END OF AUTOMATE REVENUE AND TIME */
 
 }
@@ -102,11 +116,13 @@ X-Small devices (portrait phones, less than 576px)
   .automate-revenue-and-time .img-width {
     width: 30%;
   }
-
-  .automate-revenue-and-time h2 {
-    font-size: 2.2rem;
-  }
   /* END OF AUTOMATE REVENUE AND TIME */
+
+  /* ORGANIZE YOUR ACCOUNTS */
+  .organize-your-accounts .btn-create {
+    width: 75%;
+  }
+  /* END OF ORGANIZE YOUR ACCOUNTS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
