@@ -70,6 +70,10 @@
 .bg-blue-bottom {
   background-image: linear-gradient(0deg,rgba(138, 159, 197, 0.3) -4%,#fff 102%);
 }
+
+.bg-blue-center {
+  background-image: linear-gradient(180deg,rgba(204,212,228,.3),#fff 50%,rgba(204,212,228,.3));
+}
 /* END OF BG COLORS */
 
 /* CONFIG LINK */
