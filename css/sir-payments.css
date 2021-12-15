@@ -5,6 +5,18 @@ header .img-width {
 }
 /* END OF HEADER */
 
+/* SIR PAYMENTS INFO */
+.info-sir-payments .card-subtitle {
+  width: 60%;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.info-sir-payments .img-sir-payments {
+  width: 12rem;
+}
+/* END OF SIR PAYMENTS INFO */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -26,6 +38,13 @@ X-Small devices (portrait phones, less than 576px)
     margin: auto;
   }
   /* END OF HEADER */
+
+  /* SIR PAYMENTS INFO */
+  .info-sir-payments .card-subtitle {
+    width: 80%;
+    font-size: 2rem;
+  }
+  /* END OF SIR PAYMENTS INFO */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -40,6 +59,13 @@ X-Small devices (portrait phones, less than 576px)
     width: 75%;
   }
   /* END OF HEADER */
+
+  /* SIR PAYMENTS INFO */
+  .info-sir-payments .card-subtitle {
+    margin: unset;
+    font-size: 2rem;
+  }
+  /* END OF SIR PAYMENTS INFO */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -54,6 +80,12 @@ X-Small devices (portrait phones, less than 576px)
     width: 50%;
   }
   /* END OF HEADER */
+
+  /* SIR PAYMENTS INFO */
+  .info-sir-payments .card-subtitle {
+    font-size: 2.5rem;
+  }
+  /* END OF SIR PAYMENTS INFO */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
