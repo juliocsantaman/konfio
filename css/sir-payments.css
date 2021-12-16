@@ -27,6 +27,16 @@ header .img-width {
 }
 /* END OF WHY SIR PAYMENTS */
 
+/* KONFIO AND MR PAYMENTS */
+.konfio-mr-payments .card-img, .konfio-mr-payments .card-text {
+  width: 10rem;
+}
+
+.konfio-mr-payments .card {
+  min-height: 17.188rem;
+}
+/* END OF KONFIO AND MR PAYMENTS */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -55,6 +65,16 @@ X-Small devices (portrait phones, less than 576px)
     font-size: 2rem;
   }
   /* END OF SIR PAYMENTS INFO */
+
+  /* KONFIO AND MR PAYMENTS */
+  .konfio-mr-payments .card {
+    min-height: 16rem;
+  }
+
+  .konfio-mr-payments .card-text {
+    width: unset;
+  }
+  /* END OF KONFIO AND MR PAYMENTS */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -91,6 +111,14 @@ X-Small devices (portrait phones, less than 576px)
     height: 4rem;
   }
   /* END OF WHY SIR PAYMENTS */
+
+  /* KONFIO AND MR PAYMENTS */
+  .konfio-mr-payments .btn-create {
+    width: 25%;
+    margin: auto;
+    padding: 0.8rem;
+  }
+  /* END OF KONFIO AND MR PAYMENTS */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -117,6 +145,12 @@ X-Small devices (portrait phones, less than 576px)
     padding: unset;
   }
   /* END OF WHY SIR PAYMENTS */
+
+  /* KONFIO AND MR PAYMENTS */
+  .konfio-mr-payments .btn-create {
+    width: 20%;
+  }
+  /* END OF KONFIO AND MR PAYMENTS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */

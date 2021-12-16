@@ -353,3 +353,29 @@ const swiperWhySirPayments = new Swiper('.swiper-why-sir-payments', {
     }
   }
 });
+
+const swiperKonfioMrPayments = new Swiper('.swiper-konfio-mr-payments', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  loop: true,
+  slidesPerView: 1,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 3,
+      loop: false,
+      // spaceBetween: 25
+    }
+  }
+});
