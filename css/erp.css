@@ -1,0 +1,88 @@
+  /* HEADER */
+  header iframe {
+    width: 100%;
+    height: 11rem;
+  }
+
+  header h1 {
+    font-size: 1.1rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+  /* END OF HEADER */
+
+/*
+X-Small devices (portrait phones, less than 576px)
+  No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* HEADER */
+  header iframe {
+    width: 30rem;
+    height: 17.5rem;
+  }
+
+  header h2 {
+    font-size: 2.4rem;
+  }
+
+  header p {
+    font-size: 1.25rem;
+  }
+  /* END OF HEADER */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  /* HEADER */
+  header iframe {
+    height: 17rem;
+  }
+
+  header .btn-create {
+    width: 70%;
+    padding: 1.2rem;
+  }
+  /* END OF HEADER */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  /* HEADER */
+  header .btn-create {
+    width: 52%;
+    padding: 1.2rem;
+  }
+
+  header iframe {
+    width: 35rem;
+    height: 19rem;
+  }
+
+  header p, header h2 {
+    width: 90%;
+  }
+
+  header h1 {
+    font-size: 1rem;
+  }
+  
+  header h2 {
+    font-size: 2.22rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+  /* END OF HEADER */
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }

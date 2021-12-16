@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <!-- BOOTSTRAP CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -16,13 +17,14 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <!-- GENERAL STYLES -->
   <link rel="stylesheet" href="../css/general-styles.css">
-  <!-- BUSINESS ALLIANCES STYLES -->
-  <link rel="stylesheet" href="../css/business-alliances.css">
+  <!-- ERP STYLES -->
+  <link rel="stylesheet" href="../css/erp.css">
 
-  <title>Alianzas estratégicas Konfío</title>
+  <title>Gestionix evoluciona a ERP - Software empresarial | Konfío</title>
 </head>
 
 <body>
+
   <!-- NAVBAR FOR MOBILE AND TABLET -->
   <nav class="navbar navbar-light bg-light sticky-top d-block d-xl-none">
     <div class="container-fluid">
@@ -66,8 +68,8 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                 <li><a class="dropdown-item a-active" href="./konfio-payments.html">Konfío Pagos</a></li>
-                <li><a class="dropdown-item a-active" href="./sir-payments.html">Sr. Pago</a></li>
-                <li><a class="dropdown-item a-active" href="./erp.html">ERP - Software administrativo</a></li>
+                <li><a class="dropdown-item a-active" href="#">Sr. Pago</a></li>
+                <li><a class="dropdown-item a-active" href="#">ERP - Software administrativo</a></li>
                 <li><a class="dropdown-item a-active" href="#">Facturación</a></li>
               </ul>
             </li>
@@ -133,11 +135,13 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item hover-purple a-active" href="./business-credit.html">Crédito empresarial</a>
               </li>
-              <li><a class="dropdown-item hover-purple a-active" href="./credit-simulator.html">Simulador de crédito</a>
+              <li><a class="dropdown-item hover-purple a-active" href="./credit-simulator.html">Simulador de
+                  crédito</a>
               </li>
               <li><a class="dropdown-item hover-purple a-active" href="./business-card.html">Tarjeta empresarial</a>
               </li>
-              <li><a class="dropdown-item hover-purple a-active" href="./business-alliances.html">Alianzas para negocio</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="./business-alliances.html">Alianzas para
+                  negocio</a></li>
             </ul>
           </li>
 
@@ -148,8 +152,8 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item hover-purple a-active" href="./konfio-payments.html">Konfío Pagos</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="./sir-payments.html">Sr. Pago</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="./erp.html">ERP - Software administrativo</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">Sr. Pago</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">ERP - Software administrativo</a></li>
               <li><a class="dropdown-item hover-purple a-active" href="#">Facturación</a></li>
             </ul>
           </li>
@@ -183,26 +187,35 @@
   </div>
 
   <!-- HEADER -->
-  <header class="container-fluid bg-blue-bottom py-5">
+  <header class="container-fluid py-5 bg-blue-bottom">
     <!-- ROW -->
     <div class="row g-0 justify-content-center">
       <!-- COL -->
-      <div
-        class="col-12 col-lg-6 col-xl-5 d-flex flex-column align-items-center align-items-lg-start justify-content-lg-center">
-        <h1 class="fs-5 mb-4">ALIANZAS KONFÍO</h1>
-        <img class="text-alliances mb-4" src="../img/text-alliances.svg" alt="Text alliances">
-        <p class="d-none d-lg-block p-1">
-          Generamos alianzas con grandes marcas para ayudar al crecimiento de tu negocio.
-        </p>
+      <div class="col-11 col-md-8 col-lg-5">
+        <div class="header-info text-center text-lg-start">
+          <h1 class="text-uppercase mb-5">ERP - Software administrativo</h1>
+          <h2 class="fw-bold mb-5">Gestionix evoluciona a un mejor sistema empresarial</h2>
+          <p class="mb-5">
+            Automatiza tus procesos administrativos y maneja tu negocio de manera más sencilla.
+          </p>
+
+          <a class="btn-create d-none d-lg-block config-link bg-purple text-white rounded-pill brightness-90 text-center"
+            href="#">
+            Crear mi cuenta
+          </a>
+
+        </div>
       </div>
       <!-- END OF COL -->
+
       <!-- COL -->
-      <div class="col-12 col-lg-5 d-flex flex-column align-items-center">
-        <img class="alliances-img"
-          src="https://cdn.konfio.mx/static/static/hero-alianzas-6345b216ab79469e9168b7993a9cb8da.png" alt="Alliances">
-        <p class="text-center d-lg-none p-2 mt-4">
-          Generamos alianzas con grandes marcas para ayudar al crecimiento de tu negocio.
-        </p>
+      <div class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex justify-content-center align-items-end">
+        <iframe 
+          src="https://www.youtube.com/embed/2brIwhnM-SI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
       </div>
       <!-- END OF COL -->
     </div>
@@ -212,215 +225,6 @@
 
   <!-- MAIN -->
   <main>
-    <!-- COMPANIES -->
-    <section class="companies container-fluid py-5">
-      <!-- ROW -->
-      <div class="row justify-content-center">
-        <!-- COL -->
-        <div class="col-10">
-          <!-- ROW -->
-          <div class="row">
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/wework.svg" alt="Logo WeWork">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/up-yes-ok.svg" alt="Logo Up yes ok">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/mexico-model-group.svg" alt="Logo Mexico model group">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/macstore.svg" alt="Logo MacStore">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/solutions-exa.svg" alt="Logo Solutions Exa">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/oxxo-gas.svg" alt="Logo Oxxo Gas">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/nadro.svg" alt="Logo Nandro">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-4 col-lg-3">
-              <div class="card border-customization borders-radius">
-                <div class="card-body d-flex flex-column align-items-center justify-content-around">
-                  <img src="../img/coparmex-connect.svg" alt="Logo Coparmex/Connect">
-                  <a href="#" class="color-purple hover-purple fw-bold">
-                    Conocer más
-                    <i class="fas fa-chevron-right ms-2"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- END OF COL -->
-          </div>
-          <!-- END OF ROW -->
-        </div>
-        <!-- END OF COL -->
-      </div>
-      <!-- END OF ROW -->
-    </section>
-    <!-- END OF COMPANIES -->
-
-    <!-- ALLIANCE INFO -->
-    <section class="alliance-info container-fluid py-5">
-      <!-- ROW -->
-      <div class="row justify-content-center">
-        <!-- COL -->
-        <div class="col-10">
-          <!-- ROW -->
-          <div class="row">
-            <!-- COL -->
-            <div class="col-12 col-md-6">
-              <h2 class="fw-bold mb-4">¿Qué son las alianzas Konfío?</h2>
-              <p class="mb-4">
-                Son los beneficios que ofrecemos a los negocios en México, a través de acuerdos que generamos con otras
-                grandes marcas. Nuestros clientes pueden acceder a los productos y servicios de nuestros aliados y a su
-                vez,
-                sus clientes tienen acceso a los productos Konfío.
-              </p>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-              <img class="img-width"
-                src="https://cdn.konfio.mx/static/static/alianzas1-498ff48be9c996f9579dc8ea6fe11be1.webp"
-                alt="What are Konfio alliances?">
-            </div>
-            <!-- END OF COL -->
-          </div>
-          <!-- END OF ROW -->
-
-          <!-- ROW -->
-          <div class="row mt-5">
-            <!-- COL -->
-            <div class="col-12 col-md-6 order-md-2">
-              <h2 class="fw-bold mb-4">¿Cómo funcionan estas alianzas estratégicas?</h2>
-              <p class="mb-4">
-                Con cada alianza ofrecemos tasas preferenciales para acceder a nuestras soluciones financieras, en las
-                que encontrarás opciones de crédito, herramientas administrativas y de cobro. Aplica nuestra tecnología
-                a los procesos de venta y servicio de tu negocio e impulsa su productividad. ¡Genera una experiencia
-                ágil y 100% digital!
-              </p>
-              <p class="mb-4">
-                Si eres cliente de nuestros aliados, ingresa tu solicitud dando clic en la imagen de tu proveedor, que
-                encontrarás en la parte superior de esta página.
-              </p>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-6 order-md-1 d-flex flex-column justify-content-center align-items-center">
-              <img class="img-width"
-                src="https://cdn.konfio.mx/static/static/alianzas2-36c5d92c1726f0a18bfc90c82e835111.webp"
-                alt="How do these strategic alliances work?">
-            </div>
-            <!-- END OF COL -->
-          </div>
-          <!-- END OF ROW -->
-
-          <!-- ROW -->
-          <div class="row mt-5">
-            <!-- COL -->
-            <div class="col-12 col-md-6">
-              <h2 class="fw-bold mb-4">¿Qué ventajas ofrecen a mi negocio estas alianzas empresariales?</h2>
-              <p class="mb-4">
-                Haz más competitiva tu propuesta de negocio, al ampliar tus opciones para financiar y gestionar tus
-                pagos, contar con alternativas de crédito revolvente y automatizar los procesos de tu negocio.
-              </p>
-
-              <p class="mb-4">
-                Si eres cliente de las marcas con las que generamos sinergia puedes adquirir nuestros productos y
-                servicios, con mejores condiciones, como tasas preferenciales, meses sin intereses, entre otros.
-              </p>
-            </div>
-            <!-- END OF COL -->
-            <!-- COL -->
-            <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
-              <img class="img-width"
-                src="https://cdn.konfio.mx/static/static/alianzas3-32ccd17b02b825746e28e8a75b6bdcba.webp"
-                alt="What advantages do these business alliances offer my business?">
-            </div>
-            <!-- END OF COL -->
-          </div>
-          <!-- END OF ROW -->
-
-        </div>
-        <!-- END OF COL -->
-      </div>
-      <!-- END OF ROW -->
-    </section>
-    <!-- END OF ALLIANCE INFO -->
 
   </main>
   <!-- END OF MAIN -->
@@ -437,7 +241,8 @@
           <!-- DIRECTION -->
           <!-- COL -->
           <div class="direction col-10 col-md-4 d-flex flex-column align-items-center align-items-md-start">
-            <a class="konfio-logo-2" href="../index.html"> <img src="../img/white-konfio.svg" alt="Konfio Logo"> </a>
+            <a class="konfio-logo-2" href="../index.html"> <img src="../img/white-konfio.svg" alt="Konfio Logo">
+            </a>
             <p class="mt-3 text-white text-center text-md-start">
               Av. Horacio 1844, Piso 8 Col. Polanco, Del.
               Miguel Hidalgo 11510, Ciudad de México.
@@ -572,6 +377,7 @@
 
   <!-- SWIPER CONFIG -->
   <script src="../js/swiper.js"></script>
+
 </body>
 
 </html>
