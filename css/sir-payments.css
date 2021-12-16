@@ -17,6 +17,16 @@ header .img-width {
 }
 /* END OF SIR PAYMENTS INFO */
 
+/* WHY SIR PAYMENTS */
+.why-sir-payments .card-img {
+  width: 5rem;
+}
+
+.why-sir-payments .swiper-why-sir-payments .card {
+  min-height: 12.5rem;
+}
+/* END OF WHY SIR PAYMENTS */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -66,6 +76,21 @@ X-Small devices (portrait phones, less than 576px)
     font-size: 2rem;
   }
   /* END OF SIR PAYMENTS INFO */
+
+  /* WHY SIR PAYMENTS */
+  .why-sir-payments .swiper-why-sir-payments .card {
+    min-height: 14.063rem;
+  }
+
+  .why-sir-payments .logo-web {
+    padding: 0.8rem;
+  }
+
+  .why-sir-payments .card-img {
+    width: 4rem;
+    height: 4rem;
+  }
+  /* END OF WHY SIR PAYMENTS */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -86,6 +111,12 @@ X-Small devices (portrait phones, less than 576px)
     font-size: 2.5rem;
   }
   /* END OF SIR PAYMENTS INFO */
+
+  /* WHY SIR PAYMENTS */  
+  .why-sir-payments .logo-web {
+    padding: unset;
+  }
+  /* END OF WHY SIR PAYMENTS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
