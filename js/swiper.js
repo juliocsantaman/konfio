@@ -309,7 +309,6 @@ const swiperOrganizeYourAccounts = new Swiper('.swiper-organize-your-accounts', 
   initialSlide: 1,
   autoHeight: true,
   
-
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',
@@ -411,6 +410,30 @@ const swiperErpBenefits = new Swiper('.swiper-erp-benefits', {
       slidesPerView: 2,
       initialSlide: 0,
       loop: false
+    }
+  }
+});
+
+const swiperPlans = new Swiper('.swiper-plans', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  slidesPerView: 1,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 4,
+      spaceBetween: 10
     }
   }
 });

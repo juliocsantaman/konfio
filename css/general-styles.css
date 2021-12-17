@@ -20,6 +20,10 @@
   color: #222;
 }
 
+.color-blue {
+  color: rgba(59,130,246,0.5);
+}
+
 .color-black:hover {
   color: rgb(92, 92, 92);
 }

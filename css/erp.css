@@ -19,6 +19,16 @@ header h2 {
 }
 /* END OF INCREASE YOUR SALES MOBILE TABLET */
 
+/* PLANS */
+.plans .plan-img {
+  width: 35%;
+}
+
+.plans .card {
+  min-height: 25rem;
+}
+/* END OF PLANS */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -54,6 +64,18 @@ X-Small devices (portrait phones, less than 576px)
     font-size: 2rem;
   }
   /* END OF ERP BENEFITS */
+
+  /* PLANS */
+  .plans .card {
+    min-height: 27.5rem;
+  }
+
+  .plans .btn-create {
+    width: 50%;
+    padding: 0.7rem;
+    margin: 2.5rem auto auto auto;
+  }
+  /* END OF PLANS */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -81,6 +103,19 @@ X-Small devices (portrait phones, less than 576px)
   }
   /* END OF INCREASE SALES LAPTOP */
 
+  /* PLANS */
+  .plans .plan-img {
+    width: 60%;
+  }
+
+  .plans .card {
+    min-height: 30rem;
+  }
+
+  .plans .btn-create {
+    width: 38%;
+  }
+  /* END OF PLANS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -132,6 +167,21 @@ X-Small devices (portrait phones, less than 576px)
   }
   /* END OF INCREASE SALES LAPTOP */
 
+  /* PLANS */
+  .plans .plan-img {
+    width: 35%;
+    min-height: 7.5rem;
+  }
+
+  .plans .card {
+    min-height: 26rem;
+  }
+
+  .plans .btn-create {
+    width: 27%;
+    padding: 0.6rem;
+  }
+  /* END OF PLANS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
