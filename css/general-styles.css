@@ -281,6 +281,21 @@ footer .footer-img {
   color: #222;
 }
 
+/* HEADER 1 */
+.header-1 iframe {
+  width: 100%;
+  height: 11rem;
+}
+
+.header-1 h1 {
+  font-size: 1.1rem;
+}
+
+.header-1 h2 {
+  font-size: 1.5rem;
+}
+/* END OF HEADER 1 */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -307,6 +322,21 @@ footer .footer-img {
   .section-h2 {
     font-size: 1.9rem;
   }
+
+  /* HEADER 1 */
+  .header-1 iframe {
+    width: 30rem;
+    height: 17.5rem;
+  }
+  
+  .header-1 h2 {
+    font-size: 2.4rem;
+  }
+  
+  .header-1 p {
+    font-size: 1.25rem;
+  }
+  /* END OF HEADER 1 */
 
  }
 
@@ -354,6 +384,17 @@ footer .footer-img {
   .section-h2 {
     font-size: 2.4rem;
   }
+
+  /* HEADER 1 */
+  .header-1 iframe {
+    height: 17rem;
+  }
+  
+  .header-1 .btn-create {
+    width: 70%;
+    padding: 1.2rem;
+  }
+  /* END OF HEADER 1 */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -361,6 +402,34 @@ footer .footer-img {
   .section-h2 {
     font-size: 2.2rem;
   }
+  
+  /* HEADER 1 */
+  .header-1 .btn-create {
+    width: 52%;
+    padding: 1.2rem;
+  }
+  
+  .header-1 iframe {
+    width: 35rem;
+    height: 19rem;
+  }
+  
+  .header-1 p, header h2 {
+    width: 90%;
+  }
+  
+  .header-1 h1 {
+    font-size: 1rem;
+  }
+    
+  .header-1 h2 {
+    font-size: 2.22rem;
+  }
+  
+  .header-1 p {
+    font-size: 1.1rem;
+  }
+  /* END OF HEADER 1 */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */

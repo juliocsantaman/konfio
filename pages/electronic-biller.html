@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- CDN FONTAWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <!-- GENERAL STYLES -->
+  <link rel="stylesheet" href="../css/general-styles.css">
+  <!-- ELECTRONIC BILLER STYLES -->
+  <link rel="stylesheet" href="../css/electronic-biller.css">
+
+  <title>Factura en línea sin costo ni límites de folios en Konfío facturación konfio.mx</title>
+</head>
+
+<body>
+  <!-- NAVBAR FOR MOBILE AND TABLET -->
+  <nav class="navbar navbar-light bg-light sticky-top d-block d-xl-none">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars color-purple"></i>
+      </button>
+      <a href="../index.html" class="konfio-logo"> <img src="../img/konfio-logo.svg" alt="Konfio Logo"> </a>
+      <a href="#" class="color-purple"> <strong>Ingresar</strong> </a>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <a href="../index.html" class="konfio-logo"> <img src="../img/konfio-logo.svg" alt="Konfio Logo"> </a>
+          <span class="close-icon color-purple hover-purple" data-bs-dismiss="offcanvas" aria-label="Close">X</span>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+            <!-- DROPDOWN FINANCIAL SOLUTIONS -->
+            <li class="nav-item dropdown">
+              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Soluciones financieras</strong>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item a-active" href="./business-credit.html">Crédito empresarial</a></li>
+                <li><a class="dropdown-item a-active" href="./credit-simulator.html">Simulador de crédito</a></li>
+                <li><a class="dropdown-item a-active" href="./business-card.html">Tarjeta empresarial</a></li>
+                <li><a class="dropdown-item a-active" href="./business-alliances.html">Alianzas para negocio</a></li>
+              </ul>
+            </li>
+            <!-- END OF DROPDOWN FINANCIAL SOLUTIONS -->
+
+            <hr class="dropdown-divider">
+
+            <!-- DROPDOWN BUSINESS SOFTWARE -->
+            <li class="nav-item dropdown">
+              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Software empresarial</strong>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item a-active" href="./konfio-payments.html">Konfío Pagos</a></li>
+                <li><a class="dropdown-item a-active" href="./sir-payments.html">Sr. Pago</a></li>
+                <li><a class="dropdown-item a-active" href="./erp.html">ERP - Software administrativo</a></li>
+                <li><a class="dropdown-item a-active" href="#">Facturación</a></li>
+              </ul>
+            </li>
+            <!-- END OF DROPDOWN BUSINESS SOFTWARE -->
+
+            <hr class="dropdown-divider">
+
+            <!-- DROPDOWN BUSINESS ACCOMPANIMENT -->
+            <li class="nav-item dropdown">
+              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <strong>Acompañamiento</strong>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item a-active" href="#">Academia Konfío</a></li>
+                <li><a class="dropdown-item a-active" href="#">Voces Konfío</a></li>
+                <li><a class="dropdown-item a-active" href="#">Blog Konfío</a></li>
+                <li><a class="dropdown-item a-active" href="#">Directorio Pyme</a></li>
+                <li><a class="dropdown-item a-active" href="#">Buscador de EFOs y EDOs</a></li>
+              </ul>
+            </li>
+            <!-- END OF DROPDOWN BUSINESS ACCOMPANIMENT -->
+
+            <hr class="dropdown-divider">
+
+            <li class="nav-item mt-3">
+              <a class="color-purple hover-purple config-link" aria-current="page" href="#">
+                <strong>Ingresar a mi cuenta</strong>
+              </a>
+            </li>
+
+            <li class="nav-item mt-3">
+              <a class="color-purple hover-purple config-link" aria-current="page" href="#">
+                <strong>Crear mi cuenta</strong>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR FOR MOBILE AND TABLET -->
+
+  <!-- NAVBAR FOR LAPTOP AND UP -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top d-none d-xl-block p-2">
+    <div class="container-fluid">
+      <a class="navbar-brand konfio-logo-laptop" href="../index.html">
+        <img src="../img/konfio-logo.svg" alt="Konfio Logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown ms-3">
+            <a class="config-link dropdown-toggle color-purple hover-purple" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Soluciones financieras
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item hover-purple a-active" href="./business-credit.html">Crédito empresarial</a>
+              </li>
+              <li><a class="dropdown-item hover-purple a-active" href="./credit-simulator.html">Simulador de
+                  crédito</a>
+              </li>
+              <li><a class="dropdown-item hover-purple a-active" href="./business-card.html">Tarjeta empresarial</a>
+              </li>
+              <li><a class="dropdown-item hover-purple a-active" href="./business-alliances.html">Alianzas para
+                  negocio</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown ms-3">
+            <a class="config-link dropdown-toggle color-purple hover-purple" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Software empresarial
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item hover-purple a-active" href="./konfio-payments.html">Konfío Pagos</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="./sir-payments.html">Sr. Pago</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="./erp.html">ERP - Software administrativo</a>
+              </li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">Facturación</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown ms-3">
+            <a class="config-link dropdown-toggle color-purple hover-purple" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Acompañamiento
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item hover-purple a-active" href="#">Academia Konfío</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">Voces Konfío</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">Blog Konfío</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">Directorio Pyme</a></li>
+              <li><a class="dropdown-item hover-purple a-active" href="#">Buscador de EFOs y EDOs</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <a href="#" class="btn btn-purple-border color-purple rounded-pill me-3 px-4 py-2" type="submit">Ingresar a mi
+          cuenta</a>
+        <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 me-3 px-4 py-2 hidden" id="btnCreate"
+          type="submit">Crear mi cuenta</a>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF NAVBAR FOR LAPTOP AND UP -->
+
+  <div class="container-btn-purple hidden hidden-btn-create" id="container-btn-purple">
+    <a href="#" class="btn-purple config-link hover-white brightness-90">Crear mi cuenta</a>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header-1 container-fluid py-5 bg-blue-bottom">
+    <!-- ROW -->
+    <div class="row g-0 justify-content-center">
+      <!-- COL -->
+      <div class="col-11 col-md-8 col-lg-5">
+        <div class="header-info text-center text-lg-start">
+          <h1 class="text-uppercase mb-5">FACTURADOR ELECTRÓNICO</h1>
+          <h2 class="fw-bold mb-5 lh-base">¡Facturación ilimitada, gratis y por el tiempo que necesites!</h2>
+          <p class="mb-5">
+            Elimina las barreras de tu crecimiento: Genera facturas electrónicas en línea sin restricciones.
+          </p>
+
+          <a class="btn-create d-none d-lg-block config-link bg-purple text-white rounded-pill brightness-90 text-center"
+            href="#">
+            Crear mi cuenta
+          </a>
+
+        </div>
+      </div>
+      <!-- END OF COL -->
+
+      <!-- COL -->
+      <div class="col-10 col-md-8 col-lg-6 col-xl-5 d-flex justify-content-center align-items-center">
+        <iframe src="https://www.youtube.com/embed/e3_WUrvnQFw" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <!-- END OF COL -->
+    </div>
+    <!-- END OF ROW -->
+  </header>
+  <!-- END OF HEADER -->
+
+  <!-- MAIN -->
+  <main>
+
+  </main>
+  <!-- END OF MAIN -->
+
+  <!-- FOOTER -->
+  <footer class="bg-gray py-5 container-fluid">
+    <!-- ROW -->
+    <div class="row justify-content-center">
+      <!-- SUB FOOTER -->
+      <!-- COL -->
+      <div class="col-11 sub-footer">
+        <!-- ROW -->
+        <div class="row">
+          <!-- DIRECTION -->
+          <!-- COL -->
+          <div class="direction col-10 col-md-4 d-flex flex-column align-items-center align-items-md-start">
+            <a class="konfio-logo-2" href="../index.html"> <img src="../img/white-konfio.svg" alt="Konfio Logo">
+            </a>
+            <p class="mt-3 text-white text-center text-md-start">
+              Av. Horacio 1844, Piso 8 Col. Polanco, Del.
+              Miguel Hidalgo 11510, Ciudad de México.
+            </p>
+
+            <div class="social-networks d-flex">
+              <a href="#" class="config-link"><span
+                  class="bg-white d-flex justify-content-center align-items-center rounded-circle"><i
+                    class="fab fa-facebook-f"></i></span></a>
+              <a href="#" class="config-link"><span
+                  class="bg-white d-flex justify-content-center align-items-center rounded-circle"><i
+                    class="fab fa-twitter"></i></span></a>
+              <a href="#" class="config-link"><span
+                  class=" bg-white d-flex justify-content-center align-items-center rounded-circle"><i
+                    class="fab fa-youtube"></i></span></a>
+              <a href="#" class="config-link"><span
+                  class="bg-white d-flex justify-content-center align-items-center rounded-circle"><i
+                    class="fab fa-instagram-square"></i></span></a>
+              <a href="#" class="config-link"><span
+                  class="bg-white d-flex justify-content-center align-items-center rounded-circle"><i
+                    class="fab fa-linkedin-in"></i></span></a>
+            </div>
+          </div>
+          <!-- END OF COL -->
+          <!-- END OF DIRECTION -->
+
+          <!-- KONFIO PLATFORM -->
+          <!-- COL -->
+          <div class="konfio-platform col-8 col-md-3 d-flex flex-column">
+            <p class="text-white"><strong>Plataforma Konfío</strong></p>
+            <a class="config-link text-white brightness-90 d-block" href="#">Crédito empresarial</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Tarjeta empresarial</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Konfío Pagos</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">ERP - Software administrativo</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Facturación</a>
+          </div>
+          <!-- END OF COL -->
+
+          <!-- COL -->
+          <div class="konfio-platform col-8 col-md-3 d-flex flex-column">
+            <p class="text-white"><strong>Acompañamiento</strong></p>
+            <a class="config-link text-white brightness-90 d-block" href="#">Academia Konfío</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Voces Konfío</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Blog Konfío</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Directorio Pyme</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Buscador de EFOs y EDOs</a>
+          </div>
+          <!-- END OF COL -->
+
+          <!-- COL -->
+          <div class="konfio-platform col-8 col-md-2 d-flex flex-column">
+            <p class="text-white"><strong>Nosotros</strong></p>
+            <a class="config-link text-white brightness-90 d-block" href="#">Trabaja en Konfío</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Contacto</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Seguridad</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Centro de ayuda</a>
+          </div>
+          <!-- END OF COL -->
+          <!-- KONFIO PLATFORM -->
+        </div>
+        <!-- END OF ROW -->
+      </div>
+      <!-- END OF COL -->
+      <!-- END OF SUB FOOTER -->
+
+      <!-- TERMS -->
+      <!-- COL -->
+      <div class="terms konfio-platform col-11">
+        <!-- ROW -->
+        <div class="row justify-content-center">
+          <!-- COL -->
+          <div class="col-8 col-md-11 d-flex flex-column align-items-md-center flex-md-row">
+            <a class="config-link text-white brightness-90 d-block" href="#">Aviso de privacidad</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Términos y condiciones</a>
+            <a class="config-link text-white brightness-90 d-block" href="#">Políticas internas</a>
+            <a class="config-link text-white brightness-90 d-block text-uppercase" href="#">Condusef</a>
+          </div>
+          <!-- END OF COL -->
+          <!-- COL -->
+          <div class="col-8 col-md-1 d-flex flex-column">
+            <a class="config-link brightness-90 d-block mt-2" href="#"><img class="footer-img"
+                src="data:image/png;base64,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"
+                alt="Buró Logo"></a>
+          </div>
+          <!-- END OF COL -->
+        </div>
+        <!-- END OF ROW -->
+
+      </div>
+      <!-- END OF COL -->
+      <!-- TERMS -->
+
+    </div>
+    <!-- END OF ROW -->
+
+    <!-- ROW -->
+    <div class="row justify-content-center">
+      <!-- COL -->
+      <div class="col-11">
+        <!-- DIVIDER -->
+        <hr class="text-white m-auto mt-3">
+        <!-- END OF DIVIDER -->
+        <!-- INFO -->
+        <p class="info text-white m-auto mt-3">
+          Red Amigo DAL, Sociedad Anónima Promotora de Inversión de Capital Variable, Sociedad Financiera de Objeto
+          Múltiple, Entidad No Regulada ("Konfío"), para su constitución y operación con tal carácter, no requiere de
+          autorización de la Secretaría de Hacienda y Crédito Público, no obstante, se encuentra sujeta a la supervisión
+          de la Comisión Nacional Bancaria y de Valores, únicamente para efectos de lo dispuesto por el artículo 56 de
+          la
+          Ley General de Organizaciones y Actividades Auxiliares del Crédito. Konfío ©. Todos los derechos reservados.
+          Prohibida la reproducción total o parcial del contenido de este sitio.
+        </p>
+        <!-- END OF INFO -->
+      </div>
+      <!-- END OF COL -->
+    </div>
+    <!-- END OF ROW -->
+
+  </footer>
+  <!-- END OF FOOTER -->
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- SWIPER JS -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <!-- INDEX JS -->
+  <script src="../js/index.js"></script>
+
+  <!-- SWIPER CONFIG -->
+  <script src="../js/swiper.js"></script>
+
+</body>
+
+</html>
