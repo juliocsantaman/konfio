@@ -37,6 +37,21 @@ X-Small devices (portrait phones, less than 576px)
     font-size: 1.25rem;
   }
   /* END OF HEADER */
+
+  /* ERP BENEFITS */
+  .erp-benefits .btn-create {
+    width: 90%;
+    padding: 0.8rem;
+  }
+
+  .erp-benefits .swiper-erp-benefits h3 {
+    font-size: 2rem;
+  }
+
+  .erp-benefits h2 {
+    font-size: 1.9rem;
+  }
+  /* END OF ERP BENEFITS */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -51,6 +66,12 @@ X-Small devices (portrait phones, less than 576px)
     padding: 1.2rem;
   }
   /* END OF HEADER */
+
+  /* ERP BENEFITS */  
+  .erp-benefits h2 {
+    font-size: 2.4rem;
+  }
+  /* END OF ERP BENEFITS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -82,6 +103,12 @@ X-Small devices (portrait phones, less than 576px)
     font-size: 1.1rem;
   }
   /* END OF HEADER */
+
+  /* ERP BENEFITS */  
+  .erp-benefits h2 {
+    font-size: 2.2rem;
+  }
+  /* END OF ERP BENEFITS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
