@@ -1,9 +1,3 @@
-/* INCREASE YOUR SALES MOBILE TABLET */
-.increase-sales-mobile-tablet .accordion-img {
-  width: 3.125rem;
-}
-/* END OF INCREASE YOUR SALES MOBILE TABLET */
-
 /* PLANS */
 .plans .plan-img {
   width: 35%;
@@ -50,18 +44,6 @@ X-Small devices (portrait phones, less than 576px)
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  /* INCREASE SALES LAPTOP */
-  .increase-sales-laptop .tab-img {
-    width: 60%;
-  }
-
-  .increase-sales-laptop .btn-create {
-    margin-top: 10rem;
-    width: 80%;
-    padding: 0.7rem;
-  }
-  /* END OF INCREASE SALES LAPTOP */
-
   /* PLANS */
   .plans .plan-img {
     width: 60%;
@@ -79,25 +61,6 @@ X-Small devices (portrait phones, less than 576px)
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  /* INCREASE SALES LAPTOP */
-  .increase-sales-laptop .tab-img {
-    width: 37.5%;
-  }
-
-  .increase-sales-laptop .nav-link {
-    font-size: 0.9rem;
-  }
-
-  .increase-sales-laptop .tab-pane p {
-    font-size: 0.8rem;
-  }
-
-  .increase-sales-laptop .btn-create {
-    width: 52.5%;
-    padding: 0.6rem;
-  }
-  /* END OF INCREASE SALES LAPTOP */
-
   /* PLANS */
   .plans .plan-img {
     width: 35%;

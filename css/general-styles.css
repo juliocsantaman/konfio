@@ -182,6 +182,12 @@
 }
 /* END OF ACCORDION ITEM */
 
+/* ACCORDION 1 */
+.accordion-1 .accordion-img {
+  width: 3.125rem;
+}
+/* END OF ACCORDION 1 */
+
 /* FOOTER */
 footer {
   margin-bottom: 15%;
@@ -395,6 +401,18 @@ footer .footer-img {
     padding: 1.2rem;
   }
   /* END OF HEADER 1 */
+
+  /* NAV TABS 1 */
+  .tab-content-1 .tab-img {
+    width: 60%;
+  }
+
+  .tab-content-1 .btn-create {
+    margin-top: 10rem;
+    width: 80%;
+    padding: 0.7rem;
+  }
+  /* END OF NAV TABS 1 */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -430,6 +448,25 @@ footer .footer-img {
     font-size: 1.1rem;
   }
   /* END OF HEADER 1 */
+
+  /* NAV TABS 1 */
+  .nav-tabs-1 .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .tab-content-1 .tab-img {
+    width: 37.5%;
+  }
+  
+  .tab-content-1 .tab-pane p {
+    font-size: 0.8rem;
+  }
+  
+  .tab-content-1 .btn-create {
+    width: 52.5%;
+    padding: 0.6rem;
+  }
+  /* END OF NAV TABS 1 */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
