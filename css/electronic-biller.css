@@ -17,6 +17,28 @@
 }
 /* END OF DELETE LIMITS */
 
+/* BILLER BENEFITS */
+.biller-benefits .description {
+  margin: 1.5rem auto;
+}
+
+.swiper-biller-benefits .card {
+  min-height: 15rem;
+}
+
+.swiper-biller-benefits .card-img {
+  width: 4.3rem
+}
+
+.swiper-biller-benefits .card-body h5 {
+  font-size: 1rem;
+}
+
+.swiper-biller-benefits .card-body {
+  font-size: 0.9rem;
+}
+/* END OF BILLER BENEFITS */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -26,7 +48,23 @@ X-Small devices (portrait phones, less than 576px)
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  /* BILLER BENEFITS */
+  .biller-benefits .description {
+    margin: 2.5rem auto;
+  }
+
+  .swiper-biller-benefits .card {
+    min-height: 18.5rem;
+  }
+
+  .biller-benefits .btn-create {
+    width: 32.5%;
+    margin: auto;
+    padding: 0.7rem;
+  }
+  /* END OF BILLER BENEFITS */
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -34,11 +72,28 @@ X-Small devices (portrait phones, less than 576px)
   .padding-top {
     padding-top: 2rem;
   }
-/* END OF DELETE LIMITS */
+  /* END OF DELETE LIMITS */
+
+  /* BILLER BENEFITS */
+  .biller-benefits .btn-create {
+    width: 26%;
+  }
+  /* END OF BILLER BENEFITS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    /* BILLER BENEFITS */
+    .swiper-biller-benefits .card {
+      min-height: 16rem;
+    }
+
+    .biller-benefits .btn-create {
+      width: 17.5%;
+      padding: 0.6rem;
+    }
+    /* END OF BILLER BENEFITS */
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {}

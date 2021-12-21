@@ -462,3 +462,29 @@ const swiperDeleteLimits = new Swiper('.swiper-delete-limits', {
     }
   }
 });
+
+const swiperBillerBenefits = new Swiper('.swiper-biller-benefits', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  loop: true,
+  slidesPerView: 1,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 4,
+      loop: false,
+      spaceBetween: 15
+    }
+  }
+});
