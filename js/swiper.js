@@ -437,3 +437,28 @@ const swiperPlans = new Swiper('.swiper-plans', {
     }
   }
 });
+
+const swiperDeleteLimits = new Swiper('.swiper-delete-limits', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  slidesPerView: 1,
+  spaceBetween: 40,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 4,
+      spaceBetween: 10
+    }
+  }
+});
