@@ -50,6 +50,12 @@
 }
 /* END OF PLANS */
 
+/* SOLUTIONS */
+.solutions .description {
+  margin: 1.5rem auto;
+}
+/* END OF SOLUTIONS */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -96,20 +102,36 @@ X-Small devices (portrait phones, less than 576px)
     min-height: 50rem;
   }
   /* END OF PLANS */
+
+  /* SOLUTIONS */
+  .swiper-solutions .card {
+    min-height: 24rem;
+  }
+
+  .solutions .description {
+    margin: 2rem auto;
+  }
+  /* END OF SOLUTIONS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    /* BILLER BENEFITS */
-    .swiper-biller-benefits .card {
-      min-height: 16rem;
-    }
+  /* BILLER BENEFITS */
+  .swiper-biller-benefits .card {
+    min-height: 16rem;
+  }
 
-    .biller-benefits .btn-create {
-      width: 17.5%;
-      padding: 0.6rem;
-    }
-    /* END OF BILLER BENEFITS */
+  .biller-benefits .btn-create {
+    width: 17.5%;
+    padding: 0.6rem;
+  }
+  /* END OF BILLER BENEFITS */
+
+  /* SOLUTIONS */
+  .solutions .description {
+    margin: 2.5rem auto;
+  }
+  /* END OF SOLUTIONS */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
