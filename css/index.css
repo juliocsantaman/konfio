@@ -15,7 +15,7 @@
 /* END OF HEADER */
 
 /* NAV TABS */
-.nav-link {
+.nav-tabs .nav-link {
   border: 0px solid transparent !important;
   display: flex;
   justify-content: center;

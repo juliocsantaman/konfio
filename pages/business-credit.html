@@ -24,8 +24,8 @@
 
 <body>
 
-  <!-- NAVBAR FOR MOBILE AND TABLET -->
-  <nav class="navbar navbar-light bg-light sticky-top d-block d-xl-none">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-light bg-light sticky-top navbar-expand-xl">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
         aria-controls="offcanvasNavbar">
@@ -33,78 +33,89 @@
         <i class="fas fa-bars color-purple"></i>
       </button>
       <a href="../index.html" class="konfio-logo"> <img src="../img/konfio-logo.svg" alt="Konfio Logo"> </a>
-      <a href="#" class="color-purple"> <strong>Ingresar</strong> </a>
+      <a href="#" class="color-purple hover-purple d-xl-none"> <strong>Ingresar</strong> </a>
       <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <a href="../index.html" class="konfio-logo"> <img src="../img/konfio-logo.svg" alt="Konfio Logo"> </a>
           <span class="close-icon color-purple hover-purple" data-bs-dismiss="offcanvas" aria-label="Close">X</span>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <ul class="navbar-nav justify-content-between flex-grow-1 pe-3">
 
-            <!-- DROPDOWN FINANCIAL SOLUTIONS -->
-            <li class="nav-item dropdown">
-              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <strong>Soluciones financieras</strong>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item a-active" href="./business-credit.html">Crédito empresarial</a></li>
-                <li><a class="dropdown-item a-active" href="./credit-simulator.html">Simulador de crédito</a></li>
-                <li><a class="dropdown-item a-active" href="./business-card.html">Tarjeta empresarial</a></li>
-                <li><a class="dropdown-item a-active" href="./business-alliances.html">Alianzas para negocio</a></li>
-              </ul>
-            </li>
-            <!-- END OF DROPDOWN FINANCIAL SOLUTIONS -->
+            <div class="d-flex flex-column flex-xl-row">
+              <!-- DROPDOWN FINANCIAL SOLUTIONS -->
+              <li class="nav-item dropdown">
+                <a class="color-purple hover-purple config-link nav-link dropdown-toggle fw-bold" href="#"
+                  id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Soluciones financieras
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item link" href="./business-credit.html">Crédito empresarial</a></li>
+                  <li><a class="dropdown-item link" href="./credit-simulator.html">Simulador de crédito</a></li>
+                  <li><a class="dropdown-item link" href="./business-card.html">Tarjeta empresarial</a></li>
+                  <li><a class="dropdown-item link" href="./business-alliances.html">Alianzas para negocio</a></li>
+                </ul>
+              </li>
+              <!-- END OF DROPDOWN FINANCIAL SOLUTIONS -->
+
+              <hr class="dropdown-divider">
+
+              <!-- DROPDOWN BUSINESS SOFTWARE -->
+              <li class="nav-item dropdown">
+                <a class="color-purple hover-purple config-link nav-link dropdown-toggle fw-bold" href="#"
+                  id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Software empresarial
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item link" href="./konfio-payments.html">Konfío Pagos</a></li>
+                  <li><a class="dropdown-item link" href="./sir-payments.html">Sr. Pago</a></li>
+                  <li><a class="dropdown-item link" href="./erp.html">ERP - Software administrativo</a></li>
+                  <li><a class="dropdown-item link" href="./electronic-biller.html">Facturación</a></li>
+                </ul>
+              </li>
+              <!-- END OF DROPDOWN BUSINESS SOFTWARE -->
+
+              <hr class="dropdown-divider">
+
+              <!-- DROPDOWN BUSINESS ACCOMPANIMENT -->
+              <li class="nav-item dropdown">
+                <a class="color-purple hover-purple config-link nav-link dropdown-toggle fw-bold" href="#"
+                  id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Acompañamiento
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item link" href="#">Academia Konfío</a></li>
+                  <li><a class="dropdown-item link" href="#">Voces Konfío</a></li>
+                  <li><a class="dropdown-item link" href="#">Blog Konfío</a></li>
+                  <li><a class="dropdown-item link" href="#">Directorio Pyme</a></li>
+                  <li><a class="dropdown-item link" href="#">Buscador de EFOs y EDOs</a></li>
+                </ul>
+              </li>
+              <!-- END OF DROPDOWN BUSINESS ACCOMPANIMENT -->
+            </div>
 
             <hr class="dropdown-divider">
 
-            <!-- DROPDOWN BUSINESS SOFTWARE -->
-            <li class="nav-item dropdown">
-              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <strong>Software empresarial</strong>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item a-active" href="./konfio-payments.html">Konfío Pagos</a></li>
-                <li><a class="dropdown-item a-active" href="./sir-payments.html">Sr. Pago</a></li>
-                <li><a class="dropdown-item a-active" href="./erp.html">ERP - Software administrativo</a></li>
-                <li><a class="dropdown-item a-active" href="#">Facturación</a></li>
-              </ul>
-            </li>
-            <!-- END OF DROPDOWN BUSINESS SOFTWARE -->
+            <div class="d-flex flex-column flex-xl-row">
+              <li class="nav-item">
+                <a class="btn-sign-in btn-purple-border my-rounded-pill color-purple hover-purple config-link nav-link"
+                  aria-current="page" href="#">
+                  Ingresar a mi cuenta
+                </a>
+              </li>
 
-            <hr class="dropdown-divider">
+              <li class="nav-item">
+                <a class="btn-sign-up btn-purple-border my-rounded-pill color-purple hover-purple config-link nav-link brightness-90 d-block d-xl-none"
+                  aria-current="page" href="#">
+                  Crear mi cuenta
+                </a>
 
-            <!-- DROPDOWN BUSINESS ACCOMPANIMENT -->
-            <li class="nav-item dropdown">
-              <a class="config-link color-black custom-nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
-                role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <strong>Acompañamiento</strong>
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                <li><a class="dropdown-item a-active" href="#">Academia Konfío</a></li>
-                <li><a class="dropdown-item a-active" href="#">Voces Konfío</a></li>
-                <li><a class="dropdown-item a-active" href="#">Blog Konfío</a></li>
-                <li><a class="dropdown-item a-active" href="#">Directorio Pyme</a></li>
-                <li><a class="dropdown-item a-active" href="#">Buscador de EFOs y EDOs</a></li>
-              </ul>
-            </li>
-            <!-- END OF DROPDOWN BUSINESS ACCOMPANIMENT -->
-
-            <hr class="dropdown-divider">
-
-            <li class="nav-item mt-3">
-              <a class="color-purple hover-purple config-link" aria-current="page" href="#">
-                <strong>Ingresar a mi cuenta</strong>
-              </a>
-            </li>
-
-            <li class="nav-item mt-3">
-              <a class="color-purple hover-purple config-link" aria-current="page" href="#">
-                <strong>Crear mi cuenta</strong>
-              </a>
-            </li>
+                <a class="btn-sign-up btn-purple-border my-rounded-pill color-purple hover-purple config-link nav-link brightness-90 d-none d-xl-block hidden"
+                  id="btnCreate" aria-current="page" href="#">
+                  Crear mi cuenta
+                </a>
+              </li>
+            </div>
 
           </ul>
 
@@ -112,72 +123,7 @@
       </div>
     </div>
   </nav>
-  <!-- END OF NAVBAR FOR MOBILE AND TABLET -->
-
-  <!-- NAVBAR FOR LAPTOP AND UP -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top d-none d-xl-block p-2">
-    <div class="container-fluid">
-      <a class="navbar-brand konfio-logo-laptop" href="../index.html">
-        <img src="../img/konfio-logo.svg" alt="Konfio Logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item dropdown ms-3">
-            <a class="config-link dropdown-toggle color-purple hover-purple" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Soluciones financieras
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item hover-purple a-active" href="./business-credit.html">Crédito empresarial</a>
-              </li>
-              <li><a class="dropdown-item hover-purple a-active" href="./credit-simulator.html">Simulador de crédito</a>
-              </li>
-              <li><a class="dropdown-item hover-purple a-active" href="./business-card.html">Tarjeta empresarial</a>
-              </li>
-              <li><a class="dropdown-item hover-purple a-active" href="./business-alliances.html">Alianzas para negocio</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown ms-3">
-            <a class="config-link dropdown-toggle color-purple hover-purple" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Software empresarial
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item hover-purple a-active" href="./konfio-payments.html">Konfío Pagos</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="./sir-payments.html">Sr. Pago</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="./erp.html">ERP - Software administrativo</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="#">Facturación</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item dropdown ms-3">
-            <a class="config-link dropdown-toggle color-purple hover-purple" href="#" id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown" aria-expanded="false">
-              Acompañamiento
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item hover-purple a-active" href="#">Academia Konfío</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="#">Voces Konfío</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="#">Blog Konfío</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="#">Directorio Pyme</a></li>
-              <li><a class="dropdown-item hover-purple a-active" href="#">Buscador de EFOs y EDOs</a></li>
-            </ul>
-          </li>
-
-        </ul>
-        <a href="#" class="btn btn-purple-border color-purple rounded-pill me-3 px-4 py-2" type="submit">Ingresar a mi
-          cuenta</a>
-        <a href="#" class="btn bg-purple text-white rounded-pill brightness-90 me-3 px-4 py-2 hidden" id="btnCreate"
-          type="submit">Crear mi cuenta</a>
-      </div>
-    </div>
-  </nav>
-  <!-- END OF NAVBAR FOR LAPTOP AND UP -->
+  <!-- END OF NAVBAR -->
 
   <div class="container-btn-purple hidden hidden-btn-create" id="container-btn-purple">
     <a href="#" class="btn-purple config-link hover-white brightness-90">Crear mi cuenta</a>

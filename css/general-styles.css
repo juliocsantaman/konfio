@@ -5,7 +5,7 @@
 
 /* COLORS */
 .color-purple {
-  color: rgba(110,67,183, 1);
+  color: rgba(110,67,183, 1) !important;
 }
 
 .color-purple-2 {
@@ -33,7 +33,7 @@
 }
 
 .hover-purple:hover {
-  color: rgb(75, 47, 124);
+  color: rgb(75, 47, 124) !important;
 }
 
 .hover-purple-2:hover {
@@ -96,14 +96,17 @@
 .hover-underline:hover {
   text-decoration: underline;
 }
-
-.custom-nav-link {
-  width: 100%; 
-  display: flex; 
-  justify-content: space-between; 
-  align-items: center;
-}
 /* END OF CONFIG LINK */
+
+/* NAVBAR */
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #222;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(92, 92, 92);
+}
+/* END OF NAVBAR */
 
 /* KONFIO LOGO */
 .konfio-logo {
@@ -112,10 +115,6 @@
 
 .konfio-logo-2 {
   width: 40%;
-}
-
-.konfio-logo-laptop {
-  width: 10%;
 }
 /* END OF KONFIO LOGO */
 
@@ -223,6 +222,21 @@ footer .footer-img {
 }
 /* END OF FOOTER */
 
+/* HEADER 1 */
+.header-1 iframe {
+  width: 100%;
+  height: 11rem;
+}
+
+.header-1 h1 {
+  font-size: 1.1rem;
+}
+
+.header-1 h2 {
+  font-size: 1.5rem;
+}
+/* END OF HEADER 1 */
+
 .modal-iframe {
   width: 100%;
   height: 300px;
@@ -277,40 +291,21 @@ footer .footer-img {
 }
 
 .hidden {
-  display: none;
-}
-
-.btn-purple-border {
-  border: 1px solid rgba(110,67,183, 1);
-}
-
-.btn-purple-border:hover {
-  background-color: lightgray;
+  display: none !important;
 }
 
 .cursor-pointer {
   cursor: pointer;
 }
 
-.a-active:active {
+.link:active {
   background-color: transparent;
   color: #222;
 }
 
-/* HEADER 1 */
-.header-1 iframe {
-  width: 100%;
-  height: 11rem;
+.link:hover {
+  color: rgba(110,67,183, 1);
 }
-
-.header-1 h1 {
-  font-size: 1.1rem;
-}
-
-.header-1 h2 {
-  font-size: 1.5rem;
-}
-/* END OF HEADER 1 */
 
 /*
   X-Small devices (portrait phones, less than 576px)
@@ -427,10 +422,6 @@ footer .footer-img {
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-  .section-h2 {
-    font-size: 2.2rem;
-  }
-  
   /* HEADER 1 */
   .header-1 .btn-create {
     width: 52%;
@@ -477,6 +468,48 @@ footer .footer-img {
     padding: 0.6rem;
   }
   /* END OF NAV TABS 1 */
+
+  /* NAVBAR */
+  .konfio-logo {
+    width: 8%;
+    margin-right: 1rem;
+  }
+
+  .btn-purple-border {
+    border: 1px solid rgba(110,67,183, 1);
+  }
+  
+  .btn-purple-border:hover {
+    background-color: lightgray;
+  }
+
+  .my-rounded-pill {
+    border-radius: 1.5rem;
+  }
+
+  .navbar .nav-item .btn-sign-in,
+  .navbar .nav-item .btn-sign-up {
+    padding: 0.6rem 1.5rem;
+  }
+
+  .navbar .nav-item .btn-sign-up {
+    background-color: rgba(110,67,183, 1);
+    color: white !important;
+    margin-left: 1rem;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: rgba(110,67,183, 1);
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(75, 47, 124);
+  }
+  /* END OF NAVBAR */
+
+  .section-h2 {
+    font-size: 2.2rem;
+  }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
