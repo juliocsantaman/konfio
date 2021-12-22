@@ -39,6 +39,17 @@
 }
 /* END OF BILLER BENEFITS */
 
+/* PLANS */
+.plans .btn-create {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.swiper-plans2 .price {
+  font-size: 2rem;
+}
+/* END OF PLANS */
+
 /*
 X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -79,6 +90,12 @@ X-Small devices (portrait phones, less than 576px)
     width: 26%;
   }
   /* END OF BILLER BENEFITS */
+
+  /* PLANS */
+  .swiper-plans2 .card {
+    min-height: 50rem;
+  }
+  /* END OF PLANS */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */

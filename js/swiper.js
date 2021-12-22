@@ -488,3 +488,30 @@ const swiperBillerBenefits = new Swiper('.swiper-biller-benefits', {
     }
   }
 });
+
+const swiperPlans2 = new Swiper('.swiper-plans2', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  slidesPerView: 1,
+  initialSlide: 1,
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 2,
+      loop: false,
+      spaceBetween: 50
+    }
+  }
+});
