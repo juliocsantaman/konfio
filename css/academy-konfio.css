@@ -1,0 +1,83 @@
+/* HEADER */
+header .academy-text {
+  width: 65%;
+}
+
+header .academy-img {
+  width: 85%;
+}
+/* END OF HEADER */
+
+/*
+  X-Small devices (portrait phones, less than 576px)
+  No media query for `xs` since this is the default in Bootstrap
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  /* HEADER */
+  header .academy-text {
+    width: 35%;
+  }
+
+  header .academy-img {
+    width: 70%;
+  }
+
+  header .header-paragraph {
+    font-size: 1.2rem;
+  }
+  /* END OF HEADER */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  /* HEADER */
+  header .academy-text {
+    width: 70%;
+  }
+
+  header .academy-img {
+    width: 100%;
+  }
+
+  header .header-paragraph {
+    width: 90%;
+  }
+
+  header .btn-sign-up-free {
+    margin-top: 3.5rem;
+    padding: 1.4rem;
+    width: 62.5%;
+  }
+  /* END OF HEADER */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  /* HEADER */
+  header .academy-text {
+    width: 52.5%;
+  }
+
+  header .header-paragraph {
+    width: 80%;
+  }
+
+  header .btn-sign-up-free {
+    padding: 1.1rem;
+    width: 50%;
+  }
+
+  header .academy-img {
+    width: 75%;
+  }
+  /* END OF HEADER */
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
