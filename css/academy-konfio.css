@@ -8,6 +8,12 @@ header .academy-img {
 }
 /* END OF HEADER */
 
+/* OUR VIDEO CHANNEL */
+.swiper-our-video-channel {
+  margin-top: 2rem;
+}
+/* END OF OUR VIDEO CHANNEL */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -31,6 +37,12 @@ header .academy-img {
     font-size: 1.2rem;
   }
   /* END OF HEADER */
+
+  /* OUR VIDEO CHANNEL */
+  .swiper-our-video-channel {
+    margin-top: 3rem;
+  }
+  /* END OF OUR VIDEO CHANNEL */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -77,6 +89,11 @@ header .academy-img {
   }
   /* END OF HEADER */
 
+  /* OUR VIDEO CHANNEL */
+  .swiper-our-video-channel {
+    margin-top: 2.65rem;
+  }
+  /* END OF OUR VIDEO CHANNEL */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
