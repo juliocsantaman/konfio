@@ -14,6 +14,17 @@ header .academy-img {
 }
 /* END OF OUR VIDEO CHANNEL */
 
+/* OUR FORM */
+.our-form .btn-sign-up {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+.our-form h2 {
+  margin-bottom: 2rem;
+}
+/* END OF OUR FORM */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -43,6 +54,23 @@ header .academy-img {
     margin-top: 3rem;
   }
   /* END OF OUR VIDEO CHANNEL */
+
+  /* OUR FORM */
+  .our-form .card {
+    height: 30rem;
+    overflow-y: scroll;
+  }
+
+  .our-form .btn-sign-up {
+    width: 50%;
+    display: block;
+    margin: auto;
+  }
+
+  .our-form h2 {
+    margin-bottom: 3rem;
+  }
+  /* END OF OUR FORM */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -94,6 +122,12 @@ header .academy-img {
     margin-top: 2.65rem;
   }
   /* END OF OUR VIDEO CHANNEL */
+
+  /* OUR FORM */  
+  .our-form .btn-sign-up {
+    padding: 0.6rem;
+  }
+  /* END OF OUR FORM */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
