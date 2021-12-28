@@ -8,6 +8,12 @@ header .header-paragraph {
 }
 /* END OF HEADER */
 
+/* PODCAST */
+.swiper-podcast .card {
+  min-height: 12.5rem;
+}
+/* END OF PODCAST */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -23,6 +29,16 @@ header .header-paragraph {
     width: 70%;
   }
   /* END OF HEADER */
+
+  /* PODCAST */
+  .swiper-podcast .card {
+    min-height: 12.5rem;
+  }
+
+  .podcast .btn-create {
+    margin-top: 2rem;
+  }
+  /* END OF PODCAST */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -32,6 +48,12 @@ header .header-paragraph {
     width: 82.5%;
   }
   /* END OF HEADER */
+
+  /* PODCAST */
+  .podcast .btn-create {
+    margin-top: unset;
+  }
+  /* END OF PODCAST */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
