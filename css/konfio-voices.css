@@ -14,6 +14,17 @@ header .header-paragraph {
 }
 /* END OF PODCAST */
 
+/* LISTEN TO US */
+.listen-to-us h2 {
+  margin-bottom: 2rem;
+}
+
+.listen-to-us img {
+  width: 8.5rem;
+  margin: auto 1rem 1.5rem 1rem;
+}
+/* END OF LISTEN TO US */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -39,6 +50,12 @@ header .header-paragraph {
     margin-top: 2rem;
   }
   /* END OF PODCAST */
+
+  /* LISTEN TO US */
+  .listen-to-us img {
+    width: 9rem;
+  }
+  /* END OF LISTEN TO US */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -54,6 +71,16 @@ header .header-paragraph {
     margin-top: unset;
   }
   /* END OF PODCAST */
+
+  /* LISTEN TO US */
+  .listen-to-us h2 {
+    margin-bottom: 2.5rem;
+  }
+
+  .listen-to-us img {
+    width: 10rem;
+  }
+  /* END OF LISTEN TO US */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -63,6 +90,12 @@ header .header-paragraph {
     width: 55%;
   }
   /* END OF HEADER */
+
+  /* LISTEN TO US */
+  .listen-to-us img {
+    width: 9.5rem;
+  }
+  /* END OF LISTEN TO US */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
