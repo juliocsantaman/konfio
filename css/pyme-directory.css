@@ -8,6 +8,23 @@
 }
 /* ---------- END OF GET BENEFITS ---------- */
 
+/* ---------- OUR FORM ---------- */
+.our-form h2 {
+  margin-bottom: 2.5rem;
+}
+
+.our-form .inputs input, .our-form .inputs select {
+  min-height: 3.5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.our-form .form-btn {
+  width: 100%;
+  padding: 0.8rem;
+}
+/* ---------- END OF OUR FORM ---------- */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -17,13 +34,41 @@
 @media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {
+  /* ---------- OUR FORM ---------- */
+  .our-form .inputs input, .our-form .inputs select {
+    margin: 0.5rem 0.5rem 1.5rem 0.5rem;
+    width: 50%;
+  }
+
+  .our-form .form-btn {
+    width: 38%;
+    display: block;
+    margin: auto;
+    padding: 0.7rem;
+  }
+  /* ---------- END OF OUR FORM ---------- */
+ }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+  /* ---------- OUR FORM ---------- */  
+  .our-form .form-btn {
+    width: 40%;
+    padding: 0.8rem;
+  }
+  /* ---------- END OF OUR FORM ---------- */
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+  /* ---------- OUR FORM ---------- */  
+  .our-form .form-btn {
+    width: 36%;
+    padding: 0.7rem;
+  }
+  /* ---------- END OF OUR FORM ---------- */
+ }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { }
