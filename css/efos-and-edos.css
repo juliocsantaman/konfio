@@ -1,3 +1,24 @@
+/* ---------- OUR SEARCH ENGINE ---------- */
+.our-search-engine h3 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.swiper-our-search-engine .card-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.swiper-our-search-engine .card {
+  min-height: 12rem;
+}
+
+.swiper-our-search-engine .card .card-title {
+  font-size: 1.2rem;
+}
+/* ---------- END OF OUR SEARCH ENGINE ---------- */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -7,13 +28,47 @@
 @media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+  /* ---------- OUR SEARCH ENGINE ---------- */
+  .our-search-engine h3 {
+    font-size: 1.9rem;
+  }
+
+  .swiper-our-search-engine .card {
+    min-height: 10rem;
+  }
+
+  .swiper-our-search-engine .card .card-title {
+    font-size: 1.5rem;
+  }
+  /* ---------- END OF OUR SEARCH ENGINE ---------- */
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+  /* ---------- OUR SEARCH ENGINE ---------- */
+  .swiper-our-search-engine .card {
+    min-height: 12rem;
+  }
+  /* ---------- END OF OUR SEARCH ENGINE ---------- */
+ }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+  /* ---------- OUR SEARCH ENGINE ---------- */
+  .our-search-engine h3 {
+    font-size: 1.7rem;
+  }
+
+  .swiper-our-search-engine .card {
+    min-height: 10rem;
+  }
+
+  .swiper-our-search-engine .card .card-title {
+    font-size: 1.3rem;
+  }
+  /* ---------- END OF OUR SEARCH ENGINE ---------- */
+ }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {  }

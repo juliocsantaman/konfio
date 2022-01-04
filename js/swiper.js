@@ -619,3 +619,29 @@ const swiperGetBenefits = new Swiper('.swiper-get-benefits', {
     }
   }
 });
+
+const swiperOurSearchEngine = new Swiper('.swiper-our-search-engine', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+  loop: true,
+  slidesPerView: 1,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 3,
+      loop: false,
+      spaceBetween: 42
+    }
+  }
+});

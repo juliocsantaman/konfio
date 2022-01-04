@@ -28,6 +28,10 @@
   color: #bdbdbd;
 }
 
+.color-dark-yellow {
+  color: #a7600d;
+}
+
 .color-black:hover {
   color: rgb(92, 92, 92);
 }
