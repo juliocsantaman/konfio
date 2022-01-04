@@ -251,6 +251,56 @@ footer .footer-img {
 }
 /* ---------- END OF HEADER 2 ---------- */
 
+/* ---------- HEADER 3 ---------- */
+.header-3 .header-btn {
+  width: 50%;
+}
+
+.header-3 .video, .header-3 .row-video {
+  position: relative;
+}
+
+.header-3 .video .player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 30%;
+  z-index: 1;
+}
+
+.header-3 .video .bg-img {
+  border-radius: 50%;
+  width: 100%;
+  min-height: 12rem;
+}
+
+.header-3 .row-video .konfio-text {
+  width: 75%;
+}
+
+.header-3 .card {
+  background-color: transparent; 
+  border: none;
+}
+
+.header-3 .line {
+  position: absolute; 
+  width: 100%;
+  top: -10%;
+  bottom: 0%; 
+  left: 0%; 
+  right: 0%; 
+  margin: auto;
+}
+
+.header-3 .header-p {
+  margin-bottom: 2rem;
+}
+/* ---------- END OF HEADER 3 ---------- */
+
 /* ---------- SWIPER 1 ---------- */
 .my-section-1 .description {
   margin: 1.5rem auto;
@@ -395,6 +445,22 @@ footer .footer-img {
   }
   /* ---------- END OF HEADER 2 ---------- */
 
+  /* ---------- HEADER 3 ---------- */
+  .header-3 .video .bg-img {
+    min-height: 17rem;
+  }
+  
+  .header-3 .line {
+    position: absolute; 
+    width: 100%;
+    top: -5%;
+    bottom: 0%; 
+    left: 0%; 
+    right: 0%; 
+    margin: auto;
+  }
+  /* ---------- END OF HEADER 3 ---------- */
+
   /* ---------- SWIPER 1 ---------- */
   .my-section-1 .description {
     margin: 2.5rem auto;
@@ -418,7 +484,7 @@ footer .footer-img {
  }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {   
   /* ---------- SWIPER ---------- */
   .swiper-client-results .swiper-wrapper .swiper-slide .card .card-header {
     width: 25%;
@@ -480,6 +546,40 @@ footer .footer-img {
   }
   /* ---------- END OF HEADER 2 ---------- */
 
+  /* ---------- HEADER 3 ---------- */
+  .header-3 .row-video .konfio-text {
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+
+  .header-3 .row-video .header-konfio-text-2 {
+    width: 65%;
+    margin-bottom: 2.5rem;
+  }
+  
+  .header-3 .header-info p, .header-3 .header-info h2 {
+    margin-top: 2rem;
+  }
+  
+  .header-3 .header-info h2 {
+    font-size: 2.5rem;
+  }
+  
+  .header-3 .line {
+    width: 125%;
+    top: -15%;
+    margin-right: -2.5rem;
+  }
+  
+  .header-3 .video .bg-img {
+    min-height: 20rem;
+  }
+  
+  .header-3 .header-col-2 .row {
+    min-height: 27.5rem;
+  }
+  /* ---------- END OF HEADER 3 ---------- */
+
   /* ---------- NAV TABS 1 ---------- */
   .tab-content-1 .tab-img {
     width: 60%;
@@ -525,7 +625,7 @@ footer .footer-img {
     height: 19rem;
   }
   
-  .header-1 p, header h2 {
+  .header-1 p, .header-3 h2 {
     width: 90%;
   }
   
@@ -560,6 +660,35 @@ footer .footer-img {
     width: 75%;
   }
   /* ---------- END OF HEADER 2 ---------- */
+
+  /* ---------- HEADER 3 ---------- */
+  .header-3 .header-info {
+    margin-top: 3rem;
+  }
+  
+  .header-3 .header-info h2 {
+    width: 85%;
+  }
+    
+  .header-3 .header-btn {
+    width: 40%;
+  }
+
+  .header-3 .line {
+    top: -30%;
+    width: 150%;
+    margin-right: -6rem;
+  }
+  
+  .header-3 .header-col-2 .row {
+    min-height: 30rem;
+  }
+
+  .header-3 .row-video .header-konfio-text-2 {
+    width: 70%;
+    margin-bottom: 3.5rem;
+  }
+  /* ---------- END OF HEADER 3 ---------- */
 
   /* ---------- NAV TABS 1 ---------- */
   .nav-tabs-1 .nav-link {

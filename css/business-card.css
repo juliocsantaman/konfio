@@ -4,50 +4,6 @@
 }
 /* END OF GENERAL STYLES FOR THIS PAGE */
 
-/* HEADER */
-header .video {
-  position: relative;
-}
-
-header .video .bg-img {
-  border-radius: 50%;
-}
-
-header .video .player {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 30%;
-  z-index: 1;
-}
-
-header .row-video .konfio-text {
-  width: 75%;
-}
-
-header .card {
-  background-color: transparent; 
-  border: none;
-}
-
-header .row-video {
-  position: relative;
-}
-
-header .line {
-  position: absolute; 
-  width: 100%;
-  top: 0%;
-  bottom: 0%; 
-  left: 0%; 
-  right: 0%; 
-  margin: auto;
-}
-/* END OF HEADER */
-
 /* CHARACTERISTICS */
 main .characteristics .info .img-characteristics {
   width: 2rem;
@@ -95,60 +51,43 @@ main .promotions .swiper-promotions .swiper-slide img {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
   /* INTERESTS COMMISSIONS QUESTIONS */
-   .interests-commissions-questions .table-row {
+  .interests-commissions-questions .table-row {
     background-color: #F5F5F5;
     font-size: 0.6rem;
   }
   /* END OF INTERESTS COMMISSIONS QUESTIONS */
-
-  
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  /* HEADER */
-  header .row-video .konfio-text {
-    width: 50%;
-    padding-bottom: 2rem;
-  }
-
-  header .header-info p, header .header-info h2 {
-    margin-top: 2rem;
-  }
-
-  header .header-info h2 {
-    font-size: 2.5rem;
-  }
-
-  header .line {
-    width: 100%;
-  }
-  /* END OF HEADER */
-
   /* GENERAL STYLES FOR THIS PAGE */
   .btn-create-2 {
     width: 27.5%;
   }
-/* END OF GENERAL STYLES FOR THIS PAGE */
+  /* END OF GENERAL STYLES FOR THIS PAGE */
+
+  /* ---------- HEADER  ---------- */
+  .header-3 .line {
+    position: absolute;
+    width: 125%;
+    top: -5%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin-right: -2.5rem;
+  }
+  /* ---------- END OF HEADER  ---------- */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-  /* HEADER */
-  header .header-info {
-    margin-top: 3rem;
-  }
-
-  header .header-info h2 {
-    width: 85%;
-  }
-  
-  header .line {
-    top: -25%;
+@media (min-width: 1200px) {
+  /* ---------- HEADER  ---------- */
+  .header-3 .line {
+    top: -20%;
     width: 150%;
-    margin-right: -6.5rem;
+    margin-right: -6rem;
   }
-  /* END OF HEADER */
+  /* ---------- END OF HEADER  ---------- */
 
   /* CHARACTERISTICS */
   main .characteristics .img-business-card {
