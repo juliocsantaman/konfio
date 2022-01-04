@@ -19,6 +19,24 @@
 }
 /* ---------- END OF OUR SEARCH ENGINE ---------- */
 
+/* ---------- EFOS AND EDOS ---------- */
+.efos-and-edos {
+  font-size: small;
+}
+
+.efos-and-edos .tab-pane-title {
+  font-size: 1.1rem;
+}
+
+.efos-and-edos .tab-pane-img {
+  width: 100%;
+}
+
+.efos-and-edos .extra-info div {
+  margin-top: 1rem;
+}
+/* ---------- END OF EFOS AND EDOS ---------- */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -42,6 +60,12 @@
     font-size: 1.5rem;
   }
   /* ---------- END OF OUR SEARCH ENGINE ---------- */
+
+  /* ---------- EFOS AND EDOS ---------- */
+  .efos-and-edos {
+    font-size: medium;
+  }
+  /* ---------- END OF EFOS AND EDOS ---------- */
 }
 
 /* Large devices (desktops, 992px and up) */
