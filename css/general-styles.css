@@ -270,10 +270,6 @@
 /* ---------- END OF HEADER 2 ---------- */
 
 /* ---------- HEADER 3 ---------- */
-.header-3 .header-btn {
-  width: 50%;
-}
-
 .header-3 .video, .header-3 .row-video {
   position: relative;
 }
@@ -316,6 +312,18 @@
 
 .header-3 .header-p {
   margin-bottom: 2rem;
+}
+
+.header-3 {
+  margin-top: 2rem;
+}
+
+.header-3 h1 {
+  font-size: 1.125rem;
+}
+
+.header-3 h2 {
+  font-size: 1.5rem;
 }
 /* ---------- END OF HEADER 3 ---------- */
 
@@ -490,6 +498,23 @@ footer .footer-img {
     right: 0%; 
     margin: auto;
   }
+
+  .header-3 {
+    margin-top: 3rem;
+  }
+
+  .header-3 h1 {
+    font-size: 1.125rem;
+  }
+  
+  .header-3 h2 {
+    font-size: 2.5rem;
+  }
+
+  .header-3 p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
   /* ---------- END OF HEADER 3 ---------- */
 
   /* ---------- FORM 1 ---------- */
@@ -585,6 +610,12 @@ footer .footer-img {
   /* ---------- END OF HEADER 2 ---------- */
 
   /* ---------- HEADER 3 ---------- */
+  .header-3 .header-btn {
+    width: 62%;
+    padding: 1.4rem;
+    font-size: 1.125rem;
+  }
+
   .header-3 .row-video .konfio-text {
     width: 50%;
     padding-bottom: 2rem;
@@ -612,7 +643,7 @@ footer .footer-img {
   .header-3 .line-2 {
     position: absolute;
     width: 125%;
-    top: -5%;
+    top: -10%;
     bottom: 0%;
     left: 0%;
     right: 0%;
@@ -624,7 +655,7 @@ footer .footer-img {
   }
   
   .header-3 .header-col-2 .row {
-    min-height: 27.5rem;
+    min-height: 30rem;
   }
   /* ---------- END OF HEADER 3 ---------- */
 
@@ -710,6 +741,11 @@ footer .footer-img {
   /* ---------- END OF HEADER 2 ---------- */
 
   /* ---------- HEADER 3 ---------- */
+  .header-3 .header-btn {
+    width: 45%;
+    padding: 1.2rem;
+  }
+
   .header-3 .header-info {
     margin-top: 3rem;
   }
@@ -717,11 +753,7 @@ footer .footer-img {
   .header-3 .header-info h2 {
     width: 85%;
   }
-    
-  .header-3 .header-btn {
-    width: 40%;
-  }
-
+  
   .header-3 .line {
     top: -30%;
     width: 150%;

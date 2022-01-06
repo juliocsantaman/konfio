@@ -1,3 +1,9 @@
+/* ---------- GENERAL STYLE OF THIS PAGE  ---------- */
+.card-subtitle, h2 {
+  font-size: 1.5rem;
+}
+/* ---------- END OF GENERAL STYLE OF THIS PAGE  ---------- */
+
 /* ---------- HEADER  ---------- */
 .header-3 .row-video .konfio-text {
   width: 50%;
@@ -8,20 +14,24 @@
 /* ---------- INFO SIR PAYMENTS  ---------- */
 .info-sir-payments .card-subtitle {
   width: 75%;
-  font-size: 1.5rem;
   margin-bottom: 1.5rem;
 }
 /* ---------- END OF INFO SIR PAYMENTS  ---------- */
 
-/* WHY SIR PAYMENTS */
-.why-sir-payments .card-img {
-  width: 5rem;
+/* ---------- SUCCESS STORIES  ---------- */
+
+.swiper-success-stories {
+  margin-top: 1rem;
 }
 
-.why-sir-payments .swiper-why-sir-payments .card {
+.swiper-success-stories .card-img {
+  width: 100%;
+}
+
+.swiper-success-stories .card {
   min-height: 12.5rem;
 }
-/* END OF WHY SIR PAYMENTS */
+/* ---------- END OF SUCCESS STORIES  ---------- */
 
 /* KONFIO AND MR PAYMENTS */
 .konfio-mr-payments .card-img, .konfio-mr-payments .card-text {
@@ -42,10 +52,15 @@ X-Small devices (portrait phones, less than 576px)
 @media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+  /* ---------- GENERAL STYLE OF THIS PAGE  ---------- */
+  .card-subtitle, h2 {
+    font-size: 2rem;
+  }
+  /* ---------- END OF GENERAL STYLE OF THIS PAGE  ---------- */
+  
   /* ---------- INFO SIR PAYMENTS  ---------- */
   .info-sir-payments .card-subtitle {
-    font-size: 2rem;
     margin-bottom: 2rem;
   }
   /* ---------- END OF INFO SIR PAYMENTS  ---------- */
@@ -63,27 +78,6 @@ X-Small devices (portrait phones, less than 576px)
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* ---------- INFO SIR PAYMENTS  ---------- */
-  .info-sir-payments .card-subtitle {
-    font-size: 2rem;
-  }
-  /* ---------- END OF INFO SIR PAYMENTS  ---------- */
-
-  /* WHY SIR PAYMENTS */
-  .why-sir-payments .swiper-why-sir-payments .card {
-    min-height: 14.063rem;
-  }
-
-  .why-sir-payments .logo-web {
-    padding: 0.8rem;
-  }
-
-  .why-sir-payments .card-img {
-    width: 4rem;
-    height: 4rem;
-  }
-  /* END OF WHY SIR PAYMENTS */
-
   /* KONFIO AND MR PAYMENTS */
   .konfio-mr-payments .btn-create {
     width: 25%;
@@ -95,17 +89,11 @@ X-Small devices (portrait phones, less than 576px)
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  /* ---------- INFO SIR PAYMENTS  ---------- */
-  .info-sir-payments .card-subtitle {
+  /* ---------- GENERAL STYLE OF THIS PAGE  ---------- */
+  .card-subtitle, h2 {
     font-size: 2.5rem;
   }
-  /* ---------- END OF INFO SIR PAYMENTS  ---------- */
-
-  /* WHY SIR PAYMENTS */  
-  .why-sir-payments .logo-web {
-    padding: unset;
-  }
-  /* END OF WHY SIR PAYMENTS */
+  /* ---------- END OF GENERAL STYLE OF THIS PAGE  ---------- */
 
   /* KONFIO AND MR PAYMENTS */
   .konfio-mr-payments .btn-create {
