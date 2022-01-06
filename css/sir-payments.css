@@ -1,8 +1,8 @@
-/* ---------- GENERAL STYLE OF THIS PAGE  ---------- */
+/* ---------- GENERAL STYLES OF THIS PAGE  ---------- */
 .card-subtitle, h2 {
   font-size: 1.5rem;
 }
-/* ---------- END OF GENERAL STYLE OF THIS PAGE  ---------- */
+/* ---------- END OF GENERAL STYLES OF THIS PAGE  ---------- */
 
 /* ---------- HEADER  ---------- */
 .header-3 .row-video .konfio-text {
@@ -33,15 +33,19 @@
 }
 /* ---------- END OF SUCCESS STORIES  ---------- */
 
-/* KONFIO AND MR PAYMENTS */
-.konfio-mr-payments .card-img, .konfio-mr-payments .card-text {
-  width: 10rem;
+/* ---------- VIDEO PLAY  ---------- */
+.video-play h2 {
+  font-size: 2rem;
 }
 
-.konfio-mr-payments .card {
-  min-height: 17.188rem;
+.video-play p {
+  margin: 2rem auto;
 }
-/* END OF KONFIO AND MR PAYMENTS */
+
+.video-play img {
+  width: 100%;
+}
+/* ---------- END OF VIDEO PLAY  ---------- */
 
 /*
 X-Small devices (portrait phones, less than 576px)
@@ -53,53 +57,35 @@ X-Small devices (portrait phones, less than 576px)
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* ---------- GENERAL STYLE OF THIS PAGE  ---------- */
+  /* ---------- GENERAL STYLES OF THIS PAGE  ---------- */
   .card-subtitle, h2 {
     font-size: 2rem;
   }
-  /* ---------- END OF GENERAL STYLE OF THIS PAGE  ---------- */
+  /* ---------- END OF GENERAL STYLES OF THIS PAGE  ---------- */
   
   /* ---------- INFO SIR PAYMENTS  ---------- */
   .info-sir-payments .card-subtitle {
     margin-bottom: 2rem;
   }
   /* ---------- END OF INFO SIR PAYMENTS  ---------- */
-
-  /* KONFIO AND MR PAYMENTS */
-  .konfio-mr-payments .card {
-    min-height: 16rem;
-  }
-
-  .konfio-mr-payments .card-text {
-    width: unset;
-  }
-  /* END OF KONFIO AND MR PAYMENTS */
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* KONFIO AND MR PAYMENTS */
-  .konfio-mr-payments .btn-create {
-    width: 25%;
-    margin: auto;
-    padding: 0.8rem;
+  /* ---------- VIDEO PLAY  ---------- */
+  .video-play h2 {
+    font-size: 2.5rem;
   }
-  /* END OF KONFIO AND MR PAYMENTS */
+  /* ---------- END OF VIDEO PLAY  ---------- */
  }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  /* ---------- GENERAL STYLE OF THIS PAGE  ---------- */
+  /* ---------- GENERAL STYLES OF THIS PAGE  ---------- */
   .card-subtitle, h2 {
     font-size: 2.5rem;
   }
-  /* ---------- END OF GENERAL STYLE OF THIS PAGE  ---------- */
-
-  /* KONFIO AND MR PAYMENTS */
-  .konfio-mr-payments .btn-create {
-    width: 20%;
-  }
-  /* END OF KONFIO AND MR PAYMENTS */
+  /* ---------- END OF GENERAL STYLES OF THIS PAGE  ---------- */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
