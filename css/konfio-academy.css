@@ -5,19 +5,8 @@
 /* END OF OUR VIDEO CHANNEL */
 
 /* OUR FORM */
-.our-form .form-btn {
-  width: 100%;
-  padding: 0.8rem;
-}
-
 .our-form h2 {
   margin-bottom: 2rem;
-}
-
-.our-form input, .our-form select, .our-form textarea {
-  min-height: 3.5rem;
-  width: 100%;
-  margin-bottom: 1.5rem;
 }
 /* END OF OUR FORM */
 
@@ -38,17 +27,6 @@
   /* END OF OUR VIDEO CHANNEL */
 
   /* OUR FORM */
-  .our-form .card {
-    height: 30rem;
-    overflow-y: scroll;
-  }
-
-  .our-form .form-btn {
-    width: 50%;
-    display: block;
-    margin: auto;
-  }
-
   .our-form h2 {
     margin-bottom: 3rem;
   }
@@ -65,12 +43,6 @@
     margin-top: 2.65rem;
   }
   /* END OF OUR VIDEO CHANNEL */
-
-  /* OUR FORM */  
-  .our-form .form-btn {
-    padding: 0.6rem;
-  }
-  /* END OF OUR FORM */
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */

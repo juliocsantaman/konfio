@@ -162,6 +162,28 @@
 }
 /* ---------- END OF STYLES OF SWIPER ---------- */
 
+/* ---------- SWIPER 1 ---------- */
+.my-section-1 .description {
+  margin: 1.5rem auto;
+}
+
+.swiper-1 .card {
+  min-height: 15rem;
+}
+
+.swiper-1 .card-img {
+  width: 4.3rem
+}
+
+.swiper-1 .card-body h5 {
+  font-size: 1rem;
+}
+
+.swiper-1 .card-body {
+  font-size: 0.9rem;
+}
+/* ---------- END OF SWIPER 1 ---------- */
+
 /* ---------- CREDIT SIMULATOR ---------- */
 .credit-simulator .btns button {
   width: 100%;
@@ -209,30 +231,18 @@
 }
 /* ---------- END OF ACCORDION 1 ---------- */
 
-/* ---------- FOOTER ---------- */
-footer {
-  margin-bottom: 15%;
+/* ---------- FORM 1 ---------- */
+.form-1 .form-btn {
+  width: 100%;
+  padding: 0.8rem;
 }
 
-footer .direction .social-networks span {
-  margin: 1rem 1rem 1rem 0rem;
-  width: 30px;
-  height: 30px;
-  color: gray;
+.form-1 input, .form-1 select, .form-1 textarea {
+  min-height: 3.5rem;
+  width: 100%;
+  margin-bottom: 1.5rem;
 }
-
-footer .sub-footer .direction, footer .sub-footer .konfio-platform {
-  margin: 1rem auto auto auto;
-}
-
-footer .terms {
-  margin: 8rem auto auto auto;
-}
-
-footer .footer-img {
-  width: 2.2rem;
-}
-/* ---------- END OF FOOTER ---------- */
+/* ---------- END OF FORM 1 ---------- */
 
 /* ---------- HEADER 1 ---------- */
 .header-1 iframe {
@@ -309,27 +319,30 @@ footer .footer-img {
 }
 /* ---------- END OF HEADER 3 ---------- */
 
-/* ---------- SWIPER 1 ---------- */
-.my-section-1 .description {
-  margin: 1.5rem auto;
+/* ---------- FOOTER ---------- */
+footer {
+  margin-bottom: 15%;
 }
 
-.swiper-1 .card {
-  min-height: 15rem;
+footer .direction .social-networks span {
+  margin: 1rem 1rem 1rem 0rem;
+  width: 30px;
+  height: 30px;
+  color: gray;
 }
 
-.swiper-1 .card-img {
-  width: 4.3rem
+footer .sub-footer .direction, footer .sub-footer .konfio-platform {
+  margin: 1rem auto auto auto;
 }
 
-.swiper-1 .card-body h5 {
-  font-size: 1rem;
+footer .terms {
+  margin: 8rem auto auto auto;
 }
 
-.swiper-1 .card-body {
-  font-size: 0.9rem;
+footer .footer-img {
+  width: 2.2rem;
 }
-/* ---------- END OF SWIPER 1 ---------- */
+/* ---------- END OF FOOTER ---------- */
 
 .modal-iframe {
   width: 100%;
@@ -411,18 +424,28 @@ footer .footer-img {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  /* ---------- FOOTER ---------- */
-  footer .terms a {
-    margin: 0rem 0.5rem;
-  }
-  /* ---------- END OF FOOTER ---------- */
-
   /* ---------- SWIPER ---------- */
   .swiper-credit-requirements .card img {
     width: 75%;
     margin: auto;
   }
   /* ---------- END OF SWIPER ---------- */
+
+  /* ---------- SWIPER 1 ---------- */
+  .my-section-1 .description {
+    margin: 2.5rem auto;
+  }
+
+  .swiper-1 .card {
+    min-height: 18.5rem;
+  }
+
+  .my-section-1 .btn-create {
+    width: 32.5%;
+    margin: auto;
+    padding: 0.7rem;
+  }
+  /* ---------- END OF SWIPER 1 ---------- */
 
   /* ---------- HEADER 1 ---------- */
   .header-1 iframe {
@@ -469,21 +492,28 @@ footer .footer-img {
   }
   /* ---------- END OF HEADER 3 ---------- */
 
-  /* ---------- SWIPER 1 ---------- */
-  .my-section-1 .description {
-    margin: 2.5rem auto;
+  /* ---------- FORM 1 ---------- */
+  .form-1 .card {
+    height: 30rem;
+    overflow-y: scroll;
   }
 
-  .swiper-1 .card {
-    min-height: 18.5rem;
-  }
-
-  .my-section-1 .btn-create {
-    width: 32.5%;
+  .form-1 .form-btn {
+    width: 50%;
+    display: block;
     margin: auto;
-    padding: 0.7rem;
   }
-  /* ---------- END OF SWIPER 1 ---------- */
+
+  .form-1 h2 {
+    margin-bottom: 3rem;
+  }
+  /* ---------- END OF FORM 1 ---------- */
+
+  /* ---------- FOOTER ---------- */
+  footer .terms a {
+    margin: 0rem 0.5rem;
+  }
+  /* ---------- END OF FOOTER ---------- */
 
   .section-h2 {
     font-size: 1.9rem;
@@ -765,6 +795,12 @@ footer .footer-img {
     padding: 0.6rem;
   }
   /* ---------- END OF SWIPER 1 ---------- */
+
+  /* ---------- FORM 1 ---------- */
+  .form-1 .form-btn {
+    padding: 0.6rem;
+  }
+  /* ---------- END OF FORM 1 ---------- */
 
   .section-h2 {
     font-size: 2.2rem;

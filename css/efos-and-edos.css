@@ -60,6 +60,13 @@
 }
 /* ---------- END OF SAT BLACKLIST ---------- */
 
+/* ---------- OUR FORM ---------- */
+.our-form h2 {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+/* ---------- END OF OUR FORM ---------- */
+
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -147,7 +154,6 @@
     font-size: 1rem;
   }
   /* ---------- END OF SAT BLACKLIST ---------- */
-
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
