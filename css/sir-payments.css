@@ -1,21 +1,17 @@
-/* HEADER */
-header .img-width {
-  width: 75%;
-  /* margin-top: 1rem; */
+/* ---------- HEADER  ---------- */
+.header-3 .row-video .konfio-text {
+  width: 50%;
+  margin-bottom: 1rem;
 }
-/* END OF HEADER */
+/* ---------- END OF HEADER  ---------- */
 
-/* SIR PAYMENTS INFO */
+/* ---------- INFO SIR PAYMENTS  ---------- */
 .info-sir-payments .card-subtitle {
-  width: 60%;
-  margin: auto;
+  width: 75%;
   font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
-.info-sir-payments .img-sir-payments {
-  width: 12rem;
-}
-/* END OF SIR PAYMENTS INFO */
+/* ---------- END OF INFO SIR PAYMENTS  ---------- */
 
 /* WHY SIR PAYMENTS */
 .why-sir-payments .card-img {
@@ -47,24 +43,12 @@ X-Small devices (portrait phones, less than 576px)
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  /* HEADER */
-  header .img-width {
-    width: 50%;
-    /* margin-top: 1rem; */
-  }
-
-  header .p-2 {
-    width: 50%;
-    margin: auto;
-  }
-  /* END OF HEADER */
-
-  /* SIR PAYMENTS INFO */
+  /* ---------- INFO SIR PAYMENTS  ---------- */
   .info-sir-payments .card-subtitle {
-    width: 80%;
     font-size: 2rem;
+    margin-bottom: 2rem;
   }
-  /* END OF SIR PAYMENTS INFO */
+  /* ---------- END OF INFO SIR PAYMENTS  ---------- */
 
   /* KONFIO AND MR PAYMENTS */
   .konfio-mr-payments .card {
@@ -79,23 +63,11 @@ X-Small devices (portrait phones, less than 576px)
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* HEADER */
-  header .img-width {
-    width: 100%;
-    /* margin-top: 1rem; */
-  }
-
-  header .btn-create {
-    width: 75%;
-  }
-  /* END OF HEADER */
-
-  /* SIR PAYMENTS INFO */
+  /* ---------- INFO SIR PAYMENTS  ---------- */
   .info-sir-payments .card-subtitle {
-    margin: unset;
     font-size: 2rem;
   }
-  /* END OF SIR PAYMENTS INFO */
+  /* ---------- END OF INFO SIR PAYMENTS  ---------- */
 
   /* WHY SIR PAYMENTS */
   .why-sir-payments .swiper-why-sir-payments .card {
@@ -123,22 +95,11 @@ X-Small devices (portrait phones, less than 576px)
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  /* HEADER */
-  header .img-width {
-    width: 75%;
-    /* margin-top: 1rem; */
-  }
-
-  header .btn-create {
-    width: 50%;
-  }
-  /* END OF HEADER */
-
-  /* SIR PAYMENTS INFO */
+  /* ---------- INFO SIR PAYMENTS  ---------- */
   .info-sir-payments .card-subtitle {
     font-size: 2.5rem;
   }
-  /* END OF SIR PAYMENTS INFO */
+  /* ---------- END OF INFO SIR PAYMENTS  ---------- */
 
   /* WHY SIR PAYMENTS */  
   .why-sir-payments .logo-web {
