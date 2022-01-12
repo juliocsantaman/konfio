@@ -245,36 +245,64 @@
 /* ---------- END OF FORM 1 ---------- */
 
 /* ---------- HEADER 1 ---------- */
-.header-1 iframe {
+.header-1__h1 {
+  font-size: 1.1rem;
+}
+
+.header-1__h2 {
+  font-size: 1.5rem;
+}
+
+.header-1__iframe {
   width: 100%;
   height: 11rem;
 }
 
-.header-1 h1 {
-  font-size: 1.1rem;
+.header-1__img-text {
+  width: 100%;
 }
 
-.header-1 h2 {
-  font-size: 1.5rem;
+.header-1__p {
+  font-size: 1rem;
 }
 /* ---------- END OF HEADER 1 ---------- */
 
 /* ---------- HEADER 2 ---------- */
-.header-2 .text-image {
+.header-2__img-text {
   width: 65%;
 }
 
-.header-2 .header-image {
+.header-2__img {
   width: 85%;
 }
 /* ---------- END OF HEADER 2 ---------- */
 
 /* ---------- HEADER 3 ---------- */
-.header-3 .video, .header-3 .row-video {
+.header-3 {
+  margin-top: 2rem;
+}
+
+.header-3__h1 {
+  font-size: 1.125rem;
+}
+
+.header-3__h2 {
+  font-size: 1.5rem;
+}
+
+.header-3__p {
+  margin-bottom: 2rem;
+}
+
+.header-3__img-word {
+  margin: 2rem 0;
+}
+
+.header-3__row-video, .header-3__video {
   position: relative;
 }
 
-.header-3 .video .player {
+.header-3__player {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,22 +313,22 @@
   z-index: 1;
 }
 
-.header-3 .video .bg-img {
+.header-3__bg-img {
   border-radius: 50%;
   width: 100%;
   min-height: 12rem;
 }
 
-.header-3 .row-video .konfio-text {
+.header-3__konfio-text {
   width: 75%;
 }
 
-.header-3 .card {
+.header-3__card {
   background-color: transparent; 
   border: none;
 }
 
-.header-3 .line, .header-3 .line-2 {
+.header-3__line {
   position: absolute; 
   width: 100%;
   top: -10%;
@@ -308,22 +336,6 @@
   left: 0%; 
   right: 0%; 
   margin: auto;
-}
-
-.header-3 .header-p {
-  margin-bottom: 2rem;
-}
-
-.header-3 {
-  margin-top: 2rem;
-}
-
-.header-3 h1 {
-  font-size: 1.125rem;
-}
-
-.header-3 h2 {
-  font-size: 1.5rem;
 }
 /* ---------- END OF HEADER 3 ---------- */
 
@@ -456,40 +468,69 @@ footer .footer-img {
   /* ---------- END OF SWIPER 1 ---------- */
 
   /* ---------- HEADER 1 ---------- */
-  .header-1 iframe {
-    width: 30rem;
-    height: 17.5rem;
-  }
-  
-  .header-1 h2 {
+  .header-1__h2 {
     font-size: 2.4rem;
   }
   
-  .header-1 p {
+  .header-1__p {
     font-size: 1.25rem;
+  }
+
+  .header-1__iframe {
+    width: 30rem;
+    height: 17.5rem;
+  }
+
+  .header-1__img-text {
+    width: 70%;
   }
   /* ---------- END OF HEADER 1 ---------- */
 
   /* ---------- HEADER 2 ---------- */
-  .header-2 .text-image {
+  .header-2__img-text {
     width: 35%;
   }
   
-  .header-2 .header-image {
+  .header-2__img {
     width: 70%;
   }
   
-  .header-2 .header-paragraph {
+  .header-2__p {
     font-size: 1.2rem;
   }
   /* ---------- END OF HEADER 2 ---------- */
 
   /* ---------- HEADER 3 ---------- */
-  .header-3 .video .bg-img {
+  .header-3 {
+    margin-top: 3rem;
+  }
+
+  .header-3__h1 {
+    font-size: 1.125rem;
+  }
+  
+  .header-3__h2 {
+    font-size: 2.5rem;
+  }
+
+  .header-3__p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .header-3__img-word {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .header-3__h1-divider {
+    margin: 0 1rem;
+  }
+
+  .header-3__bg-img {
     min-height: 17rem;
   }
   
-  .header-3 .line, .header-3 .line-2 {
+  .header-3__line {
     position: absolute; 
     width: 100%;
     top: -5%;
@@ -497,23 +538,6 @@ footer .footer-img {
     left: 0%; 
     right: 0%; 
     margin: auto;
-  }
-
-  .header-3 {
-    margin-top: 3rem;
-  }
-
-  .header-3 h1 {
-    font-size: 1.125rem;
-  }
-  
-  .header-3 h2 {
-    font-size: 2.5rem;
-  }
-
-  .header-3 p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
   }
   /* ---------- END OF HEADER 3 ---------- */
 
@@ -579,30 +603,34 @@ footer .footer-img {
   /* ---------- END OF FOOTER ---------- */
 
   /* ---------- HEADER 1 ---------- */
-  .header-1 iframe {
+  .header-1__iframe {
     height: 17rem;
   }
   
-  .header-1 .btn-create {
+  .header-1__btn {
     width: 70%;
     padding: 1.2rem;
+  }
+
+  .header-1__img-text {
+    width: 82.5%;
   }
   /* ---------- END OF HEADER 1 ---------- */
 
   /* ---------- HEADER 2 ---------- */
-  .header-2 .text-image {
+  .header-2__img-text {
     width: 70%;
   }
   
-  .header-2 .header-image {
+  .header-2__img {
     width: 100%;
   }
   
-  .header-2 .header-paragraph {
+  .header-2__p {
     width: 90%;
   }
   
-  .header-2 .header-btn {
+  .header-2__btn {
     margin-top: 3.5rem;
     padding: 1.4rem;
     width: 62.5%;
@@ -610,52 +638,50 @@ footer .footer-img {
   /* ---------- END OF HEADER 2 ---------- */
 
   /* ---------- HEADER 3 ---------- */
-  .header-3 .header-btn {
+  .header-3__btn {
     width: 62%;
     padding: 1.4rem;
     font-size: 1.125rem;
   }
 
-  .header-3 .row-video .konfio-text {
+  .header-3__konfio-text {
     width: 50%;
     padding-bottom: 2rem;
   }
 
-  .header-3 .row-video .header-konfio-text-2 {
+  .header-3__konfio-text-2 {
     width: 65%;
     margin-bottom: 2.5rem;
   }
   
-  .header-3 .header-info p, .header-3 .header-info h2 {
+  .header-3__p, .header-3__h2 {
     margin-top: 2rem;
   }
   
-  .header-3 .header-info h2 {
+  .header-3__h2 {
     font-size: 2.5rem;
   }
   
-  .header-3 .line {
+  .header-3__line {
     width: 125%;
     top: -15%;
     margin-right: -2.5rem;
   }
 
-  .header-3 .line-2 {
-    position: absolute;
-    width: 125%;
-    top: -10%;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
-    margin-right: -2.5rem;
-  }
-  
-  .header-3 .video .bg-img {
+  .header-3__bg-img {
     min-height: 20rem;
   }
   
-  .header-3 .header-col-2 .row {
+  .header-3__row-video {
     min-height: 30rem;
+  }
+
+  .header-3__p--no-margin {
+    margin: 0;
+  }
+
+  .header-3__p--margin-top {
+    margin-top: 2rem;
   }
   /* ---------- END OF HEADER 3 ---------- */
 
@@ -694,83 +720,78 @@ footer .footer-img {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
   /* ---------- HEADER 1 ---------- */
-  .header-1 .btn-create {
+  .header-1__h1 {
+    font-size: 1rem;
+  }
+    
+  .header-1__h2 {
+    font-size: 2.22rem;
+  }
+
+  .header-1__p {
+    width: 90%;
+    font-size: 1.1rem;
+  }
+
+  .header-1__btn {
     width: 52%;
     padding: 1.2rem;
   }
   
-  .header-1 iframe {
+  .header-1__iframe {
     width: 35rem;
     height: 19rem;
   }
-  
-  .header-1 p, .header-3 h2 {
-    width: 90%;
-  }
-  
-  .header-1 h1 {
-    font-size: 1rem;
-  }
-    
-  .header-1 h2 {
-    font-size: 2.22rem;
-  }
-  
-  .header-1 p {
-    font-size: 1.1rem;
+
+  .header-1__img-text {
+    width: 55%;
   }
   /* ---------- END OF HEADER 1 ---------- */
 
   /* ---------- HEADER 2 ---------- */
-  .header-2 .text-image {
+  .header-2__img-text {
     width: 52.5%;
   }
   
-  .header-2 .header-paragraph {
+  .header-2__p {
     width: 80%;
   }
   
-  .header-2 .header-btn {
+  .header-2__btn {
     padding: 1.1rem;
     width: 50%;
   }
   
-  .header-2 .header-image {
+  .header-2__img {
     width: 75%;
   }
   /* ---------- END OF HEADER 2 ---------- */
 
   /* ---------- HEADER 3 ---------- */
-  .header-3 .header-btn {
+  .header-3__btn {
     width: 45%;
     padding: 1.2rem;
   }
 
-  .header-3 .header-info {
+  .header-3__info {
     margin-top: 3rem;
   }
   
-  .header-3 .header-info h2 {
+  .header-3__h2 {
     width: 85%;
   }
   
-  .header-3 .line {
+  .header-3__line {
     top: -30%;
     width: 150%;
     margin-right: -6rem;
   }
-
-  .header-3 .line-2 {
-    top: -20%;
-    width: 150%;
-    margin-right: -6rem;
-  }
   
-  .header-3 .header-col-2 .row {
+  .header-3__row-video {
     min-height: 30rem;
   }
 
-  .header-3 .row-video .header-konfio-text-2 {
+  .header-3__konfio-text-2 {
     width: 70%;
     margin-bottom: 3.5rem;
   }
