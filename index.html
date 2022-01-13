@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- NORMALIZE CSS -->
+  <link rel="stylesheet" href="./css/normalize.css">
   <!-- BOOTSTRAP CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
   <!-- CDN FONTAWESOME -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
@@ -45,15 +47,16 @@
             <div class="d-flex flex-column flex-xl-row">
               <!-- DROPDOWN FINANCIAL SOLUTIONS -->
               <li class="nav-item dropdown">
-                <a class="config-link nav-link dropdown-toggle fw-bold" href="#"
-                  id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="config-link nav-link dropdown-toggle fw-bold" href="#" id="offcanvasNavbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Soluciones financieras
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
                   <li><a class="dropdown-item link" href="./pages/business-credit.html">Crédito empresarial</a></li>
                   <li><a class="dropdown-item link" href="./pages/credit-simulator.html">Simulador de crédito</a></li>
                   <li><a class="dropdown-item link" href="./pages/business-card.html">Tarjeta empresarial</a></li>
-                  <li><a class="dropdown-item link" href="./pages/business-alliances.html">Alianzas para negocio</a></li>
+                  <li><a class="dropdown-item link" href="./pages/business-alliances.html">Alianzas para negocio</a>
+                  </li>
                 </ul>
               </li>
               <!-- END OF DROPDOWN FINANCIAL SOLUTIONS -->
@@ -62,8 +65,8 @@
 
               <!-- DROPDOWN BUSINESS SOFTWARE -->
               <li class="nav-item dropdown">
-                <a class="config-link nav-link dropdown-toggle fw-bold" href="#"
-                  id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="config-link nav-link dropdown-toggle fw-bold" href="#" id="offcanvasNavbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Software empresarial
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
@@ -79,8 +82,8 @@
 
               <!-- DROPDOWN BUSINESS ACCOMPANIMENT -->
               <li class="nav-item dropdown">
-                <a class="config-link nav-link dropdown-toggle fw-bold" href="#"
-                  id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="config-link nav-link dropdown-toggle fw-bold" href="#" id="offcanvasNavbarDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Acompañamiento
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
@@ -132,13 +135,21 @@
   <!-- HEADER FOR MOBILE AND TABLET-->
   <header class="header-mobile-tablet mt-4 d-block d-lg-none">
     <!-- ROW -->
-    <div class="row g-0">
+    <div class="row">
       <!-- COL -->
       <div class="col-12">
         <h1 class="pb-4 fw-bold text-center">Tu plataforma de soluciones financieras</h1>
         <img class="w-100" src="./img/header-img.jpg" alt="Header image">
-        <p class="w-75 m-auto pt-4 text-center d-lg-none">
-          Obtén soluciones empresariales, herramientas de pago, cobro y gestión para crecer tu negocio.
+      </div>
+      <!-- END OF COL -->
+    </div>
+    <!-- END OF ROW -->
+    <!-- ROW -->
+    <div class="row justify-content-center">
+      <!-- COL -->
+      <div class="col-10 col-md-7">
+        <p class="pt-4 text-center d-lg-none">
+          Impulsa tu negocio con opciones de financiamiento, herramientas de pago, cobro y gestión.
         </p>
       </div>
       <!-- END OF COL -->
@@ -167,15 +178,15 @@
   <!-- MAIN -->
   <main>
     <!-- SOLUTIONS -->
-    <section class="solutions width m-auto container py-5">
+    <section class="solutions container-fluid py-5">
       <!-- ROW -->
-      <div class="description row">
+      <div class="description row justify-content-center">
         <!-- COL -->
-        <div class="col-12">
-          <h2 class="mb-4"><strong>Diseñamos soluciones empresariales para impulsar tus objetivos</strong></h2>
-          <p class="mb-3">
-            Obtén financiamiento, herramientas de pago, cobro y gestión para tu negocio: Todo en un solo sitio.
-            Encuentra financiamiento, herramientas de pago, cobre y gestión: Todo en un solo sitio.
+        <div class="col-11 col-md-8 col-lg-11 col-xl-8">
+          <h2 class="mb-4 fw-bold section-h2 lh-base text-lg-center">Diseñamos soluciones empresariales para impulsar
+            tus objetivos</h2>
+          <p class="mb-3 text-lg-center">
+            Impulsa tu negocio con opciones de financiamiento, herramientas de pago, cobro y gestión.
           </p>
           <img class="w-100 d-lg-none"
             src="https://cdn.konfio.mx/static/static/a56db6ab2a7db15228671426bcb9c62a/aa6ae/productos-konfio.png"
@@ -186,21 +197,22 @@
       <!-- END OF ROW -->
 
       <!-- ROW -->
-      <div class="solution mt-5 row">
+      <div class="solution mt-5 row justify-content-center">
         <!-- COL -->
-        <div class="col-12 col-lg-6 order-lg-2 d-lg-flex flex-lg-column justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 order-lg-2 d-lg-flex flex-lg-column justify-content-lg-center">
           <h2 class="mb-3"> <strong>Tarjeta empresarial</strong> </h2>
           <p class="mb-3">
             Obtén liquidez inmediata con tu Tarjeta de crédito empresarial personalizada. Administra tus gastos
             empresariales y sepáralos de los personales. ¡Continúa generando un buen historial crediticio para tu
             negocio!
           </p>
-          <a class="color-purple hover-purple hover-purple" href="./pages/business-card.html"> <strong>Conocer más</strong> </a>
+          <a class="color-purple hover-purple hover-purple" href="./pages/business-card.html"> <strong>Conocer
+              más</strong> </a>
         </div>
         <!-- END OF COL -->
 
         <!-- COL -->
-        <div class="col-12 col-lg-6 order-lg-1 d-lg-flex justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 order-lg-1 d-lg-flex justify-content-lg-center">
           <img class="mt-4"
             src="https://cdn.konfio.mx/static/static/35b1a34ac2548431bedf855ef8d10296/65938/tarjeta-de-credito-konfio.webp"
             alt="Credit card">
@@ -210,9 +222,9 @@
       <!-- END OF ROW -->
 
       <!-- ROW -->
-      <div class="solution mt-5 row">
+      <div class="solution mt-5 row justify-content-center">
         <!-- COL -->
-        <div class="col-12 col-lg-6 d-lg-flex flex-lg-column justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 d-lg-flex flex-lg-column justify-content-lg-center">
           <h2 class="mb-3"> <strong>Crédito empresarial</strong> </h2>
           <p class="mb-3">
             Solicita Crédito empresarial y obtén desde $100,000 y hasta $3,000,000. Pídelo en 7 minutos y recibe tu
@@ -225,12 +237,13 @@
           <p class="mt-3">
             Simula tu crédito en 3 pasos, calcula monto y plazo.
           </p>
-          <a class="color-purple hover-purple" href="./pages/credit-simulator.html"> <strong>Simular mi crédito</strong> </a>
+          <a class="color-purple hover-purple" href="./pages/credit-simulator.html"> <strong>Simular mi crédito</strong>
+          </a>
         </div>
         <!-- END OF COL -->
 
         <!-- COL -->
-        <div class="col-12 col-lg-6 d-lg-flex justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 d-lg-flex justify-content-lg-center">
           <img class="mt-4"
             src="https://cdn.konfio.mx/static/static/9a59ae2584bfa4ea39a73227ffed58c9/480de/credito-konfio.png"
             alt="Simulate credit">
@@ -240,9 +253,9 @@
       <!-- END OF ROW -->
 
       <!-- ROW -->
-      <div class="solution mt-5 row">
+      <div class="solution mt-5 row justify-content-center">
         <!-- COL -->
-        <div class="col-12 col-lg-6 order-lg-2 d-lg-flex flex-lg-column justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 order-lg-2 d-lg-flex flex-lg-column justify-content-lg-center">
           <h2 class="mb-3"> <strong>Facturación</strong> </h2>
           <p class="mb-3">
             Factura en línea, sin costo ni límite de folios, para que tú solo te preocupes por tus clientes y el
@@ -253,7 +266,7 @@
         <!-- END OF COL -->
 
         <!-- COL -->
-        <div class="col-12 col-lg-6 order-lg-1 d-lg-flex justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 order-lg-1 d-lg-flex justify-content-lg-center">
           <img class="mt-4"
             src="https://cdn.konfio.mx/static/static/7b30b7a61fb8eb7f2006cf1c7b6ce94c/1904f/sistema-de-gestion-empresarial-erp.png"
             alt="Billing">
@@ -263,9 +276,9 @@
       <!-- END OF ROW -->
 
       <!-- ROW -->
-      <div class="solution mt-5 row">
+      <div class="solution mt-5 row justify-content-center">
         <!-- COL -->
-        <div class="col-12 col-lg-6 d-lg-flex flex-lg-column justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 d-lg-flex flex-lg-column justify-content-lg-center">
           <h2 class="mb-3"> <strong>ERP - Software administrativo</strong> </h2>
           <p class="mb-3">
             Maneja tu negocio de manera más sencilla y administra tus reportes, inventarios y puntos de venta, desde un
@@ -276,7 +289,7 @@
         <!-- END OF COL -->
 
         <!-- COL -->
-        <div class="col-12 col-lg-6 d-lg-flex justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 d-lg-flex justify-content-lg-center">
           <img class="mt-4"
             src="https://cdn.konfio.mx/static/static/f6330b667fe18ef67718fd2140cd2df5/c08c4/facturacion-gratuita.png"
             alt="Administrative software">
@@ -286,9 +299,9 @@
       <!-- END OF ROW -->
 
       <!-- ROW -->
-      <div class="solution mt-5 row">
+      <div class="solution mt-5 row justify-content-center">
         <!-- COL -->
-        <div class="col-12 col-lg-6 order-lg-2 d-lg-flex flex-lg-column justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 order-lg-2 d-lg-flex flex-lg-column justify-content-lg-center">
           <h2 class="mb-3"> <strong>Konfío Pagos</strong> </h2>
           <p class="mb-3">
             Administra fácilmente tus transacciones con otros negocios. Vende a crédito y cobra al instante a través de
@@ -300,7 +313,7 @@
         <!-- END OF COL -->
 
         <!-- COL -->
-        <div class="col-12 col-lg-6 order-lg-1 d-lg-flex justify-content-lg-center">
+        <div class="col-11 col-md-8 col-lg-5 order-lg-1 d-lg-flex justify-content-lg-center">
           <img class="mt-4"
             src="https://cdn.konfio.mx/static/static/e515c5d7ed992f5f4f3cb6d0d35f1800/8be84/software-de-pagos.png"
             alt="Konfío Pagos">
@@ -313,11 +326,11 @@
     <!-- END OF SOLUTIONS -->
 
     <!-- STEPS -->
-    <section class="steps mt-5 width m-auto container">
+    <section class="steps container-fluid py-5">
       <!-- ROW -->
-      <div class="info row">
+      <div class="info row justify-content-center">
         <!-- COL -->
-        <div class="col-12 text-lg-center">
+        <div class="col-11 col-md-8 col-lg-10 text-lg-center">
           <h2 class="mb-3"> <strong>¿Cómo funciona la plataforma Konfío?</strong> </h2>
           <p class="mb-3">
             Accede a múltiples soluciones para tu empresa con una cuenta única
@@ -329,11 +342,11 @@
 
       <!-- TABS -->
       <!-- ROW -->
-      <div class="tab-content-container row">
+      <div class="tab-content-container row justify-content-center">
 
         <!-- NAV TABS -->
         <!-- COL -->
-        <ul class="nav nav-tabs col-12 col-lg-4" id="myTab" role="tablist">
+        <ul class="nav nav-tabs col-11 col-md-8 col-lg-4" id="myTab" role="tablist">
           <li class="nav-item w-50 d-flex" role="presentation">
             <button class="nav-link color-purple hover-purple nav-item-li nav-link-fs" id="create-tab"
               data-bs-toggle="tab" data-bs-target="#create" type="button" role="tab" aria-controls="create"
@@ -372,7 +385,7 @@
 
         <!-- COL -->
         <!-- TAB CONTENT -->
-        <div class="tab-content col-12 col-lg-8" id="myTabContent">
+        <div class="tab-content col-11 col-md-8 col-lg-6" id="myTabContent">
           <div class="tab-pane fade show active" id="create" role="tabpanel" aria-labelledby="create-tab">
             <!-- ROW -->
             <div class="row">
@@ -477,13 +490,194 @@
     <!-- END OF STEPS -->
 
     <!-- BENEFITS -->
-    <section class="benefits width m-auto mt-5 text-lg-center container">
+    <section class="benefits text-lg-center py-5 container-fluid">
       <!-- ROW -->
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- COL -->
-        <div class="col-12">
-          <h2> <strong>Nos aliamos con grandes empresas para impactar a más Pymes</strong> </h2>
+        <div class="col-11 col-md-7">
+          <h2 class="section-h2 fw-bold lh-base">Nos aliamos con grandes empresas para impactar a más Pymes</h2>
           <p class="mt-4">Descubre los beneficios que juntos podemos brindarte.</p>
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-10 col-md-7 col-lg-10">
+          <!-- SLIDER MAIN CONTAINER -->
+          <div class="swiper swiper-benefits">
+            <!-- ADDITIONAL REQUIRED WRAPPER -->
+            <div class="swiper-wrapper mb-5">
+              <!-- SLIDES -->
+              <!-- SLIDE 1 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <h5 class="card-title"><strong>wework</strong></h5>
+                    <p class="card-text w-75 text-center">
+                      Tu tarjeta Konfío te da 12 pases para usar en WeWork México, sin costo.
+                    </p>
+                    <a href="./pages/alliances/wework.html" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 1 -->
+
+              <!-- SLIDE 2 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Fortalece tu Pyme con la alianza PayPal y Konfío.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 2 -->
+
+              <!-- SLIDE 3 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Impulsa tu negocio junto a Grupo Modelo y Konfío.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 3 -->
+
+              <!-- SLIDE 4 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Dale un Up a tu negocio y detona su crecimiento.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 4 -->
+
+              <!-- SLIDE 5 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Equipa tu Pyme con la tecnología de MacStore.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 5 -->
+
+              <!-- SLIDE 6 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Transforma tu salón de clases con Soluciones Exa.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 6 -->
+
+              <!-- SLIDE 7 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Inyecta crédito y combustible a tu negocio con Oxxo Gas.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 7 -->
+
+              <!-- SLIDE 8 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Obtén un crédito oportuno en alianza con NADRO.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 8 -->
+
+              <!-- SLIDE 9 -->
+              <div class="swiper-slide">
+                <div class="card">
+                  <div
+                    class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
+                    <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
+                    <p class="card-text w-75 text-center">
+                      Abre oportunidades a tu Pyme junto a la Coparmex CDMX.
+                    </p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 9 -->
+
+            </div>
+            <!-- IF WE NEED PAGINATION -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- END OF SLIDER MAIN CONTAINER -->
         </div>
         <!-- END OF COL -->
       </div>
@@ -491,177 +685,13 @@
     </section>
     <!-- END OF BENEFITS -->
 
-    <!-- SLIDER MAIN CONTAINER -->
-    <div class="swiper swiper-benefits container">
-      <!-- ADDITIONAL REQUIRED WRAPPER -->
-      <div class="swiper-wrapper mb-5">
-        <!-- SLIDES -->
-        <!-- SLIDE 1 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <h5 class="card-title"><strong>wework</strong></h5>
-              <p class="card-text w-75 text-center">
-                Tu tarjeta Konfío te da 12 pases para usar en WeWork México, sin costo.
-              </p>
-              <a href="./pages/alliances/wework.html" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 1 -->
-
-        <!-- SLIDE 2 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Fortalece tu Pyme con la alianza PayPal y Konfío.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 2 -->
-
-        <!-- SLIDE 3 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Impulsa tu negocio junto a Grupo Modelo y Konfío.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 3 -->
-
-        <!-- SLIDE 4 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Dale un Up a tu negocio y detona su crecimiento.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 4 -->
-
-        <!-- SLIDE 5 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Equipa tu Pyme con la tecnología de MacStore.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 5 -->
-
-        <!-- SLIDE 6 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Transforma tu salón de clases con Soluciones Exa.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 6 -->
-
-        <!-- SLIDE 7 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Inyecta crédito y combustible a tu negocio con Oxxo Gas.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 7 -->
-
-        <!-- SLIDE 8 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Obtén un crédito oportuno en alianza con NADRO.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 8 -->
-
-        <!-- SLIDE 9 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto">
-            <div class="card-body card-body-height-2 d-flex flex-column align-items-center justify-content-center">
-              <img class="swiper-img" src="./img/paypal.png" alt="Paypal Logo">
-              <p class="card-text w-75 text-center">
-                Abre oportunidades a tu Pyme junto a la Coparmex CDMX.
-              </p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 9 -->
-
-      </div>
-      <!-- IF WE NEED PAGINATION -->
-      <div class="swiper-pagination"></div>
-    </div>
-    <!-- END OF SLIDER MAIN CONTAINER -->
-
     <!-- CLIENT-RESULTS -->
-    <section class="client-results width m-auto mt-5 text-lg-center container">
+    <section class="client-results text-lg-center container-fluid py-5">
       <!-- ROW -->
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- COL -->
-        <div class="col-12">
-          <h2><strong>Nuestros clientes nos recomiendan por sus resultados</strong></h2>
+        <div class="col-11 col-md-8 col-lg-12">
+          <h2 class="section-h2 fw-bold lh-base">Nuestros clientes nos recomiendan por sus resultados</h2>
           <p class="mt-4">
             Clientes que trabajan con nosotros incrementan sus ventas hasta un 25%, de acuerdo al Banco Interamericano
             de
@@ -671,127 +701,137 @@
         <!-- END OF COL -->
       </div>
       <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-10 col-md-6 col-lg-9 col-xl-8">
+          <!-- SLIDER MAIN CONTAINER -->
+          <div class="swiper swiper-client-results">
+            <!-- ADDITIONAL REQUIRED WRAPPER -->
+            <div class="swiper-wrapper mb-5">
+              <!-- SLIDES -->
+              <!-- SLIDE 1 -->
+              <div class="swiper-slide">
+                <div class="card d-lg-flex flex-lg-row-reverse">
+                  <div
+                    class="card-header bg-purple text-white d-flex flex-column align-items-center p-4 justify-content-lg-around">
+                    <h5><strong>Trustpilot</strong></h5>
+                    <p>TrustScores 4,8/5</p>
+                    <h5 class="card-title fs-6 d-none d-lg-block">
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                    </h5>
+                    <a href="#" class="card-link text-white">Ver más</a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6">
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                    </h5>
+                    <p class="card-text mt-3">
+                      Una plataforma real, ágil, rápida y sencilla para tramitar los préstamos y una respuesta
+                      sorprendente,
+                      me asesoraron de principio a fin durante el trámite, muy amigable la página.
+                    </p>
+                    <p class="fs-5"> <strong>David Ramirez</strong> </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 1 -->
+
+              <!-- SLIDE 2 -->
+              <div class="swiper-slide">
+                <div class="card d-lg-flex flex-lg-row-reverse">
+                  <div
+                    class="card-header bg-purple text-white d-flex flex-column align-items-center p-4 justify-content-lg-around">
+                    <h5><strong>Trustpilot</strong></h5>
+                    <p>TrustScores 4,8/5</p>
+                    <h5 class="card-title fs-6 d-none d-lg-block">
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                    </h5>
+                    <a href="#" class="card-link text-white">Ver más</a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6">
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                    </h5>
+                    <p class="card-text mt-3">
+                      Agradezco al gran equipo de Konfio por llevarte de la mano de principio a fin y aún ya estando
+                      acreditado siguen con la misma amabilidad para responder cualquier duda siempre.
+                    </p>
+                    <p class="fs-5"> <strong>Jonathan Gálvez</strong> </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 2 -->
+
+              <!-- SLIDE 3 -->
+              <div class="swiper-slide">
+                <div class="card d-lg-flex flex-lg-row-reverse">
+                  <div
+                    class="card-header bg-purple text-white d-flex flex-column align-items-center p-4 justify-content-lg-around">
+                    <h5><strong>Trustpilot</strong></h5>
+                    <p>TrustScores 4,8/5</p>
+                    <h5 class="card-title fs-6 d-none d-lg-block">
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                    </h5>
+                    <a href="#" class="card-link text-white">Ver más</a>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title fs-6">
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                      <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
+                    </h5>
+                    <p class="card-text mt-3">
+                      Solicite mi crédito a inicio de año; sin embargo no fue aprobado, pasaron 3 meses dándome
+                      seguimiento y
+                      esta vez sí fue aprobado, lo que me gusto fue la atención clara, rápida y amable.
+                    </p>
+                    <p class="fs-5"> <strong>Johnny Lopez</strong> </p>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 3 -->
+            </div>
+            <!-- IF WE NEED PAGINATION -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- END OF SLIDER MAIN CONTAINER -->
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
     </section>
     <!-- END OF CLIENT-RESULTS -->
 
-    <!-- SLIDER MAIN CONTAINER -->
-    <div class="swiper swiper-client-results container">
-      <!-- ADDITIONAL REQUIRED WRAPPER -->
-      <div class="swiper-wrapper mb-5">
-        <!-- SLIDES -->
-        <!-- SLIDE 1 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto d-lg-flex flex-lg-row-reverse">
-            <div
-              class="card-header bg-purple text-white d-flex flex-column align-items-center p-4 justify-content-lg-around">
-              <h5><strong>Trustpilot</strong></h5>
-              <p>TrustScores 4,8/5</p>
-              <h5 class="card-title fs-6 d-none d-lg-block">
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-              </h5>
-              <a href="#" class="card-link text-white">Ver más</a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title fs-6">
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-              </h5>
-              <p class="card-text mt-3">
-                Una plataforma real, ágil, rápida y sencilla para tramitar los préstamos y una respuesta sorprendente,
-                me asesoraron de principio a fin durante el trámite, muy amigable la página.
-              </p>
-              <p class="fs-5"> <strong>David Ramirez</strong> </p>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 1 -->
-
-        <!-- SLIDE 2 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto d-lg-flex flex-lg-row-reverse">
-            <div
-              class="card-header bg-purple text-white d-flex flex-column align-items-center p-4 justify-content-lg-around">
-              <h5><strong>Trustpilot</strong></h5>
-              <p>TrustScores 4,8/5</p>
-              <h5 class="card-title fs-6 d-none d-lg-block">
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-              </h5>
-              <a href="#" class="card-link text-white">Ver más</a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title fs-6">
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-              </h5>
-              <p class="card-text mt-3">
-                Agradezco al gran equipo de Konfio por llevarte de la mano de principio a fin y aún ya estando
-                acreditado siguen con la misma amabilidad para responder cualquier duda siempre.
-              </p>
-              <p class="fs-5"> <strong>Jonathan Gálvez</strong> </p>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 2 -->
-
-        <!-- SLIDE 3 -->
-        <div class="swiper-slide">
-          <div class="card width m-auto d-lg-flex flex-lg-row-reverse">
-            <div
-              class="card-header bg-purple text-white d-flex flex-column align-items-center p-4 justify-content-lg-around">
-              <h5><strong>Trustpilot</strong></h5>
-              <p>TrustScores 4,8/5</p>
-              <h5 class="card-title fs-6 d-none d-lg-block">
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-              </h5>
-              <a href="#" class="card-link text-white">Ver más</a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title fs-6">
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-                <span class="bg-success" style="padding: 0.1rem;"><i class="fas fa-star text-white"></i></span>
-              </h5>
-              <p class="card-text mt-3">
-                Solicite mi crédito a inicio de año; sin embargo no fue aprobado, pasaron 3 meses dándome seguimiento y
-                esta vez sí fue aprobado, lo que me gusto fue la atención clara, rápida y amable.
-              </p>
-              <p class="fs-5"> <strong>Johnny Lopez</strong> </p>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 3 -->
-      </div>
-      <!-- IF WE NEED PAGINATION -->
-      <div class="swiper-pagination"></div>
-    </div>
-    <!-- END OF SLIDER MAIN CONTAINER -->
-
-    <div class="container">
+    <div class="container-fluid">
       <!-- ROW -->
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- COL -->
-        <div class="col-12">
-          <p class="width m-auto text-lg-center" style="font-size: 0.8rem;">
+        <div class="col-10 col-md-5 col-lg-11 col-xl-8">
+          <p class="text-lg-center">
             <small>
               Banco Interamericano de desarrollo | BID Invest | División
               de Efectividad en Desarrollo | Abril de 2021*.
@@ -804,12 +844,14 @@
     </div>
 
     <!-- UNSTOPPABLE ENTREPRENEURS -->
-    <section class="unstoppable-entrepreneurs width m-auto mt-5 text-lg-center container">
+    <section class="unstoppable-entrepreneurs text-lg-center container-fluid py-5">
       <!-- ROW -->
-      <div class="row">
+      <div class="row justify-content-center">
         <!-- COL -->
-        <div class="col-12">
-          <h2><strong>¡Conoce a algunos de nuestros Empresarios Imparables!</strong></h2>
+        <div class="col-11 col-md-8 col-lg-9 col-xl-8">
+          <h2 class="section-h2 fw-bold lh-base">
+            ¡Conoce a las empresas mexicanas que han crecido con Konfío!
+          </h2>
           <p class="mt-4">
             Únete a las más de 40,000 empresas que hemos impulsado en el país.
           </p>
@@ -817,187 +859,241 @@
         <!-- END OF COL -->
       </div>
       <!-- END OF ROW -->
+
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-10 col-md-6 col-lg-11 col-xl-10">
+          <!-- SLIDER MAIN CONTAINER -->
+          <div class="swiper swiper-unstoppable-entrepreneurs">
+            <!-- ADDITIONAL REQUIRED WRAPPER -->
+            <div class="swiper-wrapper mb-5">
+              <!-- SLIDES -->
+              <!-- SLIDE 1 -->
+              <div class="swiper-slide">
+                <div class="card borders-top-radius m-auto">
+                  <div class="card-header card-header-video">
+                    <iframe class="borders-top-radius" src="https://www.youtube.com/embed/z_KWgMPzw4U"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body d-flex flex-column justify-content-center card-body-height">
+                    <h5 class="card-title fs-6"><strong>Cate de mi corazón</strong></h5>
+                    <p class="card-text mt-3">
+                      “Hemos incrementado nuestra capacidad de producción de 200 a 3,000 toneladas al año”.
+                    </p>
+                    <p class="fs-6"><strong>Alejandra Barbosa / Directora</strong></p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 1 -->
+
+              <!-- SLIDE 2 -->
+              <div class="swiper-slide">
+                <div class="card borders-top-radius">
+                  <div class="card-header card-header-video">
+                    <iframe class="borders-top-radius" src="https://www.youtube.com/embed/KQigJ7Vbi5c"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body d-flex flex-column justify-content-center card-body-height">
+                    <h5 class="card-title fs-6"><strong>Rayito de Luna</strong></h5>
+                    <p class="card-text mt-3">
+                      “Tener un aliado financiero como Konfío fue súper importante para poder crecer”.
+                    </p>
+                    <p class="fs-6"><strong>Ximena Mora / Fundadora</strong></p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 2 -->
+
+              <!-- SLIDE 3 -->
+              <div class="swiper-slide">
+                <div class="card borders-top-radius">
+                  <div class="card-header card-header-video">
+                    <iframe class="borders-top-radius" src="https://www.youtube.com/embed/ttvHH8Bv27s"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body d-flex flex-column justify-content-center card-body-height">
+                    <h5 class="card-title fs-6"><strong>Yoyuu</strong></h5>
+                    <p class="card-text mt-3">
+                      “El trato humano y las facilidades de pago nos han ayudado a mantenernos a flote durante la
+                      pandemia”.
+                    </p>
+                    <p class="fs-6"><strong>José Luis Valdovinos / Director</strong></p>
+                    <a href="#" class="card-link color-purple hover-purple fw-bold">
+                      Conocer más
+                      <i class="fas fa-chevron-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF SLIDE 3 -->
+
+            </div>
+            <!-- IF WE NEED PAGINATION -->
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- END OF SLIDER MAIN CONTAINER -->
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
     </section>
     <!-- END OF UNSTOPPABLE ENTREPRENEURS -->
 
-    <!-- SLIDER MAIN CONTAINER -->
-    <div class="swiper swiper-unstoppable-entrepreneurs container">
-      <!-- ADDITIONAL REQUIRED WRAPPER -->
-      <div class="swiper-wrapper mb-5">
-        <!-- SLIDES -->
-        <!-- SLIDE 1 -->
-        <div class="swiper-slide">
-          <div class="card borders-top-radius width m-auto">
-            <div class="card-header card-header-video">
-              <iframe class="borders-top-radius" src="https://www.youtube.com/embed/z_KWgMPzw4U"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="card-body d-flex flex-column justify-content-center card-body-height">
-              <h5 class="card-title fs-6"><strong>Cate de mi corazón</strong></h5>
-              <p class="card-text mt-3 w-75">
-                “Hemos incrementado nuestra capacidad de producción de 200 a 3,000 toneladas al año”.
-              </p>
-              <p class="fs-6"><strong>Alejandra Barbosa / Directora</strong></p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 1 -->
-
-        <!-- SLIDE 2 -->
-        <div class="swiper-slide">
-          <div class="card borders-top-radius width m-auto">
-            <div class="card-header card-header-video">
-              <iframe class="borders-top-radius" src="https://www.youtube.com/embed/KQigJ7Vbi5c"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="card-body d-flex flex-column justify-content-center card-body-height">
-              <h5 class="card-title fs-6"><strong>Rayito de Luna</strong></h5>
-              <p class="card-text mt-3 w-75">
-                “Tener un aliado financiero como Konfío fue súper importante para poder crecer”.
-              </p>
-              <p class="fs-6"><strong>Ximena Mora / Fundadora</strong></p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 2 -->
-
-        <!-- SLIDE 3 -->
-        <div class="swiper-slide">
-          <div class="card borders-top-radius width m-auto">
-            <div class="card-header card-header-video">
-              <iframe class="borders-top-radius" src="https://www.youtube.com/embed/ttvHH8Bv27s"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            </div>
-            <div class="card-body d-flex flex-column justify-content-center card-body-height">
-              <h5 class="card-title fs-6"><strong>Yoyuu</strong></h5>
-              <p class="card-text mt-3 w-75">
-                “El trato humano y las facilidades de pago nos han ayudado a mantenernos a flote durante la pandemia”.
-              </p>
-              <p class="fs-6"><strong>José Luis Valdovinos / Director</strong></p>
-              <a href="#" class="card-link color-purple hover-purple fw-bold">
-                Conocer más
-                <i class="fas fa-chevron-right ms-2"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!-- END OF SLIDE 3 -->
-
-      </div>
-      <!-- IF WE NEED PAGINATION -->
-      <div class="swiper-pagination"></div>
-    </div>
-    <!-- END OF SLIDER MAIN CONTAINER -->
-
     <!-- INSTITUTIONS -->
-    <section class="institutions width mt-5 m-auto container">
-      <div class="row">
-        <div class="col-12">
-          <h2 class="text-lg-center"><strong>Instituciones mexicanas e internacionales confían en nosotros</strong></h2>
+    <section class="institutions py-5 container-fluid">
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div class="col-11 col-md-9 col-lg-10 col-xl-9">
+          <h2 class="fw-bold text-lg-center section-h2">Instituciones mexicanas e internacionales confían en nosotros
+          </h2>
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
 
-          <div class="instituition-images d-flex flex-wrap justify-content-center mt-4">
-            <img class="institution-logo m-3"
-              src="https://cdn.konfio.mx/static/static/financieras-registradas-en-condusef-5cba3a47fce4e66b343864c78096b3ff.svg"
+      <!-- ROW -->
+      <div class="row justify-content-center">
+        <!-- COL -->
+        <div
+          class="col-11 col-md-9 col-lg-12 col-xl-10 instituition-images d-flex justify-content-center flex-wrap mt-4">
+
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img src="https://cdn.konfio.mx/static/static/condusef-5cba3a47fce4e66b343864c78096b3ff.svg"
               alt="Condusef Logo">
-            <img class="institution-logo m-3"
-              src="https://cdn.konfio.mx/static/static/financieras-confiables-e2ff99dab0722810228cfa989bf943f8.svg"
-              alt="CNBV Logo">
-            <img class="institution-logo m-3"
-              src="https://cdn.konfio.mx/static/static/asofom-a9cb92a2ff89ed151241e2de634aafb3.svg" alt="Asofom Logo">
+          </a>
 
-            <img class="institution-logo m-3"
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img src="https://cdn.konfio.mx/static/static/cnbv-e2ff99dab0722810228cfa989bf943f8.svg" alt="CNBV Logo">
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img src="https://cdn.konfio.mx/static/static/asofom-a9cb92a2ff89ed151241e2de634aafb3.svg"
+              alt="Asofom Logo">
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAzIiBoZWlnaHQ9IjIxIiB2aWV3Qm94PSIwIDAgMTAzIDIxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMzYuOTkwNSAzLjM5Mjc1QzM2Ljk5MDUgMy4zOTI3NSAzNC42MTE0IDAuNjc5MzIxIDMwLjExODkgMC42NzkzMjFDMjQuNjIzNCAwLjY3OTMyMSAyMC4zNDI4IDUuMDU1NDQgMjAuMzQyOCAxMC42OTEzQzIwLjM0MjggMTYuMzAwMiAyNC42MjM0IDIwLjY3OTMgMzAuMTE4OSAyMC42NzkzQzM0LjYxMTQgMjAuNjc5MyAzNi45OTA1IDE3Ljg4NTMgMzYuOTkwNSAxNy44ODUzQzM2Ljk5MDUgMTcuODg1MyAzNS40MzIzIDE1LjcyMTEgMzQuNjc0MSAxNC45NDJDMzMuOTU0NyAxNC4yMDQ3IDMzLjEyMTkgMTQuMTA2MiAzMi4zMjc4IDE0LjQyODZDMzEuODQxMyAxNC42MjU2IDMxLjMwMSAxNC44NDM1IDMwLjUxODkgMTQuODQzNUMyOC4wNTAyIDE0Ljg0MzUgMjYuNTgxNiAxMi45MzkgMjYuNTgxNiAxMC42OTcyQzI2LjU4MTYgOC40MjU1OSAyOC4wNTAyIDYuNTQ3OTggMzAuNTE4OSA2LjU0Nzk4QzMxLjEzMDggNi41NDc5OCAzMS43OTk1IDYuNzg2NzggMzIuMjMyMyA2LjkzOTAyQzMzLjA4OSA3LjIzNzUzIDM0LjAzMjMgNy4wOTQyNSAzNC43NjY3IDYuMzQyMDFDMzUuMzkwNSA1LjY5NzIzIDM2Ljk5MDUgMy4zOTI3NSAzNi45OTA1IDMuMzkyNzVaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik01My42NTQ2IDMuMzkyNzVDNTMuNjU0NiAzLjM5Mjc1IDUxLjI3MjUgMC42NzkzMjEgNDYuNzgzIDAuNjc5MzIxQzQxLjI4NzQgMC42NzkzMjEgMzcuMDA2OCA1LjA1NTQ0IDM3LjAwNjggMTAuNjkxM0MzNy4wMDY4IDE2LjMwMDIgNDEuMjg3NCAyMC42NzkzIDQ2Ljc4MyAyMC42NzkzQzUxLjI3MjUgMjAuNjc5MyA1My42NTQ2IDE3Ljg4NTMgNTMuNjU0NiAxNy44ODUzQzUzLjY1NDYgMTcuODg1MyA1Mi4wOTM0IDE1LjcyMTEgNTEuMzM1MiAxNC45NDJDNTAuNjE1OCAxNC4yMDQ3IDQ5Ljc4NTkgMTQuMTA2MiA0OC45OTE5IDE0LjQyODZDNDguNTA1MyAxNC42MjU2IDQ3Ljk2MjEgMTQuODQzNSA0Ny4xODMgMTQuODQzNUM0NC43MTQzIDE0Ljg0MzUgNDMuMjQ1NiAxMi45MzkgNDMuMjQ1NiAxMC42OTcyQzQzLjI0NTYgOC40MjU1OSA0NC43MTQzIDYuNTQ3OTggNDcuMTgzIDYuNTQ3OThDNDcuNzk0OSA2LjU0Nzk4IDQ4LjQ2MzYgNi43ODY3OCA0OC44OTM0IDYuOTM5MDJDNDkuNzUzMSA3LjIzNzUzIDUwLjY5MzQgNy4wOTQyNSA1MS40Mjc3IDYuMzQyMDFDNTIuMDU0NiA1LjY5NzIzIDUzLjY1NDYgMy4zOTI3NSA1My42NTQ2IDMuMzkyNzVaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik0yMC45NDM0IDIwLjI2ODRDMjAuOTQzNCAyMC4yNjg0IDIxLjA0NzkgMjAuMDIwNyAyMS4wNDc5IDE5LjYxNzdDMjEuMDQ3OSAxOS4yODA0IDIwLjk3MzMgMTguODc3NCAyMC43MTM2IDE4LjQxMTdDMjAuMTM0NSAxNy4zNjY5IDEwLjg4NjcgMC42ODAzNzQgMTAuODg2NyAwLjY4MDM3NEgxMC44MDkxQzEwLjgwOTEgMC42ODAzNzQgMS42MjEwNCAxNy4yNjI1IDAuOTgyMjMzIDE4LjQxMTdDMC43MTA1OTIgMTguOTAxMyAwLjYyNDAyMyAxOS4zMTAyIDAuNjI0MDIzIDE5LjYxNzdDMC42MjQwMjMgMjAuMDI5NiAwLjc1MjM4MiAyMC4yNjg0IDAuNzUyMzgyIDIwLjI2ODRINy4wMTUwN0M3LjAxNTA3IDIwLjI2ODQgOS42OTU2NyAxNC44NDQ2IDEwLjA4MDcgMTQuMDc3NEMxMC4yNzQ4IDEzLjY5NTMgMTAuNDgzNyAxMy41MjgxIDEwLjc5NDIgMTMuNTI4MUMxMS4xMDQ2IDEzLjUyODEgMTEuMzE5NSAxMy42OTgzIDExLjUyMjUgMTQuMDc3NEMxMS45MjU1IDE0LjgyOTYgMTQuNzgyMiAyMC4yNjg0IDE0Ljc4MjIgMjAuMjY4NEgyMC45NDM0WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNzMuOTc4MSAyMC42NDIyQzY4LjQwOCAyMC42NDIyIDYzLjk0NTMgMTYuMTc2NSA2My45NDUzIDEwLjY2NjFDNjMuOTQ1MyA1LjE1NTY0IDY4LjQwOCAwLjY4OTk3MiA3My45NzgxIDAuNjg5OTcyQzc5LjU0ODMgMC42ODk5NzIgODQuMDExIDUuMTU1NjQgODQuMDExIDEwLjY2NjFDODQuMDExIDE2LjE3NjUgNzkuNTQ4MyAyMC42NDIyIDczLjk3ODEgMjAuNjQyMlpNNzMuOTc4MSAxNC44MTgzQzc2LjIwOCAxNC44MTgzIDc3LjkxMjUgMTIuOTU4NiA3Ny45MTI1IDEwLjY2NjFDNzcuOTEyNSA4LjM3MzU1IDc2LjIwOCA2LjUxMzg1IDczLjk3ODEgNi41MTM4NUM3MS43NDUzIDYuNTEzODUgNzAuMDQzOCA4LjM3MzU1IDcwLjA0MzggMTAuNjY2MUM3MC4wNDM4IDEyLjk1ODYgNzEuNzQ1MyAxNC44MTgzIDczLjk3ODEgMTQuODE4M1oiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTYxLjY5MiAyLjQ0NzI2QzYxLjY5MiAxLjY0NzI2IDYxLjAzODIgMC45OTM1MjggNjAuMjM4MiAwLjk5MzUyOEg1Ny4wNTkxQzU2LjI2MjEgMC45OTM1MjggNTUuNjA4NCAxLjY0NzI2IDU1LjYwODQgMi40NDcyNlYxOC43OTY1QzU1LjYwODQgMTkuNTk2NSA1Ni4yNjIxIDIwLjI1MDIgNTcuMDU5MSAyMC4yNTAySDYwLjIzODJDNjEuMDM4MiAyMC4yNTAyIDYxLjY5MiAxOS41OTY1IDYxLjY5MiAxOC43OTY1VjIuNDQ3MjZaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik0xMDIuNzE0IDIwLjMzMjJWMi44NDU2OEMxMDIuNzE0IDEuNjY2NTcgMTAyLjM1NiAxLjAxMjg0IDEwMC45ODkgMS4wMTI4NEg5Ni44MzY1VjcuNTExMzVDOTYuODM2NSA3Ljg2MDYgOTYuNjAwNyA4LjEzODIyIDk2LjIzNjUgOC4xMzgyMkM5NS44OTAyIDguMTM4MjIgOTUuNjk2MiA3Ljk2NTA4IDk1LjE1ODkgNy40MzA3NUM5NC4yOTYyIDYuNTc3MDIgOTIuNjQ4NCA0LjkzODIyIDkxLjU1NTkgMy45MTczMkM4OS41NDEgMi4wMzk3MSA4OC41NjQ5IDEuMDE1ODMgODcuMjAwNyAxLjAxNTgzQzg2LjY2NjQgMS4wMTU4MyA4Ni4zMzIgMS4xNDQxOSA4Ni4zMzIgMS4xNDQxOVYxOC44MTg4Qzg2LjMzMiAxOS43NzQgODYuNjU3NCAyMC4yNjY2IDg3LjgzNjUgMjAuMjY2Nkg5Mi4xODU4VjE0LjI2MzZDOTIuMTg1OCAxMy45MDI0IDkyLjM5NDcgMTMuNTcxMSA5Mi44NDU1IDEzLjU3MTFDOTMuMzE3MSAxMy41NzExIDkzLjUyMDEgMTMuODc4NSA5NC4wOTAyIDE0LjQ2MDZDOTQuNzM4IDE1LjEyMzMgOTUuNjg3MyAxNi4xMTQzIDk2LjkwODIgMTcuMjk2NEM5OS40Mzk1IDE5Ljc0NDIgMTAwLjUxNyAyMC40MTI4IDEwMS45MjkgMjAuNDEyOEMxMDIuMzcxIDIwLjQxMjggMTAyLjcxNCAyMC4zMzIyIDEwMi43MTQgMjAuMzMyMloiIGZpbGw9IiM2MTYxNjEiLz4KPC9zdmc+Cg=="
               alt="Asofom Logo">
-            <img class="institution-logo m-3"
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCA5NiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI5LjA1MzIgOC4wMTY2OEMyOS44ODMyIDcuNTI2NTQgMzAuMjgwMSA2LjgzNDY1IDMwLjI4MDEgNS45NTU4NlY1LjkyMjQ0QzMwLjI4MDEgNS4yMTMyMiAzMC4wMTYgNC42Mzg5MiAyOS40ODc2IDQuMTY2MTFDMjguODI2NCAzLjU3NDQ4IDI3LjgwNjkgMy4yNTM5MSAyNi41NDI3IDMuMjUzOTFIMjEuMzUxNEwyMS4zMzIgMTMuMjUzNUgyNi42NTYxQzI5LjMzNjggMTMuMjUzNSAzMC44ODQ2IDEyLjIzOTggMzAuODg0NiAxMC40NVYxMC40MTY2QzMwLjg4NDYgOS4yODI4NiAzMC4zMTc1IDguNTIyOSAyOS4wNTMyIDguMDE2NjhaTTI2LjY1NjEgMTEuMDg5OUgyMy45OTQ3VjkuMjY1NTNIMjYuNTgxNEMyNy42MzgyIDkuMjY1NTMgMjguMTY2NiA5LjU3MDAxIDI4LjE2NjYgMTAuMTYwNFYxMC4xOTM4QzI4LjE2NjYgMTAuNzg2NyAyNy42NTYyIDExLjA4OTkgMjYuNjU2MSAxMS4wODk5Wk0yMy45OTM0IDcuMTcxMzFWNS40MzEwN0gyNi4xODNDMjYuODI0OCA1LjQzMTA3IDI3LjU4MDEgNS41ODMzMSAyNy41ODAxIDYuMjc1MlY2LjMwODYxQzI3LjU4MDEgNi44ODI5MSAyNy4wNTE3IDcuMTg3NCAyNi4wMzIyIDcuMTg3NEwyMy45OTM0IDcuMTcxMzFaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik00MC40MTMyIDMuMjUxODNIMzYuMDE0NUwzNS45OTUxIDEzLjI1MTJINDAuMzkzOEM0Mi4wNzQ1IDEzLjI1MTIgNDMuNTgzNiAxMi43NDQ5IDQ0LjY1OTggMTEuODE1NEM0NS43MzU5IDEwLjkwMzMgNDYuMzIxIDkuNjM1ODYgNDYuMzIxIDguMjY4MjFWOC4yMzQ3OUM0Ni4zMjEgNS4zNDYwMSA0My44Mjk4IDMuMjUxODMgNDAuNDEzMiAzLjI1MTgzWk00My40ODk1IDguMjUyMTJWOC4yODU1NEM0My40ODk1IDkuOTI0MjQgNDIuMjQzMiAxMS4wMjIxIDQwLjM5MzggMTEuMDIyMUgzOC43MTMyVjUuNDgyMTZINDAuMzkzOEM0Mi4yNDMyIDUuNDgwOTIgNDMuNDg5NSA2LjU5NjA4IDQzLjQ4OTUgOC4yNTIxMloiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTMzLjQxNjggMy4yMTk3M0MzNC4xNzIgMy4yMTk3MyAzNC43NzY1IDMuNzYwNTggMzQuNzc2NSA0LjQzNjM0TDM0Ljc1NzEgMTMuMjM2MUgzMi4wMzkxTDMyLjA1ODQgMy4yMTk3M0gzMy40MTY4WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNOS41ODgyOCA5Ljc3MzE2QzguMTM0NSAxMS44NTE0IDEyLjc3OCAxMS45MDIyIDEwLjYyNzEgMTUuNzg2NEMxMC41NzA0IDE1LjgwMzcgMTAuNDk0MyAxNS44MDM4IDEwLjQzOSAxNS44MTk4QzUuNDU1MTggMTYuNDYyMyAwLjgxMTY2OSAxMy4zNzAyIDAuMDkzNzcwOSA4LjkxMDQyQy0wLjI0NjUwNSA2Ljc5ODcyIDAuMzU3OTU4IDQuNzU1MTEgMS42MDQyNSAzLjExNjI1QzEuMzU4MDQgNy44MTM3MiAxMC45NDggNy44MTM3MiA5LjU4ODI4IDkuNzczMTZaTTExLjYyNzIgMTUuNTg0N0MxMi4xMTgyIDE0Ljc1NjYgMTMuMTk0NCAxMy41NzQ1IDE1LjQ5NzUgMTEuMTU4M0MxOC45MzM0IDcuNTU5OTcgOC43NTgzNCA4Ljc1OTQgNy4wMjEgNi4wMjI2MkM1LjU4NjU5IDMuNzc2IDEwLjkyODYgMi4xNTQ0OCAxNC4xNTcxIDAuOTA0Mjk3QzE2LjI1MjcgMi4xMzcxNSAxNy43ODEyIDQuMTQ3MzUgMTguMTU4OCA2LjU0NjIxQzE4LjgzOCAxMC42NjgxIDE1Ljk2OTEgMTQuNDg1NSAxMS42MjcyIDE1LjU4NDdaTTguNjI1NTUgNS4yNzk5M0M4LjI4NTI3IDUuNDMyMTggOC44ODk3NSA2LjE1ODc3IDEwLjQ1NyA2LjE5MjE5QzEyLjA0MjEgNi4yMjU2MiAxMC4wMjI2IDQuNjIwMTggOC42MjU1NSA1LjI3OTkzWk0xMi4wNzk1IDYuMDM5OTVDMTAuOTA5MyA1LjcwMjAzIDExLjY4MjUgNi41NDYyMSAxMi4yMzAzIDYuNTk2OTZDMTIuNzk3NCA2LjY2NTA0IDEyLjkzMDIgNi4yOTM3IDEyLjA3OTUgNi4wMzk5NVpNMTMuMzA3OCA2Ljg2ODA0QzEyLjkxMDggNi44NTA3MSAxMi44NTQxIDcuMDcxMDQgMTMuNDQwNiA3LjE3MjU0QzE0LjI3MDUgNy4zNDA4OCAxMy43MDM0IDYuODg0MTMgMTMuMzA3OCA2Ljg2ODA0WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNTcuMzk2NyAzLjk3ODUySDU1LjI5VjEzLjQ1Mkg1Ny4zOTY3VjMuOTc4NTJaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik02NC4wNzc2IDYuMTM1ODZDNjIuNzc4NyA2LjE1OTM4IDYxLjg2NDQgNi41ODY0NCA2MS4zMDg0IDcuNDY0MDZMNjEuMDcwNCA3Ljg0NDA4VjYuMjIwMDRINTguOTM3NVYxMy40NTRINjEuMDcwNFY5Ljg5NjQxQzYxLjA3MDQgOS4zMTU4NyA2MS4yNTU4IDguODI5NCA2MS42MTQxIDguNDQ5MzlDNjEuOTg0OCA4LjA2OTM3IDYyLjQ3NTggNy44Njg4MyA2My4xMTIxIDcuODU2NDZDNjMuNjU1NyA3Ljg1NjQ2IDY0LjA5MjggOC4wMTExOSA2NC40MTA5IDguMzA3MDNDNjQuNzI5MSA4LjYwMjg3IDY0Ljg4ODEgOS4wMDY0MSA2NC44ODgxIDkuNTA1MjZWMTMuNDU0SDY3LjAwODZWOC44NzY0M0M2Ny4wMDg2IDguMDQ1ODQgNjYuNzQzMSA3LjM2OTk4IDY2LjIxMzMgNi44NzIzN0M2NS42OTQ2IDYuMzg1OSA2NC45NjU2IDYuMTM1ODYgNjQuMDc3NiA2LjEzNTg2WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNODkuNjEzMiA4LjI3MUw5MC40MDg2IDYuODQ3NjZDODkuOTU3NyA2LjU4NjUxIDg5LjQ1NDIgNi4zODQ3NiA4OC44OTgxIDYuMjQyNDNDODguMzQyIDYuMTAwMDkgODcuNzg0NiA2LjAyOTU0IDg3LjIyODUgNi4wMjk1NEM4Ni4zMDAzIDYuMDI5NTQgODUuNTMyNiA2LjIzMTI5IDg0LjkzNjQgNi42MzQ3N0M4NC4zNDAyIDcuMDM4MjYgODQuMDM1OSA3LjYwNzYgODQuMDM1OSA4LjMzMDQxQzg0LjAzNTkgOC44MDQ0NSA4NC4xNjg3IDkuMTg0NDIgODQuNDMyOSA5LjQ4MDIyQzg0LjY5NzEgOS43NzYwMyA4NS4wMTY2IDEwLjAwMjUgODUuMzczNSAxMC4xNDM2Qzg1Ljc0NDIgMTAuMjg2IDg2LjIwOSAxMC40NDA3IDg2Ljc2NTEgMTAuNTgxOEM4Ny4yODI0IDEwLjcyNDEgODcuNjc5NCAxMC44NDI5IDg3LjkxNzQgMTAuOTYxN0M4OC4xNTUzIDExLjA4MDYgODguMjc1NiAxMS4yNDY0IDg4LjI3NTYgMTEuNDU5M0M4OC4yNzU2IDExLjY0ODcgODguMTgyOSAxMS44MDM0IDg3Ljk4MzcgMTEuODk3NEM4Ny43OTg0IDExLjk5MjcgODcuNTQ2NiAxMi4wMzk4IDg3LjIyODUgMTIuMDM5OEM4Ni43Nzc1IDEyLjAzOTggODYuMjg3OSAxMS45NTY4IDg1Ljc4NDQgMTEuODAyMUM4NS4yODA5IDExLjY0NzQgODQuODE3NSAxMS40MjIyIDg0LjQwNjYgMTEuMTI2NEw4My42NTE0IDEyLjUzNzNDODQuMTAyMyAxMi44NTc5IDg0LjY0NTkgMTMuMTE3OCA4NS4yNTQ2IDEzLjI5NkM4NS44NjMyIDEzLjQ3NDMgODYuNTEzMyAxMy41NTcyIDg3LjE3NTkgMTMuNTU3MkM4OC4xNDI4IDEzLjU1NzIgODguOTM4MiAxMy4zNTU0IDg5LjU2MDcgMTIuOTUxOUM5MC4xNzA3IDEyLjU0ODUgOTAuNDg4OSAxMS45NzkxIDkwLjQ4ODkgMTEuMjU2M0M5MC40ODg5IDEwLjc4MjMgOTAuMzU2IDEwLjM5MTIgOTAuMDc4IDEwLjA5NDFDODkuODEyNCA5Ljc5NzA4IDg5LjQ4MTggOS41NzE4MiA4OS4xMTExIDkuNDMwNzJDODguNzQwNCA5LjI3NjAxIDg4LjI2MzIgOS4xMjI1MyA4Ny42Nzk0IDguOTY3ODJDODcuMTYyMSA4LjgzNzg2IDg2Ljc3ODkgOC43MDY2NyA4Ni41Mzk2IDguNjAwMjNDODYuMzAxNyA4LjQ5Mzc5IDg2LjE4MTQgOC4zMjc5MyA4Ni4xODE0IDguMTI2MTlDODYuMTgxNCA3LjkzNjgyIDg2LjI3NCA3LjgwNTYzIDg2LjQ0NjkgNy43MTE1N0M4Ni44MTc3IDcuNTA5ODIgODcuNDk0MSA3LjUzMzM0IDg4LjMwMTkgNy43NTg2Qzg4LjczNzYgNy44Njc1MiA4OS4xNzYxIDguMDQ1NzUgODkuNjEzMiA4LjI3MVoiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTk0LjQ3NjEgMTIuMDMwN0M5NC4wNjUzIDEyLjAzMDcgOTMuNTg4MSAxMS44NjQ4IDkzLjU4ODEgMTEuMDU3OFY3Ljg1NTYxSDk1LjY2ODVWNi4yNjc1Mkg5My41ODgxVjQuNTQ4MjJIOTEuNDgxNFYxMS40MTQzQzkxLjQ4MTQgMTIuMTEzNiA5MS43MDY5IDEyLjY1OTUgOTIuMTcwMyAxMy4wMzgzQzkyLjYzMzcgMTMuNDE3IDkzLjIyOTkgMTMuNjA3NyA5My45NzI2IDEzLjYwNzdDOTQuMzQzNCAxMy42MDc3IDk0LjcxNDEgMTMuNTYwNiA5NS4wODYyIDEzLjQ3NzdDOTUuNDE4MSAxMy40MDcxIDk1LjcyMjQgMTMuMjg4MyA5Ni4wMDA1IDEzLjE1NzFMOTUuNTc1OCAxMS44MDU0Qzk1LjE3NzQgMTEuOTQ3OCA5NC44MDY3IDEyLjAzMDcgOTQuNDc2MSAxMi4wMzA3WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNzIuOTE1NSA2LjE4NDA4TDcxLjEzOTQgMTAuODQ0TDY5LjM5MSA2LjE4NDA4SDY3LjI3MDVMNzAuMDM5NyAxMy41MTEySDcyLjI1MjlMNzUuMDM1OSA2LjE4NDA4SDcyLjkxNTVaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik03Ny4xNjkgMTAuNjg5OUw3Ny4xNDI3IDEwLjU0NzVIODMuMTE5NkM4My4xNzIyIDEwLjI5ODcgODMuMjEyMyAxMC4wMzc1IDgzLjIxMjMgOS43OTk4OUM4My4yMTIzIDcuNzM2NDggODEuMzU3NCA2LjA2NDIxIDc5LjA3NzggNi4wNjQyMUM3Ni43OTgzIDYuMDY0MjEgNzQuOTQzNCA3LjczNjQ4IDc0Ljk0MzQgOS43OTk4OUM3NC45NDM0IDExLjg2MzMgNzYuNzk4MyAxMy41MzU2IDc5LjA3NzggMTMuNTM1NkM4MC40OTU2IDEzLjUzNTYgODEuODA2OSAxMi44NzIxIDgyLjU2MzUgMTEuNzkyN0w4MC40OTcgMTEuMzg5MkM4MC4xMzg3IDExLjgwMzkgNzkuNTk2NSAxMi4wNTI3IDc5LjAxMjggMTIuMDUyN0M3OC4xMDk2IDEyLjA1MzkgNzcuMzQxOSAxMS40NzIyIDc3LjE2OSAxMC42ODk5Wk03Ny4yMDkxIDkuMDA2NDZDNzcuMzY4MiA4LjIwMDY1IDc4LjE0OTcgNy42MDc3NCA3OS4wNjQgNy42MDc3NEM3OS45NzgzIDcuNjA3NzQgODAuNzU5OCA4LjIwMDY1IDgwLjkxODkgOS4wMDY0Nkw4MC45NDUyIDkuMTQ4OEg3Ny4xODE0TDc3LjIwOTEgOS4wMDY0NloiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTQ5LjQ3NzUgMTMuNTExSDQ5LjY0NzdMNDkuNjg1IDMuMTE3MTlINDkuNTE0OUw0OS40Nzc1IDEzLjUxMVoiIGZpbGw9IiM2MTYxNjEiLz4KPC9zdmc+Cg=="
               alt="Bid Invest Logo">
-            <img class="institution-logo m-3"
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODguOTIgMjAwLjQxIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzYxNjE2MTtmaWxsLXJ1bGU6ZXZlbm9kZDt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkNhcGFfMiIgZGF0YS1uYW1lPSJDYXBhIDIiPjxnIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ1My45Miw5My4xNUg0MzQuNzNWMTcuNWgxOC4wNlYyNkExOC4xNiwxOC4xNiwwLDAsMSw0NjgsMTUuODFjMTIuNDItLjU3LDIwLjg5LDYuNzcsMjAuODksMjIuNThWOTMuMTVINDY5LjE3di01N2MwLTYuNzcsMC0xMi40Mi00LjUzLTEzLjU1LTEuNjktLjU2LTQuNTEsMC02Ljc3LDEuNjktMi44MywyLjgzLTQsNi4yMS00LDExLjg2djU3Wk0xMjcuNjIsMjIuNThhMjUuNDQsMjUuNDQsMCwwLDAtMTYuOTQtNi43N2MtNi43NywwLTExLjg1LDIuODItMTYuOTMsNi43Ny03LjkxLDYuNzgtMTMsMTkuMi0xMywzMi43NSwwLDE0LjExLDUuMDgsMjYsMTMsMzIuNzQsNS4wOCw0LDEwLjE2LDYuNzcsMTYuOTMsNi43N2EyNS40NCwyNS40NCwwLDAsMCwxNi45NC02Ljc3YzguNDctNi43OCwxMy0xOC42MywxMy0zMi43NCwwLTEzLjU1LTQuNTItMjYtMTMtMzIuNzVabS03LjM0LDMyLjc1YzAsMTQuMTEsMCwyNS40LTIuMjYsMzEtMS42OSwyLjgzLTMuMzksNC41Mi03LjM0LDQuNTJhNi43OSw2Ljc5LDAsMCwxLTYuNzctNC41MmMtMi44My01LjY0LTIuODMtMTYuOTMtMi44My0zMSwwLTEzLjU1LDAtMjUuNDEsMi44My0zMS4wNmE2Ljc5LDYuNzksMCwwLDEsNi43Ny00LjUxYzMuOTUsMCw1LjY1LDEuNjksNy4zNCw0LjUxQzEyMC44NCwyOS45MiwxMjAuMjgsNDEuNzgsMTIwLjI4LDU1LjMzWm0yMDQuMzYsNjYuNjF2MjAuMzJoLTMuOTVjLTIuMjYtOC40Ni01LjY1LTE1LjgtMTQuNjgtMTYuMzctNS42NC0uNTYtMTAuNzMsMi44My0xMS4yOSw3LjkxUzI5NS44NSwxNDMuMzksMzA2LDE0OWMxMyw3LjM0LDIzLjE1LDEwLjczLDIzLjE1LDI2LDAsMTYuMzctMTQuMTIsMjQuMjctMjYsMjQuMjdIMjgwLjYxVjE3MS4wNWgzLjk1YzIuODIsMTQuNjgsNy4zNCwyMy43MSwxOC4wNywyNC4yOCw2Ljc3LDAsMTEuODUtNCwxMS44NS0xMS4zUzMxMCwxNzIuMTgsMjk5LjIzLDE2NkMyODcuMzgsMTU4LjYzLDI4MCwxNTQuMTEsMjgwLDE0NGMwLTEzLjU1LDkuNi0yMiwyNC44NC0yMlptMjQuODQtMjguNzlWMzguMzljMC0xNS44MS04LjQ3LTIzLjE1LTIwLjg5LTIyLjU4YTE5LjA3LDE5LjA3LDAsMCwwLTE1LjgxLDEwLjcyYy0yLjgyLTcuOS05LTExLjI5LTE4LjA2LTEwLjcyQTE4LjE2LDE4LjE2LDAsMCwwLDI3OS40OCwyNlYxNy41SDI2MlY5My4xNWgxOS4ydi01N2MwLTUuNjUuNTctOSwzLjk1LTExLjg2LDIuMjYtMS42OSw0LjUyLTIuMjUsNi4yMS0xLjY5LDQuNTIsMS4xMyw0LjUyLDYuNzgsNC41MiwxMy41NXY1N2gxOS4yVjM1LjU3YzAtNS4wOSwxLjEyLTguNDcsMy45NS0xMS4zLDIuMjYtMS42OSw0LjUxLTIuMjUsNi4yMS0xLjY5LDQuNTIsMS4xMyw1LjA4LDYuNzgsNS4wOCwxMy41NXY1N1pNMTUzLjU5LDEuN2gxOS43NlY5My4xNUgxNTMuNTlabTg5Ljc2LDkxLjQ1VjEuN0gyMjMuNTlWMjMuMTVjLTEuNjktMy45NS01LjY1LTYuNzgtMTEuMjktNi43OC0xNC4xMSwwLTI1LjQsMTQuNjgtMjYsMzcuMjYtLjU2LDE1LjI1LDQuNTIsNDAuNjUsMjQuMjgsNDAuNjUsNy45LDAsMTIuNDItNC41MiwxNC4xMS04LjQ3djcuMzRaTTIyMC4yLDIzLjcxYzQsNS42NSw0LDE5LjE5LDQsMjkuOTIsMCwxMS4yOS41NywyNi00LDMyLjE4LTEuNjksMi4yNS0zLjM5LDMuMzgtNi4yMSwzLjM4LTQsMC02LjIxLTQuNTEtNy4zNC0xMS44NS0uNTctNi43OC0uNTctMTUuMjUtLjU3LTI0LjI4LDAtMTUuMjQsMS4xMy0zMi4xOCw4LjQ3LTMyLjE4QzIxNy4zOCwyMC44OSwyMTguNTEsMjIsMjIwLjIsMjMuNzFabTE4OC0zLjk1YzUuMDksMi44Miw4LjQ3LDcuMzQsOC40NywxNy41VjkzLjE1SDM5OFY4NC42OGMtMi4yNSw2LjIxLTguNDYsMTAuMTYtMTYuOTMsMTAuMTYtNi43OCwwLTE4LjYzLTMuMzgtMTguNjMtMjAuODgsMC0xNi4zNywxMC43My0xOS43NiwyMi41OC0yNC44NCwxMC43My00LjUyLDExLjg1LTUuMDgsMTEuODUtOS42VjI3LjFjMC01LjA4LTIuODItNy4zNC04LjQ2LTcuMzQtMi4yNi41Ny02LjIxLDEuNjktNi4yMSw0LjUyLS41NywzLjM5LDMuMzksMy4zOSwzLjk1LDguNDcuNTYsNy45LTUuNjUsMTAuNzItMTEuMjksMTAuMTYtMy45NSwwLTguNDctMi4yNi05LTguNDctLjU3LTEwLjE2LDEwLjcyLTE4LjYzLDI2LjUzLTE4LjYzLDcuMzQsMCwxMS44NiwxLjY5LDE1LjgxLDRaTTM5Ni45LDQ4bC02LjIxLDMuOTVjLTYuMjEsNC03LjM0LDktNy45LDE0LjY3YTY3LjM4LDY3LjM4LDAsMCwwLDAsMTUuMjVjLjU2LDYuMiw0LjUxLDcuMzQsNy45LDYuMiw0LTEuNjksNi4yMS05LDYuMjEtMTYuOTNWNDhaTTEyOC43NSwxMjUuMzNjNS4wOCwzLjM4LDcuOSw3LjM0LDcuOSwxNy41djU2LjQ1SDExOC41OXYtOC40NmMtMi4yNiw1LjY0LTguNDcsOS41OS0xNi45NCw5LjU5LTcuMzQsMC0xOC42My0yLjgyLTE4LjYzLTIwLjMyLDAtMTYuMzcsMTAuNzMtMTkuNzYsMjItMjQuODRzMTIuNDItNS42NSwxMi40Mi05LjZWMTMzLjIzYzAtNS42NC0yLjgzLTcuOS04LjQ3LTcuMzQtMi4yNiwwLTYuMjEsMS4xMy02LjIxLDQtLjU2LDQsMy4zOCw0LDQsOSwuNTYsNy4zNC01LjY1LDEwLjE2LTExLjI5LDEwLjE2LTQtLjU3LTguNDctMi44Mi05LTktLjU3LTkuNiwxMC43Mi0xOC4wNywyNi41My0xOC4wNyw3LjM0LDAsMTEuODYsMS4xMywxNS44MSwzLjM5Wm0tMTEuMjksMjguMjMtNi4yMSwzLjk1Yy02LjIxLDQtNy4zNCw5LTcuOTEsMTQuNjdhNjksNjksMCwwLDAsMCwxNS4yNWMwLDYuNzcsNCw3LjksNy4zNCw2LjIsNC41Mi0xLjY5LDYuNzgtOC40Niw2Ljc4LTE2LjkzWm0xNDcuOTEtOWMwLTE1LjgxLTguNDgtMjMuNzEtMjAuODktMjIuNTgtNi4yMS41Ni0xMS4zLDMuMzktMTQuMTIsNy4zNHYtMjJIMjExLjE3djUxLjk0YzAsMTkuMTktMTMuNTUsMzcuMjUtMjcuMSwzNi42OS05LjYsMC0xMS44Ni03LjM0LTEzLTE1LjI0LTEuNjktMTEuMy0xLjY5LTI0LjI4LS41Ni0zOC4zOSwxLjEzLTksMy4zOS0xNi4zNywxMC4xNy0xNi4zNyw1LjA3LDAsNS42NCwzLjM4LDMuMzgsNS42NC0yLjI2LDIuODMtNS42NSw1LjY1LTMuOTUsMTEuODYsMS42OSw2Ljc3LDEyLjQyLDcuOSwxNy41LDIuODIsMy45NS00LjUxLDMuMzktMTEuODUuNTYtMTYuMzctMy4zOS01LjY0LTktNy45LTE3LjUtNy45LTEwLjczLDAtMzEuMDUsOS41OS0zMS4wNSw0MC4wOCwwLDMyLjc0LDIwLjg5LDM4LjM4LDMyLjc0LDM4LjM4LDEzLjU1LDAsMjUuNDEtMTEuODUsMjguNzktMjEuNDV2MjAuMzNoMTkuMnYtNTdjMC01LjY0LDEuMTMtOSwzLjk1LTExLjg2LDIuMjYtMS42OSw1LjA4LTIuMjUsNi43Ny0xLjY5LDQuNTIsMS4xMyw0LjUyLDYuNzgsNC41MiwxMy41NXY1N2gxOS43NlYxNDQuNTJaTTY3Ljc4LDBWMzIuMThoLTRDNjAuNDQsMTYuMzcsNTMuMSw0LjUyLDQyLjkzLDRjLTYuNzctLjU2LTEwLjcyLDMuMzktMTQuMTEsOS0zLjM4LDYuNzctNS4wOCwyMC44OC01LjA4LDM3LjgyLDAsMTUuOC41NiwyNy42NiwyLjI2LDM2LjEzLDEuMTMsNCwzLjk1LDEwLjE2LDExLjI5LDEwLjE2cTUuOTMsMCw4LjQ3LTMuMzljMi44Mi0zLjM4LDMuMzgtMTAuMTYsMy4zOC0xNC42N1Y2My44YzAtNS42NS0xLjY5LTktNC41MS0xMC43My0yLjI2LTEuMTMtNS42NS0xLjEzLTcuMzQtMS42OXYtNEg2OC45djgwLjcySDY1Yy0xLjY5LTYuMjEtMi44Mi0xMC43Mi01LjY1LTE1LjhzLTcuOS0xMC43My0xNi4zNy0xMC43M2MtOS0uNTYtMTUuODEsNS4wOC0xNS44MSwxMy41NSwwLDExLjI5LDYuNzgsMTQuMTEsMTkuMiwyMC44OSwxMS44NSw2Ljc3LDI3LjEsMTIuNDIsMjcuMSwzMi4xOCwwLDE5LjE5LTE2LjM3LDMxLTM1LDMxSDguNXYtMzloMy45NWM1LjA4LDI5LjM1LDE3LjUsMzQuNDQsMjYsMzQuNDQsMTAuNzIsMCwxNS44MS02Ljc4LDE1LjgxLTE2LjM4LS41Ny0xMi40MS05LTE2LjkzLTIwLjg5LTIzLjE0QzE2LjQsMTQ1LjY1LDguNSwxNDEuMTMsOC41LDEyNS4zM2MuNTYtMTMuNTUsMTEuMjktMjIsMjMuMTQtMjUuNEM2LjgsOTcuMTEtLjU0LDc0LjUzLDAsNTAuMjUsMCwyNiwxNC4xNCwwLDQxLjgsMFoiLz48L2c+PC9nPjwvc3ZnPg=="
               alt="Goldman Sachs Logo">
+          </a>
 
-            <img class="institution-logo m-3"
-              src="https://cdn.konfio.mx/static/static/empresas-de-prestamos-registradas-en-condusef-eced7b28fa2951e40d387a902126161e.svg"
-              alt="IFS Logo">
-            <img class="institution-logo m-3"
-              src="https://cdn.konfio.mx/static/static/jaguar-14150f56903f0a10ab063b5b18c5812d.svg"
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img src="https://cdn.konfio.mx/static/static/ifc-eced7b28fa2951e40d387a902126161e.svg" alt="IFS Logo">
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img src="https://cdn.konfio.mx/static/static/jaguar-14150f56903f0a10ab063b5b18c5812d.svg"
               alt="Jaguar Ventures Logo">
-            <img class="institution-logo m-3"
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIxIiBoZWlnaHQ9IjIxIiB2aWV3Qm94PSIwIDAgMTIxIDIxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNOTguNDc4NCAxOS43OTM5Qzk4LjAwMDMgMTkuODM2MiA5Ny42MjYyIDE5LjkyMDggOTcuMjcyOSAxOS45MjA4QzkzLjQwNyAxOS45MjA4IDg5LjUyMDQgMTkuOTIwOCA4NS42NTQ1IDE5LjkyMDhDODQuMzg2NyAxOS45MjA4IDg0LjM4NjcgMTkuODk5NiA4NC4zODY3IDE4LjYzMDhDODQuMzg2NyAxMy4wMjY4IDg0LjM4NjcgNy40NDQwMyA4NC4zODY3IDEuODQwMDdDODQuMzg2NyAwLjUyODk1OSA4NC4zODY3IDAuNTI4OTYgODUuNjMzOCAwLjUyODk2Qzg5LjQ5OTYgMC41Mjg5NiA5My4zODYzIDAuNTUwMTA3IDk3LjI1MjEgMC41MDc4MTJDOTguMTY2NiAwLjUwNzgxMiA5OC41NDA3IDAuNzE5MjgyIDk4LjQ5OTIgMS43MzQzNEM5OC4zOTUyIDQuNTY4MDQgOTguOTE0OCA0LjE4NzM5IDk2LjA4ODIgNC4yMDg1NEM5My44ODUxIDQuMjI5NjkgOTEuNjYxMiA0LjIyOTY5IDg5LjQ1ODEgNC4yMDg1NEM4OC42ODkgNC4xODczOSA4OC4zNTY1IDQuNDIwMDEgODguMzU2NSA1LjI4NzA0Qzg4LjMxNDkgOC4yMDUzMiA4OC4yOTQxIDguMjA1MzIgOTEuMTYyNCA4LjIwNTMyQzkzLjEzNjggOC4yMDUzMiA5NS4xMTEzIDguMjI2NDcgOTcuMDg1OCA4LjIwNTMyQzk3Ljc3MTcgOC4xODQxNyA5OC4xMjUgOC4zOTU2NCA5OC4wNjI3IDkuMTU2OTRDOTguMDIxMSA5LjYwMTAyIDk4LjA2MjcgMTAuMDY2MyA5OC4wNjI3IDEwLjUzMTVDOTguMDYyNyAxMS45MDYgOTguMDYyNyAxMS45MDYgOTYuNjcwMiAxMS45MDZDOTQuMjggMTEuOTA2IDkxLjg4OTggMTEuOTQ4MyA4OS41MjA0IDExLjg4NDlDODguNjQ3NSAxMS44NjM4IDg4LjMzNTcgMTIuMTgxIDg4LjM5ODEgMTMuMDQ4Qzg4LjQzOTYgMTMuNzQ1OCA4OC40Mzk2IDE0LjQ2NDggODguMzk4MSAxNS4xNjI3Qzg4LjM1NjUgMTUuOTY2MyA4OC42MjY3IDE2LjI4MzUgODkuNDU4MSAxNi4yNjIzQzkyLjA3NjkgMTYuMjIgOTQuNzE2NCAxNi4yODM1IDk3LjMzNTIgMTYuMjJDOTguMjI5IDE2LjE5ODkgOTguNjAzMSAxNi40NTI3IDk4LjUxOTkgMTcuNDA0M0M5OC40MTYgMTguMTg2NyA5OC40Nzg0IDE4Ljk0OCA5OC40Nzg0IDE5Ljc5MzlaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik0xMjAuODIgMTkuODk5NkMxMTkuMjYyIDE5Ljg5OTYgMTE3Ljk1MiAxOS45NDE5IDExNi42NDMgMTkuODU3M0MxMTYuMzUyIDE5LjgzNjIgMTE2LjAxOSAxOS40NTU1IDExNS44MzIgMTkuMTU5NUMxMTQuNTAyIDE3LjE1MDUgMTEzLjE5MyAxNS4xMjA0IDExMS44NjIgMTMuMDkwM0MxMTEuNjU1IDEyLjc3MzEgMTExLjQyNiAxMi40NzcgMTExLjEzNSAxMi4wNzUyQzExMC4xMTcgMTMuMzIyOSAxMDguOTczIDE0LjI3NDUgMTA5LjIwMiAxNi4wNTA5QzEwOS4zNDggMTcuMjU2MiAxMDkuMjIzIDE4LjUwMzkgMTA5LjIyMyAxOS44Nzg1QzEwNy45NzYgMTkuODc4NSAxMDYuODUzIDE5LjkyMDggMTA1LjczMSAxOS44MzYyQzEwNS41MjMgMTkuODE1IDEwNS4yMzIgMTkuMjIyOSAxMDUuMjExIDE4Ljg4NDZDMTA1LjE0OSAxNy4yOTg1IDEwNS4xOTEgMTUuNzEyNSAxMDUuMTkxIDE0LjEyNjVDMTA1LjE5MSAxMC4wMDI4IDEwNS4yMTEgNS44NzkxNCAxMDUuMTcgMS43NzY2MkMxMDUuMTcgMC44MjUwMDkgMTA1LjQ0IDAuNDAyMDY5IDEwNi40MTcgMC41MDc4MDRDMTA3LjA0IDAuNTcxMjQ1IDEwNy42NjQgMC41NTAwOTggMTA4LjI4OCAwLjUwNzgwNEMxMDkuMDE1IDAuNDY1NTEgMTA5LjI0NCAwLjc2MTU2OCAxMDkuMjQ0IDEuNTAxNzFDMTA5LjIwMiAzLjUxMDY4IDEwOS4yMjMgNS41MTk2NCAxMDkuMjQ0IDcuNTI4NjFDMTA5LjI0NCA3LjY5Nzc5IDEwOS4yNjQgNy44NjY5NiAxMDkuMzA2IDguMzExMDVDMTA5LjY4IDcuOTA5MjYgMTA5LjkyOSA3LjY3NjY0IDExMC4xMzcgNy40MDE3M0MxMTEuNzM4IDUuMzcxNjEgMTEzLjMzOCAzLjMyMDM2IDExNC44OTcgMS4yNjkxQzExNS4yOTIgMC43NDA0MjEgMTE1LjcyOCAwLjUwNzgwNCAxMTYuMzkzIDAuNTI4OTUxQzExNy41NTcgMC41NzEyNDUgMTE4LjcyMSAwLjU1MDA5OCAxMjAuMTM1IDAuNTUwMDk4QzExOS43NiAxLjA5OTkyIDExOS41NTMgMS40MTcxMiAxMTkuMzQ1IDEuNjkyMDRDMTE3Ljc0NCAzLjcyMjE1IDExNi4xODYgNS43OTQ1NiAxMTQuNTIzIDcuNzgyMzdDMTEzLjg5OSA4LjU0MzY3IDExMy43OTUgOS4wOTM0OSAxMTQuMzk4IDkuOTYwNTJDMTE2LjM1MiAxMi44MTU0IDExOC4yMDIgMTUuNzU0OCAxMjAuMDkzIDE4LjY3MzFDMTIwLjI4IDE4Ljk2OTEgMTIwLjQ2NyAxOS4yODYzIDEyMC44MiAxOS44OTk2WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNDIuMzYxMyAxNi41MTYxQzQzLjIzNDMgMTUuNjcwMiA0NC4wNjU2IDE0Ljg0NTUgNDUuMDAwOSAxMy45MTVDNDUuMjI5NSAxNC4xMjY1IDQ1LjQ5OTcgMTQuNDAxNCA0NS43Njk5IDE0LjY1NTJDNDcuNDUzNCAxNi4yNDEyIDQ5LjQyNzkgMTYuODk2NyA1MS42OTM0IDE2LjQzMTVDNTIuMTI5OSAxNi4zNDY5IDUyLjU2NjMgMTYuMTc3NyA1Mi45NDA1IDE1LjkyNEM1NC4xODc1IDE1LjA3ODEgNTQuMTQ1OSAxMy41MzQ0IDUyLjc5NSAxMi44Nzg4QzUyLjAyNiAxMi40OTgyIDUxLjE1MyAxMi4zNzEzIDUwLjMyMTcgMTIuMTU5OEM0OC45OTE1IDExLjgyMTUgNDcuNTk4OSAxMS42MzExIDQ2LjMxMDMgMTEuMTQ0N0M0NC4wNjU2IDEwLjI5ODkgNDIuNzE0NyA4LjYyODI2IDQyLjcxNDcgNi4xMTE3NkM0Mi42OTM5IDMuNjE2NDIgNDQuMDAzMyAxLjk0NTggNDYuMTg1NiAwLjk1MTg5NUM0OS42NzczIC0wLjY1NTI3NyA1NC42NjU1IDAuMzgwOTI2IDU3LjA3NjUgMy4zMjAzNkM1Ni4yNDUxIDQuMjA4NTMgNTUuNDEzOCA1LjExNzg1IDU0LjU0MDggNi4wNjk0N0M1NC4xMjUyIDUuNzUyMjYgNTMuNzcxOCA1LjQ1NjIxIDUzLjQxODUgNS4yMDI0NEM1MS44ODA1IDQuMTAyOCA1MC4xOTcgMy41OTUyNyA0OC4zMjY0IDQuMDgxNjVDNDcuNDc0MiA0LjMxNDI3IDQ2LjgwOTEgNC44MDA2NSA0Ni43Njc2IDUuODE1NzFDNDYuNzI2IDYuNzg4NDcgNDcuMzQ5NSA3LjMxNzE0IDQ4LjEzOTMgNy41NzA5MUM0OS4wMzMgNy44NDU4MiA0OS45NjgzIDcuOTUxNTUgNTAuODYyIDguMjA1MzJDNTIuMzc5MyA4LjY0OTQgNTQuMDAwNSA4LjkyNDMxIDU1LjM1MTQgOS43MDY3NUM1OC40MDY3IDExLjQ0MDggNTguNzM5MiAxNS43OTcxIDU2LjIwMzYgMTguMjA3OEM1Mi43MzI2IDIxLjQ2NDUgNDUuMTA0OCAyMC41OTc1IDQyLjM2MTMgMTYuNTE2MVoiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTE1LjAzMDIgMC43ODI2NzhDMTQuODIyMyAxLjA5OTg4IDE0LjYxNDUgMS4zOTU5NCAxNC4zODU5IDEuNjkyQzEyLjcyMzEgMy44MDY3IDExLjA4MTIgNS45NDI1NSA5LjM3Njg5IDguMDM2MUM4Ljg5ODg2IDguNjI4MjIgOC44NzgwNyA5LjA1MTE2IDkuMjkzNzYgOS42ODU1N0MxMS4yNjgzIDEyLjY2NzMgMTMuMjAxMiAxNS42NzAyIDE1LjEzNDEgMTguNjczQzE1LjM0MTkgMTguOTkwMyAxNS41MjkgMTkuMzI4NiAxNS44NDA4IDE5Ljg1NzNDMTQuMjYxMiAxOS44NTczIDEyLjg4OTQgMTkuODk5NiAxMS40OTY5IDE5LjgxNUMxMS4yNDc1IDE5Ljc5MzggMTAuOTk4MSAxOS4zNDk3IDEwLjgxMSAxOS4wNzQ4QzkuNTIyMzggMTcuMDg3IDguMjMzNzYgMTUuMDc4MSA2LjkyNDM2IDEzLjA5MDJDNi43MTY1MiAxMi43NzMgNi40ODc4OSAxMi40NzcgNi4yMTc3IDEyLjExNzVDNS4wOTUzNSAxMy4zMjI5IDQuMDE0NTggMTQuMzU5MSA0LjI0MzIgMTYuMTU2NkM0LjM2NzkxIDE3LjA2NTkgNC4yNDMyIDE3Ljk3NTIgNC4yNjM5OSAxOC45MDU3QzQuMjg0NzcgMTkuNjAzNSA0LjAzNTM2IDE5Ljk2MyAzLjMwNzkyIDE5LjkyMDdDMi42MjIwNCAxOS44OTk2IDEuOTE1MzggMTkuODk5NiAxLjIyOTUgMTkuOTIwN0MwLjUyMjgzNyAxOS45NjMgMC4yNzM0MjcgMTkuNjY3IDAuMjczNDI3IDE4LjkyNjhDMC4yOTQyMTEgMTYuNDk0OSAwLjI3MzQyNyAxNC4wNjMgMC4yNzM0MjcgMTEuNjMxMUMwLjI5NDIxMSA4LjMzMjE2IDAuMzE0OTk1IDUuMDEyMDggMC4yNzM0MjcgMS43MTMxNUMwLjI1MjY0MyAwLjc4MjY3OCAwLjU2NDQwNSAwLjQ4NjYyIDEuNDc4OTEgMC41MDc3NjdDNC43ODM1OSAwLjU5MjM1NSA0LjIyMjQyIDAuMDQyNTMyNSA0LjI4NDc3IDMuMzYyNjFDNC4zMDU1NiA0LjU4OTE0IDQuMjg0NzcgNS44MzY4MSA0LjI4NDc3IDcuMDYzMzRDNC4yODQ3NyA3LjQwMTY5IDQuMzQ3MTIgNy43MTg5IDQuMzg4NjkgOC4zMzIxNkM0LjgwNDM4IDcuODQ1NzggNS4wNzQ1NyA3LjU3MDg3IDUuMzAzMiA3LjI3NDgxQzYuODgyNzkgNS4yNjU4NCA4LjQyMDgyIDMuMjM1NzMgMTAuMDQyIDEuMjQ3OTFDMTAuMzUzNyAwLjg2NzI2NiAxMC45MzU3IDAuNTkyMzU1IDExLjQxMzcgMC41NTAwNjFDMTIuNTc3NyAwLjQ0NDMyNiAxMy43NjI0IDAuNTA3NzY3IDE0LjkyNjMgMC41MDc3NjdDMTQuOTQ3IDAuNjEzNTAyIDE0Ljk4ODYgMC42OTgwOSAxNS4wMzAyIDAuNzgyNjc4WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNMTkuNzg5MSAxOS45MjA4QzIwLjM3MSAxOC40MTkzIDIwLjg0OTEgMTcuMjE0IDIxLjMwNjMgMTYuMDA4NkMyMy4xMzUzIDExLjI1MDUgMjQuOTY0MyA2LjUxMzU3IDI2Ljc1MTggMS43MzQzNUMyNy4wODQzIDAuODQ2MTcyIDI3LjQ3OTIgMC40NjU1MjYgMjguNDU2MSAwLjQ4NjY3M0MzMS4wOTU2IDAuNTUwMTE0IDMxLjA5NTYgMC40ODY2NzMgMzIuMDcyNSAzLjAyNDMxQzM0LjA2NzggOC4yMDUzMyAzNi4wNjMxIDEzLjM2NTIgMzguMDU4MyAxOC41NDYyQzM4LjIwMzggMTguOTA1NyAzOC4zMDc3IDE5LjI2NTIgMzguNTE1NiAxOS44MzYyQzM3LjE0MzggMTkuODM2MiAzNS45MTc2IDE5Ljg1NzMgMzQuNzEyMSAxOS44MTVDMzQuNTY2NiAxOS44MTUgMzQuNDAwMyAxOS41ODI0IDM0LjI3NTYgMTkuNDEzMkMzNC4xNzE3IDE5LjI4NjQgMzQuMTMwMSAxOS4wOTYgMzQuMDY3OCAxOC45MjY5QzMyLjg4MzEgMTYuMDkzMiAzMi44ODMxIDE2LjA5MzIgMjkuODkwMiAxNi4wOTMyQzI4LjY0MzEgMTYuMDkzMiAyNy4zOTYxIDE2LjA1MDkgMjYuMTQ5IDE2LjEzNTVDMjUuNzk1NyAxNi4xNTY2IDI1LjMzODQgMTYuNDk1IDI1LjE1MTQgMTYuODEyMkMyNC43NTY1IDE3LjUxIDI0LjQ4NjMgMTguMjkyNSAyNC4yMzY5IDE5LjA1MzdDMjQuMDI5IDE5LjY4ODIgMjMuNjM0MSAxOS45MjA4IDIyLjk4OTggMTkuODk5NkMyMi4wMzM4IDE5Ljg5OTYgMjEuMDM2MSAxOS45MjA4IDE5Ljc4OTEgMTkuOTIwOFpNMjkuMzI5IDYuMzg2NjlDMjkuMjI1MSA2LjM4NjY5IDI5LjEyMTIgNi4zODY2OSAyOS4wMTcyIDYuMzg2NjlDMjguMjg5OCA4LjM1MzM2IDI3LjU0MTYgMTAuMzIgMjYuNzUxOCAxMi40NTU5QzI4LjQzNTMgMTIuNDU1OSAyOS45MTA5IDEyLjQ1NTkgMzEuNTk0NSAxMi40NTU5QzMwLjgwNDcgMTAuMzIgMzAuMDc3MiA4LjM1MzM2IDI5LjMyOSA2LjM4NjY5WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNzIuNzY4MyA0LjMzNTQyQzcyLjE0NDggNC4yOTMxMyA3MS43NDk5IDQuMjUwODMgNzEuMzU1IDQuMjUwODNDNjkuMDA2NCA0LjI1MDgzIDY2LjY1NzggNC4yMjk2OSA2NC4zMDkyIDQuMjUwODNDNjMuNTQwMSA0LjI1MDgzIDYzLjIwNzYgNC4wMzkzNiA2My4yMDc2IDMuMTcyMzRDNjMuMjA3NiAwLjUyODk2IDYzLjE2NiAwLjUyODk2IDY1Ljc2NDEgMC41Mjg5NkM2OS40MjIxIDAuNTI4OTYgNzMuMTAwOSAwLjU1MDEwNyA3Ni43NTg5IDAuNTA3ODEyQzc3LjYzMTggMC41MDc4MTIgNzcuOTIyOCAwLjc2MTU3NyA3Ny45ODUxIDEuNjkyMDRDNzguMTA5OCAzLjM4MzgxIDc3LjYxMSA0LjY5NDkyIDc2LjUwOTUgNS45NjM3NEM3My45NzM4IDguOTI0MzIgNzEuNTYyOCAxMi4wMzI5IDY5LjExMDMgMTUuMDc4MUM2OC44ODE3IDE1LjM3NDIgNjguNjczOCAxNS42NzAyIDY4LjMyMDUgMTYuMTU2NkM2OC45MDI1IDE2LjE5ODkgNjkuMjc2NiAxNi4yMiA2OS42Mjk5IDE2LjIyQzcyLjE0NDggMTYuMjIgNzQuNjgwNSAxNi4yNDEyIDc3LjE5NTMgMTYuMjJDNzcuOTg1MSAxNi4xOTg5IDc4LjI5NjkgMTYuNDUyNyA3OC4yNzYxIDE3LjI5ODVDNzguMTcyMiAyMC4zMjI2IDc4LjczMzQgMTkuODc4NSA3NS43ODIgMTkuODk5NkM3MS45Nzg1IDE5LjkyMDggNjguMTc1IDE5Ljg3ODUgNjQuMzcxNSAxOS45MjA4QzYzLjQzNjIgMTkuOTIwOCA2My4xNjYgMTkuNjI0NyA2My4xMDM3IDE4LjY3MzFDNjMuMDIwNSAxNy4wNjU5IDYzLjQ1NyAxNS44MTgyIDY0LjUxNyAxNC41NzA2QzY3LjA3MzUgMTEuNTY3NyA2OS41MDUyIDguNDM3OTQgNzEuOTc4NSA1LjM3MTYyQzcyLjIyNzkgNS4wOTY3MSA3Mi40MzU4IDQuODAwNjUgNzIuNzY4MyA0LjMzNTQyWiIgZmlsbD0iIzYxNjE2MSIvPgo8L3N2Zz4K"
               alt="Kaszek Logo">
+          </a>
 
-            <img class="institution-logo m-3"
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTM3IiBoZWlnaHQ9IjI5IiB2aWV3Qm94PSIwIDAgMTM3IDI5IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNNDYuNDcyNyAyMy4zNjk0SDQ3Ljc4MTdWNC4xODEwM0g0Ni40NzI3VjIzLjM2OFYyMy4zNjk0Wk01MS4xNjIgNy4wNDY4M0M1MS43MzgxIDcuMDQ2ODMgNTIuMjA5MiA2LjU3MzYzIDUyLjIwOTIgNS45OTU0M0M1Mi4yMDkyIDUuNDQzMTMgNTEuNzM4MSA0Ljk2OTkzIDUxLjE2MiA0Ljk2OTkzQzUwLjU4NTkgNC45Njk5MyA1MC4xMTQ4IDUuNDQzMTMgNTAuMTE0OCA1Ljk5NTQzQzUwLjExNDggNi41NzM2MyA1MC41ODU5IDcuMDQ2ODMgNTEuMTYyIDcuMDQ2ODNaTTUwLjUwNzUgMjMuMzY5NEg1MS44MTY1VjEwLjIyNjlINTAuNTA3NVYyMy4zNjg3VjIzLjM2OTRaTTY2LjE2NzIgMTAuMjI2OVYxMy4yNzYxQzY1LjA5MzQgMTEuMjUyNCA2My4wNzc0IDkuOTM3ODMgNjAuNTM3OCA5LjkzNzgzQzU2Ljc5MzUgOS45Mzc4MyA1My43NTY5IDEyLjkwNzkgNTMuNzU2OSAxNi43OTc4QzUzLjc1NjkgMjAuNjg4NCA1Ni43OTM1IDIzLjY1NzggNjAuNTM3OCAyMy42NTc4QzYzLjA3NzQgMjMuNjU3OCA2NS4wOTM0IDIyLjM0MzkgNjYuMTY2NSAyMC4zMjAyVjIyLjczOEM2Ni4xNjY1IDI1LjczNCA2NC4yMjk2IDI3LjY1MzQgNjAuOTU2NCAyNy42NTM0QzU4LjA3NjYgMjcuNjUzNCA1Ni42MTAxIDI2LjQ5NyA1NS45Mjk3IDI1LjEwNEw1NC43Nzc1IDI1Ljc2MTNDNTUuNzIwNCAyNy42NzkzIDU3Ljg5MzIgMjguOTE0OCA2MC45NTY0IDI4LjkxNDhDNjQuNTY5OCAyOC45MTQ4IDY3LjQ3NjEgMjYuNjgxMSA2Ny40NzYxIDIyLjczOFYxMC4yMjY5SDY2LjE2NzJaTTYwLjYxNjIgMjIuMzk2NEM1Ny41MDEyIDIyLjM5NjQgNTUuMDY1MiAxOS45MjU0IDU1LjA2NTIgMTYuNzk3OEM1NS4wNjUyIDEzLjY3MDIgNTcuNTAxMiAxMS4xOTkyIDYwLjYxNjIgMTEuMTk5MkM2My43MzE5IDExLjE5OTIgNjYuMTY3MiAxMy42NzAyIDY2LjE2NzIgMTYuNzk3OEM2Ni4xNjcyIDE5LjkyNjEgNjMuNzMxOSAyMi4zOTY0IDYwLjYxNjIgMjIuMzk2NFpNNzYuMjA1OCA5LjkzNzgzQzc0LjE4OTggOS45Mzc4MyA3Mi41MTQgMTAuNzc5MiA3MS41MTkzIDEyLjcyMzhWNC45Njk5M0g3MC4yMTA0VjIzLjM2OTRINzEuNTE5M1YxNi40MzAzQzcxLjUxOTMgMTIuODgxMyA3My41MzUzIDExLjE5OTkgNzYuMTAwOCAxMS4xOTk5Qzc4LjU2MiAxMS4xOTk5IDc5Ljk1MDEgMTIuNzc2MyA3OS45NTAxIDE1LjE5NDhWMjMuMzY5NEg4MS4yODVWMTUuMTk0OEM4MS4yODUgMTIuMDE0NyA3OS4zMjE1IDkuOTM3ODMgNzYuMjA1OCA5LjkzNzgzWk05MC4zODIyIDExLjUxNDlWMTAuMjI2OUg4Ni40ODExVjYuNTQ3MDNMODUuMTQ1NSA2Ljk0MTgzVjEwLjIyNjlIODIuMjY1N1YxMS41MTQ5SDg1LjE0NTVWMjAuMDU3Qzg1LjE0NTUgMjMuMDUzNyA4Ni45NTIyIDIzLjg5NDQgOTAuMzgyMiAyMy4zNjk0VjIyLjE4NjRDODcuNzExNyAyMi40MjMgODYuNDgxMSAyMi4zNzA1IDg2LjQ4MTEgMjAuMDU3VjExLjUxNDlIOTAuMzgyMlpNOTMuNTIzMSAxMi44MDI5VjEwLjIyNjlIOTIuMjE0MVYyMy4zNjg3SDkzLjUyMzFWMTYuMDYyOEM5My41MjMxIDEyLjY5ODYgOTUuNjQ0MSAxMS4zMDU2IDk3Ljg5NiAxMS4zMDU2VjEwLjA0MjhDOTYuMTE1MiAxMC4wNDI4IDk0LjQxMzUgMTAuNzI2NyA5My41MjMxIDEyLjgwMjlaTTEwNC40NDQgMjMuNjU3OEMxMDguMjQgMjMuNjU3OCAxMTEuMzAzIDIwLjY4ODQgMTExLjMwMyAxNi43OTc4QzExMS4zMDMgMTIuOTA3OSAxMDguMjQgOS45Mzc4MyAxMDQuNDQ0IDkuOTM3ODNDMTAwLjYyMSA5LjkzNzgzIDk3LjU1NzkgMTIuOTA3OSA5Ny41NTc5IDE2Ljc5NzhDOTcuNTU3OSAyMC42ODg0IDEwMC42MjEgMjMuNjU3OCAxMDQuNDQ0IDIzLjY1NzhaTTEwNC40NDQgMjIuMzk2NEMxMDEuMzI4IDIyLjM5NjQgOTguODkyOCAxOS45MjU0IDk4Ljg5MjggMTYuNzk3OEM5OC44OTI4IDEzLjY3MDIgMTAxLjMyOCAxMS4xOTkyIDEwNC40NDQgMTEuMTk5MkMxMDcuNTU5IDExLjE5OTIgMTA5Ljk2OCAxMy42NzAyIDEwOS45NjggMTYuNzk3OEMxMDkuOTY4IDE5LjkyNjEgMTA3LjU1OSAyMi4zOTY0IDEwNC40NDQgMjIuMzk2NFpNMTE5LjE0IDIzLjY1NzhDMTIxLjcwNiAyMy42NTc4IDEyMy45MDUgMjIuMzQzOSAxMjQuOTUyIDIwLjMyMDJMMTIzLjg1MyAxOS42NjI5QzEyMi45ODkgMjEuMjkyNSAxMjEuMjYxIDIyLjM5NjQgMTE5LjE0IDIyLjM5NjRDMTE1Ljk3MiAyMi4zOTY0IDExMy41ODkgMTkuOTI1NCAxMTMuNTg5IDE2Ljc5NzhDMTEzLjU4OSAxMy42NzAyIDExNS45NzIgMTEuMTk5MiAxMTkuMTQgMTEuMTk5MkMxMjEuMjM1IDExLjE5OTIgMTIzLjAxNSAxMi4yNzcyIDEyMy43NzQgMTMuOTMzNEwxMjQuODQ4IDEzLjMwMkMxMjMuOTA1IDExLjI1MjQgMTIxLjcwNiA5LjkzNzgzIDExOS4xNCA5LjkzNzgzQzExNS4xODcgOS45Mzc4MyAxMTIuMjU0IDEyLjkwNzkgMTEyLjI1NCAxNi43OTc4QzExMi4yNTQgMjAuNjg4NCAxMTUuMTg3IDIzLjY1NzggMTE5LjE0IDIzLjY1NzhaTTEzNi41NCAyMy4zNjk0TDEyOS4yMzQgMTYuNTM1M0wxMzYuMjc4IDEwLjIyNjlIMTM0LjQ0NEwxMjcuODIxIDE2LjE5MzdWNC45Njk5M0gxMjYuNTExVjIzLjM2OTRIMTI3LjgyMVYxNi45MDI4TDEzNC43NTkgMjMuMzY4SDEzNi41NFYyMy4zNjk0WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNMTguOTQwMyAyLjMxNDgyTDMyLjQ3MzQgMjMuMzE0OEwxNC4yNzM0IDkuMzE0ODJMMTguOTQwMyAyLjMxNDgyWiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTM3LjEzOTYgMjIuMzgxOUwzNy43MzYgMjMuMzE1SDM5LjAwNThMMjguMjcyNyA2LjUxNTAxTDI1LjUzMjIgMTAuODA0NkwyNi4xNTAzIDExLjczMjFMMjguMjcyNyA4LjM4MTkxTDM3LjEzOTYgMjIuMzgxOVoiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjYwNjUzIDE0LjkxNDlMMTguOTQwMyAwLjkxNDkxN0wzMy44NzM0IDIzLjMxNDlIMzIuNDczNEwzMS44NTExIDIyLjM4MThIMzEuODU4MUwxOC45NDAzIDIuNzgxODJMOS42MDY1MyAxNi43ODE4TDcuNzQwMzMgMTMuOTgxOEwyLjE0MDM0IDIyLjM4MThIMTQuNTg0MkwxNS4yMDcyIDIzLjMxNDlIMC4yNzM0MzhMNy43NDAzMyAxMi4xMTQ5TDkuNjA2NTMgMTQuOTE0OVoiIGZpbGw9IiM2MTYxNjEiLz4KPC9zdmc+Cg=="
               alt="Lightrock Logo">
-            <img class="institution-logo m-3"
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzkiIGhlaWdodD0iNDEiIHZpZXdCb3g9IjAgMCA3OSA0MSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMxLjE5OTIgMjcuNDU2MkMzMS4wNDQyIDI3LjQ1NjIgMzAuOTQ4OCAyNy40NTYyIDMwLjg1OTMgMjcuNDU2MkMyOS4wMjMyIDI3LjQ1NjIgMjcuMTgxIDI3LjQ1NjIgMjUuMzQ0OCAyNy40NjIyQzI1LjE0MjEgMjcuNDYyMiAyNC45OTMxIDI3LjQxNDQgMjQuODQ0MSAyNy4yNjQ5QzI0LjExNjcgMjYuNTI5NSAyMy4zNzE1IDI1LjgxMjEgMjIuNjM4MyAyNS4wODg2QzIyLjU3ODYgMjUuMDI4OCAyMi41MDcxIDI0Ljk2OSAyMi40NzczIDI0LjkzOTFDMjEuNjk2MyAyNS4zNjk2IDIwLjk2MyAyNS44MyAyMC4xODIxIDI2LjE5NDdDMTUuMjA0MSAyOC41MTQ1IDkuMjAwNzUgMjcuNDk4MSA1LjI0MjIzIDIzLjY4MzZDMC41Mzg1MDMgMTkuMTUxNiAtMC4zODU1NSAxMi4wMzA4IDMuMDk2MDQgNi40OTQzNUM1LjM1NTUgMi45MDcwNCA4LjYyODQzIDAuNzcyNTgxIDEyLjg0MzMgMC4yMjg1MDRDMTkuODE4NCAtMC42NjgzMjUgMjYuMjIxMiAzLjgyNzc4IDI3Ljc3MTIgMTAuNzI3NEMyOC42NDE2IDE0LjYwMTcgMjcuOTMyMiAxOC4yMjQ5IDI1LjcwODUgMjEuNTMxMkMyNS41NzE0IDIxLjc0MDUgMjUuNTcxNCAyMS44NDgxIDI1Ljc1NjIgMjIuMDI3NEMyNy41MjA4IDIzLjc3MzMgMjkuMjc5NSAyNS41MzExIDMxLjAzODIgMjcuMjg4OEMzMS4wNzk5IDI3LjMxODcgMzEuMTE1NyAyNy4zNjA2IDMxLjE5OTIgMjcuNDU2MlpNMTQuNTAwNiAyMy4xMjc2QzE5LjYxNTcgMjMuMTU3NCAyMy44MzY1IDE4Ljk4NDIgMjMuODY2NCAxMy44NjYzQzIzLjkwMjEgOC42NTI3MiAxOS43NzY3IDQuNDEzNzEgMTQuNjMxOCA0LjM4MzgxQzkuNDg2OTEgNC4zNTM5MiA1LjM5MTI3IDguNDkxMjkgNS4yNzIwNCAxMy41MjU1QzUuMTQ2ODQgMTguNzc0OSA5LjMxOTk4IDIzLjA5MTcgMTQuNTAwNiAyMy4xMjc2WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNTMuNjk4MiAxLjA1MzM0QzU0LjI1ODYgMS4wNTMzNCA1NC43OTUyIDEuMDUzMzQgNTUuMzMxNyAxLjA1MzM0QzU4LjQ0OTcgMS4wNTkzMiA2MS41NzM2IDEuMDcxMjggNjQuNjkxNSAxLjA3MTI4QzY2LjQ2MjEgMS4wNzEyOCA2OC4yMDI5IDEuMjMyNzEgNjkuODg0MSAxLjgxODY0QzczLjg4NDMgMy4yMTE3MSA3Ni42MDI4IDUuOTA4MTggNzcuODkwNiA5Ljk2MTg1Qzc4Ljg3NDIgMTMuMDQ2OSA3OC44NTA0IDE2LjE2NzkgNzcuNTgwNiAxOS4xNzUzQzc1Ljc0NDQgMjMuNTMzOSA3Mi40NTM1IDI2LjIwMDQgNjcuODUxMiAyNy4yMTA5QzY3LjA1MjMgMjcuMzg0MyA2Ni4yMTc3IDI3LjQ2MiA2NS40MDA5IDI3LjQ2OEM2MS41OTc0IDI3LjQ4NTkgNTcuNzkzOSAyNy40NjIgNTMuOTg0NCAyNy40NUM1My44OTUgMjcuNDUgNTMuODA1NiAyNy40NDQgNTMuNjk4MiAyNy40MzgxQzUzLjY5ODIgMTguNjQ5MSA1My42OTgyIDkuODY2MTkgNTMuNjk4MiAxLjA1MzM0Wk01Ny45MDcyIDIzLjY4MzNDNTguMDI2NCAyMy42OTUzIDU4LjA5MiAyMy43MDEzIDU4LjE2MzUgMjMuNzA3M0M2MC41ODk5IDIzLjcxMzIgNjMuMDEwMyAyMy43NDkxIDY1LjQzNjcgMjMuNzE5MkM2Ny44ODEgMjMuNjg5MyA3MC4wMDkzIDIyLjc5ODUgNzEuNjkwNSAyMS4wMTA4QzczLjk5NzYgMTguNTUzNSA3NC43MjQ5IDE1LjU5OTkgNzQuMTI4OCAxMi4zMjk1QzczLjMzNTkgNy45NjQ5MSA2OS43NTg5IDQuOTM5NjEgNjUuMzM1NCA0Ljg0OTkyQzYyLjk4MDUgNC44MDIwOSA2MC42MjU3IDQuODI2MDEgNTguMjcwOCA0LjgwODA3QzU3Ljk5MDYgNC44MDgwNyA1Ny45MDcyIDQuODc5ODIgNTcuOTA3MiA1LjE3Mjc4QzU3LjkxMzEgMTEuMjE3NCA1Ny45MTMxIDE3LjI2OCA1Ny45MTMxIDIzLjMxMjdDNTcuOTA3MiAyMy40MjAzIDU3LjkwNzIgMjMuNTM5OCA1Ny45MDcyIDIzLjY4MzNaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik01MC4yNjQ4IDEyLjI5MzZDNTAuMjY0OCAxMy41ODUgNTAuMjY0OCAxNC44MzQ2IDUwLjI2NDggMTYuMTE0MUM0NS43MjIgMTYuMTE0MSA0MS4xOTcxIDE2LjExNDEgMzYuNjQ4NCAxNi4xMTQxQzM2LjY0ODQgMTguNjE5MiAzNi42NDg0IDIxLjA5NDUgMzYuNjQ4NCAyMy42MTc2QzQxLjI5MjUgMjMuNjE3NiA0NS45NDI2IDIzLjYxNzYgNTAuNjEwNSAyMy42MTc2QzUwLjYxMDUgMjQuOTA5IDUwLjYxMDUgMjYuMTUyNiA1MC42MTA1IDI3LjQyNjFDNDQuNTUzNSAyNy40MjYxIDM4LjQ5MDYgMjcuNDI2MSAzMi4zOTc4IDI3LjQyNjFDMzIuMzkxOCAyNy4zMjQ1IDMyLjM4NTggMjcuMjE2OCAzMi4zODU4IDI3LjEwOTJDMzIuMzg1OCAxOC41MTc2IDMyLjM4NTggOS45MzE5NSAzMi4zNzk5IDEuMzQwMzJDMzIuMzc5OSAxLjEwMTE3IDMyLjQ1MTQgMS4wNDEzOCAzMi42ODM5IDEuMDQxMzhDMzguNTY4MSAxLjA0NzM2IDQ0LjQ0NjIgMS4wNDczNiA1MC4zMzAzIDEuMDQ3MzZDNTAuNDE5OCAxLjA0NzM2IDUwLjUwMzIgMS4wNTMzNCA1MC42MTA1IDEuMDU5MzJDNTAuNjEwNSAyLjMwMjkyIDUwLjYxMDUgMy41MzQ1NyA1MC42MTA1IDQuNzk2MTFDNDUuOTYwNSA0Ljc5NjExIDQxLjMxNjQgNC43OTYxMSAzNi42NDg0IDQuNzk2MTFDMzYuNjQ4NCA3LjMwMTI1IDM2LjY0ODQgOS43NzY1IDM2LjY0ODQgMTIuMjkzNkM0MS4xNzkyIDEyLjI5MzYgNDUuNzEwMSAxMi4yOTM2IDUwLjI2NDggMTIuMjkzNloiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTEyLjA1NjcgMzcuODgzMkMxMi4wNTY3IDM1Ljk1OCAxMi4wNTY3IDM0LjA5ODYgMTIuMDU2NyAzMi4yMjEyQzEyLjUwOTggMzIuMjIxMiAxMi45NDUgMzIuMjIxMiAxMy4zOTgxIDMyLjIyMTJDMTMuMzk4MSAzNC43NzQyIDEzLjM5ODEgMzcuMzE1MiAxMy4zOTgxIDM5Ljg5ODFDMTIuODk3MyAzOS44OTgxIDEyLjM5MDYgMzkuOTA0MSAxMS44ODk4IDM5Ljg5MjFDMTEuODMwMiAzOS44OTIxIDExLjc1ODcgMzkuODE0NCAxMS43MjI5IDM5Ljc1NDZDMTAuNjIgMzcuOTQ5IDkuNTE3MDkgMzYuMTM3NCA4LjQxNDE5IDM0LjMyNThDOC40MDIyNyAzNC4zMDc4IDguMzg0MzggMzQuMzAxOSA4LjMzNjY5IDM0LjI2QzguMzM2NjkgMzYuMTQzMyA4LjMzNjY5IDM4LjAwMjggOC4zMzY2OSAzOS44ODYxQzcuODgzNiAzOS44ODYxIDcuNDQyNDQgMzkuODg2MSA2Ljk4MzQgMzkuODg2MUM2Ljk4MzQgMzcuMzI3MiA2Ljk4MzQgMzQuNzgwMiA2Ljk4MzQgMzIuMjAzM0M3LjQ4NDE4IDMyLjIwMzMgNy45NjcwNyAzMi4xOTczIDguNDQ5OTYgMzIuMjA5M0M4LjUzMzQyIDMyLjIwOTMgOC42MzQ3NyAzMi4zMTY5IDguNjgyNDYgMzIuMzk0NkM5Ljc2MTUyIDM0LjE1ODQgMTAuODQwNiAzNS45MjgxIDExLjkxOTYgMzcuNjkxOUMxMS45NDk0IDM3Ljc1MTcgMTEuOTg1MiAzNy43OTM1IDEyLjA1NjcgMzcuODgzMloiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTU4Ljc1NDYgMzYuMjE1MUM1OC43MzA4IDM3LjI3OTMgNTguNDQ0NiAzOC4zODU0IDU3LjQ5NjcgMzkuMTg2NkM1Ni4yNTY3IDQwLjIzODggNTQuODE0IDQwLjM0MDUgNTMuMzUzNCAzOS43NzI1QzUxLjg5ODcgMzkuMjEwNSA1MS4yNzg3IDM3Ljk5MDggNTEuMTQxNiAzNi41MDJDNTEuMDQ2MiAzNS40MzE4IDUxLjIxOTEgMzQuNDA5NCA1MS44NTcgMzMuNTE4NkM1Mi43MjE0IDMyLjMxMDkgNTMuOTQ5NSAzMS45NDYxIDU1LjM2MjQgMzIuMDUzOEM1Ny41MDg2IDMyLjIyNzIgNTguNzU0NiAzMy44NTk0IDU4Ljc1NDYgMzYuMjE1MVpNNTcuMzQ3NyAzNi4wNzc1QzU3LjMyMzggMzYuMDcxNiA1Ny4yOTQgMzYuMDY1NiA1Ny4yNzAyIDM2LjA1MzZDNTcuMjcwMiAzNS41MDk2IDU3LjE4MDcgMzQuOTgzNCA1Ni45MzYzIDM0LjQ5MzFDNTYuNTQ4OCAzMy43MzM4IDU1LjkyMjggMzMuMzQ1MiA1NS4wNzYzIDMzLjMwOTNDNTQuMTc2MSAzMy4yNzM1IDUzLjQ0ODggMzMuNTkwMyA1My4wMTk1IDM0LjQwOTRDNTIuNDk0OSAzNS40MDE5IDUyLjQ3NyAzNi40MzYzIDUyLjkwMDMgMzcuNDcwNkM1My4yNTggMzguMzM3NiA1My45MzE3IDM4Ljc4NiA1NC44Njc2IDM4LjgwOTlDNTUuODIxNSAzOC44MzM4IDU2LjU2NjcgMzguNDU3MSA1Ni45NTQyIDM3LjU2NjNDNTcuMTQ1IDM3LjA5NCA1Ny4yMTY1IDM2LjU3MzggNTcuMzQ3NyAzNi4wNzc1WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNjIuMTY5OSAzMi4yNjMxQzYzLjU4ODggMzIuMjYzMSA2NC45NzE5IDMyLjIwMzMgNjYuMzQzMSAzMi4yODFDNjcuMjQ5MiAzMi4zMzQ4IDY3Ljk3MDYgMzIuODE5MSA2OC4yMjY5IDMzLjc2OTdDNjguNDgzMyAzNC43MzgzIDY4LjE5MTIgMzUuNzEyOSA2Ny4yMDc1IDM2LjE0MzNDNjcuMTcxNyAzNi4xNTUzIDY3LjE0NzkgMzYuMTkxMiA2Ny4wODIzIDM2LjI0NUM2Ny45NzA2IDM2LjUyNiA2OC4xMjU2IDM3LjIyNTUgNjguMTQ5NCAzOC4wMDI4QzY4LjE2MTQgMzguMzE5NiA2OC4xNjczIDM4LjY0MjUgNjguMjAzMSAzOC45NTk0QzY4LjIzODkgMzkuMjcwMyA2OC4zMDQ0IDM5LjU4MTIgNjguMzU4MSAzOS45MDRDNjcuOTUyNyAzOS45MDQgNjcuNTIzNSAzOS45MSA2Ny4xMDAyIDM5Ljg5ODFDNjcuMDI4NyAzOS44OTgxIDY2LjkyMTMgMzkuODA4NCA2Ni44OTc1IDM5LjczNjZDNjYuODMxOSAzOS41MDk0IDY2Ljc4NDIgMzkuMjc2MyA2Ni43NjA0IDM5LjAzNzFDNjYuNzI0NiAzOC42NDg1IDY2LjczNjUgMzguMjU5OSA2Ni42OTQ4IDM3Ljg3NzJDNjYuNjI5MiAzNy4yMTM2IDY2LjI4MzQgMzYuOTAyNiA2NS42MTU3IDM2Ljg4NDdDNjUuMDMxNSAzNi44NzI4IDY0LjQ0MTMgMzYuODkwNyA2My44NTcxIDM2Ljg3ODdDNjMuNjM2NSAzNi44NzI4IDYzLjU2NDkgMzYuOTM4NSA2My41NzA5IDM3LjE2NTdDNjMuNTgyOCAzNy45NjA5IDYzLjU3NjkgMzguNzYyMSA2My41NzY5IDM5LjU1NzNDNjMuNTc2OSAzOS42NTg5IDYzLjU3NjkgMzkuNzU0NiA2My41NzY5IDM5Ljg4MDFDNjMuMDk5OSAzOS44ODAxIDYyLjY0NjkgMzkuODgwMSA2Mi4xNjk5IDM5Ljg4MDFDNjIuMTY5OSAzNy4zMzMxIDYyLjE2OTkgMzQuNzg2MSA2Mi4xNjk5IDMyLjI2MzFaTTYzLjU3NjkgMzUuNzE4OEM2My42NDg0IDM1LjczNjggNjMuNjk2MSAzNS43NjA3IDYzLjc0MzggMzUuNzYwN0M2NC4zOTk2IDM1Ljc1NDcgNjUuMDU1NCAzNS43NzI2IDY1LjcwNTIgMzUuNzM2OEM2Ni40MzI1IDM1LjY5NDkgNjYuODM3OSAzNS4yNDY1IDY2LjgzNzkgMzQuNTQxQzY2Ljg0MzggMzMuODk1MyA2Ni40NDQ0IDMzLjQ1MjggNjUuNzQ2OSAzMy40MDVDNjUuMDg1MiAzMy4zNjMyIDY0LjQxNzUgMzMuMzg3MSA2My43NTU3IDMzLjM5OUM2My42OTYxIDMzLjM5OSA2My41ODg4IDMzLjUwNjcgNjMuNTg4OCAzMy41NjY0QzYzLjU3MDkgMzQuMjgzOSA2My41NzY5IDM1LjAwMTQgNjMuNTc2OSAzNS43MTg4WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNMzEuODczIDM4LjYxODZDMzEuODczIDM5LjA3ODkgMzEuODczIDM5LjQ4NTUgMzEuODczIDM5Ljg5ODFDMzAuMDA3IDM5Ljg5ODEgMjguMTY0OCAzOS44OTgxIDI2LjI5ODggMzkuODk4MUMyNi4yOTg4IDM3LjMzOTEgMjYuMjk4OCAzNC43OTIxIDI2LjI5ODggMzIuMjI3MkMyOC4xNjQ4IDMyLjIyNzIgMzAuMDEyOSAzMi4yMjcyIDMxLjg5MDggMzIuMjI3MkMzMS44OTA4IDMyLjYzOTcgMzEuODkwOCAzMy4wNTIzIDMxLjg5MDggMzMuNDk0N0MzMC41MTM3IDMzLjQ5NDcgMjkuMTQ4NSAzMy40OTQ3IDI3Ljc1MzUgMzMuNDk0N0MyNy43NTM1IDM0LjExNjUgMjcuNzUzNSAzNC43MDI0IDI3Ljc1MzUgMzUuMzMwMkMyNy44ODQ2IDM1LjMzNjIgMjguMDI3NyAzNS4zNDgxIDI4LjE3NjcgMzUuMzQ4MUMyOS4xOTAyIDM1LjM0ODEgMzAuMjAzNyAzNS4zNTQxIDMxLjIxNzIgMzUuMzQyMkMzMS40NTU2IDM1LjM0MjIgMzEuNTMzMSAzNS40MTM5IDMxLjUxNTMgMzUuNjQ3MUMzMS40OTc0IDM1Ljk0IDMxLjUwOTMgMzYuMjM5IDMxLjUwOTMgMzYuNTY3OEMzMC4yNDU0IDM2LjU2NzggMjkuMDA1NCAzNi41Njc4IDI3Ljc0NzUgMzYuNTY3OEMyNy43NDc1IDM3LjI2MTQgMjcuNzQ3NSAzNy45MTkxIDI3Ljc0NzUgMzguNjEyNkMyOS4xMjQ2IDM4LjYxODYgMzAuNDg5OSAzOC42MTg2IDMxLjg3MyAzOC42MTg2WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNNzAuNTg4IDM3LjM4NjlDNzAuOTk5NCAzNy4zODY5IDcxLjM5ODggMzcuMzc1IDcxLjc5MjMgMzcuMzk4OUM3MS44NTc4IDM3LjQwNDkgNzEuOTY1MSAzNy41MTg1IDcxLjk3NzEgMzcuNTkwMkM3Mi4xMjYxIDM4LjM3OTQgNzIuNDQyMSAzOC43NDQxIDczLjIyMyAzOC44NTc3QzczLjY1ODIgMzguOTE3NSA3NC4xMTczIDM4Ljg5MzYgNzQuNTUyNSAzOC44Mjc4Qzc0Ljc3OSAzOC43OTggNzUuMDIzNSAzOC42NDI1IDc1LjE5MDQgMzguNDc1MUM3NS42Mzc1IDM4LjAxNDcgNzUuNTEyMyAzNy4yNDM0IDc0LjkxNjEgMzcuMDA0M0M3NC4zODU2IDM2Ljc4OTEgNzMuODEzMiAzNi42NzU1IDczLjI1ODggMzYuNTQ5OUM3Mi41MjU1IDM2LjM4MjUgNzEuODEwMSAzNi4xOTEyIDcxLjI3MzYgMzUuNjExMkM3MC40MDMyIDM0LjY3ODUgNzAuNjM1NyAzMy4wMjI0IDcxLjc4MDMgMzIuNDU0NEM3My4wNTYxIDMxLjgyMDYgNzQuMzc5NiAzMS44NDQ1IDc1LjY0MzUgMzIuNTE0MkM3Ni4zODI3IDMyLjkwODggNzYuNjUxIDMzLjYyMDMgNzYuNzEwNiAzNC40NzUyQzc2LjI2OTQgMzQuNDc1MiA3NS44NTgxIDM0LjQ4MTIgNzUuNDQwOCAzNC40NjkzQzc1LjM4NzEgMzQuNDY5MyA3NS4zMDk2IDM0LjM1NTcgNzUuMjk3NyAzNC4yODk5Qzc1LjE5NjMgMzMuNjM4MiA3NC43ODUgMzMuMzAzNCA3NC4xNzA5IDMzLjI0MzZDNzMuNzY1NiAzMy4yMDE3IDczLjMzNjMgMzMuMjE5NyA3Mi45MzA5IDMzLjI5MTRDNzIuNTAxNyAzMy4zNjkxIDcyLjI1NzMgMzMuNjkyIDcyLjIyNzUgMzQuMDgwNkM3Mi4xOTE3IDM0LjUxMTEgNzIuMzU4NiAzNC44Mzk5IDcyLjc4MTkgMzUuMDA3NEM3My4xOTMyIDM1LjE2ODggNzMuNjM0NCAzNS4yNTg1IDc0LjA2MzYgMzUuMzcyMUM3NC41NzA0IDM1LjUwOTYgNzUuMDg5IDM1LjYxMTIgNzUuNTc3OSAzNS43OTA2Qzc2LjQxODUgMzYuMTAxNSA3Ni45MDczIDM2LjcwNTMgNzYuOTI1MiAzNy42MzgxQzc2Ljk0MzEgMzguNjAwNyA3Ni41NTU2IDM5LjM0MiA3NS42NjczIDM5LjcxODdDNzQuMzk3NSA0MC4yNTA4IDczLjEwMzggNDAuMjM4OSA3MS44NTE5IDM5LjY1MjlDNzEuMDA1MyAzOS4yNjQzIDcwLjUxMDUgMzguMzMxNiA3MC41ODggMzcuMzg2OVoiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTM0LjQ3OCAzNy40MDQ5QzM0LjkzNyAzNy40MDQ5IDM1LjM4NDIgMzcuNDA0OSAzNS44MTk0IDM3LjQwNDlDMzYuMTA1NSAzOC41OTQ3IDM2LjUxMDkgMzguOTE3NSAzNy43MzMgMzguOTExNkMzOC4wNDMgMzguOTExNiAzOC4zNjUgMzguODUxOCAzOC42NjMgMzguNzYyMUMzOS4wODYzIDM4LjYyNDYgMzkuMzA2OSAzOC4yNjU5IDM5LjMxODggMzcuODIzNEMzOS4zMzA4IDM3LjM4NyAzOS4xMDQyIDM3LjA4OCAzOC43MTA3IDM2Ljk2MjVDMzguMTkyMSAzNi43OTUxIDM3LjY1NTUgMzYuNjk5NCAzNy4xMzA5IDM2LjU0MzlDMzYuNjMwMSAzNi4zOTQ1IDM2LjExNzQgMzYuMjUxIDM1LjY1MjQgMzYuMDE3OEMzNC45MjUxIDM1LjY0MTEgMzQuNjA5MSAzNC45NzE1IDM0LjYyNyAzNC4xNjQ0QzM0LjY1MDkgMzMuMzIxMyAzNS4wNTAzIDMyLjY4MTYgMzUuODMxMyAzMi4zNjQ3QzM3LjA0MTUgMzEuODY4NSAzOC4yNjM2IDMxLjg4NjQgMzkuNDM4MSAzMi40NzgzQzQwLjIxMzEgMzIuODcyOSA0MC41MjkgMzMuNTkwNCA0MC41NjQ4IDM0LjQ2OTNDNDAuMDk5OCAzNC40NjkzIDM5LjY1ODYgMzQuNDY5MyAzOS4yMTc1IDM0LjQ2OTNDMzguODY1NyAzMy40MTcgMzguNTM3OSAzMy4xODM4IDM3LjQxMTEgMzMuMjA3N0MzNy4xNzg2IDMzLjIxMzcgMzYuOTM0MiAzMy4yNTU2IDM2LjcxMzYgMzMuMzI3M0MzNi4zMzggMzMuNDQ2OSAzNi4xMjM0IDMzLjcyMTkgMzYuMDkzNiAzNC4xMjI1QzM2LjA2MzggMzQuNTExMSAzNi4yNDI2IDM0Ljg0NTkgMzYuNjI0MiAzNS4wMDc0QzM2Ljk0MDEgMzUuMTM4OSAzNy4yOCAzNS4yMjI2IDM3LjYxMzggMzUuMzE4M0MzOC4yNTE3IDM1LjQ5MTcgMzguOTI1NCAzNS41ODczIDM5LjUzMzQgMzUuODQ0NEM0MC44OTg3IDM2LjQyNDQgNDEuMjM4NSAzOC4wOTg0IDQwLjI2MDggMzkuMjIyNUMzOS45NTA4IDM5LjU4MTIgMzkuNTM5NCAzOS43OTA1IDM5LjA5MjMgMzkuOTA0MUMzNy45MjM4IDQwLjIwMyAzNi43NjczIDQwLjE5NyAzNS42NzAzIDM5LjY0MUMzNC44ODM0IDM5LjIyODUgMzQuMzk0NSAzOC4zMTM3IDM0LjQ3OCAzNy40MDQ5WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNMTYuMzk2NSAzMi4yMTUxQzE2LjkxNTEgMzIuMjE1MSAxNy4zOTggMzIuMjE1MSAxNy45MTY3IDMyLjIxNTFDMTguNjIwMiAzNC4zMDE4IDE5LjMyOTYgMzYuMzk0NCAyMC4wNDUgMzguNTEwOUMyMC4xNjQyIDM4LjEwNDMgMjAuMjcxNSAzNy43MTU3IDIwLjQwMjcgMzcuMzI3MUMyMC45NDUyIDM1LjY5NDggMjEuNDg3NyAzNC4wNjI2IDIyLjA0MjEgMzIuNDMwNEMyMi4wNzE5IDMyLjM0MDcgMjIuMjAzMSAzMi4yMjExIDIyLjI5MjUgMzIuMjE1MUMyMi43MDk4IDMyLjE5MTIgMjMuMTI3MiAzMi4yMDMyIDIzLjU4NjIgMzIuMjAzMkMyMy40NzI5IDMyLjUzOCAyMy4zNzE2IDMyLjg0MjkgMjMuMjY0MyAzMy4xNDc4QzIyLjUwMTIgMzUuMjk0MyAyMS43MzIxIDM3LjQ0MDcgMjAuOTgxIDM5LjU5MzFDMjAuODk3NSAzOS44MjYyIDIwLjc5MDIgMzkuOTIxOSAyMC41Mzk4IDM5LjkwNEMyMC4xNTIzIDM5Ljg4IDE5Ljc2NDggMzkuOTA5OSAxOS4zNzczIDM5Ljg5MkMxOS4yODc5IDM5Ljg4NiAxOS4xNTA4IDM5LjgwODMgMTkuMTIwOSAzOS43MjQ2QzE4LjIxNDggMzcuMjY3MyAxNy4zMjY1IDM0LjgxIDE2LjQzMjMgMzIuMzQ2N0MxNi40MTQ0IDMyLjMxNjggMTYuNDE0NCAzMi4yODA5IDE2LjM5NjUgMzIuMjE1MVoiIGZpbGw9IiM2MTYxNjEiLz4KPHBhdGggZD0iTTQyLjgzMTEgMzMuNTAwN0M0Mi44MzExIDMzLjA1ODIgNDIuODMxMSAzMi42NTE3IDQyLjgzMTEgMzIuMjI3MkM0NC45MTc2IDMyLjIyNzIgNDcuMDEwMiAzMi4yMjcyIDQ5LjEyNjUgMzIuMjI3MkM0OS4xMjY1IDMyLjYzOTcgNDkuMTI2NSAzMy4wNDYzIDQ5LjEyNjUgMzMuNTAwN0M0OC43Njg4IDMzLjUwMDcgNDguNDE3MSAzMy41MDA3IDQ4LjA2NTQgMzMuNTAwN0M0Ny43MjU2IDMzLjUwMDcgNDcuMzg1NyAzMy41MTg2IDQ3LjA1MTkgMzMuNDk0N0M0Ni43ODM2IDMzLjQ3NjggNDYuNjk0MiAzMy41NjA1IDQ2LjcwMDEgMzMuODQxNUM0Ni43MTIxIDM1LjcyNDggNDYuNzA2MSAzNy42MDgxIDQ2LjcwNjEgMzkuNDkxNUM0Ni43MDYxIDM5LjYxNyA0Ni43MDYxIDM5Ljc0MjYgNDYuNzA2MSAzOS44ODYxQzQ2LjIxNzMgMzkuODg2MSA0NS43NjQyIDM5Ljg4NjEgNDUuMjc1MyAzOS44ODYxQzQ1LjI3NTMgMzkuNzY2NSA0NS4yNzUzIDM5LjY1ODkgNDUuMjc1MyAzOS41NTEzQzQ1LjI3NTMgMzcuNjU2IDQ1LjI2OTQgMzUuNzY2NyA0NS4yODEzIDMzLjg3MTRDNDUuMjgxMyAzMy41NjA1IDQ1LjE4NTkgMzMuNDgyNyA0NC44OTM4IDMzLjQ5NDdDNDQuMjE0MiAzMy41MTg2IDQzLjU0MDUgMzMuNTAwNyA0Mi44MzExIDMzLjUwMDdaIiBmaWxsPSIjNjE2MTYxIi8+CjxwYXRoIGQ9Ik0yLjY3Mjg1IDMyLjIyMTJDMy4xMjU5NCAzMi4yMjEyIDMuNTczMDYgMzIuMjIxMiA0LjA0NDAzIDMyLjIyMTJDNC4wNDQwMyAzNC43NzQyIDQuMDQ0MDMgMzcuMzIxMiA0LjA0NDAzIDM5Ljg5MjFDMy41OTA5NCAzOS44OTIxIDMuMTQzODIgMzkuODkyMSAyLjY3Mjg1IDM5Ljg5MjFDMi42NzI4NSAzNy4zNDUxIDIuNjcyODUgMzQuNzkyMSAyLjY3Mjg1IDMyLjIyMTJaIiBmaWxsPSIjNjE2MTYxIi8+Cjwvc3ZnPgo="
               alt="QED Investors Logo">
-            <img class="institution-logo m-3"
+          </a>
+
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyIiBoZWlnaHQ9IjQxIiB2aWV3Qm94PSIwIDAgMTAyIDQxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8bWFzayBpZD0ibWFzazAiIHN0eWxlPSJtYXNrLXR5cGU6YWxwaGEiIG1hc2tVbml0cz0idXNlclNwYWNlT25Vc2UiIHg9IjQiIHk9IjAiIHdpZHRoPSIzNyIgaGVpZ2h0PSI0MSI+CjxwYXRoIGQ9Ik00LjA5NzY2IDAuNzUwMjQ0SDQwLjI1OFY0MC43NTAySDQuMDk3NjZWMC43NTAyNDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazApIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjEzMjU1IDEyLjQ4ODhMMjUuOTkwNCAyLjQ3Mzk2QzI5Ljk3ODIgMC4xMDQ1OTggMzMuMTA3NiAwLjQzNjg2MiAzNS42MzE4IDEuOTE3MzZDMzguNTE2NSAzLjYwNjk0IDQwLjIzMDQgNi41MjcyNSA0MC4yNTc1IDkuOTM5NzRWMzAuNzU5OUM0MC4yNTc1IDM1LjE4MjIgMzguNTAxMiAzNy44NjM1IDM1LjY2MzQgMzkuNTY2MUMzMy4xMzcgNDEuMDgyMiAzMC4wMiA0MS4zODUxIDI2LjAyNDkgMzkuMDI1M0w4LjkyMjM0IDI4LjkyOTdDNS4yODMyNSAyNi43ODA3IDMuNzE2MyAyMi44NDcyIDQuMTc1NzEgMTkuNDM1OEM0LjU2NzMgMTYuNTE4OSA2LjM1ODAzIDE0LjEzNzcgOS4xMzI1NSAxMi40ODg4WiIgZmlsbD0iIzlFOUU5RSIvPgo8L2c+CjxtYXNrIGlkPSJtYXNrMSIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iMCIgeT0iMCIgd2lkdGg9IjM3IiBoZWlnaHQ9IjQxIj4KPHBhdGggZD0iTTAuMDM4MDg1OSAwLjc1MDI0NEgzNi4xOTlWNDAuNzUwMkgwLjAzODA4NTlWMC43NTAyNDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazEpIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMS4xNjM2IDEyLjQ4ODhMMTQuMzA2MiAyLjQ3Mzk2QzEwLjMxNzkgMC4xMDQ1OTggNy4xODk2OCAwLjQzNjg2MiA0LjY2NDM2IDEuOTE3MzZDMS43Nzk2NSAzLjYwNjk0IDAuMDY1MjA5NiA2LjUyNzI1IDAuMDM4MDg1OSA5LjkzOTc0VjMwLjc1OTlDMC4wMzgwODU5IDM1LjE4MjIgMS43OTQzNCAzNy44NjM1IDQuNjMyMTUgMzkuNTY2MUM3LjE1OTE3IDQxLjA4MjIgMTAuMjc2MSA0MS4zODUxIDE0LjI3MDYgMzkuMDI1M0wzMS4zNzM4IDI4LjkyOTdDMzUuMDEzNCAyNi43ODA3IDM2LjU3OTMgMjIuODQ3MiAzNi4xMjE1IDE5LjQzNThDMzUuNzI4OCAxNi41MTg5IDMzLjkzODcgMTQuMTM3NyAzMS4xNjM2IDEyLjQ4ODhaIiBmaWxsPSIjQkRCREJEIi8+CjwvZz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjEzMjQgMTIuNDg5MUwyMC4xNDggNS45NDM4NUwzMS4xNjM2IDEyLjQ4OTdDMzMuOTM4MSAxNC4xMzggMzUuNzI5NCAxNi41MTkyIDM2LjEyMDQgMTkuNDM2MkMzNi41Nzk4IDIyLjg0ODEgMzUuMDE0NSAyNi43ODEgMzEuMzczOCAyOC45M0wyNC42ODIxIDMyLjg3OTlMMjYuODk4NCAzNC4xODkxQzI3Ljk3NTQgMzQuODI0MyAyOC4zNTA2IDM2LjI1IDI3LjczMTkgMzcuMzU3NUMyNy4xMTM3IDM4LjQ2NTEgMjUuNzI2NCAzOC44NTA1IDI0LjY1MDUgMzguMjE0N0wyMC4xNDggMzUuNTU3OEwyMC4wMzY3IDM1LjQ5MTZMMTkuNTIzIDM1LjE4NzZMOC45MjIxOSAyOC45M0M1LjI4MzEgMjYuNzgxIDMuNzE2NzEgMjIuODQ4MSA0LjE3NTU1IDE5LjQzNjdDNC41NjgyOCAxNi41MTkyIDYuMzU3ODggMTQuMTM4IDkuMTMyNCAxMi40ODk3IiBmaWxsPSIjNjE2MTYxIi8+CjxtYXNrIGlkPSJtYXNrMiIgc3R5bGU9Im1hc2stdHlwZTphbHBoYSIgbWFza1VuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeD0iNDQiIHk9IjEwIiB3aWR0aD0iNTgiIGhlaWdodD0iMTUiPgo8cGF0aCBkPSJNNDQuMDExNyAxMC41MTE0SDEwMS42ODFWMjQuMDI4NUg0NC4wMTE3VjEwLjUxMTRaIiBmaWxsPSJ3aGl0ZSIvPgo8L21hc2s+CjxnIG1hc2s9InVybCgjbWFzazIpIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00NC4wMTE3IDE2LjU3NjdDNDQuMDExNyAxOS45OTIgNDUuODU1IDIyLjM0MDUgNDguOTUxNiAyMi41MDgzQzQ5LjExODkgMjIuNTI5OCA0OS4zMzE5IDIyLjU4MTggNDkuNjM0OCAyMi42ODI0QzUxLjE3OTcgMjMuMjAwNSA1Mi42MjY5IDIzLjY2NzggNTMuOTIzNyAyNC4wMjg5TDU0LjMzODUgMjIuNzg2OUM1My4zOTE0IDIyLjU5NzYgNTIuMTgwNCAyMi4zMTY4IDUxLjA2MzMgMjIuMDQyN1YyMS45NzQ5QzUyLjkxMTEgMjEuMjgyMSA1NC4yNTY1IDE5LjMzNiA1NC4yNTY1IDE2LjQ3MjJDNTQuMjU2NSAxMy4xNDU2IDUyLjQ0NDkgMTAuNTEyMyA0OS4yNTExIDEwLjUxMjNDNDYuMTM4NyAxMC41MTIzIDQ0LjAxMTcgMTMuMDI1MiA0NC4wMTE3IDE2LjU3NjdaTTkyLjMwMDggMjIuMzE5Nkg5My44MTUyTDk0Ljk2MzQgMTguNjYzNUg5OC45Mzc2TDEwMC4xMzMgMjIuMzE5NkgxMDEuNjgxTDk3Ljg1NDQgMTAuNzAxNkg5Ni4xMDgzTDkyLjMwMDggMjIuMzE5NlpNOTUuMjYxOCAxNy40OTM4TDk2LjM2MDMgMTQuMTMxNkM5Ni41NzEyIDEzLjQzODEgOTYuNzUzOSAxMi43MzYyIDk2LjkwNzkgMTIuMDI3OUg5Ni45NTg3Qzk3LjEyNTQgMTIuNjk5MiA5Ny4yOTIxIDEzLjM5MTQgOTcuNTQwNyAxNC4xNDc1TDk4LjYzODcgMTcuNDkzM0g5NS4yNjI0TDk1LjI2MTggMTcuNDkzOFpNODEuMjIyNSAyMi4zMTk2SDgyLjYwNDdWMTcuMzUzN0M4Mi42MDQ3IDE1LjQyNjggODIuNTY5NiAxNC4wMjcxIDgyLjQ4ODMgMTIuNTYzNkw4Mi41MzkxIDEyLjU0NjZDODMuMDg2NyAxMy44MDYyIDgzLjg1MDEgMTUuMTMzIDg0LjYzNDQgMTYuNDIzTDg4LjE5MzMgMjIuMzE5Nkg4OS42NTU3VjEwLjcwMTZIODguMjk0NFYxNS41Nzk0Qzg4LjI5NDQgMTcuMzcyOSA4OC4zMjgzIDE4Ljc4OSA4OC40NjExIDIwLjMzNzNMODguNDI2MSAyMC4zNzM1Qzg3Ljg3OCAxOS4xNjcgODcuMjMxNSAxNy45NDM2IDg2LjQxNjEgMTYuNTgwN0w4Mi44MjIyIDEwLjcwMTFIODEuMjIzMVYyMi4zMTlMODEuMjIyNSAyMi4zMTk2Wk03My4xODI2IDIyLjUxMjNDNzYuMDA4NiAyMi41MTIzIDc4LjM4NyAyMC4zNTcxIDc4LjM4NyAxNi40OTJDNzguMzg3NSAxMy4xMzAzIDc2LjU3NTkgMTAuNTEyMyA3My4zODE1IDEwLjUxMjNDNzAuMjg4OSAxMC41MTIzIDY4LjE0MjcgMTMuMDA5NCA2OC4xNDI3IDE2LjU4MTJDNjguMTQyNyAyMC4wNDQgNzAuMTM3NCAyMi41MTI4IDczLjE4MzIgMjIuNTEyOEw3My4xODI2IDIyLjUxMjNaTTczLjI2NCAyMS4yODYxQzcwLjk4NjcgMjEuMjg2MSA2OS42NzEyIDE5LjE2NyA2OS42NzEyIDE2LjUyOTNDNjkuNjcxMiAxMy45MjI2IDcwLjk1MTcgMTEuNzM1MiA3My4yNzk4IDExLjczNTJDNzUuNzQ0NyAxMS43MzUyIDc2Ljg1OSAxNC4xNDggNzYuODU5IDE2LjUyOTNDNzYuODU5IDE5LjA2MjUgNzUuNjI5NCAyMS4yODYxIDczLjI2NCAyMS4yODYxWk01Ny4xNDk3IDE3LjU2MjJDNTcuMTQ5NyAyMS4xNjU3IDU4Ljg3NjYgMjIuNTEyMyA2MS4xNzM2IDIyLjUxMjNDNjMuNTk5NSAyMi41MTIzIDY1LjM5NjQgMjEuMDYxNyA2NS4zOTY0IDE3LjQ5MzNWMTAuNzAxMUg2My45NDg3VjE3LjU5ODlDNjMuOTQ4NyAyMC4xNDc0IDYyLjg2OTQgMjEuMjg2MSA2MS4yMjM5IDIxLjI4NjFDNTkuNzEwNiAyMS4yODYxIDU4LjYxMjEgMjAuMTg1MyA1OC42MTIxIDE3LjU5ODlWMTAuNzAxMUg1Ny4xNDg2VjE3LjU2MjJINTcuMTQ5N1pNNDkuMTE4OSAyMS4yODIxQzQ2Ljc3MSAyMS4yODIxIDQ1LjU0MDIgMTkuMDU4NSA0NS41NDAyIDE2LjU0MzlDNDUuNTQwMiAxNC4wMjcxIDQ2Ljc3MSAxMS43MzUyIDQ5LjE0OTQgMTEuNzM1MkM1MS41NzkyIDExLjczNTIgNTIuNzI4IDE0LjA3OTEgNTIuNzI4IDE2LjUwODNDNTIuNzI4IDE5LjA3ODkgNTEuNDgxNSAyMS4yODIxIDQ5LjExODkgMjEuMjgyMVoiIGZpbGw9IiM2MTYxNjEiLz4KPC9nPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTUzLjkxNyAyOS42NTY2QzUzLjkxNyAzMS4xODQ2IDU0Ljg3NzYgMzIuMDIxNSA1Ni4xNDg1IDMyLjAyMTVDNTYuNzA0NSAzMi4wMjE1IDU3LjEzNjIgMzEuOTAxNyA1Ny4zNTE1IDMxLjc5OTRMNTcuMjI5NSAzMS4zMTUxQzU2Ljk5NSAzMS40MzMyIDU2LjYzMDUgMzEuNTA5IDU2LjI3NTEgMzEuNTA5QzU1LjE3MzIgMzEuNTA5IDU0LjUzNDYgMzAuNzc3NyA1NC41MzQ2IDI5LjYzNTJDNTQuNTM0NiAyOC40MTM1IDU1LjI0MDQgMjcuNzE1IDU2LjMwMSAyNy43MTVDNTYuNjc4IDI3LjcxNSA1Ni45OTUgMjcuNzk3NSA1Ny4yMTY1IDI3LjkwOTRMNTcuMzU3MiAyNy40MTc4QzU3LjIwOTEgMjcuMzM1OSA1Ni44NDU4IDI3LjIxNzggNTYuMjgwNyAyNy4yMTc4QzU0Ljg3NzYgMjcuMjE3OCA1My45MTcgMjguMTk5OSA1My45MTcgMjkuNjU2NlpNODkuNjg2MyAzMS45NDQxSDkyLjIxMjdWMzEuNDRIOTAuMjc2OFYyNy4yODY3SDg5LjY4NjNWMzEuOTQ0MVpNODIuNzU5IDMxLjk0NDFIODMuMzcxTDgzLjgzNDkgMzAuNDc4OEg4NS40NDA5TDg1LjkyNCAzMS45NDQxSDg2LjU0OUw4NS4wMDI5IDI3LjI4NjdIODQuMjk4M0w4Mi43NTkgMzEuOTQ0MVpNODMuOTU1MyAzMC4wMDkyTDg0LjQgMjguNjYyN0M4NC40ODQ3IDI4LjM4NDcgODQuNTU4MyAyOC4xMDM1IDg0LjYyMDQgMjcuODE5Nkg4NC42NDA3Qzg0LjcwODUgMjguMDg3NCA4NC43NzUyIDI4LjM2NiA4NC44NzY0IDI4LjY2ODNMODUuMzE5OSAzMC4wMDkySDgzLjk1NTNaTTc4LjE0NTIgMzEuOTQ0MUg3OC43MzY4VjI3Ljc5NzVIODAuMTIwN1YyNy4yODY3SDc2Ljc2NzVWMjcuNzk3NUg3OC4xNDUyVjMxLjk0NDFaTTczLjE5NjggMzEuOTQ0MUg3My43ODczVjI3LjI4NjdINzMuMTk2OFYzMS45NDQxWk02Ny4xNDQ4IDMxLjk0NDFINjcuNzM1OVYzMC4wOThDNjcuODU3NCAzMC4xMTg5IDY4LjAzMDkgMzAuMTMzIDY4LjIxOTYgMzAuMTMzQzY4Ljc3NzMgMzAuMTMzIDY5LjI4MDggMjkuOTY4IDY5LjU4OTkgMjkuNjIyMkM2OS44MTc3IDI5LjM4MTQgNjkuOTM5MSAyOS4wNDkyIDY5LjkzOTEgMjguNjIyQzY5LjkzOTEgMjguMTk5OSA2OS43ODM3IDI3Ljg2MDggNjkuNTQzIDI3LjYzOTlDNjkuMjc0IDI3LjM5MTggNjguODUwOCAyNy4yNTM0IDY4LjI3MzkgMjcuMjUzNEM2Ny44MDk0IDI3LjI1MzQgNjcuNDI2MyAyNy4yOTQ2IDY3LjE0NDggMjcuMzQzOFYzMS45NDQxWk02Ny43MzU5IDI5LjYwODZWMjcuNzcyN0M2Ny44MzcxIDI3Ljc1MTIgNjguMDI0MSAyNy43MzAzIDY4LjI4NjkgMjcuNzMwM0M2OC45MzEgMjcuNzMwMyA2OS4zNTQzIDI4LjAzMzcgNjkuMzU0MyAyOC42NTU5QzY5LjM1NDMgMjkuMjkwNSA2OC45MjQ4IDI5LjY1MDQgNjguMjEyOCAyOS42NTA0QzY4LjAyNDcgMjkuNjUwNCA2Ny44MzAzIDI5LjYzNTIgNjcuNzM1OSAyOS42MDg2Wk02MC4yMTgxIDMxLjk0NDFINjAuODMwMUw2MS4yOTM1IDMwLjQ3ODhINjIuODk5NEw2My4zODI2IDMxLjk0NDFINjQuMDA3NUw2Mi40NjE1IDI3LjI4NjdINjEuNzU2OUw2MC4yMTgxIDMxLjk0NDFaTTYxLjQxNDQgMzAuMDA5Mkw2MS44NTg2IDI4LjY2MjdDNjEuOTQzMyAyOC4zODQ3IDYyLjAxNjggMjguMTAzNSA2Mi4wNzg5IDI3LjgxOTZINjIuMDk5M0M2Mi4xNjc3IDI4LjA4NzQgNjIuMjM0MyAyOC4zNjYgNjIuMzM1NSAyOC42NjgzTDYyLjc3ODUgMzAuMDA5Mkg2MS40MTQ0WiIgZmlsbD0iIzYxNjE2MSIvPgo8L3N2Zz4K"
               alt="QUONA Capital Logo">
+          </a>
 
-            <img class="institution-logo m-3"
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img
               src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MTAuNTMgODkuNDQiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojNjE2MTYxO308L3N0eWxlPjwvZGVmcz48ZyBpZD0iQ2FwYV8yIiBkYXRhLW5hbWU9IkNhcGEgMiI+PGcgaWQ9IkxheWVyXzEiIGRhdGEtbmFtZT0iTGF5ZXIgMSI+PHBhdGggaWQ9InBhdGgyIiBjbGFzcz0iY2xzLTEiIGQ9Ik0yMDYuNDYsMjEuNDFDMjAzLjkxLDksMjAxLjI2LDQuNjQsMTg2Ljk0LDQuNjRjLTYuMDgsMC0xMSwxLjY4LTE0LjQsNC42YTExLjMyLDExLjMyLDAsMCwwLTQuMzIsOS4yMiwxNC44MSwxNC44MSwwLDAsMCw0LjEzLDkuN2MzLjE0LDMsNy43NSw1Ljc2LDE1LjM5LDkuNTYsOS40OCw0Ljg2LDE2LjYzLDcuNjYsMjEuODQsMTMuNTdhMjMuMTUsMjMuMTUsMCwwLDEsNS4xLDE0LjQsMjEsMjEsMCwwLDEtNi43OSwxNi4xMmMtNS4xLDQuNjEtMTMuMDksNy42My0yMy45LDcuNjNhNzEuMjgsNzEuMjgsMCwwLDEtMjIuNjMtNC4xOCwxMTcuMjIsMTE3LjIyLDAsMCwwLTQtMTcuODhsNC4zMi0xLjExYzMuODcsMTQuOTMsMTAuNjcsMTguNTcsMjMuNTMsMTguNTdhMjMuODUsMjMuODUsMCwwLDAsMTQuNTUtNC40OUExNS41LDE1LjUsMCwwLDAsMjA2LDY3LjczYTE1LjEsMTUuMSwwLDAsMC0zLjg5LTEwLjc5Yy0zLjg3LTQuNjEtMTAuNDMtNy41Mi0xNy40Ni0xMS03LjQtMy43Ni0xNy41OC05LjIxLTIxLjA5LTE0LjE4QTIwLjQyLDIwLjQyLDAsMCwxLDE1OS45LDIwLjFhMTcuNjcsMTcuNjcsMCwwLDEsNy4yLTE0LjMzYzQuMzItMy40LDExLTUuNzYsMjAuNS01Ljc2YTU0LDU0LDAsMCwxLDIwLjE3LDMuNDRjLjcxLDUsMS44MSwxMS41MiwyLjg4LDE3Wm0yNi43NiwzOC45M2MwLTkuMzUsMS43Mi0xNS4zOSw1LTE5LjY2YTE2LjQ1LDE2LjQ1LDAsMCwxLDIzLjI1LS41MmwuNTIuNTJjMy4yNyw0LjMyLDUsMTAuMzEsNSwxOS42NiwwLDkuODEtMi4wNSwxNi01LjA5LDE5Ljg4YTE2LjEsMTYuMSwwLDAsMS0yMi43NS43NmMtLjI2LS4yNS0uNTItLjUtLjc2LS43NkMyMzUuMyw3Ni4zNCwyMzMuMjIsNzAuMTUsMjMzLjIyLDYwLjM0Wm0tOC43MS0uMTJjMCwxMSwyLjg4LDE4LjMsNy42MywyMi43OSw0Ljg3LDQuMzIsMTAuNjksNi4wNywxOCw2LjA3LDcuNjMsMCwxMy41OS0yLDE4LjQyLTYuMzIsNC42MS00LjQ5LDcuNC0xMS42Myw3LjQtMjIuNTQsMC05LjU5LTIuNjUtMTctNy40LTIxLjcxLTQuNzMtNC40OS0xMC4zLTYuNjctMTguNDItNi42Ny03Ljc4LDAtMTMuMzUsMi4xOC0xOC4wNyw2LjU1QzIyNy4xNiw0My4xMiwyMjQuNTEsNTAuNywyMjQuNTEsNjAuMjJabTY3LjYyLTIzLjE2aC05VjMzLjE4aDlWMjUuNTRjMC03LjQyLDEuODMtMTMsNS43Ni0xNy4xYTE5LDE5LDAsMCwxLDIyLjY4LTEuODNjMy41MSwyLjMsNS4yMSw1LjM0LDUuMjEsNy41MSwwLDIuNDQtMS4yMywzLjc3LTMuNDEsMy43Ny0yLjg4LDAtNC0yLjU2LTUuMzMtNS4yMnMtMi44OC01LjIxLTYuNjctNS4yMWE3Ljg2LDcuODYsMCwwLDAtNi4wNywyLjY3Yy0yLjQxLDIuODgtMy44Niw3LjItMy44NiwxNS44NHY3LjJoMTUuMzlWMzdIMzAwLjUxVjc2LjY4YzAsNy4yOC40OCw4LDkuNTksOHYzSDI4M3YtM2M4LjQ5LDAsOS4wOS0uODUsOS4wOS04LjI2WiIvPjxwYXRoIGlkPSJwYXRoNCIgY2xhc3M9ImNscy0xIiBkPSJNMzIxLjE0LDM0LjI2YzcuNjMtLjcyLDEyLjg2LTMuNjUsMTQuNC0xNi4zN2gzVjMzLjE3aDEyLjg2VjM3SDMzOC41NlY3Ni4yMWMwLDUuNzYsMS43LDguNjQsNS45NSw4LjY0YTEyLDEyLDAsMCwwLDcuNTMtMi44TDM1NCw4NC43NGExNy4xMSwxNy4xMSwwLDAsMS0xMS44OSw0LjMyYy02LjE4LDAtMTEuODgtMi44OC0xMS44OC0xMi40VjM3LjA2aC05LjA5Wm01OC4zOS0yMy42NGMwLTMuMjguNDgtNC4zMSwzLjY2LTQuMzFoMTEuNTJjOC41MSwwLDE0LDEuOTIsMTcuMjcsNC43M2ExNS40NCwxNS40NCwwLDAsMSw0Ljc2LDExLDE2LDE2LDAsMCwxLTUuNiwxM2MtNC4zMiwzLjY0LTExLjE2LDUuMjEtMTkuNTMsNS4yMUgzNzkuNDlabS05LDY0LjM5YzAsOC42My0uNzQsOS4yMS05LjgyLDkuMjF2My41M2gzOS41M2MxMi42MSwwLDE5Ljc3LTIuODgsMjQuNDctNy41M2EyMi41MiwyMi41MiwwLDAsMCw2LjgtMTYuNzIsMTguNDgsMTguNDgsMCwwLDAtNy43Ny0xNC45M2MtNS4yLTQtMTIuMjQtNi4wNi0yMC4xNi02LjN2LS4yYzcuNjMtMS4xLDEyLjczLTMuNTIsMTYuMzctNi43OGExOC41NSwxOC41NSwwLDAsMCw2LjA2LTEzLjk1QTE2LjksMTYuOSwwLDAsMCw0MTguMyw3LjE1Yy02LjU1LTQuMzEtMTMuODQtNS4zNC0yNS01LjM0SDM2MC43NVY1LjMzYzkuMDgsMCw5LjgyLjYsOS44Miw5LjM0Wm05LTMwLjA2aDE1LjA2YzkuOTIsMCwxNi42LDEuNjksMjAuODYsNWExNi4zNiwxNi4zNiwwLDAsMSw2LjY3LDEzLjMzYzAsNi4zMi0xLjgzLDEwLjgtNC43NSwxMy44NC00LjEyLDQuMjMtOS42OCw2LjA2LTE4LjMsNi4wNkgzODRjLTMuNzYsMC00LjQ5LS44Ni00LjQ5LTZabTkyLjM2LDMzLjIxYy0zLDMtNy4yLDYuMjktMTMuMDksNi4yOWExMS4xNywxMS4xNywwLDAsMS04LTIuODgsMTAuMzgsMTAuMzgsMCwwLDEtMi42Ni03LjYzYzAtNS41NywzLjQtOC43Miw4LjEyLTExLjI3LDQuNDktMi43OCwxMC40NC00LjQ5LDE1LjY1LTUuOTNabTguMzgtMjkuNDdjMC01LjM0LS44Ny04LjY0LTQtMTIuMTJzLTcuMjgtNC43NC0xNC41NC00Ljc0YTI2LjM1LDI2LjM1LDAsMCwwLTEzLjgzLDMuNGMtMy44OSwyLjI5LTYuMzEsNS41OC02LjMxLDguNDhhMy4yNSwzLjI1LDAsMCwwLDMsMy41LDIuODEsMi44MSwwLDAsMCwuNDEsMCwzLjk0LDMuOTQsMCwwLDAsNC4yMy0yLjg4QTE0LDE0LDAsMCwxLDQ1MywzOC40MWExMi40MSwxMi40MSwwLDAsMSw4LjIzLTIuNzZjNCwwLDYuOTEsMS4xOCw4LjcyLDMuNjIsMS41NywyLjA2LDEuOTUsNS43NiwxLjk1LDguNDhWNTNsLTcuMiwxLjdhNTIuODcsNTIuODcsMCwwLDAtMTcuOTQsNi44NmMtNS4zNCwzLjUyLTcuNTEsNy44OS03LjUxLDEzLjQ3YTEyLjgxLDEyLjgxLDAsMCwwLDQuODMsMTAuNDIsMTcuODQsMTcuODQsMCwwLDAsMTEuMTYsMy42NSwyMi43NCwyMi43NCwwLDAsMCwxNy02LjdoLjQ0YzEuMDgsNCwzLjY0LDYuMTksNy44OSw2LjE5YTE2LjMyLDE2LjMyLDAsMCwwLDcuMzktMS43bC0uNzEtMi43OGE2LDYsMCwwLDEtMy4yOS44NWMtMi40MiwwLTMuNjMtMi40Mi0zLjYzLTcuODhaTTU0Miw3N2MwLDYuNzkuNSw3Ljc3LDUuOTQsNy43N3YzSDUyNy4zN3YtM2M1LjgzLDAsNi4xOS0uNzMsNi4xOS04di0yN2MwLTQuNzItLjYtOC42NC0yLjg4LTExYTkuMjgsOS4yOCwwLDAsMC03LTIuNDJjLTUuMTEsMC0xMC41NSw0LjYtMTUuNCwxMS4yN1Y3Ni42OWMwLDcuMjguMSw4LDUuNzYsOHYzSDQ5Mi44MnYtM2M2LjU0LDAsNy0uNzQsNy04VjQ3LjIzYzAtNy0uNjEtNy44Ny03LTcuNzZWMzYuOGM1LjMzLS44NCw5LjQ2LTIsMTMuNDUtNWwxLjIxLjcyLjQ5LDkuMzRoLjI2YzQuODMtNi4xNywxMS0xMC4wNywxNy42OS0xMC4wNyw1LjIsMCw5LDEuMzMsMTEuNjMsMy45czQuMzIsNyw0LjMyLDEzLjQ0Wk01NzAuMzksNTcuOSw1ODcuNjcsNDFjMy4yNi0zLDQuMTMtNC44NC0xLjctNC44NHYtM2gxOHYzYTEwLjgxLDEwLjgxLDAsMCwwLTguMjMsMy42NEw1ODMsNTEuOTRsMTguNTQsMjguMTNjMi43LDQuMjUsNS4zNCw0Ljc0LDksNC42MnYzSDU5Ni43MUw1NzcsNTcuMTdsLTYuNzksNi42NlY3Ni42NmMwLDcsLjI0LDgsNi45MSw4djNINTU0LjUxdi0zYzcsMCw3LjItMSw3LjItOFYxOS4yM2MwLTctLjcyLTcuODctNy4yLTcuODdWOC42OWEzNC45MSwzNC45MSwwLDAsMCwxNC41NC01bDEuMDguNzJWNTcuOVoiLz48cGF0aCBpZD0icGF0aDYiIGNsYXNzPSJjbHMtMSIgZD0iTTAsLjA3SDEyMS4yM1YyOS44NkgwWk0wLDU5LjY0SDEyMS4yM3YyOS44SDBaIi8+PC9nPjwvZz48L3N2Zz4="
               alt="SoftBank Logo">
-            <img class="institution-logo m-3"
-              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDkiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCA0OSAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIyLjQzMTIgMTIuNzU4M0MyMi40MzEyIDEyLjkzNDQgMjIuNDMxMiAxMy4wNjI1IDIyLjQzMTIgMTMuMTk4NkMyMi40MzEyIDE0LjA0NzEgMjIuNDMxMiAxNC45MDM3IDIyLjQzMTIgMTUuNzUyM0MyMi40MzEyIDE2LjU3NjkgMjIuNzk5OCAxNi45NDUxIDIzLjYzMzIgMTYuOTQ1MUMyNS44NjA5IDE2Ljk1MzEgMjguMDg4NSAxNi45NDUxIDMwLjMxNjIgMTYuOTUzMUMzMS4xMzM1IDE2Ljk1MzEgMzEuNzk4NiAxNy40MTc0IDMyLjA4NzEgMTguMTUzOUMzMi4zNzU2IDE4LjkwNjQgMzIuMTkxMyAxOS43MzEgMzEuNTk4MyAyMC4yNzU0QzMxLjIzNzcgMjAuNjAzNiAzMC44MTMgMjAuNzcxNyAzMC4zMjQyIDIwLjc3MTdDMjguNjczNSAyMC43NzE3IDI3LjAxNDggMjAuODAzNyAyNS4zNjQgMjAuNzYzN0MyMy45Njk4IDIwLjczMTcgMjIuOTM2MSAyMC4wMzUyIDIyLjQwNzIgMTguNzU0M0MyMi4wMzg2IDE3Ljg2NTcgMjEuNDQ1NiAxNy4yNTczIDIwLjYxMjIgMTYuODczMUMxOS4yMDk5IDE2LjIyNDYgMTguNTYwOSAxNS4xNTk5IDE4LjU5MjkgMTMuNjA2OUMxOC42MzMgMTEuNzAxNiAxOC41ODQ5IDkuNzk2MjggMTguNTkyOSA3Ljg5OUMxOC42MDA5IDYuNjEwMTMgMTkuMjAxOSA1LjY0OTQ4IDIwLjM1NTggNS4wODExQzIxLjMwOTQgNC42MDg3OCAyMi4wMzA2IDMuOTg0MzYgMjIuNDYzMyAyLjk1OTY3QzIyLjk5MjIgMS43MTA4MiAyNC4wMzM5IDEuMDcwMzkgMjUuNDA0MSAxLjA0NjM4QzI3LjAzMDggMS4wMjIzNiAyOC42NTc1IDEuMDM4MzcgMzAuMjg0MSAxLjA0NjM4QzMxLjM4OTkgMS4wNTQzOCAzMi4yMjMzIDEuODcwOTMgMzIuMjMxMyAyLjk1MTY2QzMyLjIzOTMgNC4wMzIzOSAzMS40MTQgNC44NjQ5NSAzMC4zMDAxIDQuODY0OTVDMjguMTEyNiA0Ljg4MDk2IDI1LjkyNSA0Ljg2NDk1IDIzLjczNzQgNC44NjQ5NUMyMi43NzU4IDQuODY0OTUgMjIuNDQ3MyA1LjE5MzE3IDIyLjQ0NzMgNi4xNjE4M0MyMi40NDczIDcuMDY2NDQgMjIuNDQ3MyA3Ljk2MzA0IDIyLjQ0NzMgOC45MjM2OUMyMi42Mzk2IDguOTIzNjkgMjIuNzk5OCA4LjkyMzY5IDIyLjk1MjEgOC45MjM2OUMyNC42MDI4IDguOTIzNjkgMjYuMjYxNSA4LjkxNTY4IDI3LjkxMjIgOC45MjM2OUMyOS4zMjI1IDguOTMxNyAzMC4yNjAxIDEwLjE1NjUgMjkuODQzNCAxMS40Mjk0QzI5LjU4NyAxMi4yMjE5IDI4Ljg4MTggMTIuNzUwMyAyOC4wNDA0IDEyLjc1ODNDMjYuMzMzNiAxMi43NjYzIDI0LjYyNjggMTIuNzU4MyAyMi45MiAxMi43NTgzQzIyLjc1OTggMTIuNzU4MyAyMi42MTU1IDEyLjc1ODMgMjIuNDMxMiAxMi43NTgzWiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNMC41ODY5NjQgNi4wMDE2NEMwLjU4Njk2NCA0Ljk5Mjk2IDAuNTg2OTY0IDMuOTg0MjggMC41ODY5NjQgMi45Njc2QzAuNTk0OTc3IDEuNzk4ODEgMS40Njg0MSAwLjkwMjIwNCAyLjU4MjI0IDAuOTEwMjA5QzMuNzA0MDggMC45MTgyMTUgNC41NjE0OSAxLjgwNjgxIDQuNTY5NSAyLjk4MzYxQzQuNTc3NTIgNC40NjQ2MSA0LjYwMTU2IDUuOTM3NiA0LjU2MTQ5IDcuNDE4NkM0LjUyOTQ0IDguNjAzNCA0LjY3MzY3IDkuNzQ4MTcgNC45NDYxMiAxMC44OTI5QzUuMzYyODEgMTIuNjcwMSA1Ljc0NzQ0IDE0LjQ1NTMgNi4xNDAwOCAxNi4yMzI1QzYuMjY4MjkgMTYuODI0OSA2LjUxNjcgMTcuMDQxMSA3LjEzMzcxIDE3LjA1NzFDNy44Nzg5NCAxNy4wNzMxIDguNjMyMTcgMTcuMDczMSA5LjM3NzQgMTcuMDU3MUM5Ljk5NDQxIDE3LjA0OTEgMTAuMjUwOCAxNi44MjQ5IDEwLjM3OSAxNi4yNDA2QzEwLjg4MzkgMTMuOTQzIDExLjM5NjcgMTEuNjM3NCAxMS45MDE1IDkuMzM5OUMxMS45NDE2IDkuMTYzNzggMTEuOTU3NiA4Ljk3MTY1IDExLjk1NzYgOC43ODc1MkMxMS45NjU2IDYuODU4MjIgMTEuOTU3NiA0LjkyMDkyIDExLjk1NzYgMi45OTE2MUMxMS45NTc2IDEuODIyODMgMTIuODA3IDAuOTE4MjE1IDEzLjkyODkgMC45MTgyMTVDMTUuMDM0NyAwLjkxMDIwOSAxNS45MDgxIDEuNzgyOCAxNS45MTYxIDIuOTM1NThDMTUuOTMyMiA0Ljk3Njk1IDE1LjkyNDEgNy4wMTAzMiAxNS45MTYxIDkuMDUxN0MxNS45MTYxIDkuMzQ3OSAxNS44NDQgOS42NjAxMSAxNS43NDc5IDkuOTQ4MzFDMTUuMTYyOSAxMS42NjE1IDE0LjU0NTkgMTMuMzY2NiAxMy45NTI5IDE1LjA3MThDMTMuNjQ4NCAxNS45NDQ0IDEzLjE0MzYgMTYuNjAwOCAxMi4yNDYxIDE2Ljk1M0MxMS40ODQ5IDE3LjI0OTIgMTAuOTk2MSAxNy44NDE2IDEwLjc3OTcgMTguNjQyMkMxMC43Mzk2IDE4Ljc4NjMgMTAuNjk5NiAxOC45MjI0IDEwLjY1MTUgMTkuMDU4NUMxMC4yNDI4IDIwLjE3OTIgOS4yODEyNCAyMC45MDc3IDguMjMxNTIgMjAuODk5N0M3LjIwNTgzIDIwLjg5MTcgNi4yNjAyOCAyMC4xNjMyIDUuODUxNjEgMTkuMDU4NUM1LjgwMzUzIDE4LjkyMjQgNS43NjM0NiAxOC43NzgzIDUuNzIzNCAxOC42NDIyQzUuNDk5MDMgMTcuODE3NiA0Ljk4NjE5IDE3LjIyNTIgNC4xOTI4OCAxNi45MTNDMy4zOTk1OCAxNi42MDA4IDIuOTAyNzcgMTYuMDMyNCAyLjYzMDMyIDE1LjI1NTlDMS45ODEyNSAxMy40NTQ3IDEuMzQ4MjEgMTEuNjQ1NSAwLjcyMzE4OCA5LjgyODIzQzAuNjM1MDQzIDkuNTcyMDUgMC41OTQ5NzcgOS4yODM4NiAwLjU5NDk3NyA5LjAwMzY3QzAuNTc4OTUxIDguMDAyOTkgMC41ODY5NjQgNy4wMDIzMiAwLjU4Njk2NCA2LjAwMTY0WiIgZmlsbD0iIzYxNjE2MSIvPgo8cGF0aCBkPSJNMzguNzEzOSA4LjkyMzYyQzM5LjAwMjQgOC45MjM2MiAzOS4yMjY3IDguOTIzNjIgMzkuNDUxMSA4LjkyMzYyQzQxLjAzNzcgOC45MjM2MiA0Mi42MjQzIDguOTE1NjIgNDQuMjEwOSA4LjkyMzYyQzQ1LjI2MDcgOC45MzE2MyA0Ni4wNTQgOS42MTIwOSA0Ni4xODIyIDEwLjU5NjhDNDYuMzEwNCAxMS41NDk0IDQ1LjczMzQgMTIuNDMgNDQuNzc5OSAxMi42OTQyQzQ0LjU4NzUgMTIuNzQyMiA0NC4zODcyIDEyLjc1ODIgNDQuMTg2OSAxMi43NTgyQzQyLjUyMDIgMTIuNzY2MiA0MC44NTM0IDEyLjc1ODIgMzkuMTg2NyAxMi43NTgyQzM5LjA0MjQgMTIuNzU4MiAzOC44OTgyIDEyLjc1ODIgMzguNzA1OSAxMi43NTgyQzM4LjcwNTkgMTIuOTQyMyAzOC43MDU5IDEzLjA4NjQgMzguNzA1OSAxMy4yMzA1QzM4LjcwNTkgMTUuMTM1OCAzOC43MTM5IDE3LjA0MTEgMzguNjk3OSAxOC45NDY0QzM4LjY4OTkgMTkuNzYyOSAzOC4zMjEzIDIwLjM4NzQgMzcuNTY4IDIwLjcyMzZDMzYuODYyOSAyMS4wNDM4IDM2LjE4MTcgMjAuOTQ3NyAzNS41NzI3IDIwLjQ2NzRDMzUuMDgzOSAyMC4wNzUxIDM0Ljg2NzYgMTkuNTU0OCAzNC44Njc2IDE4LjkzMDRDMzQuODY3NiAxNi4zMjA2IDM0Ljg2NzYgMTMuNzEwOSAzNC44Njc2IDExLjEwMTFDMzQuODY3NiAxMC4wNTI0IDM0Ljg1MTYgOC45OTU2NyAzNC44NTE2IDcuOTQ2OTZDMzQuODUxNiA2LjYxODA3IDM1LjQ2MDYgNS42NDk0MiAzNi42NDY1IDUuMDY1MDJDMzcuNTkyMSA0LjYwMDcxIDM4LjI5NzIgMy45NzYyOSAzOC43MjE5IDIuOTY3NjFDMzkuMjU4OCAxLjcwMjc1IDQwLjMwODUgMS4wNjIzMiA0MS42OTQ4IDEuMDQ2MzFDNDMuMzM3NSAxLjAzMDMgNDQuOTcyMiAxLjAzMDMgNDYuNjE0OSAxLjA0NjMxQzQ3LjUyMDQgMS4wNTQzMiA0OC4yODk2IDEuNzAyNzUgNDguNDY1OSAyLjU4MzM1QzQ4LjY0MjIgMy40NjM5NCA0OC4xODU1IDQuMzY4NTUgNDcuMzUyMSA0LjcwNDc4QzQ3LjA2MzYgNC44MjQ4NiA0Ni43MzUxIDQuODY0ODkgNDYuNDE0NiA0Ljg2NDg5QzQ0LjI2NyA0Ljg4MDkgNDIuMTE5NSA0Ljg3Mjg5IDM5Ljk3MiA0Ljg3Mjg5QzM5LjA1ODUgNC44NzI4OSAzOC43MDU5IDUuMjE3MTIgMzguNzA1OSA2LjEyMTczQzM4LjcxMzkgNy4wMjYzNCAzOC43MTM5IDcuOTM4OTYgMzguNzEzOSA4LjkyMzYyWiIgZmlsbD0iIzYxNjE2MSIvPgo8L3N2Zz4K"
-              alt="VEF Logo">
-          </div>
-        </div>
+          </a>
 
+          <a href="#" class="institution-logo d-flex justify-content-center brightness-90">
+            <img src="./img/vef-logo.svg" alt="VEF Logo">
+          </a>
+
+
+        </div>
+        <!-- END OF COL -->
       </div>
+      <!-- END OF ROW -->
     </section>
     <!-- END OF INSTITUTIONS -->
 
     <!-- MISION -->
-    <section class="mision width m-auto mt-5 d-lg-flex flex-lg-column align-items-lg-center container">
+    <section class="mision container-fluid py-5">
       <!-- ROW -->
-      <div class="row">
+      <div class="row justify-content-center pb-5">
         <!-- COL -->
-        <div class="col-12">
-          <h2 class="text-lg-center"><strong>En Konfío creemos en la transformación como motor de crecimiento</strong>
-          </h2>
+        <div class="col-11 col-md-8 col-lg-9">
+          <h2 class="section-h2 fw-bold lh-base text-lg-center">En Konfío creemos en la transformación como motor de
+            crecimiento</h2>
           <p class="mt-4 text-lg-center">
             Después de 8 años, evolucionamos para acompañarte en cada etapa de la vida de tu empresa.
           </p>
           <img class="w-100 cursor-pointer"
             src="https://cdn.konfio.mx/static/static/7225aab3eeceb66717031e1f4bbcdd3c/ee71a/pymes-en-mexico.webp"
             alt="mision" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </div>
+        <!-- END OF COL -->
+      </div>
+      <!-- END OF ROW -->
 
-          <!-- ROW -->
-          <div class="row">
-            <!-- COL -->
-            <div class="col-12 col-lg-6">
-              <h3 class="mt-5">Somos una entidad financiera debidamente constituida y regulada por la CONDUSEF</h3>
-              <p class="mt-4">
-                Conoce más sobre el programa de educación financiera de CONDUSEF y haz más con tu dinero.
-              </p>
-              <a class="color-purple hover-purple" href="https://webappsos.condusef.gob.mx/EducaTuCartera/">Ver más</a>
-            </div>
-            <!-- END OF COL -->
 
-            <!-- COL -->
-            <div class="col-12 col-lg-6 d-flex align-items-lg-end">
-              <img class="w-100 mt-4"
-                src="https://cdn.konfio.mx/static/static/44680408c4b92a7f494ac52aed83ce6c/1b21d/financieras-registradas-en-condusef.webp"
-                alt="Condusef image">
-            </div>
-            <!-- END OF COL -->
-          </div>
-          <!-- END OF ROW -->
+      <!-- ROW -->
+      <div class="row justify-content-center mt-5">
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-7 d-xl-flex flex-xl-column justify-content-xl-center">
+          <h3 class="fs-5">Somos una entidad financiera debidamente constituida y regulada por la CONDUSEF</h3>
+          <p class="mt-4">
+            Conoce más sobre el programa de educación financiera de CONDUSEF y haz más con tu dinero.
+          </p>
+          <a class="color-purple hover-purple" href="https://webappsos.condusef.gob.mx/EducaTuCartera/">Ver más</a>
+        </div>
+        <!-- END OF COL -->
+
+        <!-- COL -->
+        <div class="col-11 col-md-8 col-lg-4 d-flex align-items-lg-end">
+          <img class="w-100 mt-4"
+            src="https://cdn.konfio.mx/static/static/44680408c4b92a7f494ac52aed83ce6c/1b21d/financieras-registradas-en-condusef.webp"
+            alt="Condusef image">
         </div>
         <!-- END OF COL -->
       </div>

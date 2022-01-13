@@ -15,7 +15,8 @@ const swiperBenefits = new Swiper('.swiper-benefits', {
   breakpoints: {
     // when window width is >= 992px
     992: {
-      slidesPerView: 3
+      slidesPerView: 3,
+      spaceBetween: 30
     }
   }
 });
@@ -54,7 +55,8 @@ const swiperUnstoppableEntrepreneurs = new Swiper('.swiper-unstoppable-entrepren
     992: {
       slidesPerView: 3,
       pagination: false,
-      loop: false
+      loop: false,
+      spaceBetween: 30
     }
   }
 });

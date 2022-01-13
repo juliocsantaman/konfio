@@ -31,15 +31,15 @@
 }
 /* END OF NAV TABS */
 
-/* CUSTOM WIDTHS */
-.width {
-  width: 75%;
-}
-/* END OF CUSTOM WIDTHS */
-
 /* INSTITUTIONS */
 .institution-logo {
-  width: 20%;
+  width: 6rem;
+  margin: 1rem;
+}
+
+.institution-logo img {
+  width: 100%;
+  height: 100%;
 }
 /* END OF INSTITUTIONS */
 
@@ -78,13 +78,7 @@ h1 {
 @media (min-width: 576px) {  }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  /* CUSTOM WIDTHS */
-  .width {
-    width: 60%;
-  }
-  /* END OF CUSTOM WIDTHS */
- }
+@media (min-width: 768px) { }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
@@ -113,14 +107,6 @@ h1 {
     width: 45%;
   }
   /* END OF HEADER */
-
-  /* SOLUTIONS */
-  main .solutions .description {
-    text-align: center;
-    width: 75%;
-    margin: auto;
-  }
-  /* END OF SOLUTIONS */
 
   /* STEPS */
   main .steps .info {
@@ -162,15 +148,9 @@ h1 {
 
   /* INSTITUTIONS */
   .institution-logo {
-    width: 10%;
+    width: 9rem;
   }
   /* END OF INSTITUTIONS */
-
-  /* CUSTOM WIDTH */
-  .width {
-    width: 70%;
-  }
-  /* END OF CUSTOM WIDTH */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
