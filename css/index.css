@@ -1,73 +1,42 @@
-/* HEADER */
+/* ---------- HEADER ---------- */
+.header-mobile-tablet__h1 {
+  font-size: 1.5rem;
+}
+
 .header-laptop {
-  display: none;
   background-image: url("../img/header-img.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* ---------- END OF HEADER ---------- */
 
-.header h1 {
-  margin: auto;
-  text-align: center;
-  width: 75%;
-}
-/* END OF HEADER */
-
-/* NAV TABS */
-.nav-tabs .nav-link {
+/* ---------- STEPS ---------- */
+.steps__nav-link {
+  background-color: transparent;
   border: 0px solid transparent !important;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.nav-item-li {
-  border-bottom: 3px solid #6e43b7 !important;
-}
-
-.nav-link-fs {
   font-size: 0.8rem;
 }
-/* END OF NAV TABS */
 
-/* INSTITUTIONS */
-.institution-logo {
+.steps__nav-link--purple-bottom-border {
+  border-bottom: 3px solid #6e43b7 !important;
+}
+/* ---------- END OF STEPS ---------- */
+
+/* ---------- INSTITUTIONS ---------- */
+.institutions__link {
   width: 6rem;
   margin: 1rem;
 }
 
-.institution-logo img {
+.institutions__img {
   width: 100%;
   height: 100%;
 }
-/* END OF INSTITUTIONS */
-
-/* STEPS */
-main .steps .tab-content .tab-pane img {
-  margin-top: 1.2rem;
-}
-
-.tab-pane-img-size {
-  width: 100%;
-  height: 100%;
-}
-/* END OF STEPS */
-
-/* SOLUTIONS */
-main .solutions .solution img {
-  width: 100%;
-}
-/* END OF SOLUTIONS */
-
-.purple-border {
-  border: 5px solid rgba(110,67,183, 1);
-  border-radius: 1rem;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
+/* ---------- END OF INSTITUTIONS ---------- */
 
 /*
   X-Small devices (portrait phones, less than 576px)
@@ -75,76 +44,84 @@ h1 {
 */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
+@media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+  /* ---------- STEPS ---------- */
+  .steps__img {
+    width: 100%;
+    height: 100%;
+    margin-top: 1.2rem;
+    border: 5px solid rgba(110,67,183, 1);
+    border-radius: 1rem;
+  }
+  /* ---------- END OF STEPS ---------- */
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {  
-  /* HEADER */
-  .header-laptop {
-    display: block;
-  }
-  
-  .header-laptop div {
+  /* ---------- HEADER ---------- */
+  .header-laptop__row {
     padding-bottom: 5rem;
   }
 
-  .header-laptop h1 {
+  .header-laptop__h1 {
     margin: 5rem 0rem;
     font-size: 3.5rem;
     text-align: start;
     width: 60%;
   }
 
-  .header-laptop .title-container h1, .header-laptop .title-container a {
+  .header-laptop__h1, .header-laptop__btn {
     margin-left: 7rem;
   }
 
-  .header-laptop .title-container a {
+  .header-laptop__btn {
     padding: 1.3rem;
     width: 45%;
   }
-  /* END OF HEADER */
+  /* ---------- END OF HEADER ---------- */
 
-  /* STEPS */
-  main .steps .info {
+  /* ---------- STEPS ---------- */
+  .steps__info {
     margin-bottom: 3rem;
   }
 
-  main .steps .tab-content-container .nav-tabs {
+  .steps__nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border: none;
   }
 
-  main .steps .tab-content-container .nav-tabs li {
+  .steps__nav-item {
     margin: 0.8rem 0rem;
   }
 
-  main .steps .tab-content-container .nav-tabs li a {
+  .steps__btn {
+    width: 50%;
     padding: 0.8rem;
-    width: 80%;
+    margin-top: 2rem;
   }
 
-  main .steps .tab-content-container .tab-content {
+  .steps__tab-content {
     background-color: rgba(110,67,183, 1);
     border-radius: 1.5rem;
     color: #ffffff;
   }
 
-  .nav-item-li {
+  .steps__nav-link--no-bottom-border {
     border-bottom: unset !important;
   }
-  /* END OF STEPS */
+  /* ---------- END OF STEPS ---------- */
   
-  /* INSTITUTIONS */
-  .institution-logo {
+  /* ---------- INSTITUTIONS ---------- */
+  .institutions__link {
     width: 9rem;
   }
-  /* END OF INSTITUTIONS */
+  /* ---------- END OF INSTITUTIONS ---------- */
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
