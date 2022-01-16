@@ -119,10 +119,6 @@
 .konfio-logo {
   width: 20%;
 }
-
-.konfio-logo-2 {
-  width: 40%;
-}
 /* ---------- END OF KONFIO LOGO ---------- */
 
 /* ---------- STYLES OF SWIPER ---------- */
@@ -335,27 +331,31 @@
 /* ---------- END OF HEADER 3 ---------- */
 
 /* ---------- FOOTER ---------- */
-footer {
+.footer {
   margin-bottom: 15%;
 }
 
-footer .direction .social-networks span {
+.footer__social-network {
   margin: 1rem 1rem 1rem 0rem;
   width: 30px;
   height: 30px;
   color: gray;
 }
 
-footer .sub-footer .direction, footer .sub-footer .konfio-platform {
+.footer__direction, .footer__konfio-platform {
   margin: 1rem auto auto auto;
 }
 
-footer .terms {
+.footer__terms {
   margin: 8rem auto auto auto;
 }
 
-footer .footer-img {
+.footer__img {
   width: 2.2rem;
+}
+
+.footer__logo {
+  width: 40%;
 }
 /* ---------- END OF FOOTER ---------- */
 
@@ -554,7 +554,7 @@ footer .footer-img {
   /* ---------- END OF FORM 1 ---------- */
 
   /* ---------- FOOTER ---------- */
-  footer .terms a {
+  .footer__link {
     margin: 0rem 0.5rem;
   }
   /* ---------- END OF FOOTER ---------- */
@@ -584,15 +584,15 @@ footer .footer-img {
   /* ---------- END OF SWIPER ---------- */
 
   /* ---------- FOOTER ---------- */
-  footer {
+  .footer {
     margin-bottom: 0%;
   }
 
-  .konfio-logo-2 {
+  .footer__logo {
     width: 30%;
   }
 
-  footer .direction p {
+  .footer__direction-p {
     width: 70%;
   }
   /* ---------- END OF FOOTER ---------- */
