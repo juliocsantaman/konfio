@@ -4,6 +4,14 @@
 }
 /* ---------- END OF PLANS ---------- */
 
+/* ---------- WEWORK BENEFITS ---------- */
+.wework-benefits__p {
+  margin: 1.5rem 0;
+}
+/* ---------- END OF WEWORK BENEFITS ---------- */
+
+
+
 
 /*
 X-Small devices (portrait phones, less than 576px)
@@ -14,7 +22,13 @@ X-Small devices (portrait phones, less than 576px)
 @media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { }
+@media (min-width: 768px) { 
+  /* ---------- WEWORK BENEFITS ---------- */
+.wework-benefits__p {
+  margin: 2.5rem 0;
+}
+/* ---------- END OF WEWORK BENEFITS ---------- */
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { }
