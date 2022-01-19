@@ -420,6 +420,7 @@
   justify-content: space-evenly;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  min-height: 30rem;
 }
 
 .card-1__img {
@@ -653,7 +654,6 @@
   /* ---------- CARD 1 ---------- */
   .card-1 {
     padding: 2rem;
-    min-height: 30rem;
   }
 
   .card-1__title {
