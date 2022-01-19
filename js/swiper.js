@@ -647,3 +647,34 @@ const swiperSuccessStories = new Swiper('.swiper-success-stories', {
     }
   }
 });
+
+const swiperPlansFlipCards = new Swiper('.swiper-plans-flip-cards', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 768px
+    // 768: {
+    //   slidesPerView: 2,
+    //   initialSlide: 0,
+    //   loop: false,
+    // },
+    // when window width is >= 992px
+    992: {
+      spaceBetween: 40,
+      slidesPerView: 2,
+      loop: false
+    }
+  }
+});
