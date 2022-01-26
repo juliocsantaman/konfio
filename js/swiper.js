@@ -697,3 +697,27 @@ const swiperWeworkBenefits = new Swiper('.swiper-wework-benefits', {
     }
   }
 });
+
+const swiperAddAdvantages = new Swiper('.swiper-add-advantages', {
+  // Optional parameters
+  direction: 'horizontal',
+  effect: 'slide',
+  autoHeight: true,
+
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+    clickable: true,
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    // when window width is >= 992px
+    992: {
+      slidesPerView: 4,
+      loop: false
+    }
+  }
+});

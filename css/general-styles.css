@@ -432,7 +432,11 @@
   justify-content: space-evenly;
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  min-height: 30rem;
+  min-height: 25rem;
+}
+
+.card-1--add-advantages {
+  min-height: 18rem;
 }
 
 .card-1__img {
@@ -450,6 +454,10 @@
 
 .card-1__p {
   margin: auto auto auto 1rem;
+}
+
+.card-1__description {
+  margin-top: 1rem;
 }
 
 .card-1__link {
@@ -698,6 +706,7 @@
   /* ---------- CARD 1 ---------- */
   .card-1 {
     padding: 2rem;
+    min-height: 30rem;
   }
 
   .card-1__title {
@@ -863,7 +872,17 @@
   .announcement__col-01 {
     padding: 2rem;
   }
-/* ---------- END OF ANNOUNCEMENT 1 ---------- */
+  /* ---------- END OF ANNOUNCEMENT 1 ---------- */
+
+  /* ---------- CARD 1 ---------- */
+  .card-1--add-advantages {
+    min-height: 22rem;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+  }
+  /* ---------- CARD 1 ---------- */
 
   .hidden-btn-create {
     display: none !important;
@@ -1044,6 +1063,12 @@
     width: 65%;
   }
   /* ---------- END OF ANNOUNCEMENT 1 ---------- */
+
+  /* ---------- CARD 1 ---------- */
+  .card-1--add-advantages {
+    min-height: 20rem;
+  }
+  /* ---------- CARD 1 ---------- */
 
   .section-h2 {
     font-size: 2.2rem;
