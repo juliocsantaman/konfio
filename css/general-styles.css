@@ -140,27 +140,7 @@
   height: 0.8rem;
 }
 
-.swiper-img {
-  width: 85px;
-  height: 85px;
-}
-
 .card-body-height {
-  height: 100%;
-}
-
-.card-body-height-2 {
-  height: 250px;
-}
-
-.card-header-video {
-  padding: 0%; 
-  margin: 0%;
-  border-bottom: none;
-}
-
-.card-header-video iframe {
-  width: 100%;
   height: 100%;
 }
 /* ---------- END OF STYLES OF SWIPER ---------- */
@@ -433,15 +413,46 @@
   padding: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.2);
   min-height: 25rem;
+  border-radius: 0.5rem;
 }
 
 .card-1--add-advantages {
   min-height: 18rem;
 }
 
+.card-1--mexican-company {
+  padding: 0rem;
+  display: block;
+  min-height: 30rem;
+}
+
+.card-1--companies {
+  min-height: 18rem;
+  align-items: center;
+  text-align: center;
+}
+
 .card-1__img {
   width: 4.5rem;
 }
+
+.card-1__img--full-width {
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card-1__img--company-logos {
+  width: 100%;
+}
+
+.card-1__body, .card-1__footer {
+  margin: 2rem;
+}
+
+.card-1__body--companies, .card-1__footer--companies {
+  margin: 0.5rem;
+} 
 
 .card-1__title {
   font-size: 0.9rem;
@@ -458,6 +469,10 @@
 
 .card-1__description {
   margin-top: 1rem;
+}
+
+.card-1__description--companies {
+  text-align: center;
 }
 
 .card-1__link {
@@ -497,10 +512,17 @@
 }
 /* ---------- END OF ANNOUNCEMENT 1 ---------- */
 
-.modal-iframe {
+/* MODAL 1 */
+.modal-1__iframe {
   width: 100%;
   height: 300px;
 }
+
+.modal-1__close-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+/* END OF MODAL 1 */
 
 .circle-item {
   display: inline-block;
@@ -520,11 +542,6 @@
 
 .brightness-90:hover {
   filter: brightness(90%);
-}
-
-.close-icon {
-  cursor: pointer;
-  font-size: 1.5rem;
 }
 
 .btn-purple {
@@ -566,7 +583,6 @@
 .link:hover {
   color: rgba(110,67,183, 1);
 }
-
 /*
   X-Small devices (portrait phones, less than 576px)
   No media query for `xs` since this is the default in Bootstrap
@@ -707,6 +723,15 @@
   .card-1 {
     padding: 2rem;
     min-height: 30rem;
+  }
+
+  .card-1--mexican-company {
+    padding: 0rem;
+    min-height: 35rem;
+  }
+
+  .card-1--companies {
+    min-height: 18rem;
   }
 
   .card-1__title {
@@ -882,13 +907,21 @@
     flex-direction: column;
     justify-content: unset;
   }
+
+  .card-1--mexican-company {
+    min-height: 30rem;
+  }
+
+  .card-1__img--company-logos {
+    width: 75%;
+  }
   /* ---------- CARD 1 ---------- */
 
   .hidden-btn-create {
     display: none !important;
   }
 
-  .modal-iframe {
+  .modal-1__iframe {
     width: 100%;
     height: 500px;
   }

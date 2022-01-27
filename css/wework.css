@@ -1,23 +1,6 @@
-/* ---------- PLANS ---------- */
-.plans__p {
-  margin: 2rem 0;
+.description-margin {
+  margin: 2rem 0rem;
 }
-/* ---------- END OF PLANS ---------- */
-
-/* ---------- WEWORK BENEFITS ---------- */
-.wework-benefits__p {
-  margin: 1.5rem 0;
-}
-/* ---------- END OF WEWORK BENEFITS ---------- */
-
-/* ---------- ADD ADVANTAGES ---------- */
-.add-advantages__description {
-  margin: 2rem 0;
-}
-/* ---------- END OF ADD ADVANTAGES ---------- */
-
-
-
 
 /*
 X-Small devices (portrait phones, less than 576px)
@@ -28,19 +11,25 @@ X-Small devices (portrait phones, less than 576px)
 @media (min-width: 576px) { }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-  /* ---------- WEWORK BENEFITS ---------- */
-.wework-benefits__p {
-  margin: 2.5rem 0;
-}
-/* ---------- END OF WEWORK BENEFITS ---------- */
-}
+@media (min-width: 768px) { }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) { 
+  /* GENERAL STYLES FOR THIS PAGE */
+  .btn-create-2 {
+    width: 27.5%;
+  }
+  /* END OF GENERAL STYLES FOR THIS PAGE */
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+  /* GENERAL STYLES FOR THIS PAGE */
+  .btn-create-2 {
+    width: 20%;
+  }
+  /* END OF GENERAL STYLES FOR THIS PAGE */
+}
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { }
